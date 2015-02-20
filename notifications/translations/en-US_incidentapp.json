@@ -1,0 +1,67 @@
+[
+  {
+    "id": "new_incoming_log_sms",
+    "translation": "A new log with priority {{.prio}} was just submitted by {{.user}}."
+  },
+  {
+    "id": "new_incoming_high_priority_log_sms",
+    "translation": "Warning! A new log with priority {{.highest-prio}} was just submitted by {{.user}}. This might require your immediate attention."
+  },
+  {
+    "id": "action_completed_sms",
+    "translation": "The action {{.action-title}}, regarding incident {{.incident-title}} was just completed by {{.assignee}}. "
+  },
+  {
+    "id": "new_publication_available_sms",
+    "translation": "New publication available! '{{.publication-title}}'."
+  },
+  {
+    "id": "log_used_sms",
+    "translation": "Your log, submitted on {{.time-date}}, was used by {{.owner}}, {{.owner-function-title}}."
+  },
+  {
+    "id": "log_archived_sms",
+    "translation": "Your log, submitted on {{.time-date}}, was archived by {{.owner}}, {{.owner-function-title}}. "
+  },
+  {
+    "id": "user_contributed_to_incident_sms",
+    "translation": "{{.user}} contributed to your incident {{.incident-title}}. "
+  },
+  {
+    "id": "incident_assigned_sms",
+    "translation": "The following incident was assigned to you by {{.user}}: {{.incident-title}} ."
+  },
+  {
+    "id": "incident_not_updated_sms",
+    "translation": "The following incident has not been updated for two weeks but is still open: {{.incident-title}}."
+  },
+  {
+    "id": "new_incoming_log_email",
+    "translation": "A new log with priority {{.prio}} was just submitted by {{.user}}. Click here to view it in IncidentChanger."
+  },
+  {
+    "id": "new_incoming_high_priority_log_email",
+    "translation": "Warning! A new log with priority {{.highest-prio}} was just submitted by {{.user}}. This might require your immediate attention. Click here to view it in IncidentChanger."
+  },
+  {
+    "id": "action_completed_email",
+    "translation": "The action {{.action-title}}, regarding incident {{.incident-title}} was just completed by {{.assignee}}. Click here to view it in ActionChanger. "
+  },
+  {
+    "id": "new_publication_available_email",
+    "translation": "New publication available! '{{.publication-title}}'. Click here to view it in IncidentChanger."
+  },
+  {
+    "id": "user_contributed_to_incident_email",
+    "translation": "{{.user}} contributed to your incident {{.incident-title}}. Click here to view it in IncidentChanger. "
+  },
+  {
+    "id": "incident_assigned_email",
+    "translation": "The following incident was assigned to you by {{.user}}: {{.incident-title}}. Click here to view it in IncidentChanger."
+  },
+  {
+    "id": "incident_not_updated_email",
+    "translation": "The following incident has not been updated for two weeks but is still open: {{.incident-title}}. Click here to view it in IncidentChanger."
+  } 
+
+]
