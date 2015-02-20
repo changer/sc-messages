@@ -1,0 +1,14 @@
+[
+  {
+    "id": "new_permission_email",
+    "translation": "A new permission was given to you. You can now use [app-name] as a/an [role]. Click here to go to [App-name]."
+  },
+  {
+    "id": "reset_password_email",
+    "translation": "Your administrator has reset your password. Click here to create a new password."
+  },
+  {
+    "id": "import_success_email",
+    "translation": "Successfully imported [number] users. Click here to open AdminChanger and manage users."
+  }
+]
