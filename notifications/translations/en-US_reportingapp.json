@@ -2,15 +2,15 @@
     {
         "id": "report_shared_sms",
         "translation": {
-            "one": "A report was shared with you by {{.sender}} showing {{.X}} over {{.Y}} for {{.number}} Locations.",
-            "other": "A report was shared with you by {{.sender}} showing {{.X}} over {{.Y}} for {{.number}} Location."
+            "one": "A report was shared with you by {{.sender}} showing {{.X}} over {{.Y}} for {{.number}} Location.",
+            "other": "A report was shared with you by {{.sender}} showing {{.X}} over {{.Y}} for {{.number}} Locations."
         }
     },
     {
         "id": "report_shared_email",
         "translation": {
-            "one": "A report was shared with you by {{.sender}} showing {{.X}} over {{.Y}} for {{.number}} Locations. Click here to view it in ReportChanger.",
-            "other": "A report was shared with you by {{.sender}} showing {{.X}} over {{.Y}} for {{.number}} Location. Click here to view it in ReportChanger."
+            "one": "A report was shared with you by {{.sender}} showing {{.X}} over {{.Y}} for {{.number}} Location. Click here to view it in ReportChanger.",
+            "other": "A report was shared with you by {{.sender}} showing {{.X}} over {{.Y}} for {{.number}} Locations. Click here to view it in ReportChanger."
         }
     }
 ]
