@@ -1,7 +1,7 @@
 [
   {
     "id": "new_permission_email",
-    "translation": "A new permission was given to you. You can now use [app-name] as a/an [role]. Click here to go to [App-name]."
+    "translation": "A new permission was given to you. You can now use {{.app_name}} as a/an {{.role}}. Click here to go to {{.app_name}}."
   },
   {
     "id": "reset_password_email",
@@ -9,6 +9,6 @@
   },
   {
     "id": "import_success_email",
-    "translation": "Successfully imported [number] users. Click here to open AdminChanger and manage users."
+    "translation": "Successfully imported {{.number}} users. Click here to open AdminChanger and manage users."
   }
 ]

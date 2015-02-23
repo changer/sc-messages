@@ -1,58 +1,58 @@
 [
   {
     "id": "action_completed_sms",
-    "translation": "The following action just completed: {{.action-title}}, assigned to {{.assignee}}."
+    "translation": "The following action just completed: {{.action_title}}, assigned to {{.assignee}}."
   },
   {
     "id": "new_action_sms",
-    "translation": "New action request! {{.action-title}}."
+    "translation": "New action request! {{.action_title}}."
   },
   {
     "id": "action_accepted_sms",
-    "translation": "{{.assignee}} accepted an action you assigned ({{.action-title}})."
+    "translation": "{{.assignee}} accepted an action you assigned ({{.action_title}})."
   },
   {
     "id": "action_denied_sms",
-    "translation": "{{.assignee}} denied an action you assigned ({{.action-title}})."
+    "translation": "{{.assignee}} denied an action you assigned ({{.action_title}})."
   },
   {
     "id": "action_almost_overdue_sms",
-    "translation": "The following action is almost overdue: {{.action-title}}."
+    "translation": "The following action is almost overdue: {{.action_title}}."
   },
   {
     "id": "action_almost_overdue_assignee_sms",
-    "translation": "The following action is almost overdue: {{.action-title}}, assigned to {{.assignee}}."
+    "translation": "The following action is almost overdue: {{.action_title}}, assigned to {{.assignee}}."
   },
   {
     "id": "action_overdue_sms",
-    "translation": "Warning! The following action is overdue: {{.action-title}}."
+    "translation": "Warning! The following action is overdue: {{.action_title}}."
   },
   {
     "id": "action_overdue_assignee_sms",
-    "translation": "Warning! The following action is overdue: {{.action-title}}, assigned to {{.assignee}}."
+    "translation": "Warning! The following action is overdue: {{.action_title}}, assigned to {{.assignee}}."
   },
   {
     "id": "action_reassigned_sms",
-    "translation": "{{.owner}} has reassigned the action {{.action-title}} to someone else. You are no longer responisble."
+    "translation": "{{.owner}} has reassigned the action {{.action_title}} to someone else. You are no longer responisble."
   },
   {
     "id": "action_completed_email",
-    "translation": "The following action just completed: {{.action-title}}, assigned to {{.assignee}}. Click here to view it in ActionChanger."
+    "translation": "The following action just completed: {{.action_title}}, assigned to {{.assignee}}. Click here to view it in ActionChanger."
   },
   {
     "id": "action_accepted_email",
-    "translation": "{{.assignee}} accepted an action you assigned ({{.action-title}}). Click here to view it in ActionChanger."
+    "translation": "{{.assignee}} accepted an action you assigned ({{.action_title}}). Click here to view it in ActionChanger."
   },
   {
     "id": "action_denied_email",
-    "translation": "{{.assignee}} denied an action you assigned ({{.action-title}}). Click here to view it in ActionChanger."
+    "translation": "{{.assignee}} denied an action you assigned ({{.action_title}}). Click here to view it in ActionChanger."
   },
   {
     "id": "action_almost_overdue_assignee_email",
-    "translation": "The following action is almost overdue: {{.action-title}}, assigned to {{.assignee}}. Click here to view it in ActionChanger."
+    "translation": "The following action is almost overdue: {{.action_title}}, assigned to {{.assignee}}. Click here to view it in ActionChanger."
   },
   {
     "id": "action_overdue_assignee_email",
-    "translation": "Warning! The following action is overdue: {{.action-title}}, assigned to {{.assignee}}. Click here to view it in ActionChanger."
+    "translation": "Warning! The following action is overdue: {{.action_title}}, assigned to {{.assignee}}. Click here to view it in ActionChanger."
   }
 ]

@@ -1,10 +1,10 @@
 [
   {
     "id": "report_shared_sms",
-    "translation": "A report was shared with you by {{.sender}} showing {{.X}} over {{.y}} for {{.number}} Locations."
+    "translation": "A report was shared with you by {{.sender}} showing {{.X}} over {{.Y}} for {{.number}} Locations."
   },
   {
     "id": "report_shared_email",
-    "translation": "A report was shared with you by {{.sender}} showing {{.X}} over {{.y}} for {{.number}} Locations. Click here to view it in ReportChanger"
+    "translation": "A report was shared with you by {{.sender}} showing {{.X}} over {{.Y}} for {{.number}} Locations. Click here to view it in ReportChanger."
   }
 ]
