@@ -1,14 +1,17 @@
 [
-  {
-    "id": "new_permission_email",
-    "translation": "A new permission was given to you. You can now use {{.app_name}} as a/an {{.role}}. Click here to go to {{.app_name}}."
-  },
-  {
-    "id": "reset_password_email",
-    "translation": "Your administrator has reset your password. Click here to create a new password."
-  },
-  {
-    "id": "import_success_email",
-    "translation": "Successfully imported {{.number}} users. Click here to open AdminChanger and manage users."
-  }
+    {
+        "id": "new_permission_email",
+        "translation": "A new permission was given to you. You can now use {{.app_name}} as a/an {{.role}}. Click here to go to {{.app_name}}."
+    },
+    {
+        "id": "reset_password_email",
+        "translation": "Your administrator has reset your password. Click here to create a new password."
+    },
+    {
+        "id": "import_success_email",
+        "translation": {
+            "one": "Successfully imported {{.number}} user. Click here to open AdminChanger and manage users.",
+            "other": "Successfully imported {{.number}} users. Click here to open AdminChanger and manage users."
+        }
+    }
 ]
