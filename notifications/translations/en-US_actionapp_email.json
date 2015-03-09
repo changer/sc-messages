@@ -1,0 +1,22 @@
+[
+  {
+    "id": "action_completed",
+    "translation": "The following action just completed: {{.action_title}}, assigned to {{.assignee}}. Click here to view it in ActionChanger."
+  },
+  {
+    "id": "action_accepted",
+    "translation": "{{.assignee}} accepted an action you assigned ({{.action_title}}). Click here to view it in ActionChanger."
+  },
+  {
+    "id": "action_denied",
+    "translation": "{{.assignee}} denied an action you assigned ({{.action_title}}). Click here to view it in ActionChanger."
+  },
+  {
+    "id": "action_almost_overdue_assignee",
+    "translation": "The following action is almost overdue: {{.action_title}}, assigned to {{.assignee}}. Click here to view it in ActionChanger."
+  },
+  {
+    "id": "action_overdue_assignee",
+    "translation": "Warning! The following action is overdue: {{.action_title}}, assigned to {{.assignee}}. Click here to view it in ActionChanger."
+  }
+]
