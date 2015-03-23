@@ -19,6 +19,10 @@ build:
        name: move tar
        code: mv /tmp/messages.tar.bz2 $WERCKER_OUTPUT_DIR
 
+ after-steps:
+   - wantedly/pretty-slack-notify:
+       webhook_url: $SLACK_WEBHOOK_URL
+
 # Deploy definition
 deploy:
  steps:
@@ -34,3 +38,8 @@ deploy:
        key-secret: $S3_SECRET
        file:       messages.tar.bz2
        url:        s3://$S3_BUCKET/$S3_SUBDIR/messages_latest.tar.bz2
+
+ after-steps:
+   - wantedly/pretty-slack-notify:
+       webhook_url: $SLACK_WEBHOOK_URL
+
