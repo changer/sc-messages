@@ -12,7 +12,7 @@ build:
 
    - script:
        name: tar
-       code: tar -cvjf /tmp/messages.tar.bz2 $WERCKER_SOURCE_DIR
+       code: tar -cvjf /tmp/messages.tar.bz2 -C $WERCKER_SOURCE_DIR/notifications/ .
 
     # Move the tar to output dir
    - script:
