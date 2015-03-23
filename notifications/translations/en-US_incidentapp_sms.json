@@ -17,11 +17,11 @@
   },
   {
     "id": "log_used",
-    "translation": "Your log, submitted on {{.time_date}}, was used by {{.owner}}, {{.owner_function_title}}."
+    "translation": "Your log {{.refnumber}}, submitted on {{.date_processed}}, was used by {{.manager}}, {{.manager_function_title}}."
   },
   {
     "id": "log_archived",
-    "translation": "Your log, submitted on {{.time_date}}, was archived by {{.owner}}, {{.owner_function_title}}."
+    "translation": "Your log {{.refnumber}}, submitted on {{.date_processed}}, was archived by {{.manager}}, {{.manager_function_title}}."
   },
   {
     "id": "user_contributed_to_incident",
