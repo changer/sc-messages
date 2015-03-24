@@ -1,5 +1,9 @@
 [
   {
+    "id": "action_assigned",
+    "translation": "The following action was assigned to you: {{.action_title}}. Click here to view it in ActionChanger."
+  },
+  {
     "id": "action_completed",
     "translation": "The following action just completed: {{.action_title}}, assigned to {{.assignee}}. Click here to view it in ActionChanger."
   },
