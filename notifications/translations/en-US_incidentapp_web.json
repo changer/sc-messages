@@ -9,23 +9,23 @@
   },
   {
     "id": "action_completed",
-    "translation": "The action {{.action_title}}, regarding incident {{.incident_title}} was just completed by {{.assignee}}. Click here to view it in ActionChanger."
+    "translation": "The action {{.action_title}}, regarding incident {{.incident_name}} was just completed by {{.assignee}}. Click here to view it in ActionChanger."
   },
   {
     "id": "new_publication_available",
     "translation": "New publication available! '{{.publication_title}}'. Click here to view it in IncidentChanger."
   },
   {
-    "id": "user_contributed_to_incident",
-    "translation": "{{.user}} contributed to your incident {{.incident_title}}. Click here to view it in IncidentChanger."
+    "id": "incident_contribution",
+    "translation": "{{.contributor}} contributed to your incident {{.incident_name}}. Click here to view it in IncidentChanger."
   },
   {
     "id": "incident_assigned",
-    "translation": "The following incident was assigned to you by {{.user}}: {{.incident_title}}. Click here to view it in IncidentChanger."
+    "translation": "The following incident was assigned to you by {{.assigner}}: {{.incident_name}}. Click here to view it in IncidentChanger."
   },
   {
     "id": "incident_not_updated",
-    "translation": "The following incident has not been updated for two weeks but is still open: {{.incident_title}}. Click here to view it in IncidentChanger."
+    "translation": "The following incident has not been updated for two weeks but is still open: {{.incident_name}}. Click here to view it in IncidentChanger."
   } 
 
 ]
