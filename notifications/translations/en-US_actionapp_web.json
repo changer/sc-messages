@@ -12,7 +12,7 @@
     "translation": "{{.assignee}} accepted an action you assigned ({{.action_title}}). Click here to view it in ActionChanger."
   },
   {
-    "id": "action_denied",
+    "id": "action_rejected",
     "translation": "{{.assignee}} denied an action you assigned ({{.action_title}}). Click here to view it in ActionChanger."
   },
   {

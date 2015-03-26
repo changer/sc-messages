@@ -1,0 +1,9 @@
+[
+    {
+        "id": "report_shared",
+        "translation": {
+            "one": "A report was shared with you by {{.sender}} showing {{.X}} over {{.Y}} for {{.number}} Location. Click <a href={{.destination_uri}}>here</a> to view it in ReportChanger.",
+            "other": "A report was shared with you by {{.sender}} showing {{.X}} over {{.Y}} for {{.number}} Locations. Click <a href={{.destination_uri}}>here</a> to view it in ReportChanger."
+        }
+    }
+]
