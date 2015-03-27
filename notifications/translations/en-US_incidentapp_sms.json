@@ -1,6 +1,6 @@
 [
   {
-    "id": "new_incoming_log",
+    "id": "log_incoming",
     "translation": "A new log with priority {{.prio}} was just submitted by {{.user}}."
   },
   {
