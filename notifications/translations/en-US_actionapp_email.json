@@ -1,11 +1,15 @@
 [
   {
+    "id": "incident_action_completed",
+    "translation":"The action {{.action_title}}, regarding incident {{.incident_name}} was just completed by {{.assignee}}."
+  },
+  {
     "id": "action_assigned",
     "translation": "The following action was assigned to you: {{.action_title}}. Click <a href={{.destination_uri}}>here</a> to view it in ActionChanger."
   },
   {
     "id": "action_completed",
-    "translation": "The following action just completed: {{.action_title}}, assigned to {{.assignee}}. Click <a href={{.destination_uri}}>here</a> to view it in ActionChanger."
+    "translation": "The following action was just marked as complete: {{.action_title}}, assigned to {{.assignee}}. Click <a href={{.destination_uri}}>here</a> to view it in ActionChanger."
   },
   {
     "id": "action_accepted",
@@ -13,7 +17,7 @@
   },
   {
     "id": "action_rejected",
-    "translation": "{{.assignee}} denied an action you assigned ({{.action_title}}). Click <a href={{.destination_uri}}>here</a> to view it in ActionChanger."
+    "translation": "{{.assignee}} rejected an action you assigned ({{.action_title}}). Click <a href={{.destination_uri}}>here</a> to view it in ActionChanger."
   },
   {
     "id": "action_almost_overdue_assignee",

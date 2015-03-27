@@ -1,26 +1,30 @@
 [
   {
+    "id": "incident_action_completed",
+    "translation":"The action {{.action_title}}, regarding incident {{.incident_name}} was just completed by {{.assignee}}."
+  },
+  {
     "id": "action_assigned",
-    "translation": "The following action was assigned to you: {{.action_title}}. Click here to view it in ActionChanger."
+    "translation": "The following action was assigned to you: {{.action_title}}."
   },
   {
     "id": "action_completed",
-    "translation": "The following action just completed: {{.action_title}}, assigned to {{.assignee}}. Click here to view it in ActionChanger."
+    "translation": "The following action was just marked as complete: {{.action_title}}, assigned to {{.assignee}}."
   },
   {
     "id": "action_accepted",
-    "translation": "{{.assignee}} accepted an action you assigned ({{.action_title}}). Click here to view it in ActionChanger."
+    "translation": "{{.assignee}} accepted an action you assigned ({{.action_title}})."
   },
   {
     "id": "action_rejected",
-    "translation": "{{.assignee}} denied an action you assigned ({{.action_title}}). Click here to view it in ActionChanger."
+    "translation": "{{.assignee}} rejected an action you assigned ({{.action_title}})."
   },
   {
     "id": "action_almost_overdue_assignee",
-    "translation": "The following action is almost overdue: {{.action_title}}, assigned to {{.assignee}}. Click here to view it in ActionChanger."
+    "translation": "The following action is almost overdue: {{.action_title}}, assigned to {{.assignee}}."
   },
   {
     "id": "action_overdue_assignee",
-    "translation": "Warning! The following action is overdue: {{.action_title}}, assigned to {{.assignee}}. Click here to view it in ActionChanger."
+    "translation": "Warning! The following action is overdue: {{.action_title}}, assigned to {{.assignee}}."
   }
 ]
