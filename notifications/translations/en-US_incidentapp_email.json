@@ -1,7 +1,7 @@
 [
   {
     "id": "incident_action_completed",
-    "translation":"The action {{.action_title}}, regarding incident {{.incident_name}} was just completed by {{.assignee}}. "
+    "translation":"The action {{.action_title}}, regarding incident {{.incident_name}} was just completed by {{.assignee}}."
   },
   {
     "id": "log_incoming",
@@ -33,11 +33,10 @@
   },
   {
     "id":"log_archived",
-    "translation":"Your log {{.refnumber}} has been archived by {{.manager}}"
+    "translation":"Your log {{.refnumber}} has been archived by {{.manager}}."
   },
   {
     "id":"log_used",
     "translation":"Your log {{.refnumber}} has been used by {{.manager}} to create an incident."
-  }  
-
+  }
 ]

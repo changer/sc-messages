@@ -5,7 +5,7 @@
   },
   {
     "id": "high_prio_log_incoming",
-    "translation": "Warning! A new log with severity {{.severity}} was just submitted by {{.logger}}. This might require your immediate attention. "
+    "translation": "Warning! A new log with severity {{.severity}} was just submitted by {{.logger}}. This might require your immediate attention."
   },
   {
     "id": "action_completed",
@@ -13,11 +13,11 @@
   },
   {
     "id": "publication_incoming",
-    "translation": "New publication available! '{{.title}}'. "
+    "translation": "New publication available! '{{.title}}'."
   },
   {
     "id": "incident_contribution",
-    "translation": "{{.contributor}} contributed to your incident : {{.incident_name}}. "
+    "translation": "{{.contributor}} contributed to your incident : {{.incident_name}}."
   },
   {
     "id": "incident_assigned",
@@ -29,11 +29,10 @@
   },
   {
     "id":"log_archived",
-    "translation":"Your log {{.refnumber}} has been archived by {{.manager}}"
+    "translation":"Your log {{.refnumber}} has been archived by {{.manager}}."
   },
   {
     "id":"log_used",
     "translation":"Your log {{.refnumber}} has been used by {{.manager}} to create an incident."
-  }  
-
+  }
 ]
