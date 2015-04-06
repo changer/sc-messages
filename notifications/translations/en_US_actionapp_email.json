@@ -1,30 +1,58 @@
 [
   {
     "id": "incident_action_completed",
-    "translation":"The action {{.action_title}}, regarding incident {{.incident_name}} was just completed by {{.assignee}}."
+    "translation": "The action {{.action_title}}, regarding incident {{.incident_name}} was just completed by {{.assignee}}."
+  },
+  {
+    "id": "incident_action_completed_subject",
+    "translation": "An action was completed."
   },
   {
     "id": "action_assigned",
     "translation": "The following action was assigned to you: {{.action_title}}. Click <a href={{.destination_uri}}>here</a> to view it in ActionChanger."
   },
   {
+    "id": "action_assigned_subject",
+    "translation": "An action has been assigned to you."
+  },
+  {
     "id": "action_completed",
     "translation": "The following action was just marked as complete: {{.action_title}}, assigned to {{.assignee}}. Click <a href={{.destination_uri}}>here</a> to view it in ActionChanger."
+  },
+  {
+    "id": "action_completed_subject",
+    "translation": "An action was marked as complete."
   },
   {
     "id": "action_accepted",
     "translation": "{{.assignee}} accepted an action you assigned ({{.action_title}}). Click <a href={{.destination_uri}}>here</a> to view it in ActionChanger."
   },
   {
+    "id": "action_accepted_subject",
+    "translation": "An assigned action was accepted."
+  },
+  {
     "id": "action_rejected",
     "translation": "{{.assignee}} rejected an action you assigned ({{.action_title}}). Click <a href={{.destination_uri}}>here</a> to view it in ActionChanger."
+  },
+  {
+    "id": "action_rejected_subject",
+    "translation": "An assigned action was rejected."
   },
   {
     "id": "action_almost_overdue_assignee",
     "translation": "The following action is almost overdue: {{.action_title}}, assigned to {{.assignee}}. Click <a href={{.destination_uri}}>here</a> to view it in ActionChanger."
   },
   {
+    "id": "action_almost_overdue_assignee_subject",
+    "translation": "An action is almost overdue."
+  },
+  {
     "id": "action_overdue_assignee",
     "translation": "Warning! The following action is overdue: {{.action_title}}, assigned to {{.assignee}}. Click <a href={{.destination_uri}}>here</a> to view it in ActionChanger."
+  },
+  {
+    "id": "action_overdue_assignee_subject",
+    "translation": "Warning! An action is overdue."
   }
 ]
