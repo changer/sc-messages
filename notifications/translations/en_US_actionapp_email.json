@@ -5,7 +5,7 @@
   },
   {
     "id": "incident_action_completed_subject",
-    "translation": "The action {{.action_title}}, regarding incident {{.incident_name}} was completed."
+    "translation": "An action was completed."
   },
   {
     "id": "action_assigned",
@@ -13,7 +13,7 @@
   },
   {
     "id": "action_assigned_subject",
-    "translation": "{{.action_title}} has been assigned to you."
+    "translation": "An action has been assigned to you."
   },
   {
     "id": "action_completed",
@@ -21,7 +21,7 @@
   },
   {
     "id": "action_completed_subject",
-    "translation": "{{.action_title}} was marked as complete."
+    "translation": "An action was marked as complete."
   },
   {
     "id": "action_accepted",
@@ -29,7 +29,7 @@
   },
   {
     "id": "action_accepted_subject",
-    "translation": "{{.assignee}} accepted the action {{.action_title}}."
+    "translation": "An assigned action was accepted."
   },
   {
     "id": "action_rejected",
@@ -37,7 +37,7 @@
   },
   {
     "id": "action_rejected_subject",
-    "translation": "{{.assignee}} rejected the action {{.action_title}}."
+    "translation": "An assigned action was rejected."
   },
   {
     "id": "action_almost_overdue_assignee",
@@ -45,7 +45,7 @@
   },
   {
     "id": "action_almost_overdue_assignee_subject",
-    "translation": "{{.action_title}} is almost overdue."
+    "translation": "An action is almost overdue."
   },
   {
     "id": "action_overdue_assignee",
@@ -53,6 +53,6 @@
   },
   {
     "id": "action_overdue_assignee_subject",
-    "translation": "Warning! {{.action_title}} is overdue."
+    "translation": "Warning! An action is overdue."
   }
 ]
