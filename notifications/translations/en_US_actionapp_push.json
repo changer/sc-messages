@@ -1,38 +1,74 @@
 [
   {
-    "id": "action_completed",
-    "translation": "The following action just completed: {{.action_title}}, assigned to {{.assignee}}."
+    id: "action_completed",
+    translation: "{{.action_title}} got completed, assigned to {{.assignee}}."
   },
   {
-    "id": "new_action",
-    "translation": "New action request! {{.action_title}}."
+    id: "action_completed_subject",
+    translation: "Action got completed."
   },
   {
-    "id": "action_accepted",
-    "translation": "{{.assignee}} accepted an action you assigned ({{.action_title}})."
+    id: "new_action",
+    translation: "New action request! {{.action_title}}."
   },
   {
-    "id": "action_denied",
-    "translation": "{{.assignee}} denied an action you assigned ({{.action_title}})."
+    id: "new_action_subject",
+    translation: "New action request!"
   },
   {
-    "id": "action_almost_overdue",
-    "translation": "The following action is almost overdue: {{.action_title}}."
+    id: "action_accepted",
+    translation: "{{.assignee}} accepted an action you assigned ({{.action_title}})."
   },
   {
-    "id": "action_almost_overdue_assignee",
-    "translation": "The following action is almost overdue: {{.action_title}}, assigned to {{.assignee}}."
+    id: "action_accepted_subject",
+    translation: "Action is accepted."
   },
   {
-    "id": "action_overdue",
-    "translation": "Warning! The following action is overdue: {{.action_title}}."
+    id: "action_denied",
+    translation: "{{.assignee}} denied an action you assigned ({{.action_title}})."
   },
   {
-    "id": "action_overdue_assignee",
-    "translation": "Warning! The following action is overdue: {{.action_title}}, assigned to {{.assignee}}."
+    id: "action_denied_subject",
+    translation: "Action is denied."
   },
   {
-    "id": "action_reassigned",
-    "translation": "{{.owner}} has reassigned the action {{.action_title}} to someone else. You are no longer responisble."
+    id: "action_almost_overdue",
+    translation: "{{.action_title}} is almost overdue."
+  },
+  {
+    id: "action_almost_overdue_subject",
+    translation: "Action is almost overdue."
+  },
+  {
+    id: "action_almost_overdue_assignee",
+    translation: "{{.action_title}} is almost overdue, assigned to {{.assignee}}."
+  },
+  {
+    id: "action_almost_overdue_assignee_subject",
+    translation: "Action is almost overdue."
+  },
+  {
+    id: "action_overdue",
+    translation: "{{.action_title}} is overdue."
+  },
+  {
+    id: "action_overdue_subject",
+    translation: "Warning! Action is overdue."
+  },
+  {
+    id: "action_overdue_assignee",
+    translation: "{{.action_title}} is overdue, assigned to {{.assignee}}."
+  },
+  {
+    id: "action_overdue_assignee_subject",
+    translation: "Warning! Action is overdue."
+  },
+  {
+    id: "action_reassigned",
+    translation: "{{.owner}} has reassigned the action {{.action_title}} to someone else. You are no longer responisble."
+  },
+  {
+    id: "action_reassigned_subject",
+    translation: "Action is reassigned to someone else."
   }
 ]
