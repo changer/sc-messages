@@ -5,7 +5,7 @@
   },
   {
     "id": "incident_action_completed_subject",
-    "translation":"Action marked as complete."
+    "translation": "Action marked as complete."
   },
   {
     "id": "log_incoming",
@@ -69,7 +69,7 @@
   },
   {
     "id":"log_archived_subject",
-    "translation":"Your log has been archived."
+    "translation": "Your log has been archived."
   },
   {
     "id":"log_used",
@@ -77,6 +77,6 @@
   },
   {
     "id":"log_used_subject",
-    "translation":"Your log has been used to create an incident."
+    "translation": "Your log has been used to create an incident."
   }
 ]
