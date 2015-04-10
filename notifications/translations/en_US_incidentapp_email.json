@@ -49,7 +49,7 @@
   },
   {
     "id": "user_contributed_to_incident",
-    "translation": "{{.user}} contributed to your incident {{.incident_title}}.”
+    "translation": "{{.user}} contributed to your incident {{.incident_title}}."
   },
   {
     "id": "user_contributed_to_incident_subject",
