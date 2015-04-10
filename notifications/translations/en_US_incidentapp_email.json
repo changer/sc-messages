@@ -17,7 +17,7 @@
   },
   {
     "id": "high_prio_log_incoming",
-    "translation": “Attention! A new log with severity {{.severity}} was just submitted by {{.logger}}. This might require your immediate attention. Click <a href={{.destination_uri}}>here</a> to view it in IncidentChanger."
+    "translation": "Attention! A new log with severity {{.severity}} was just submitted by {{.logger}}. This might require your immediate attention. Click <a href={{.destination_uri}}>here</a> to view it in IncidentChanger."
   },
   {
     "id": "high_prio_log_incoming_subject",
