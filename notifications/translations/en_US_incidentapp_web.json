@@ -17,7 +17,7 @@
   },
   {
     "id": "high_prio_log_incoming",
-    "translation": "Attention! A new log with severity {{.severity}} was just submitted by {{.logger}}. This might require your immediate attention.”
+    "translation": "Attention! A new log with severity {{.severity}} was just submitted by {{.logger}}. This might require your immediate attention."
   },
   {
     "id": "high_prio_log_incoming_subject",
