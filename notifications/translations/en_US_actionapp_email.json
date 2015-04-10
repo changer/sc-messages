@@ -8,11 +8,11 @@
 		"translation": "Action marked as complete"
   	},
 	{
-		"id": "new_action",
+		"id": "new_action",
 		"translation": "New action request! {{.action_title}}."
 	},
 	{
-		"id": "new_action_subject",
+		"id": "new_action_subject",
 		"translation": "New action request"
 	},
 	{
