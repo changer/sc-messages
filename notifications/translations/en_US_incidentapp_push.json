@@ -9,7 +9,7 @@
   },
   {
     "id": "log_incoming",
-    "translation": "A new log with severity {{.severity}} was just submitted by {{.logger}}. Click <a href={{.destination_uri}}>here</a> to view it in IncidentChanger."
+    "translation": "A new log with severity {{.severity}} was just submitted by {{.logger}}."
   },
   {
     "id": "log_incoming_subject",
@@ -17,7 +17,7 @@
   },
   {
     "id": "high_prio_log_incoming",
-    "translation": "Attention! A new log with severity {{.severity}} was just submitted by {{.logger}}. This might require your immediate attention. Click <a href={{.destination_uri}}>here</a> to view it in IncidentChanger."
+    "translation": "Attention! A new log with severity {{.severity}} was just submitted by {{.logger}}. This might require your immediate attention."
   },
   {
     "id": "high_prio_log_incoming_subject",
@@ -25,7 +25,7 @@
   },
   {
     "id": "action_completed",
-    "translation": "The action {{.action_title}}, regarding incident {{.incident_name}} was just completed by {{.assignee}}. Click <a href={{.destination_uri}}>here</a> to view it in ActionChanger."
+    "translation": "The action {{.action_title}}, regarding incident {{.incident_name}} was just completed by {{.assignee}}."
   },
   {
     "id": "action_completed_subject",
@@ -33,7 +33,7 @@
   },
   {
     "id": "publication_incoming",
-    "translation": "New publication available! '{{.title}}'. Click <a href={{.destination_uri}}>here</a> to view it in IncidentChanger."
+    "translation": "New publication available! '{{.title}}'."
   },
   {
     "id": "publication_incoming_subject",
@@ -41,7 +41,7 @@
   },
   {
     "id": "incident_contribution",
-    "translation": "{{.contributor}} contributed to your incident : {{.incident_name}}. Click <a href={{.destination_uri}}>here</a> to view it in IncidentChanger."
+    "translation": "{{.contributor}} contributed to your incident : {{.incident_name}}."
   },
   {
     "id": "incident_contribution_subject",
@@ -57,7 +57,7 @@
   },  
   {
     "id": "incident_assigned",
-    "translation": "The following incident was assigned to you by {{.assigner}}: {{.incident_name}}. Click <a href={{.destination_uri}}>here</a> to view it in IncidentChanger."
+    "translation": "The following incident was assigned to you by {{.assigner}}: {{.incident_name}}."
   },
   {
     "id": "incident_assigned_subject",
@@ -65,7 +65,7 @@
   },
   {
     "id": "incident_not_updated",
-    "translation": "The following incident has not been updated for two weeks and is still open: {{.incident_name}}. Click <a href={{.destination_uri}}>here</a> to view it in IncidentChanger."
+    "translation": "The following incident has not been updated for two weeks and is still open: {{.incident_name}}."
   },
   {
     "id": "incident_not_updated_subject",
