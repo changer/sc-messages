@@ -1,12 +1,12 @@
 [
-  {
-    "id": "incident_action_completed",
-    "translation": "The action {{.action_title}}, regarding incident {{.incident_name}} was just completed by {{.assignee}}."
-  },
-  {
+	{
+		"id": "incident_action_completed",
+    		"translation": "The action {{.action_title}}, regarding incident {{.incident_name}} was just completed by {{.assignee}}."
+  	},
+  	{
 		"id": "incident_action_completed_subject",
 		"translation": "Action marked as complete"
-	},
+  	},
 	{
 		"id": "new_action",
 		"translation": "New action request! {{.action_title}}."
