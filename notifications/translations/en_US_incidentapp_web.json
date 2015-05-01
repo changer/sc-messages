@@ -5,7 +5,7 @@
   },
   {
     "id": "incident_action_completed_subject",
-    "translation": "Action marked as complete"
+    "translation": "Action completed"
   },
   {
     "id": "log_incoming",
@@ -13,15 +13,15 @@
   },
   {
     "id": "log_incoming_subject",
-    "translation": "New log submitted"
+    "translation": "New log"
   },
   {
     "id": "high_prio_log_incoming",
-    "translation": "Attention! A new log with severity {{.severity}} was just submitted by {{.logger}}. This might require your immediate attention."
+    "translation": "Warning! A new log with severity {{.severity}} was just submitted by {{.logger}}. This might require your immediate attention."
   },
   {
     "id": "high_prio_log_incoming_subject",
-    "translation": "Attention! New high priority log submitted"
+    "translation": "Warning! High priority log"
   },
   {
     "id": "action_completed",
@@ -29,7 +29,7 @@
   },
   {
     "id": "action_completed_subject",
-    "translation": "Action marked as complete"
+    "translation": "Action completed"
   },
   {
     "id": "publication_incoming",
@@ -41,11 +41,11 @@
   },
   {
     "id": "incident_contribution",
-    "translation": "{{.contributor}} contributed to your incident : {{.incident_name}}."
+    "translation": "{{.contributor}} contributed to your incident: {{.incident_name}}."
   },
   {
     "id": "incident_contribution_subject",
-    "translation": "New contribution to your incident"
+    "translation": "New contribution"
   },
   {
     "id": "user_contributed_to_incident",
@@ -53,7 +53,7 @@
   },
   {
     "id": "user_contributed_to_incident_subject",
-    "translation": "A user contributed to your incident"
+    "translation": "Incident contribution"
   },  
   {
     "id": "incident_assigned",
@@ -61,7 +61,7 @@
   },
   {
     "id": "incident_assigned_subject",
-    "translation": "New incident assigned to you"
+    "translation": "Incident assigned"
   },
   {
     "id": "incident_not_updated",
@@ -69,7 +69,7 @@
   },
   {
     "id": "incident_not_updated_subject",
-    "translation": "Incident awaiting update"
+    "translation": "Incident pending"
   },
   {
     "id":"log_archived",
@@ -77,14 +77,14 @@
   },
   {
     "id":"log_archived_subject",
-    "translation": "Your log has been archived"
+    "translation": "Log archived"
   },
   {
     "id":"log_used",
-    "translation":"Your log {{.refnumber}} has been used by {{.manager}} to create an incident."
+    "translation":"Your log {{.refnumber}} was used by {{.manager}} to create an incident."
   },
   {
     "id":"log_used_subject",
-    "translation": "Your log has been used to create an incident"
+    "translation": "Log used for incident"
   }
 ]
