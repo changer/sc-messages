@@ -1,11 +1,11 @@
 [
 	{
 		"id": "incident_action_completed",
-    		"translation": "The action {{.action_title}}, regarding incident {{.incident_name}} was just completed by {{.assignee}}."
+    	"translation": "The action {{.action_title}}, regarding incident {{.incident_name}} was just completed by {{.assignee}}."
   	},
   	{
 		"id": "incident_action_completed_subject",
-		"translation": "Action marked as complete"
+		"translation": "Action completed"
   	},
 	{
 		"id": "new_action",
@@ -29,7 +29,7 @@
 	},
 	{
 		"id": "action_completed_subject",
-		"translation": "Action marked as complete"
+		"translation": "Action completed"
 	},
 	{
 		"id": "action_accepted",
@@ -37,7 +37,7 @@
 	},
 	{
 		"id": "action_accepted_subject",
-		"translation": "An assigned action was accepted"
+		"translation": "Action accepted"
 	},
 	{
 		"id": "action_denied",
@@ -45,15 +45,15 @@
 	},
 	{
 		"id": "action_denied_subject",
-		"translation": "An assigned action was rejected"
+		"translation": "Action rejected"
 	},
 	{
 		"id": "action_almost_overdue",
-		"translation": "{{.action_title}} is almost overdue."
+		"translation": "The following action is almost overdue: {{.action_title}}"
 	},
 	{
 		"id": "action_almost_overdue_subject",
-		"translation": "An action is almost overdue"
+		"translation": "Action almost overdue"
 	},
 	{
 		"id": "action_almost_overdue_assignee",
@@ -61,23 +61,23 @@
 	},
 	{
 		"id": "action_almost_overdue_assignee_subject",
-		"translation": "An action is almost overdue"
+		"translation": "Action almost overdue"
 	},
 	{
 		"id": "action_overdue",
-		"translation": "The following action is overdue: {{.action_title}}."
+		"translation": "Warning! The following action is overdue: {{.action_title}}."
 	},
 	{
 		"id": "action_overdue_subject",
-		"translation": "Attention! An action is overdue"
+		"translation": "Action overdue"
 	},
 	{
 		"id": "action_overdue_assignee",
-		"translation": "Attention! The following action is overdue: {{.action_title}}, assigned to {{.assignee}}."
+		"translation": "Warning! The following action is overdue: {{.action_title}}, assigned to {{.assignee}}."
 	},
 	{
 		"id": "action_overdue_assignee_subject",
-		"translation": "Attention! An action is overdue"
+		"translation": "Action overdue"
 	},
 	{
 		"id": "action_reassigned",
@@ -85,6 +85,6 @@
 	},
 	{
 		"id": "action_reassigned_subject",
-		"translation": "An action has been reassigned to someone else"
+		"translation": "Action reassigned"
 	}
 ]

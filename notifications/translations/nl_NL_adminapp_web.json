@@ -1,0 +1,17 @@
+[
+    {
+        "id": "new_permission",
+        "translation": "Je hebt een nieuwe permissie ontvangen. Je kunt nu {{.app_name}} als {{.role}} gebruiken. Klik hier om naar {{.app_name}} te gaan."
+    },
+    {
+        "id": "reset_password",
+        "translation": "Je beheerder heeft je wachtwoord gereset. Klik hier om een nieuw wachtwoord aan te maken."
+    },
+    {
+        "id": "import_success",
+        "translation": {
+            "one": "Import van {{.number}} gebruiker succesvol. Klik hier om AdminChanger te openen en gebruikers te beheren.",
+            "other": "Import van {{.number}} gebruikers succesvol. Klik hier om AdminChanger te openen en gebruikers te beheren."
+        }
+    }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "id": "incident_action_completed",
+    "translation": "De actie {{.action_title}}, behorende bij incident {{.incident_name}} is zojuist afgerond door {{.assignee}}."
+  },
+  {
+    "id": "incident_action_completed_subject",
+    "translation": "Actie afgerond"
+  },
+  {
+    "id": "log_incoming",
+    "translation": "{{.logger}} heeft zojuist een melding met prioriteit {{.severity}} gedaan. Klik <a href={{.destination_uri}}>hier</a> om de actie te bekijken in IncidentChanger."
+  },
+  {
+    "id": "log_incoming_subject",
+    "translation": "Nieuwe melding"
+  },
+  {
+    "id": "high_prio_log_incoming",
+    "translation": "Let op! {{.logger}} heeft zojuist een melding met prioriteit {{.severity}} gedaan. Mogelijk is directe aandacht vereist. Klik <a href={{.destination_uri}}>hier</a> om de melding te bekijken in IncidentChanger."
+  },
+  {
+    "id": "high_prio_log_incoming_subject",
+    "translation": "Let op! Melding met hoge prioriteit"
+  },
+  {
+    "id": "action_completed",
+    "translation": "De actie {{.action_title}}, behorende bij incident {{.incident_name}} is zojuist afgerond door {{.assignee}}. Klik <a href={{.destination_uri}}>hier</a> om de actie te bekijken in ActionChanger."
+  },
+  {
+    "id": "action_completed_subject",
+    "translation": "Actie afgerond"
+  },
+  {
+    "id": "publication_incoming",
+    "translation": "Nieuwe publicatie beschikbaar! '{{.title}}'."
+  },
+  {
+    "id": "publication_incoming_subject",
+    "translation": "Nieuwe publicatie"
+  },
+  {
+    "id": "incident_contribution",
+    "translation": "{{.contributor}} heeft bijgedragen aan jouw incident {{.incident_name}}. Klik <a href={{.destination_uri}}>hier</a> om het incident te bekijken in IncidentChanger."
+  },
+  {
+    "id": "incident_contribution_subject",
+    "translation": "Bijdrage aan incident"
+  },
+  {
+    "id": "user_contributed_to_incident",
+    "translation": "{{.user}} heeft bijgedragen aan jouw incident {{.incident_title}}."
+  },
+  {
+    "id": "user_contributed_to_incident_subject",
+    "translation": "Bijdrage aan incident"
+  },  
+  {
+    "id": "incident_assigned",
+    "translation": "Het volgende incident is aan jou toegewezen door {{.assigner}}: {{.incident_name}}. Klik <a href={{.destination_uri}}>hier</a> om het incident te bekijken in IncidentChanger."
+  },
+  {
+    "id": "incident_assigned_subject",
+    "translation": "Incident toegewezen"
+  },
+  {
+    "id": "incident_not_updated",
+    "translation": "Het volgende incident is al twee weken niet bijgewerkt maar nog wel open: {{.incident_name}}. Klik <a href={{.destination_uri}}>hier</a> om het incident te bekijken in IncidentChanger."
+  },
+  {
+    "id": "incident_not_updated_subject",
+    "translation": "Incident niet bijgewerkt"
+  },
+  {
+    "id":"log_archived",
+    "translation":"Je melding {{.refnumber}} is gearchiveerd door {{.manager}}."
+  },
+  {
+    "id":"log_archived_subject",
+    "translation": "Melding gearchiveerd"
+  },
+  {
+    "id":"log_used",
+    "translation":"Je melding {{.refnumber}} is verwerkt door {{.manager}}."
+  },
+  {
+    "id":"log_used_subject",
+    "translation": "Melding verwerkt"
+  }
+]
