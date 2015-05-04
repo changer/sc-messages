@@ -73,7 +73,7 @@
   },
   {
     "id":"log_archived",
-    "translation":"Your log {{.refnumber}} has been archived by {{.manager}}."
+    "translation":"Your log has been archived by {{.manager}}. (Reference: {{.refnumber}})"
   },
   {
     "id":"log_archived_subject",
@@ -81,7 +81,7 @@
   },
   {
     "id":"log_used",
-    "translation":"Your log {{.refnumber}} was used by {{.manager}} to create an incident."
+    "translation":"Your log was used by {{.manager}} to create an incident. (Reference: {{.refnumber}})"
   },
   {
     "id":"log_used_subject",
