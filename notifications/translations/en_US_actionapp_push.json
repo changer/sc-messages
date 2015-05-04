@@ -25,7 +25,7 @@
 	},
 	{
 		"id": "action_completed",
-		"translation": "The following action was just marked as complete: {{.action_title}}, assigned to {{.assignee}}."
+		"translation": "The following action was completed: {{.action_title}}, assigned to {{.assignee}}."
 	},
 	{
 		"id": "action_completed_subject",
@@ -33,7 +33,7 @@
 	},
 	{
 		"id": "action_accepted",
-		"translation": "{{.assignee}} accepted an action you assigned ({{.action_title}})."
+		"translation": "{{.assignee}} accepted an action you assigned: {{.action_title}}."
 	},
 	{
 		"id": "action_accepted_subject",
@@ -41,7 +41,7 @@
 	},
 	{
 		"id": "action_rejected",
-		"translation": "{{.assignee}} rejected an action you assigned ({{.action_title}})."
+		"translation": "{{.assignee}} rejected an action you assigned: {{.action_title}}."
 	},
 	{
 		"id": "action_rejected_subject",
