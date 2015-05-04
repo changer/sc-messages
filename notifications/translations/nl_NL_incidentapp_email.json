@@ -73,7 +73,7 @@
   },
   {
     "id":"log_archived",
-    "translation":"Je melding {{.refnumber}} is gearchiveerd door {{.manager}}."
+    "translation":"Je melding is gearchiveerd door {{.manager}}. (Referentie: {{.refnumber}})"
   },
   {
     "id":"log_archived_subject",
@@ -81,7 +81,7 @@
   },
   {
     "id":"log_used",
-    "translation":"Je melding {{.refnumber}} is verwerkt door {{.manager}}."
+    "translation":"Je melding is verwerkt door {{.manager}}. (Referentie: {{.refnumber}})"
   },
   {
     "id":"log_used_subject",
