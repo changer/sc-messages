@@ -21,7 +21,7 @@
 	},
 	{
 		"id": "action_assigned_subject",
-		"translation": "An action has been assigned to you"
+		"translation": "Action assigned"
 	},
 	{
 		"id": "action_completed",
