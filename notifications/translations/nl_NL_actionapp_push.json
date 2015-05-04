@@ -40,11 +40,11 @@
 		"translation": "Actie geaccepteerd"
 	},
 	{
-		"id": "action_denied",
+		"id": "action_rejected",
 		"translation": "{{.assignee}} heeft de door jou toegewezen actie geweigerd ({{.action_title}})."
 	},
 	{
-		"id": "action_denied_subject",
+		"id": "action_rejected_subject",
 		"translation": "Actie geweigerd"
 	},
 	{
