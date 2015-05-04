@@ -33,7 +33,7 @@
 	},
 	{
 		"id": "action_accepted",
-		"translation": "{{.assignee}} heeft de door jou toegewezen actie geaccepteerd ({{.action_title}}). Klik <a href={{.destination_uri}}>hier</a> om de actie te bekijken in ActionChanger."
+		"translation": "{{.assignee}} heeft de door jou toegewezen actie geaccepteerd: {{.action_title}}. Klik <a href={{.destination_uri}}>hier</a> om de actie te bekijken in ActionChanger."
 	},
 	{
 		"id": "action_accepted_subject",
@@ -41,7 +41,7 @@
 	},
 	{
 		"id": "action_rejected",
-		"translation": "{{.assignee}} heeft de door jou toegewezen actie geweigerd ({{.action_title}}). Klik <a href={{.destination_uri}}>hier</a> om de actie te bekijken in ActionChanger."
+		"translation": "{{.assignee}} heeft de door jou toegewezen actie geweigerd: {{.action_title}}. Klik <a href={{.destination_uri}}>hier</a> om de actie te bekijken in ActionChanger."
 	},
 	{
 		"id": "action_rejected_subject",
