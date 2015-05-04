@@ -40,11 +40,11 @@
 		"translation": "Action accepted"
 	},
 	{
-		"id": "action_denied",
+		"id": "action_rejected",
 		"translation": "{{.assignee}} rejected an action you assigned ({{.action_title}}). Click <a href={{.destination_uri}}>here</a> to view it in ActionChanger."
 	},
 	{
-		"id": "action_denied_subject",
+		"id": "action_rejected_subject",
 		"translation": "Action rejected"
 	},
 	{
