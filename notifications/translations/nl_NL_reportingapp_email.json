@@ -1,9 +1,0 @@
-[
-    {
-        "id": "report_shared",
-        "translation": {
-            "one": "{{.sender}} heeft een rapport met je gedeeld, dat {{.X}} over {{.Y}} voor {{.number}} Locatie toont. Klik <a href={{.destination_uri}}>hier</a> om het rapport te bekijken in ReportChanger.",
-            "other": "{{.sender}} heeft een rapport met je gedeeld, dat {{.X}} over {{.Y}} voor {{.number}} Locaties toont. Klik <a href={{.destination_uri}}>hier</a> om het rapport te bekijken in ReportChanger."
-        }
-    }
-]

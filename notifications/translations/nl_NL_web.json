@@ -1,0 +1,198 @@
+[{
+  "id": "incident_action_completed",
+  "translation": "De actie {{.action_title}}, behorende bij het incident {{.incident_name}} is zojuist afgerond door {{.assignee}}."
+},
+{
+  "id": "incident_action_completed_subject",
+  "translation": "Actie afgerond"
+},
+{
+  "id": "new_action",
+  "translation": "Nieuw actieverzoek! {{.action_title}}."
+},
+{
+  "id": "new_action_subject",
+  "translation": "Nieuw actieverzoek"
+},
+{
+  "id": "action_assigned",
+  "translation": "De volgende actie is aan jou toegewezen: {{.action_title}}."
+},
+{
+  "id": "action_assigned_subject",
+  "translation": "Actie toegewezen"
+},
+{
+  "id": "action_completed",
+  "translation": "De volgende actie is zojuist afgerond: {{.action_title}}, toegewezen aan {{.assignee}}."
+},
+{
+  "id": "action_completed_subject",
+  "translation": "Actie afgerond"
+},
+{
+  "id": "action_accepted",
+  "translation": "{{.assignee}} heeft de door jou toegewezen actie geaccepteerd ({{.action_title}})."
+},
+{
+  "id": "action_accepted_subject",
+  "translation": "Actie geaccepteerd"
+},
+{
+  "id": "action_rejected",
+  "translation": "{{.assignee}} heeft de door jou toegewezen actie geweigerd ({{.action_title}})."
+},
+{
+  "id": "action_rejected_subject",
+  "translation": "Actie geweigerd"
+},
+{
+  "id": "action_almost_overdue",
+  "translation": "De volgende actie is bijna over tijd: {{.action_title}}."
+},
+{
+  "id": "action_almost_overdue_subject",
+  "translation": "Actie bijna over tijd"
+},
+{
+  "id": "action_almost_overdue_assignee",
+  "translation": "De volgende actie, toegewezen aan {{.assignee}}, is bijna over tijd: {{.action_title}}."
+},
+{
+  "id": "action_almost_overdue_assignee_subject",
+  "translation": "Actie bijna over tijd"
+},
+{
+  "id": "action_overdue",
+  "translation": "De volgende actie is over tijd: {{.action_title}}."
+},
+{
+  "id": "action_overdue_subject",
+  "translation": "Let op! Actie over tijd"
+},
+{
+  "id": "action_overdue_assignee",
+  "translation": "Let op! De volgende actie, toegewezen aan {{.assignee}}, is over tijd: {{.action_title}}."
+},
+{
+  "id": "action_overdue_assignee_subject",
+  "translation": "Let op! Actie over tijd"
+},
+{
+  "id": "action_reassigned",
+  "translation": "{{.owner}} heeft de actie {{.action_title}} aan iemand anders toegewezen. Je bent niet langer verantwoordelijk voor deze actie."
+},
+{
+  "id": "action_reassigned_subject",
+  "translation": "Actie opnieuw toegewezen"
+},
+{
+  "id": "new_permission",
+  "translation": "Je hebt een nieuwe permissie ontvangen. Je kunt nu {{.app_name}} als {{.role}} gebruiken. Klik hier om naar {{.app_name}} te gaan."
+},
+{
+  "id": "reset_password",
+  "translation": "Je beheerder heeft je wachtwoord gereset. Klik hier om een nieuw wachtwoord aan te maken."
+},
+{
+  "id": "import_success",
+  "translation": {
+    "one": "Import van {{.number}} gebruiker succesvol. Klik hier om AdminChanger te openen en gebruikers te beheren.",
+    "other": "Import van {{.number}} gebruikers succesvol. Klik hier om AdminChanger te openen en gebruikers te beheren."
+  }
+},
+{
+  "id": "incident_action_completed",
+  "translation": "De actie {{.action_title}}, behorende bij incident {{.incident_name}} is zojuist afgerond door {{.assignee}}."
+},
+{
+  "id": "incident_action_completed_subject",
+  "translation": "Actie afgerond"
+},
+{
+  "id": "log_incoming",
+  "translation": "{{.logger}} heeft zojuist een melding met prioriteit {{.severity}} gedaan."
+},
+{
+  "id": "log_incoming_subject",
+  "translation": "Nieuwe melding"
+},
+{
+  "id": "high_prio_log_incoming",
+  "translation": "Let op! {{.logger}} heeft zojuist een melding met prioriteit {{.severity}} gedaan. Mogelijk is directe aandacht vereist."
+},
+{
+  "id": "high_prio_log_incoming_subject",
+  "translation": "Let op! Melding met hoge prioriteit"
+},
+{
+  "id": "action_completed",
+  "translation": "De actie {{.action_title}}, behorende bij incident {{.incident_name}} is zojuist afgerond door {{.assignee}}."
+},
+{
+  "id": "action_completed_subject",
+  "translation": "Actie afgerond"
+},
+{
+  "id": "publication_incoming",
+  "translation": "Nieuwe publicatie beschikbaar! '{{.title}}'."
+},
+{
+  "id": "publication_incoming_subject",
+  "translation": "Nieuwe publicatie"
+},
+{
+  "id": "incident_contribution",
+  "translation": "{{.contributor}} heeft bijgedragen aan jouw incident {{.incident_name}}."
+},
+{
+  "id": "incident_contribution_subject",
+  "translation": "Bijdrage aan incident"
+},
+{
+  "id": "user_contributed_to_incident",
+  "translation": "{{.user}} heeft bijgedragen aan jouw incident {{.incident_title}}."
+},
+{
+  "id": "user_contributed_to_incident_subject",
+  "translation": "Bijdrage aan incident"
+},
+{
+  "id": "incident_assigned",
+  "translation": "Het volgende incident is aan jou toegewezen door {{.assigner}}: {{.incident_name}}."
+},
+{
+  "id": "incident_assigned_subject",
+  "translation": "Incident toegewezen"
+},
+{
+  "id": "incident_not_updated",
+  "translation": "Het volgende incident is al twee weken niet bijgewerkt maar nog wel open: {{.incident_name}}."
+},
+{
+  "id": "incident_not_updated_subject",
+  "translation": "Incident niet bijgewerkt"
+},
+{
+  "id":"log_archived",
+  "translation":"Je melding {{.refnumber}} is gearchiveerd door {{.manager}}."
+},
+{
+  "id":"log_archived_subject",
+  "translation": "Melding gearchiveerd"
+},
+{
+  "id":"log_used",
+  "translation":"Je melding {{.refnumber}} is verwerkt door {{.manager}}."
+},
+{
+  "id":"log_used_subject",
+  "translation": "Melding verwerkt"
+},
+{
+  "id": "report_shared",
+  "translation": {
+    "one": "{{.sender}} heeft een rapport met je gedeeld, dat {{.X}} over {{.Y}} voor {{.number}} Locatie toont. Klik hier om het rapport te bekijken in ReportChanger.",
+    "other": "{{.sender}} heeft een rapport met je gedeeld, dat {{.X}} over {{.Y}} voor {{.number}} Locaties toont. Klik hier om het rapport te bekijken in ReportChanger."
+  }
+}]
