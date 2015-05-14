@@ -5,6 +5,7 @@ python:
 env:
   global:
     - ARTIFACTS_TARGET_PATHS="$TRAVIS_BRANCH/$TRAVIS_JOB_NUMBER:$TRAVIS_BRANCH/latest"
+    - ARTIFACTS_WORKING_DIR: /tmp
     - ARTIFACTS_PERMISSIONS=public-read
     - ARTIFACTS_CACHE_CONTROL='public, max-age=315360000'
     - ARTIFACTS_LOG_FORMAT=multiline
