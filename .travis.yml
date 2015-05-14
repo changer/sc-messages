@@ -1,0 +1,25 @@
+language: python
+python:
+  - "2.7"
+
+env:
+  global:
+    - ARTIFACTS_TARGET_PATHS="$TRAVIS_BRANCH/$TRAVIS_JOB_NUMBER:$TRAVIS_BRANCH/latest"
+    - ARTIFACTS_PERMISSIONS=public-read
+    - ARTIFACTS_CACHE_CONTROL='public, max-age=315360000'
+    - ARTIFACTS_LOG_FORMAT=multiline
+    - ARTIFACTS_DEBUG=1
+
+before_script:
+  - bash validate.sh
+
+script:
+  - tar -cvjf /tmp/messages.tar.bz2 -C notifications/ .
+
+after_success:
+  - artifacts upload /tmp/messages.tar.bz2
+
+notifications:
+  email:
+    - piyush@piyushverma.net
+    - desaiparth08@gmail.com
