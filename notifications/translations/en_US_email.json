@@ -1,0 +1,198 @@
+[{
+  "id": "incident_action_completed",
+  "translation": "The action {{.action_title}}, regarding incident {{.incident_name}} was just completed by {{.assignee}}."
+},
+{
+  "id": "incident_action_completed_subject",
+  "translation": "Action completed"
+},
+{
+  "id": "new_action",
+  "translation": "New action request! {{.action_title}}."
+},
+{
+  "id": "new_action_subject",
+  "translation": "New action request"
+},
+{
+  "id": "action_assigned",
+  "translation": "The following action was assigned to you: {{.action_title}}."
+},
+{
+  "id": "action_assigned_subject",
+  "translation": "An action has been assigned to you"
+},
+{
+  "id": "action_completed",
+  "translation": "The following action was just marked as complete: {{.action_title}}, assigned to {{.assignee}}. Click <a href={{.destination_uri}}>here</a> to view it in ActionChanger."
+},
+{
+  "id": "action_completed_subject",
+  "translation": "Action completed"
+},
+{
+  "id": "action_accepted",
+  "translation": "{{.assignee}} accepted an action you assigned ({{.action_title}}). Click <a href={{.destination_uri}}>here</a> to view it in ActionChanger."
+},
+{
+  "id": "action_accepted_subject",
+  "translation": "Action accepted"
+},
+{
+  "id": "action_rejected",
+  "translation": "{{.assignee}} rejected an action you assigned ({{.action_title}}). Click <a href={{.destination_uri}}>here</a> to view it in ActionChanger."
+},
+{
+  "id": "action_rejected_subject",
+  "translation": "Action rejected"
+},
+{
+  "id": "action_almost_overdue",
+  "translation": "The following action is almost overdue: {{.action_title}}"
+},
+{
+  "id": "action_almost_overdue_subject",
+  "translation": "Action almost overdue"
+},
+{
+  "id": "action_almost_overdue_assignee",
+  "translation": "The following action is almost overdue: {{.action_title}}, assigned to {{.assignee}}. Click <a href={{.destination_uri}}>here</a> to view it in ActionChanger."
+},
+{
+  "id": "action_almost_overdue_assignee_subject",
+  "translation": "Action almost overdue"
+},
+{
+  "id": "action_overdue",
+  "translation": "Warning! The following action is overdue: {{.action_title}}."
+},
+{
+  "id": "action_overdue_subject",
+  "translation": "Action overdue"
+},
+{
+  "id": "action_overdue_assignee",
+  "translation": "Warning! The following action is overdue: {{.action_title}}, assigned to {{.assignee}}. Click <a href={{.destination_uri}}>here</a> to view it in ActionChanger."
+},
+{
+  "id": "action_overdue_assignee_subject",
+  "translation": "Action overdue"
+},
+{
+  "id": "action_reassigned",
+  "translation": "{{.owner}} has reassigned the action {{.action_title}} to someone else. You are no longer responsible."
+},
+{
+  "id": "action_reassigned_subject",
+  "translation": "Action reassigned"
+},
+{
+  "id": "new_permission",
+  "translation": "A new permission was given to you. You can now use {{.app_name}} as a/an {{.role}}. Click <a href={{.destination_uri}}>here</a> to go to {{.app_name}}."
+},
+{
+  "id": "reset_password",
+  "translation": "Your administrator has reset your password. Click <a href={{.destination_uri}}>here</a> to create a new password."
+},
+{
+  "id": "import_success",
+  "translation": {
+    "one": "Successfully imported {{.number}} user. Click <a href={{.destination_uri}}>here</a> to open AdminChanger and manage users.",
+    "other": "Successfully imported {{.number}} users. Click <a href={{.destination_uri}}>here</a> to open AdminChanger and manage users."
+  }
+},
+{
+  "id": "incident_action_completed",
+  "translation": "The action {{.action_title}}, regarding incident {{.incident_name}} was just completed by {{.assignee}}."
+},
+{
+  "id": "incident_action_completed_subject",
+  "translation": "Action completed"
+},
+{
+  "id": "log_incoming",
+  "translation": "A new log with severity {{.severity}} was just submitted by {{.logger}}. Click <a href={{.destination_uri}}>here</a> to view it in IncidentChanger."
+},
+{
+  "id": "log_incoming_subject",
+  "translation": "New log"
+},
+{
+  "id": "high_prio_log_incoming",
+  "translation": "Warning! A new log with severity {{.severity}} was just submitted by {{.logger}}. This might require your immediate attention. Click <a href={{.destination_uri}}>here</a> to view it in IncidentChanger."
+},
+{
+  "id": "high_prio_log_incoming_subject",
+  "translation": "Warning! High priority log"
+},
+{
+  "id": "action_completed",
+  "translation": "The action {{.action_title}}, regarding incident {{.incident_name}} was just completed by {{.assignee}}. Click <a href={{.destination_uri}}>here</a> to view it in ActionChanger."
+},
+{
+  "id": "action_completed_subject",
+  "translation": "Action completed"
+},
+{
+  "id": "publication_incoming",
+  "translation": "New publication available! '{{.title}}'."
+},
+{
+  "id": "publication_incoming_subject",
+  "translation": "New publication available!"
+},
+{
+  "id": "incident_contribution",
+  "translation": "{{.contributor}} contributed to your incident: {{.incident_name}}. Click <a href={{.destination_uri}}>here</a> to view it in IncidentChanger."
+},
+{
+  "id": "incident_contribution_subject",
+  "translation": "New contribution"
+},
+{
+  "id": "user_contributed_to_incident",
+  "translation": "{{.user}} contributed to your incident {{.incident_title}}."
+},
+{
+  "id": "user_contributed_to_incident_subject",
+  "translation": "Incident contribution"
+},
+{
+  "id": "incident_assigned",
+  "translation": "The following incident was assigned to you by {{.assigner}}: {{.incident_name}}. Click <a href={{.destination_uri}}>here</a> to view it in IncidentChanger."
+},
+{
+  "id": "incident_assigned_subject",
+  "translation": "Incident assigned"
+},
+{
+  "id": "incident_not_updated",
+  "translation": "The following incident has not been updated for two weeks and is still open: {{.incident_name}}. Click <a href={{.destination_uri}}>here</a> to view it in IncidentChanger."
+},
+{
+  "id": "incident_not_updated_subject",
+  "translation": "Incident pending"
+},
+{
+  "id":"log_archived",
+  "translation":"Your log {{.refnumber}} has been archived by {{.manager}}."
+},
+{
+  "id":"log_archived_subject",
+  "translation": "Log archived"
+},
+{
+  "id":"log_used",
+  "translation":"Your log {{.refnumber}} was used by {{.manager}} to create an incident."
+},
+{
+  "id":"log_used_subject",
+  "translation": "Log used for incident"
+},
+{
+  "id": "report_shared",
+  "translation": {
+    "one": "A report was shared with you by {{.sender}} showing {{.X}} over {{.Y}} for {{.number}} Location. Click <a href={{.destination_uri}}>here</a> to view it in ReportChanger.",
+    "other": "A report was shared with you by {{.sender}} showing {{.X}} over {{.Y}} for {{.number}} Locations. Click <a href={{.destination_uri}}>here</a> to view it in ReportChanger."
+  }
+}]
