@@ -173,4 +173,8 @@
 {
   "id":"log_used_subject",
   "translation": "Melding verwerkt"
+},
+{
+  "id":"no_log_reported",
+  "translation": "Hallo! Welkom bij IncidentChanger. Neem even tijd om een eerste melding te maken!"
 }]

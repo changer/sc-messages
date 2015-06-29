@@ -173,4 +173,8 @@
 {
   "id":"log_used_subject",
   "translation": "Log used for incident"
+},
+{
+  "id":"no_log_reported",
+  "translation": "Hi! Welcome to IncidentChanger. Take a minute to try out logging an issue!"
 }]

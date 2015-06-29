@@ -190,6 +190,10 @@
   "translation": "Melding verwerkt"
 },
 {
+  "id":"no_log_reported",
+  "translation": "Hallo! Welkom bij IncidentChanger. Neem even tijd om een eerste melding te maken!"
+},
+{
   "id": "report_shared",
   "translation": {
     "one": "{{.sender}} heeft een rapport met je gedeeld, dat {{.X}} over {{.Y}} voor {{.number}} Locatie toont. Klik <a href={{.destination_uri}}>hier</a> om het rapport te bekijken in ReportChanger.",

@@ -190,6 +190,10 @@
   "translation": "Log used for incident"
 },
 {
+  "id":"no_log_reported",
+  "translation": "Hi! Welcome to IncidentChanger. Take a minute to try out logging an issue!"
+},
+{
   "id": "report_shared",
   "translation": {
     "one": "A report was shared with you by {{.sender}} showing {{.X}} over {{.Y}} for {{.number}} Location. Click <a href={{.destination_uri}}>here</a> to view it in ReportChanger.",
