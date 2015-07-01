@@ -127,7 +127,7 @@
 },
 {
   "id": "action_completed",
-  "translation": "De actie {{.action_title}}, behorende bij incident {{.incident_name}} is zojuist afgerond door {{.assignee}}."
+  "translation": "De volgende actie is zojuist afgerond: {{.action_title}}, toegewezen aan {{.assignee}}."
 },
 {
   "id": "action_completed_subject",
