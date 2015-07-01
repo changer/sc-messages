@@ -126,10 +126,6 @@
   "translation": "Let op! Melding met hoge prioriteit"
 },
 {
-  "id": "action_completed",
-  "translation": "De volgende actie is zojuist afgerond: {{.action_title}}, toegewezen aan {{.assignee}}."
-},
-{
   "id": "action_completed_subject",
   "translation": "Actie afgerond"
 },

@@ -126,10 +126,6 @@
   "translation": "Let op! Melding met hoge prioriteit"
 },
 {
-  "id": "action_completed",
-  "translation": "De actie {{.action_title}}, behorende bij incident {{.incident_name}} is zojuist afgerond door {{.assignee}}. Klik <a href={{.destination_uri}}>hier</a> om de actie te bekijken in ActionChanger."
-},
-{
   "id": "action_completed_subject",
   "translation": "Actie afgerond"
 },

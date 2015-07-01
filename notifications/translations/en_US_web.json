@@ -23,10 +23,6 @@
   "translation": "An action has been assigned to you"
 },
 {
-  "id": "action_completed",
-  "translation": "The following action was just marked as complete: {{.action_title}}, assigned to {{.assignee}}."
-},
-{
   "id": "action_completed_subject",
   "translation": "Action completed"
 },

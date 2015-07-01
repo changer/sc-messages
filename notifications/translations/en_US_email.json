@@ -126,10 +126,6 @@
   "translation": "Warning! High priority log"
 },
 {
-  "id": "action_completed",
-  "translation": "The action {{.action_title}}, regarding incident {{.incident_name}} was just completed by {{.assignee}}. Click <a href={{.destination_uri}}>here</a> to view it in ActionChanger."
-},
-{
   "id": "action_completed_subject",
   "translation": "Action completed"
 },
