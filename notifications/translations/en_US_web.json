@@ -127,7 +127,7 @@
 },
 {
   "id": "action_completed",
-  "translation": "The action {{.action_title}}, regarding incident {{.incident_name}} was just completed by {{.assignee}}."
+  "translation": "The following action was just marked as complete: {{.action_title}}, assigned to {{.assignee}}."
 },
 {
   "id": "action_completed_subject",
