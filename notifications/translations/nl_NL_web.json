@@ -24,7 +24,7 @@
 },
 {
   "id": "action_completed",
-  "translation": "De volgende actie is zojuist afgerond: {{.action_title}}, toegewezen aan {{.assignee}}."
+  "translation": "De actie {{.action_title}} is zojuist afgerond door {{.assignee}}."
 },
 {
   "id": "action_completed_subject",
@@ -102,14 +102,6 @@
   }
 },
 {
-  "id": "incident_action_completed",
-  "translation": "De actie {{.action_title}}, behorende bij incident {{.incident_name}} is zojuist afgerond door {{.assignee}}."
-},
-{
-  "id": "incident_action_completed_subject",
-  "translation": "Actie afgerond"
-},
-{
   "id": "log_incoming",
   "translation": "{{.logger}} heeft zojuist een melding met prioriteit {{.severity}} gedaan."
 },
@@ -124,10 +116,6 @@
 {
   "id": "high_prio_log_incoming_subject",
   "translation": "Let op! Melding met hoge prioriteit"
-},
-{
-  "id": "action_completed_subject",
-  "translation": "Actie afgerond"
 },
 {
   "id": "publication_incoming",

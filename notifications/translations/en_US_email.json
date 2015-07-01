@@ -1,6 +1,6 @@
 [{
   "id": "incident_action_completed",
-  "translation": "The action {{.action_title}}, regarding incident {{.incident_name}} was just completed by {{.assignee}}."
+  "translation": "The action {{.action_title}}, regarding incident {{.incident_name}} was just completed by {{.assignee}}. Click <a href={{.destination_uri}}>here</a> to view it in ActionChanger."
 },
 {
   "id": "incident_action_completed_subject",
@@ -24,7 +24,7 @@
 },
 {
   "id": "action_completed",
-  "translation": "The following action was just marked as complete: {{.action_title}}, assigned to {{.assignee}}. Click <a href={{.destination_uri}}>here</a> to view it in ActionChanger."
+  "translation": "The action {{.action_title}} was just completed by {{.assignee}}. Click <a href={{.destination_uri}}>here</a> to view it in ActionChanger."
 },
 {
   "id": "action_completed_subject",
@@ -102,14 +102,6 @@
   }
 },
 {
-  "id": "incident_action_completed",
-  "translation": "The action {{.action_title}}, regarding incident {{.incident_name}} was just completed by {{.assignee}}."
-},
-{
-  "id": "incident_action_completed_subject",
-  "translation": "Action completed"
-},
-{
   "id": "log_incoming",
   "translation": "A new log with severity {{.severity}} was just submitted by {{.logger}}. Click <a href={{.destination_uri}}>here</a> to view it in IncidentChanger."
 },
@@ -124,10 +116,6 @@
 {
   "id": "high_prio_log_incoming_subject",
   "translation": "Warning! High priority log"
-},
-{
-  "id": "action_completed_subject",
-  "translation": "Action completed"
 },
 {
   "id": "publication_incoming",
