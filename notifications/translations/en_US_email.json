@@ -189,10 +189,10 @@
   }
 },
 {
-  "id": "user_not_loggedin",
+  "id": "user_not_logged_in",
   "translation": "How are you doing? We noticed you didn’t login yet. Satisfied? Questions? Reach out to support. Busy? We hope you’ll find time to use our great product."
 },
 {
-  "id":"user_not_loggedin_subject",
+  "id":"user_not_logged_in_subject",
   "translation": "Hi! Welcome to IncidentChanger!"
 }]
