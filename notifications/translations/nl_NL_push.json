@@ -161,4 +161,8 @@
 {
   "id":"no_log_reported",
   "translation": "Hallo! Welkom bij IncidentChanger. Neem even tijd om een eerste melding te maken!"
+},
+{
+  "id": "inspection_template_assigned",
+  "translation": "{{ .assigner }} has assigned a new inspection template {{ .template_name }} to you."
 }]

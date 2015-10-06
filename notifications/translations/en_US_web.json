@@ -183,4 +183,8 @@
     "one": "A report was shared with you by {{.sender}} showing {{.X}} over {{.Y}} for {{.number}} Location. Click here to view it in ReportChanger.",
     "other": "A report was shared with you by {{.sender}} showing {{.X}} over {{.Y}} for {{.number}} Locations. Click here to view it in ReportChanger."
   }
+},
+{
+  "id": "inspection_template_assigned",
+  "translation": "{{ .assigner }} has assigned a new inspection template {{ .template_name }} to you."
 }]

@@ -183,4 +183,8 @@
     "one": "{{.sender}} heeft een rapport met je gedeeld, dat {{.X}} over {{.Y}} voor {{.number}} Locatie toont. Klik hier om het rapport te bekijken in ReportChanger.",
     "other": "{{.sender}} heeft een rapport met je gedeeld, dat {{.X}} over {{.Y}} voor {{.number}} Locaties toont. Klik hier om het rapport te bekijken in ReportChanger."
   }
+},
+{
+  "id": "inspection_template_assigned",
+  "translation": "{{ .assigner }} has assigned a new inspection template {{ .template_name }} to you."
 }]

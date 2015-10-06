@@ -165,4 +165,8 @@
 {
   "id": "user_not_logged_in",
   "translation": "How are you doing? We noticed you didn’t login yet. Satisfied? Questions? Reach out to support. Busy? We hope you’ll find time to use our great product."
+},
+{
+  "id": "inspection_template_assigned",
+  "translation": "{{ .assigner }} has assigned a new inspection template {{ .template_name }} to you."
 }]

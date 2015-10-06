@@ -203,4 +203,8 @@
 {
   "id":"customer_2nd_reminder_subject",
   "translation": "Hi! Welcome to IncidentChanger!"
+},
+{
+  "id": "inspection_template_assigned",
+  "translation": "{{ .assigner }} has assigned a new inspection template {{ .template_name }} to you."
 }]
