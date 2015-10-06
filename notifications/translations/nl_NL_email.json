@@ -186,5 +186,5 @@
 },
 {
   "id": "inspection_template_assigned",
-  "translation": "{{ .assigner }} has assigned a new inspection template {{ .template_name }} to you."
+  "translation": "{{ .assigner }} heeft een nieuwe inspectie {{ .template_name }} aan je toegewezen."
 }]
