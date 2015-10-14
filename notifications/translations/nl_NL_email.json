@@ -40,7 +40,7 @@
 },
 {
   "id": "action_rejected",
-  "translation": "{{.assignee}} heeft de door jou toegewezen actie geweigerd ({{.action_title}}). Klik <a href={{.destination_uri}}>hier</a> om de actie te bekijken in ActionChanger."
+  "translation": "{{.assignee}} heeft een actie geweigerd en weer toegewezen aan jou ({{.action_title}}). Klik <a href={{.destination_uri}}>hier</a> om de actie te bekijken in ActionChanger."
 },
 {
   "id": "action_rejected_subject",

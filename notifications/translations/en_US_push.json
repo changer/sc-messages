@@ -40,7 +40,7 @@
 },
 {
   "id": "action_rejected",
-  "translation": "{{.assignee}} rejected an action you assigned ({{.action_title}})."
+  "translation": "{{.assignee}} rejected and assigned an action back to you ({{.action_title}})."
 },
 {
   "id": "action_rejected_subject",

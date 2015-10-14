@@ -40,7 +40,7 @@
 },
 {
   "id": "action_rejected",
-  "translation": "{{.assignee}} heeft de door jou toegewezen actie geweigerd ({{.action_title}})."
+  "translation": "{{.assignee}} heeft een actie geweigerd en weer toegewezen aan jou ({{.action_title}})."
 },
 {
   "id": "action_rejected_subject",
