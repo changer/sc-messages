@@ -191,4 +191,12 @@
 {
   "id": "inspection_template_assigned_subject",
   "translation": "Nieuwe inspectie template toegewezen"
+},
+{
+  "id": "inspection_completed",
+  "translation": "{{ .user }} heeft inspection '{{ .template_name }}' voltooid"
+},
+{
+  "id": "inspection_completed_subject",
+  "translation": "Inspectie voltooid"
 }]
