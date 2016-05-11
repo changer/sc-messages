@@ -194,7 +194,7 @@
 },
 {
   "id": "inspection_completed",
-  "translation": "{{ .user }} heeft inspection '{{ .template_name }}' voltooid"
+  "translation": "{{ .user }} heeft inspectie '{{ .template_name }}' voltooid"
 },
 {
   "id": "inspection_completed_subject",
