@@ -103,7 +103,7 @@
 },
 {
   "id": "log_incoming",
-  "translation": "{{.logger}} heeft zojuist een melding met prioriteit {{.severity}} gedaan. Klik <a href={{.destination_uri}}>hier</a> om de actie te bekijken in IncidentChanger."
+  "translation": "{{.logger}} heeft zojuist een melding met prioriteit {{.severity}} gedaan. Klik <a href={{.destination_uri}}>hier</a> om de melding te bekijken in IncidentChanger."
 },
 {
   "id": "log_incoming_subject",
