@@ -214,7 +214,7 @@
 },
 {
   "id": "inspection_completed",
-  "translation": "{{ .user }} has completed inspection '{{ .template_name }}'"
+  "translation": "{{ .user }} has completed inspection '{{ .template_name }}'. Click <a href={{.destination_uri}}>here</a> to view the inspection."
 },
 {
   "id": "inspection_completed_subject",
