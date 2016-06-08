@@ -118,6 +118,22 @@
   "translation": "Let op! Melding met hoge prioriteit"
 },
 {
+  "id": "inspection_log_incoming",
+  "translation": "{{.logger}} heeft zojuist een melding met prioriteit {{.severity}} gedaan. Deze melding is automatisch gegenereerd vanuit inspectie '{{ .template_name }} #{{ .inspection_number }}'."
+},
+{
+  "id": "inspection_log_incoming_subject",
+  "translation": "Nieuwe melding gegenereerd vanuit een inspectie"
+},
+{
+  "id": "inspection_high_prio_log_incoming",
+  "translation": "Let op! {{.logger}} heeft zojuist een melding met prioriteit {{.severity}} gedaan. Mogelijk is directe aandacht vereist. Deze melding is automatisch gegenereerd vanuit inspectie '{{ .template_name }} #{{ .inspection_number }}'."
+},
+{
+  "id": "inspection_high_prio_log_incoming_subject",
+  "translation": "Let op! Nieuwe melding met hoge prioriteit gegenereerd vanuit een inspectie"
+},
+{
   "id": "publication_incoming",
   "translation": "Nieuwe publicatie beschikbaar! '{{.title}}'."
 },

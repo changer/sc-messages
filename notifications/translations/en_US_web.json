@@ -118,6 +118,22 @@
   "translation": "Warning! High priority log"
 },
 {
+  "id": "inspection_log_incoming",
+  "translation": "A new log with severity {{.severity}} was just submitted by {{.logger}}. This log has been automatically generated from inspection '{{ .template_name }} #{{ .inspection_number }}'."
+},
+{
+  "id": "inspection_log_incoming_subject",
+  "translation": "New log generated from inspection"
+},
+{
+  "id": "inspection_high_prio_log_incoming",
+  "translation": "Warning! A new log with severity {{.severity}} was just submitted by {{.logger}}. This might require your immediate attention. This log has been automatically generated from inspection '{{ .template_name }} #{{ .inspection_number }}'."
+},
+{
+  "id": "inspection_high_prio_log_incoming_subject",
+  "translation": "Warning! High priority log generated from inspection"
+},
+{
   "id": "publication_incoming",
   "translation": "New publication available! '{{.title}}'."
 },
