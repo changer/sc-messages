@@ -1,6 +1,6 @@
 [{
   "id": "incident_action_completed",
-  "translation": "De actie {{.action_title}}, behorende bij het incident {{.incident_name}} is zojuist afgerond door {{.assignee}}."
+  "translation": "De actie {{.action_title}}, behorende bij de casefile {{.casefile_name}} is zojuist afgerond door {{.assignee}}."
 },
 {
   "id": "incident_action_completed_subject",
@@ -88,7 +88,7 @@
 },
 {
   "id": "log_incoming",
-  "translation": "{{.logger}} heeft zojuist een melding met prioriteit {{.severity}} gedaan."
+  "translation": "{{.observator}} heeft zojuist een melding met prioriteit {{.severity}} gedaan."
 },
 {
   "id": "log_incoming_subject",
@@ -96,7 +96,7 @@
 },
 {
   "id": "high_prio_log_incoming",
-  "translation": "Let op! {{.logger}} heeft zojuist een melding met prioriteit {{.severity}} gedaan. Mogelijk is directe aandacht vereist."
+  "translation": "Let op! {{.observator}} heeft zojuist een melding met prioriteit {{.severity}} gedaan. Mogelijk is directe aandacht vereist."
 },
 {
   "id": "high_prio_log_incoming_subject",
@@ -112,35 +112,35 @@
 },
 {
   "id": "incident_contribution",
-  "translation": "{{.contributor}} heeft bijgedragen aan jouw incident {{.incident_name}}."
+  "translation": "{{.contributor}} heeft bijgedragen aan jouw casefile {{.casefile_name}}."
 },
 {
   "id": "incident_contribution_subject",
-  "translation": "Bijdrage aan incident"
+  "translation": "Bijdrage aa casefile"
 },
 {
   "id": "user_contributed_to_incident",
-  "translation": "{{.user}} heeft bijgedragen aan jouw incident {{.incident_title}}."
+  "translation": "{{.user}} heeft bijgedragen aan jouw casefile {{.casefile_name}}."
 },
 {
   "id": "user_contributed_to_incident_subject",
-  "translation": "Bijdrage aan incident"
+  "translation": "Bijdrage aa casefile"
 },
 {
   "id": "incident_assigned",
-  "translation": "Het volgende incident is aan jou toegewezen door {{.assigner}}: {{.incident_name}}."
+  "translation": "De volgende casefile is aan jou toegewezen door {{.assigner}}: {{.casefile_name}}."
 },
 {
   "id": "incident_assigned_subject",
-  "translation": "Incident toegewezen"
+  "translation": "Casefile toegewezen"
 },
 {
   "id": "incident_not_updated",
-  "translation": "Het volgende incident is al twee weken niet bijgewerkt maar nog wel open: {{.incident_name}}."
+  "translation": "De volgende casefile is al twee weken niet bijgewerkt maar nog wel open: {{.casefile_name}}."
 },
 {
   "id": "incident_not_updated_subject",
-  "translation": "Incident niet bijgewerkt"
+  "translation": "Casefile niet bijgewerkt"
 },
 {
   "id":"log_archived",
@@ -160,7 +160,7 @@
 },
 {
   "id":"no_log_reported",
-  "translation": "Hallo! Welkom bij IncidentChanger. Neem even tijd om een eerste melding te maken!"
+  "translation": "Hallo! Welkom bij ObservationChanger. Neem even tijd om een eerste melding te maken!"
 },
 {
   "id": "inspection_template_assigned",
