@@ -4,7 +4,7 @@
 },
 {
   "id": "incident_action_completed_subject",
-  "translation": "Actie afgerond"
+  "translation": "Actie voltooid"
 },
 {
   "id": "new_action",
@@ -16,7 +16,7 @@
 },
 {
   "id": "action_assigned",
-  "translation": "De volgende actie is aan jou toegewezen: {{.action_title}}."
+  "translation": "De volgende actie is aan jou toegewezen: {{.action_title}}. Accepteer en voltooi de actie in de app 'ActionChanger' op je mobiele toestel"
 },
 {
   "id": "action_assigned_subject",
@@ -28,7 +28,7 @@
 },
 {
   "id": "action_completed_subject",
-  "translation": "Actie afgerond"
+  "translation": "Actie voltooid"
 },
 {
   "id": "action_accepted",
@@ -48,35 +48,35 @@
 },
 {
   "id": "action_almost_overdue",
-  "translation": "De volgende actie is bijna over tijd: {{.action_title}}."
+  "translation": "De volgende actie nadert de gestelde deadline: {{.action_title}}."
 },
 {
   "id": "action_almost_overdue_subject",
-  "translation": "Actie bijna over tijd"
+  "translation": "Actie nadert de gestelde deadline"
 },
 {
   "id": "action_almost_overdue_assignee",
-  "translation": "De volgende actie, toegewezen aan {{.assignee}}, is bijna over tijd: {{.action_title}}. Klik <a href={{.destination_uri}}>hier</a> om deze actie te bekijken."
+  "translation": "De volgende actie, toegewezen aan {{.assignee}}, nadert de gestelde deadline: {{.action_title}}. Klik <a href={{.destination_uri}}>hier</a> om deze actie te bekijken."
 },
 {
   "id": "action_almost_overdue_assignee_subject",
-  "translation": "Actie bijna over tijd"
+  "translation": "Actie nadert de gestelde deadline"
 },
 {
   "id": "action_overdue",
-  "translation": "De volgende actie is over tijd: {{.action_title}}."
+  "translation": "De deadline voor de volgende actie is verstreken: {{.action_title}}."
 },
 {
   "id": "action_overdue_subject",
-  "translation": "Let op! Actie over tijd"
+  "translation": "Let op! Deadline van actie verstreken"
 },
 {
   "id": "action_overdue_assignee",
-  "translation": "Let op! De volgende actie, toegewezen aan {{.assignee}}, is over tijd: {{.action_title}}. Klik <a href={{.destination_uri}}>hier</a> om deze actie te bekijken."
+  "translation": "Let op! De deadline voor de volgende actie, toegewezen aan {{.assignee}}, is verstreken: {{.action_title}}. Klik <a href={{.destination_uri}}>hier</a> om deze actie te bekijken."
 },
 {
   "id": "action_overdue_assignee_subject",
-  "translation": "Let op! Actie over tijd"
+  "translation": "Let op! Deadline van actie verstreken"
 },
 {
   "id": "action_reassigned",
@@ -103,35 +103,35 @@
 },
 {
   "id": "log_incoming",
-  "translation": "{{.observer}} heeft zojuist een melding met prioriteit {{.severity}} gedaan. Klik <a href={{.destination_uri}}>hier</a> om deze melding te bekijken."
+  "translation": "{{.observer}} heeft zojuist een observatie met prioriteit {{.severity}} gedaan. Klik <a href={{.destination_uri}}>hier</a> om deze observatie te bekijken."
 },
 {
   "id": "log_incoming_subject",
-  "translation": "Nieuwe melding"
+  "translation": "Nieuwe observatie"
 },
 {
   "id": "high_prio_log_incoming",
-  "translation": "Let op! {{.observer}} heeft zojuist een melding met prioriteit {{.severity}} gedaan. Mogelijk is directe aandacht vereist. Klik <a href={{.destination_uri}}>hier</a> om deze melding te bekijken."
+  "translation": "Let op! {{.observer}} heeft zojuist een observatie met prioriteit {{.severity}} gedaan. Mogelijk is directe aandacht vereist. Klik <a href={{.destination_uri}}>hier</a> om deze observatie te bekijken."
 },
 {
   "id": "high_prio_log_incoming_subject",
-  "translation": "Let op! Melding met hoge prioriteit"
+  "translation": "Let op! Observatie met hoge prioriteit"
 },
 {
   "id": "inspection_log_incoming",
-  "translation": "{{.observer}} heeft zojuist een melding met prioriteit {{.severity}} gedaan. Deze melding is automatisch gegenereerd vanuit inspectie '{{ .template_name }} #{{ .inspection_number }}'. Klik <a href={{.destination_uri}}>hier</a> om deze melding te bekijken."
+  "translation": "{{.observer}} heeft zojuist een observatie met prioriteit {{.severity}} gedaan. Deze observatie is automatisch gegenereerd vanuit inspectie '{{ .template_name }} #{{ .inspection_number }}'. Klik <a href={{.destination_uri}}>hier</a> om deze observatie te bekijken."
 },
 {
   "id": "inspection_log_incoming_subject",
-  "translation": "Nieuwe melding gegenereerd vanuit een inspectie"
+  "translation": "Nieuwe observatie gegenereerd vanuit een inspectie"
 },
 {
   "id": "inspection_high_prio_log_incoming",
-  "translation": "Let op! {{.observer}} heeft zojuist een melding met prioriteit {{.severity}} gedaan. Mogelijk is directe aandacht vereist. Deze melding is automatisch gegenereerd vanuit inspectie '{{ .template_name }} #{{ .inspection_number }}'. Klik <a href={{.destination_uri}}>hier</a> om deze melding te bekijken."
+  "translation": "Let op! {{.observer}} heeft zojuist een observatie met prioriteit {{.severity}} gedaan. Mogelijk is directe aandacht vereist. Deze observatie is automatisch gegenereerd vanuit inspectie '{{ .template_name }} #{{ .inspection_number }}'. Klik <a href={{.destination_uri}}>hier</a> om deze observatie te bekijken."
 },
 {
   "id": "inspection_high_prio_log_incoming_subject",
-  "translation": "Let op! Nieuwe melding met hoge prioriteit gegenereerd vanuit een inspectie"
+  "translation": "Let op! Nieuwe observatie met hoge prioriteit gegenereerd vanuit een inspectie"
 },
 {
   "id": "publication_incoming",
@@ -175,23 +175,23 @@
 },
 {
   "id":"log_archived",
-  "translation":"Je melding {{.refnumber}} is gearchiveerd door {{.manager}}."
+  "translation":"Bedankt voor je observatie! Je observatie {{.refnumber}} is gearchiveerd door {{.manager}}."
 },
 {
   "id":"log_archived_subject",
-  "translation": "Melding gearchiveerd"
+  "translation": "Observatie gearchiveerd"
 },
 {
   "id":"log_used",
-  "translation":"Je melding {{.refnumber}} is verwerkt door {{.manager}}."
+  "translation":"Je observatie {{.refnumber}} wordt behandeld door {{.manager}}."
 },
 {
   "id":"log_used_subject",
-  "translation": "Melding verwerkt"
+  "translation": "Observatie in behandeling"
 },
 {
   "id":"no_log_reported",
-  "translation": "Hallo! Welkom bij Observations. Neem even tijd om een eerste melding te maken!"
+  "translation": "Hallo! Welkom bij ObservationChanger. Neem even tijd om een eerste observatie te maken!"
 },
 {
   "id": "report_shared",
@@ -206,7 +206,7 @@
 },
 {
   "id": "inspection_template_assigned_subject",
-  "translation": "Nieuwe inspectie template toegewezen"
+  "translation": "Nieuwe inspectie toegewezen"
 },
 {
   "id": "inspection_completed",
