@@ -1,6 +1,6 @@
 [{
   "id": "incident_action_completed",
-  "translation": "The action {{.action_title}}, regarding incident {{.incident_name}} was just completed by {{.assignee}}. Click <a href={{.destination_uri}}>here</a> to view it in ActionChanger."
+  "translation": "The action {{.action_title}}, regarding case file {{.casefile_name}} was just completed by {{.assignee}}. Click <a href={{.destination_uri}}>here</a> to view this action."
 },
 {
   "id": "incident_action_completed_subject",
@@ -24,7 +24,7 @@
 },
 {
   "id": "action_completed",
-  "translation": "The action {{.action_title}} was just completed by {{.assignee}}. Click <a href={{.destination_uri}}>here</a> to view it in ActionChanger."
+  "translation": "The action {{.action_title}} was just completed by {{.assignee}}. Click <a href={{.destination_uri}}>here</a> to view this action."
 },
 {
   "id": "action_completed_subject",
@@ -32,7 +32,7 @@
 },
 {
   "id": "action_accepted",
-  "translation": "{{.assignee}} accepted an action you assigned ({{.action_title}}). Click <a href={{.destination_uri}}>here</a> to view it in ActionChanger."
+  "translation": "{{.assignee}} accepted an action you assigned ({{.action_title}}). Click <a href={{.destination_uri}}>here</a> to view this action."
 },
 {
   "id": "action_accepted_subject",
@@ -40,7 +40,7 @@
 },
 {
   "id": "action_rejected",
-  "translation": "{{.assignee}} rejected and assigned an action back to you ({{.action_title}}). Click <a href={{.destination_uri}}>here</a> to view it in ActionChanger."
+  "translation": "{{.assignee}} rejected and assigned an action back to you ({{.action_title}}). Click <a href={{.destination_uri}}>here</a> to view this action."
 },
 {
   "id": "action_rejected_subject",
@@ -56,7 +56,7 @@
 },
 {
   "id": "action_almost_overdue_assignee",
-  "translation": "The following action is almost overdue: {{.action_title}}, assigned to {{.assignee}}. Click <a href={{.destination_uri}}>here</a> to view it in ActionChanger."
+  "translation": "The following action is almost overdue: {{.action_title}}, assigned to {{.assignee}}. Click <a href={{.destination_uri}}>here</a> to view this action."
 },
 {
   "id": "action_almost_overdue_assignee_subject",
@@ -72,7 +72,7 @@
 },
 {
   "id": "action_overdue_assignee",
-  "translation": "Warning! The following action is overdue: {{.action_title}}, assigned to {{.assignee}}. Click <a href={{.destination_uri}}>here</a> to view it in ActionChanger."
+  "translation": "Warning! The following action is overdue: {{.action_title}}, assigned to {{.assignee}}. Click <a href={{.destination_uri}}>here</a> to view this action."
 },
 {
   "id": "action_overdue_assignee_subject",
@@ -103,35 +103,35 @@
 },
 {
   "id": "log_incoming",
-  "translation": "A new log with severity {{.severity}} was just submitted by {{.logger}}. Click <a href={{.destination_uri}}>here</a> to view it in IncidentChanger."
+  "translation": "A new observation with severity {{.severity}} was just submitted by {{.observer}}. Click <a href={{.destination_uri}}>here</a> to view this observation."
 },
 {
   "id": "log_incoming_subject",
-  "translation": "New log"
+  "translation": "New observation"
 },
 {
   "id": "high_prio_log_incoming",
-  "translation": "Warning! A new log with severity {{.severity}} was just submitted by {{.logger}}. This might require your immediate attention. Click <a href={{.destination_uri}}>here</a> to view it in IncidentChanger."
+  "translation": "Warning! A new observation with severity {{.severity}} was just submitted by {{.observer}}. This might require your immediate attention. Click <a href={{.destination_uri}}>here</a> to view this observation."
 },
 {
   "id": "high_prio_log_incoming_subject",
-  "translation": "Warning! High priority log"
+  "translation": "Warning! High priority observation"
 },
 {
   "id": "inspection_log_incoming",
-  "translation": "A new log with severity {{.severity}} was just submitted by {{.logger}}. This log has been automatically generated from inspection '{{ .template_name }} #{{ .inspection_number }}'. Click <a href={{.destination_uri}}>here</a> to view it in IncidentChanger."
+  "translation": "A new observation with severity {{.severity}} was just submitted by {{.observer}}. This observation has been automatically generated from inspection '{{ .template_name }} #{{ .inspection_number }}'. Click <a href={{.destination_uri}}>here</a> to view this observation."
 },
 {
   "id": "inspection_log_incoming_subject",
-  "translation": "New log generated from inspection"
+  "translation": "New observation generated from inspection"
 },
 {
   "id": "inspection_high_prio_log_incoming",
-  "translation": "Warning! A new log with severity {{.severity}} was just submitted by {{.logger}}. This might require your immediate attention. This log has been automatically generated from inspection '{{ .template_name }} #{{ .inspection_number }}'. Click <a href={{.destination_uri}}>here</a> to view it in IncidentChanger."
+  "translation": "Warning! A new observation with severity {{.severity}} was just submitted by {{.observer}}. This might require your immediate attention. This observation has been automatically generated from inspection '{{ .template_name }} #{{ .inspection_number }}'. Click <a href={{.destination_uri}}>here</a> to view this observation."
 },
 {
   "id": "inspection_high_prio_log_incoming_subject",
-  "translation": "Warning! High priority log generated from inspection"
+  "translation": "Warning! High priority observation generated from inspection"
 },
 {
   "id": "publication_incoming",
@@ -143,7 +143,7 @@
 },
 {
   "id": "incident_contribution",
-  "translation": "{{.contributor}} contributed to your incident: {{.incident_name}}. Click <a href={{.destination_uri}}>here</a> to view it in IncidentChanger."
+  "translation": "{{.contributor}} contributed to your case file: {{.casefile_name}}. Click <a href={{.destination_uri}}>here</a> to view this case file."
 },
 {
   "id": "incident_contribution_subject",
@@ -151,51 +151,51 @@
 },
 {
   "id": "user_contributed_to_incident",
-  "translation": "{{.user}} contributed to your incident {{.incident_title}}."
+  "translation": "{{.user}} contributed to your case file {{.casefile_name}}."
 },
 {
   "id": "user_contributed_to_incident_subject",
-  "translation": "Incident contribution"
+  "translation": "Case file contribution"
 },
 {
   "id": "incident_assigned",
-  "translation": "The following incident was assigned to you by {{.assigner}}: {{.incident_name}}. Click <a href={{.destination_uri}}>here</a> to view it in IncidentChanger."
+  "translation": "The following case file was assigned to you by {{.assigner}}: {{.casefile_name}}. Click <a href={{.destination_uri}}>here</a> to view this case file."
 },
 {
   "id": "incident_assigned_subject",
-  "translation": "Incident assigned"
+  "translation": "Case file assigned"
 },
 {
   "id": "incident_not_updated",
-  "translation": "The following incident has not been updated for two weeks and is still open: {{.incident_name}}. Click <a href={{.destination_uri}}>here</a> to view it in IncidentChanger."
+  "translation": "The following case file has not been updated for two weeks and is still open: {{.casefile_name}}. Click <a href={{.destination_uri}}>here</a> to view this case file."
 },
 {
   "id": "incident_not_updated_subject",
-  "translation": "Incident pending"
+  "translation": "Case file pending"
 },
 {
   "id":"log_archived",
-  "translation":"Your log {{.refnumber}} has been archived by {{.manager}}."
+  "translation":"Your observation {{.refnumber}} has been archived by {{.manager}}."
 },
 {
   "id":"log_archived_subject",
-  "translation": "Log archived"
+  "translation": "Observation archived"
 },
 {
   "id":"log_used",
-  "translation":"Your log {{.refnumber}} was used by {{.manager}} to create an incident."
+  "translation":"Your observation {{.refnumber}} was used by {{.manager}} to create a case file."
 },
 {
   "id":"log_used_subject",
-  "translation": "Log used for incident"
+  "translation": "Observation used for case file"
 },
 {
   "id":"no_log_reported",
-  "translation": "Hi! Welcome to IncidentChanger. Take a minute to try out logging an issue!"
+  "translation": "Hi! Welcome to Observations. Take a minute to add an observation!"
 },
 {
   "id":"no_log_reported_subject",
-  "translation": "Hi! Welcome to IncidentChanger!"
+  "translation": "Hi! Welcome to Observations!"
 },
 {
   "id": "report_shared",
@@ -210,7 +210,7 @@
 },
 {
   "id":"customer_1st_reminder_subject",
-  "translation": "Hi! Welcome to IncidentChanger!"
+  "translation": "Hi! Welcome to Observations!"
 },
 {
   "id": "customer_2nd_reminder",
@@ -218,7 +218,7 @@
 },
 {
   "id":"customer_2nd_reminder_subject",
-  "translation": "Hi! Welcome to IncidentChanger!"
+  "translation": "Hi! Welcome to Observations!"
 },
 {
   "id": "inspection_template_assigned",
@@ -230,7 +230,7 @@
 },
 {
   "id": "inspection_completed",
-  "translation": "{{ .user }} has completed inspection '{{ .template_name }}'. Click <a href={{.destination_uri}}>here</a> to view the inspection."
+  "translation": "{{ .user }} has completed inspection '{{ .template_name }}'. Click <a href={{.destination_uri}}>here</a> to view this inspection."
 },
 {
   "id": "inspection_completed_subject",

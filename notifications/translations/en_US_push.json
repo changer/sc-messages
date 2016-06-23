@@ -1,6 +1,6 @@
 [{
   "id": "incident_action_completed",
-  "translation": "The action {{.action_title}}, regarding incident {{.incident_name}} was just completed by {{.assignee}}."
+  "translation": "The action {{.action_title}}, regarding case file {{.casefile_name}} was just completed by {{.assignee}}."
 },
 {
   "id": "incident_action_completed_subject",
@@ -88,19 +88,19 @@
 },
 {
   "id": "log_incoming",
-  "translation": "A new log with severity {{.severity}} was just submitted by {{.logger}}."
+  "translation": "A new observation with severity {{.severity}} was just submitted by {{.observer}}."
 },
 {
   "id": "log_incoming_subject",
-  "translation": "New log"
+  "translation": "New observation"
 },
 {
   "id": "high_prio_log_incoming",
-  "translation": "Warning! A new log with severity {{.severity}} was just submitted by {{.logger}}. This might require your immediate attention."
+  "translation": "Warning! A new observation with severity {{.severity}} was just submitted by {{.observer}}. This might require your immediate attention."
 },
 {
   "id": "high_prio_log_incoming_subject",
-  "translation": "Warning! High priority log"
+  "translation": "Warning! High priority observation"
 },
 {
   "id": "publication_incoming",
@@ -112,7 +112,7 @@
 },
 {
   "id": "incident_contribution",
-  "translation": "{{.contributor}} contributed to your incident: {{.incident_name}}."
+  "translation": "{{.contributor}} contributed to your case file: {{.casefile_name}}."
 },
 {
   "id": "incident_contribution_subject",
@@ -120,47 +120,47 @@
 },
 {
   "id": "user_contributed_to_incident",
-  "translation": "{{.user}} contributed to your incident {{.incident_title}}."
+  "translation": "{{.user}} contributed to your case file {{.casefile_name}}."
 },
 {
   "id": "user_contributed_to_incident_subject",
-  "translation": "Incident contribution"
+  "translation": "Case file contribution"
 },
 {
   "id": "incident_assigned",
-  "translation": "The following incident was assigned to you by {{.assigner}}: {{.incident_name}}."
+  "translation": "The following case file was assigned to you by {{.assigner}}: {{.casefile_name}}."
 },
 {
   "id": "incident_assigned_subject",
-  "translation": "Incident assigned"
+  "translation": "Case file assigned"
 },
 {
   "id": "incident_not_updated",
-  "translation": "The following incident has not been updated for two weeks and is still open: {{.incident_name}}."
+  "translation": "The following case file has not been updated for two weeks and is still open: {{.casefile_name}}."
 },
 {
   "id": "incident_not_updated_subject",
-  "translation": "Incident pending"
+  "translation": "Case file pending"
 },
 {
   "id":"log_archived",
-  "translation":"Your log {{.refnumber}} has been archived by {{.manager}}."
+  "translation":"Your observation {{.refnumber}} has been archived by {{.manager}}."
 },
 {
   "id":"log_archived_subject",
-  "translation": "Log archived"
+  "translation": "Observation archived"
 },
 {
   "id":"log_used",
-  "translation":"Your log {{.refnumber}} was used by {{.manager}} to create an incident."
+  "translation":"Your observation {{.refnumber}} was used by {{.manager}} to create a case file."
 },
 {
   "id":"log_used_subject",
-  "translation": "Log used for incident"
+  "translation": "Observation used for case file"
 },
 {
   "id":"no_log_reported",
-  "translation": "Hi! Welcome to IncidentChanger. Take a minute to try out logging an issue!"
+  "translation": "Hi! Welcome to Observations. Take a minute to add an observation!"
 },
 {
   "id": "user_not_logged_in",
