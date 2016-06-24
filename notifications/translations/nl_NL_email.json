@@ -1,6 +1,6 @@
 [{
   "id": "incident_action_completed",
-  "translation": "De actie {{.action_title}}, behorende bij de case file {{.casefile_name}} is zojuist afgerond door {{.assignee}}. Klik <a href={{.destination_uri}}>hier</a> om deze actie te bekijken."
+  "translation": "De actie {{.action_title}}, behorende bij de case file {{.casefile_name}} is zojuist voltooid door {{.assignee}}. Klik <a href={{.destination_uri}}>hier</a> om deze actie te bekijken."
 },
 {
   "id": "incident_action_completed_subject",
@@ -24,7 +24,7 @@
 },
 {
   "id": "action_completed",
-  "translation": "De actie {{.action_title}} is zojuist afgerond door {{.assignee}}. Klik <a href={{.destination_uri}}>hier</a> om deze actie te bekijken."
+  "translation": "De actie {{.action_title}} is zojuist voltooid door {{.assignee}}. Klik <a href={{.destination_uri}}>hier</a> om deze actie te bekijken."
 },
 {
   "id": "action_completed_subject",
@@ -64,7 +64,7 @@
 },
 {
   "id": "action_overdue",
-  "translation": "De deadline voor de volgende actie is verstreken: {{.action_title}}."
+  "translation": "Let op! De deadline voor de volgende actie is verstreken: {{.action_title}}."
 },
 {
   "id": "action_overdue_subject",
