@@ -40,7 +40,7 @@
 },
 {
   "id": "action_rejected",
-  "translation": "{{.assignee}} rejected and assigned an action back to you ({{.action_title}})."
+  "translation": "{{.assignee}} rejected and reassigned this action to you ({{.action_title}})."
 },
 {
   "id": "action_rejected_subject",
@@ -175,7 +175,7 @@
 },
 {
   "id":"log_archived",
-  "translation":"Your observation {{.refnumber}} has been archived by {{.manager}}."
+  "translation":"Thank you for your observation! Your observation {{.refnumber}} has been archived by {{.manager}}."
 },
 {
   "id":"log_archived_subject",
@@ -183,11 +183,11 @@
 },
 {
   "id":"log_used",
-  "translation":"Your observation {{.refnumber}} was used by {{.manager}} to create a case file."
+  "translation":"Thank you for your observation! Your observation {{.refnumber}} is being processed by {{.manager}}."
 },
 {
   "id":"log_used_subject",
-  "translation": "Observation used for case file"
+  "translation": "Observation is being used"
 },
 {
   "id":"no_log_reported",
@@ -202,11 +202,11 @@
 },
 {
   "id": "inspection_template_assigned",
-  "translation": "{{ .assigner }} has assigned a new inspection template '{{ .template_name }}' to you."
+  "translation": "{{ .assigner }} has assigned a new inspection '{{ .template_name }}' to you."
 },
 {
   "id": "inspection_template_assigned_subject",
-  "translation": "New inspection template assigned"
+  "translation": "New inspection assigned"
 },
 {
   "id": "inspection_completed",
