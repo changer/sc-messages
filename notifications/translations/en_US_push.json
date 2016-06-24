@@ -16,7 +16,7 @@
 },
 {
   "id": "action_assigned",
-  "translation": "The following action was assigned to you: {{.action_title}}."
+  "translation": "The following action is assigned to you: {{.action_title}}."
 },
 {
   "id": "action_assigned_subject",
@@ -24,7 +24,7 @@
 },
 {
   "id": "action_completed",
-  "translation": "The action {{.action_title}} was just completed by {{.assignee}}."
+  "translation": "The action {{.action_title}} is completed by {{.assignee}}."
 },
 {
   "id": "action_completed_subject",
@@ -40,7 +40,7 @@
 },
 {
   "id": "action_rejected",
-  "translation": "{{.assignee}} rejected and assigned an action back to you ({{.action_title}})."
+  "translation": "{{.assignee}} rejected and reassigned the action to you ({{.action_title}})."
 },
 {
   "id": "action_rejected_subject",
@@ -152,15 +152,15 @@
 },
 {
   "id":"log_used",
-  "translation":"Your observation {{.refnumber}} was used by {{.manager}} to create a case file."
+  "translation":"Your observation {{.refnumber}} is being processed by {{.manager}}."
 },
 {
   "id":"log_used_subject",
-  "translation": "Observation used for case file"
+  "translation": "Observation is being used"
 },
 {
   "id":"no_log_reported",
-  "translation": "Hi! Welcome to Observations. Take a minute to add an observation!"
+  "translation": "Hi! Welcome to ObservationChanger. Take a minute to add an observation!"
 },
 {
   "id": "user_not_logged_in",
@@ -168,7 +168,7 @@
 },
 {
   "id": "inspection_template_assigned",
-  "translation": "{{ .assigner }} has assigned a new inspection template '{{ .template_name }}' to you."
+  "translation": "{{ .assigner }} has assigned a new inspection '{{ .template_name }}' to you."
 },
 {
   "id": "inspection_template_assigned_subject",
