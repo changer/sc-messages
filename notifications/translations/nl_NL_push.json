@@ -1,10 +1,10 @@
 [{
   "id": "incident_action_completed",
-  "translation": "De actie {{.action_title}}, behorende bij de case file {{.casefile_name}} is zojuist afgerond door {{.assignee}}."
+  "translation": "De actie {{.action_title}}, behorende bij de case file {{.casefile_name}} is zojuist voltooid door {{.assignee}}."
 },
 {
   "id": "incident_action_completed_subject",
-  "translation": "Actie afgerond"
+  "translation": "Actie voltooid"
 },
 {
   "id": "new_action",
@@ -16,7 +16,7 @@
 },
 {
   "id": "action_assigned",
-  "translation": "De volgende actie is aan jou toegewezen: {{.action_title}}."
+  "translation": "De volgende actie is aan je toegewezen: {{.action_title}}."
 },
 {
   "id": "action_assigned_subject",
@@ -24,11 +24,11 @@
 },
 {
   "id": "action_completed",
-  "translation": "De actie {{.action_title}} is zojuist afgerond door {{.assignee}}."
+  "translation": "De actie {{.action_title}} is zojuist voltooid door {{.assignee}}."
 },
 {
   "id": "action_completed_subject",
-  "translation": "Actie afgerond"
+  "translation": "Actie voltooid"
 },
 {
   "id": "action_accepted",
@@ -48,35 +48,35 @@
 },
 {
   "id": "action_almost_overdue",
-  "translation": "De volgende actie is bijna over tijd: {{.action_title}}."
+  "translation": "De volgende actie nadert de gestelde deadline: {{.action_title}}."
 },
 {
   "id": "action_almost_overdue_subject",
-  "translation": "Actie bijna over tijd"
+  "translation": "Actie nadert deadline"
 },
 {
   "id": "action_almost_overdue_assignee",
-  "translation": "De volgende actie, toegewezen aan {{.assignee}}, is bijna over tijd: {{.action_title}}."
+  "translation": "De volgende actie, toegewezen aan {{.assignee}}, nadert de gestelde deadline: {{.action_title}}."
 },
 {
   "id": "action_almost_overdue_assignee_subject",
-  "translation": "Actie bijna over tijd"
+  "translation": "Actie nadert deadline"
 },
 {
   "id": "action_overdue",
-  "translation": "De volgende actie is over tijd: {{.action_title}}."
+  "translation": "De deadline voor de volgende actie is verstreken: {{.action_title}}."
 },
 {
   "id": "action_overdue_subject",
-  "translation": "Let op! Actie over tijd"
+  "translation": "Let op! Deadline verstreken"
 },
 {
   "id": "action_overdue_assignee",
-  "translation": "Let op! De volgende actie, toegewezen aan {{.assignee}}, is over tijd: {{.action_title}}."
+  "translation": "Let op! De deadline voor de volgende actie, toegewezen aan {{.assignee}}, is verstreken: {{.action_title}}."
 },
 {
   "id": "action_overdue_assignee_subject",
-  "translation": "Let op! Actie over tijd"
+  "translation": "Let op! Deadline verstreken"
 },
 {
   "id": "action_reassigned",
@@ -88,19 +88,19 @@
 },
 {
   "id": "log_incoming",
-  "translation": "{{.observer}} heeft zojuist een melding met prioriteit {{.severity}} gedaan."
+  "translation": "{{.observer}} heeft zojuist een observatie met prioriteit {{.severity}} gedaan."
 },
 {
   "id": "log_incoming_subject",
-  "translation": "Nieuwe melding"
+  "translation": "Nieuwe observatie"
 },
 {
   "id": "high_prio_log_incoming",
-  "translation": "Let op! {{.observer}} heeft zojuist een melding met prioriteit {{.severity}} gedaan. Mogelijk is directe aandacht vereist."
+  "translation": "Let op! {{.observer}} heeft zojuist een observatie met prioriteit {{.severity}} gedaan. Mogelijk is directe aandacht vereist."
 },
 {
   "id": "high_prio_log_incoming_subject",
-  "translation": "Let op! Melding met hoge prioriteit"
+  "translation": "Let op! Observatie met hoge prioriteit"
 },
 {
   "id": "publication_incoming",
@@ -136,7 +136,7 @@
 },
 {
   "id": "incident_not_updated",
-  "translation": "De volgende case file is al twee weken niet bijgewerkt maar nog wel open: {{.casefile_name}}."
+  "translation": "De volgende case file is al twee weken niet bijgewerkt maar staat nog wel open: {{.casefile_name}}."
 },
 {
   "id": "incident_not_updated_subject",
@@ -144,23 +144,23 @@
 },
 {
   "id":"log_archived",
-  "translation":"Je melding {{.refnumber}} is gearchiveerd door {{.manager}}."
+  "translation":"Je observatie {{.refnumber}} is gearchiveerd door {{.manager}}."
 },
 {
   "id":"log_archived_subject",
-  "translation": "Melding gearchiveerd"
+  "translation": "Observatie gearchiveerd"
 },
 {
   "id":"log_used",
-  "translation":"Je melding {{.refnumber}} is verwerkt door {{.manager}}."
+  "translation":"Je observatie {{.refnumber}} wordt behandeld door {{.manager}}."
 },
 {
   "id":"log_used_subject",
-  "translation": "Melding verwerkt"
+  "translation": "Observatie in behandeling"
 },
 {
   "id":"no_log_reported",
-  "translation": "Hallo! Welkom bij Observations. Neem even tijd om een eerste melding te maken!"
+  "translation": "Hallo! Welkom bij ObservationChanger. Neem even tijd om een eerste melding te maken!"
 },
 {
   "id": "inspection_template_assigned",
