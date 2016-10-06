@@ -134,10 +134,6 @@
   "translation": "Warning! High priority observation generated from inspection"
 },
 {
-  "id": "publication_incoming",
-  "translation": "New publication available! '{{.title}}'."
-},
-{
   "id": "publication_incoming_subject",
   "translation": "New publication available!"
 },
