@@ -136,9 +136,7 @@
     <center style="width: 100%; background: #ffffff;">
 
       <!-- Visually Hidden Preheader Text : BEGIN -->
-      <div style="display:none;font-size:1px;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;mso-hide:all;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
-        {{.Subject}}
-      </div>
+      <div style="display:none;font-size:1px;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;mso-hide:all;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">{{.Subject}}</div>
       <!-- Visually Hidden Preheader Text : END -->
 
       <!--
@@ -153,23 +151,13 @@
         <td>
         <![endif]-->
 
-        <!-- Email Header : BEGIN -->
-        <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="max-width: 600px; background: #51a6e0; border-bottom: 1px solid #ffffff;">
-          <tr>
-            <td style="padding: 20px 0; text-align: center">
-              <img src="https://d3iyv3qavi6f2s.cloudfront.net/statics/img/logo.png" width="200" height="28" alt="alt_text" border="0" style="background: #51a6e0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 15px; mso-height-rule: exactly; line-height: 20px; color: #555555;">
-            </td>
-          </tr>
-        </table>
-        <!-- Email Header : END -->
-
         <!-- Email Body : BEGIN -->
         <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="max-width: 600px;">
 
           <!-- Hero Image, Flush : BEGIN -->
           <tr>
             <td bgcolor="#ffffff">
-              <img src="https://d3iyv3qavi6f2s.cloudfront.net/graphics/email-payoff.jpg" width="600" height="" alt="alt_text" border="0" align="center" style="width: 100%; max-width: 600px; background: #dddddd; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 15px; mso-height-rule: exactly; line-height: 20px; color: #555555;">
+              <img src="https://d3iyv3qavi6f2s.cloudfront.net/graphics/email-hero.jpg" width="600" height="" alt="Safety Changer" border="0" align="center" style="width: 100%; max-width: 600px; background: #000500; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 15px; mso-height-rule: exactly; line-height: 20px; color: #555555;">
             </td>
           </tr>
           <!-- Hero Image, Flush : END -->
@@ -179,7 +167,7 @@
             <td bgcolor="#ffffff">
               <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
                 <tr>
-                  <td style="padding: 40px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 15px; mso-height-rule: exactly; line-height: 20px; color: #555555;">
+                  <td style="padding: 20px 10px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 15px; mso-height-rule: exactly; line-height: 20px; color: #555555;">
                     {{.Content}}
                   </td>
                 </tr>
@@ -190,7 +178,7 @@
 
           <!-- Clear Spacer : BEGIN -->
           <tr>
-            <td height="40" style="font-size: 0; line-height: 0;">
+            <td height="20" style="font-size: 0; line-height: 0;">
               &nbsp;
             </td>
           </tr>
@@ -200,9 +188,9 @@
         <!-- Email Body : END -->
 
         <!-- Email Footer : BEGIN -->
-        <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="max-width: 680px;">
+        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="max-width: 680px;">
           <tr>
-            <td style="padding: 40px 10px;width: 100%;font-size: 12px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; mso-height-rule: exactly; line-height:18px; text-align: center; color: #888888;">
+            <td style="width: 100%; font-size: 12px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; mso-height-rule: exactly; line-height:18px; color: #888888;">
               {{.footer}}
             </td>
           </tr>
