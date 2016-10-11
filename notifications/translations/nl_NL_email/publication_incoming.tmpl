@@ -1,50 +1,46 @@
-<p>Nieuwe publicatie beschikbaar! '{{.title}}'</p>
+<p><strong>Nieuwe publicatie beschikbaar! '{{.title}}'</strong></p>
+<p>{{ .publication_description }}</p>
+<table class="publication_incoming" width="100%">
+  <tr><td class="caption" width="40%">Case file</td><td>{{ .casefile_name }}</td></tr>
+  <tr><td class="caption" width="40%">Ref. nummer</td><td>{{ .ref_number }}</td></tr>
+  <tr><td class="caption" width="40%">Observatie datum</td><td>{{ .casefile_date }}</td></tr>
+  <tr><td class="caption" width="40%">Locatie</td><td>{{ .casefile_location }}</td></tr>
+  <tr><td class="caption" width="40%">Severity</td><td class="severity {{ .casefile_severity }}">{{ .casefile_severity }}</td></tr>
 
-<table class="publication_incoming">
-  <tbody>
-    <tr><td><strong>Beschrijving</strong></td><td class="textasis">{{ .publication_description }}</td></tr>
-    <tr></tr>
-    <tr><td><strong>Case file</strong></td><td>{{ .casefile_name }}</td></tr>
-    <tr><td><strong>Ref. nummer</strong></td><td>{{ .ref_number }}</td></tr>
-    <tr><td><strong>Observatie datum</strong></td><td>{{ .casefile_date }}</td></tr>
-    <tr><td><strong>Locatie</strong></td><td>{{ .casefile_location }}</td></tr>
-    <tr><td><strong>Severity</strong></td><td class="severity {{ .casefile_severity }}">{{ .casefile_severity }}</td></tr>
+  {{ range $key, $att := .attributes }}
+    <tr><td class="caption" width="40%">{{ $att.Title }}</td><td class="textasis">{{ $att.Value }}</td></tr>
+  {{ end }}
 
-    {{ range $key, $att := .attributes }}
-      <tr><td><strong>{{ $att.Title }}</strong></td><td>{{ $att.Value }}</td></tr>
-    {{ end }}
+  {{ $length := len .observations }} {{ if gt $length 0 }}
+  <tr>
+      <td class="caption" width="40%">Observervators</td>
+      <td>
+        <ul>
+          {{ range $key, $value := .observations }}<li>{{ $value }}</li>{{ end }}
+          </ul>
+      </td>
+  </tr>
+  {{ end }}
 
-    {{ $length := len .observations }} {{ if gt $length 0 }}
-    <tr>
-        <td><strong>Observervators</strong></td>
-        <td>
-          <ul>
-            {{ range $key, $value := .observations }}<li>{{ $value }}</li>{{ end }}
-            </ul>
-        </td>
-    </tr>
-    {{ end }}
+  {{ $length := len .witnesses }} {{ if gt $length 0 }}
+  <tr>
+      <td class="caption" width="40%">Getuigen</td>
+      <td>
+        <ul>
+          {{ range $key, $value := .witnesses }}<li>{{ $value.Name }}</li>{{ end }}
+          </ul>
+      </td>
+  </tr>
+  {{ end }}
 
-    {{ $length := len .witnesses }} {{ if gt $length 0 }}
-    <tr>
-        <td><strong>Getuigen</strong></td>
-        <td>
-          <ul>
-            {{ range $key, $value := .witnesses }}<li>{{ $value.Name }}</li>{{ end }}
-            </ul>
-        </td>
-    </tr>
-    {{ end }}
-
-    {{ $length := len .actions }} {{ if gt $length 0 }}
-    <tr>
-        <td><strong>Acties</strong></td>
-        <td>
-          <ul>
-            {{ range $key, $value := .actions }}<li>{{ $value }}</li>{{ end }}
-            </ul>
-        </td>
-    </tr>
-    {{ end }}
-  </tbody>
+  {{ $length := len .actions }} {{ if gt $length 0 }}
+  <tr>
+      <td class="caption" width="40%">Acties</td>
+      <td>
+        <ul>
+          {{ range $key, $value := .actions }}<li>{{ $value }}</li>{{ end }}
+          </ul>
+      </td>
+  </tr>
+  {{ end }}
 </table>
