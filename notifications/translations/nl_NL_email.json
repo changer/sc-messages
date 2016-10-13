@@ -139,7 +139,7 @@
 },
 {
   "id": "incident_contribution",
-  "translation": "{{.contributor}} heeft bijgedragen aan jouw case file {{.casefile_name}}. Klik <a href={{.destination_uri}}>hier</a> om deze case file te bekijken."
+  "translation": "{{.contributor}} heeft bijgedragen aan jouw case file '{{.casefile_name}}'. Klik <a href={{.destination_uri}}>hier</a> om deze case file te bekijken."
 },
 {
   "id": "incident_contribution_subject",
@@ -147,7 +147,7 @@
 },
 {
   "id": "user_contributed_to_incident",
-  "translation": "{{.user}} heeft bijgedragen aan jouw case file {{.casefile_name}}."
+  "translation": "{{.user}} heeft bijgedragen aan jouw case file '{{.casefile_name}}'."
 },
 {
   "id": "user_contributed_to_incident_subject",

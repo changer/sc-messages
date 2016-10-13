@@ -139,7 +139,7 @@
 },
 {
   "id": "incident_contribution",
-  "translation": "{{.contributor}} contributed to your case file {{.casefile_name}}. Click <a href={{.destination_uri}}>here</a> to view this case file."
+  "translation": "{{.contributor}} contributed to your case file '{{.casefile_name}}'. Click <a href={{.destination_uri}}>here</a> to view this case file."
 },
 {
   "id": "incident_contribution_subject",
@@ -147,7 +147,7 @@
 },
 {
   "id": "user_contributed_to_incident",
-  "translation": "{{.user}} contributed to your case file {{.casefile_name}}."
+  "translation": "{{.user}} contributed to your case file '{{.casefile_name}}'."
 },
 {
   "id": "user_contributed_to_incident_subject",

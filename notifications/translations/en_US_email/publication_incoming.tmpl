@@ -1,5 +1,9 @@
 <p><strong>New publication available! '{{.title}}'</strong></p>
-<p>{{ .publication_description }}</p>
+
+<p class="textasis">
+  {{ .publication_description }}
+</p>
+
 <table class="publication_incoming" width="100%">
   <tr><td class="caption" width="40%">Case file</td><td>{{ .casefile_name }}</td></tr>
   <tr><td class="caption" width="40%">Ref. number</td><td>{{ .ref_number }}</td></tr>
