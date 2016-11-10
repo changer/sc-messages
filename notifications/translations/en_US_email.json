@@ -231,4 +231,20 @@
 {
   "id": "inspection_completed_subject",
   "translation": "Inspection completed"
+},
+{
+  "id": "inspection_completed_report",
+  "translation": "<p>Please find attached the report and all evidence files for the completed inspection.</p>"
+},
+{
+  "id": "inspection_completed_report_subject",
+  "translation": "Inspection report"
+},
+{
+  "id": "generic",
+  "translation": "{{ .message }}"
+},
+{
+  "id": "export",
+  "translation":"<p>Please find attached the file with the requested export data.</p>"
 }]

@@ -215,4 +215,12 @@
 {
   "id": "inspection_completed_subject",
   "translation": "Inspectie voltooid"
+},
+{
+  "id": "generic",
+  "translation": "{{ .message }}"
+},
+{
+  "id": "import_users",
+  "translation": "{{ .message }}"
 }]

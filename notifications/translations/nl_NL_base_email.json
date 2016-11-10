@@ -1,3 +1,6 @@
 {
-  "footer": "Verzonden door Safety Changer. Je kunt je voorkeursinstellingen voor e-mail meldingen wijzigen in de mobiele app of in de web-applicatie."
+  "salutation": "<p>Beste {{ .firstname }},</p>",
+  "regards": "<p></p><p>Hartelijke groet,<br />Het Safety Changer Team</p>",
+  "footer": "Verzonden door Safety Changer.",
+  "changesettings": "Je kunt je voorkeursinstellingen voor e-mail meldingen wijzigen in de mobiele app of in de web-applicatie."
 }

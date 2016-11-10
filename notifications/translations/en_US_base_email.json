@@ -1,3 +1,6 @@
 {
-  "footer": "Sent from Safety Changer. You can manage preferences for receiving e-mail alerts either in your mobile app or inside the web application."
+  "salutation": "<p>Dear {{ .firstname }},</p>",
+  "regards": "<p></p><p>Kind regards,<br />The Safety Changer Team</p>",
+  "footer": "Sent from Safety Changer.",
+  "changesettings": "You can manage preferences for receiving e-mail alerts either in your mobile app or inside the web application."
 }
