@@ -190,17 +190,6 @@
   "translation": "Observation is being used"
 },
 {
-  "id":"no_log_reported",
-  "translation": "Hi! Welcome to Observations. Take a minute to add an observation!"
-},
-{
-  "id": "report_shared",
-  "translation": {
-    "one": "A report was shared with you by {{.sender}} showing {{.X}} over {{.Y}} for {{.number}} Location. Click here to view it in ReportChanger.",
-    "other": "A report was shared with you by {{.sender}} showing {{.X}} over {{.Y}} for {{.number}} Locations. Click here to view it in ReportChanger."
-  }
-},
-{
   "id": "inspection_template_assigned",
   "translation": "{{ .assigner }} has assigned a new inspection '{{ .template_name }}' to you."
 },
@@ -223,4 +212,8 @@
 {
   "id": "import_users",
   "translation": "{{ .message }}"
+},
+{
+  "id": "clone_template",
+  "translation": "{{ if .failed }}Your request to create a template from a shared code has failed. You may have used a wrong or expired key, please try again.{{else}}Your request to create a template from a shared code has succeeded. It is now available under the name {{ .template }}.{{end}}"
 }]

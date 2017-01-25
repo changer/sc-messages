@@ -1,6 +1,8 @@
 {
-  "salutation": "<p>Beste {{ .firstname }},</p>",
-  "regards": "<p></p><p>Hartelijke groet,<br />Het Safety Changer Team</p>",
+  "salutation": "<p class=\"bluetext big\">Beste {{ .firstname }},</p>",
+  "regards": "<p></p><p></p><p>Hartelijke groet,<br />Het <span class=\"bluetext\">Safety Changer</span> Team</p>",
   "footer": "Verzonden door Safety Changer.",
-  "changesettings": "Je kunt je voorkeursinstellingen voor e-mail meldingen wijzigen in de mobiele app of in de web-applicatie."
+  "changesettings": "<br>Je kunt je voorkeursinstellingen voor e-mail meldingen wijzigen in de mobiele app of in de web-applicatie.",
+  "help": "<br>Heb je een vraag of heb je hulp nodig? Stuur ons een verzoek via <a href=\"support@safetychanger.com\" class=\"bluetext\">support@safetychanger.com</a>.",
+  "copy_text": "U kunt ook onderstaande link kopi&#235;ren en in uw internet browser plakken:"
 }

@@ -87,21 +87,6 @@
   "translation": "Actie opnieuw toegewezen"
 },
 {
-  "id": "new_permission",
-  "translation": "Je hebt een nieuwe permissie ontvangen. Je kunt nu {{.app_name}} als {{.role}} gebruiken. Klik hier om naar {{.app_name}} te gaan."
-},
-{
-  "id": "reset_password",
-  "translation": "Je beheerder heeft je wachtwoord gereset. Klik hier om een nieuw wachtwoord aan te maken."
-},
-{
-  "id": "import_success",
-  "translation": {
-    "one": "Import van {{.number}} gebruiker succesvol. Klik hier om AdminChanger te openen en gebruikers te beheren.",
-    "other": "Import van {{.number}} gebruikers succesvol. Klik hier om AdminChanger te openen en gebruikers te beheren."
-  }
-},
-{
   "id": "log_incoming",
   "translation": "{{.observer}} heeft zojuist een observatie met prioriteit {{.severity}} gedaan."
 },
@@ -190,17 +175,6 @@
   "translation": "Observatie in behandeling"
 },
 {
-  "id":"no_log_reported",
-  "translation": "Hallo! Welkom bij ObservationChanger. Neem even tijd om een eerste melding te maken!"
-},
-{
-  "id": "report_shared",
-  "translation": {
-    "one": "{{.sender}} heeft een rapport met je gedeeld, dat {{.X}} over {{.Y}} voor {{.number}} Locatie toont. Klik hier om het rapport te bekijken in ReportChanger.",
-    "other": "{{.sender}} heeft een rapport met je gedeeld, dat {{.X}} over {{.Y}} voor {{.number}} Locaties toont. Klik hier om het rapport te bekijken in ReportChanger."
-  }
-},
-{
   "id": "inspection_template_assigned",
   "translation": "{{ .assigner }} heeft een nieuwe inspectie '{{ .template_name }}' aan je toegewezen."
 },
@@ -223,4 +197,8 @@
 {
   "id": "import_users",
   "translation": "{{ .message }}"
+},
+{
+  "id": "clone_template",
+  "translation": "{{ if .failed }}Uw verzoek om een template aan te maken vanuit een gedeelde code is helaas mislukt. Misschien was de code verlopen of incorrect, zou u het opnieuw willen proberen?{{else}}Uw verzoek om een template aan te maken vanuit een gedeelde code is gelukt. Het is beschikbaar onder de naam {{ .template }}.{{end}}"
 }]

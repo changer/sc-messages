@@ -1,14 +1,18 @@
 [{
   "id": "incident_action_completed",
-  "translation": "De actie {{.action_title}}, behorende bij de case file {{.casefile_name}} is zojuist voltooid door {{.assignee}}. Klik <a href={{.destination_uri}}>hier</a> om deze actie te bekijken."
+  "translation": "De actie <strong>{{.action_title}}</strong>, behorende bij de case file <strong>{{.casefile_name}}</strong> is zojuist voltooid door <strong>{{.assignee}}</strong>."
 },
 {
   "id": "incident_action_completed_subject",
   "translation": "Actie voltooid"
 },
 {
+  "id": "incident_action_completed_linktext",
+  "translation": "Bekijk actie"
+},
+{
   "id": "new_action",
-  "translation": "Nieuw actieverzoek! {{.action_title}}."
+  "translation": "Nieuw actieverzoek! <strong>{{.action_title}}</strong>."
 },
 {
   "id": "new_action_subject",
@@ -16,7 +20,7 @@
 },
 {
   "id": "action_assigned",
-  "translation": "De volgende actie is aan jou toegewezen: {{.action_title}}. Accepteer en voltooi de actie in de app 'ActionChanger' op je mobiele toestel"
+  "translation": "De volgende actie is aan jou toegewezen: <strong>{{.action_title}}</strong>. Accepteer en voltooi de actie in de app 'ActionChanger' op je mobiele toestel"
 },
 {
   "id": "action_assigned_subject",
@@ -24,114 +28,95 @@
 },
 {
   "id": "action_completed",
-  "translation": "De actie {{.action_title}} is zojuist voltooid door {{.assignee}}. Klik <a href={{.destination_uri}}>hier</a> om deze actie te bekijken."
+  "translation": "De actie <strong>{{.action_title}}</strong> is zojuist voltooid door <strong>{{.assignee}}</strong>."
 },
 {
   "id": "action_completed_subject",
   "translation": "Actie voltooid"
 },
 {
+  "id": "action_completed_linktext",
+  "translation": "Bekijk actie"
+},
+{
   "id": "action_accepted",
-  "translation": "{{.assignee}} heeft de door jou toegewezen actie geaccepteerd ({{.action_title}}). Klik <a href={{.destination_uri}}>hier</a> om deze actie te bekijken."
+  "translation": "<strong>{{.assignee}}</strong> heeft de door jou toegewezen actie geaccepteerd <strong>{{.action_title}}</strong>."
 },
 {
   "id": "action_accepted_subject",
   "translation": "Actie geaccepteerd"
 },
 {
+  "id": "action_accepted_linktext",
+  "translation": "Bekijk actie"
+},
+{
   "id": "action_rejected",
-  "translation": "{{.assignee}} heeft een actie geweigerd en weer toegewezen aan jou ({{.action_title}}). Klik <a href={{.destination_uri}}>hier</a> om deze actie te bekijken."
+  "translation": "<strong>{{.assignee}}</strong> heeft een actie geweigerd en weer toegewezen aan jou <strong>{{.action_title}}</strong>."
 },
 {
   "id": "action_rejected_subject",
   "translation": "Actie geweigerd"
 },
 {
-  "id": "action_almost_overdue",
-  "translation": "De volgende actie nadert de gestelde deadline: {{.action_title}}."
-},
-{
-  "id": "action_almost_overdue_subject",
-  "translation": "Actie nadert de gestelde deadline"
-},
-{
-  "id": "action_almost_overdue_assignee",
-  "translation": "De volgende actie, toegewezen aan {{.assignee}}, nadert de gestelde deadline: {{.action_title}}. Klik <a href={{.destination_uri}}>hier</a> om deze actie te bekijken."
-},
-{
-  "id": "action_almost_overdue_assignee_subject",
-  "translation": "Actie nadert de gestelde deadline"
-},
-{
-  "id": "action_overdue",
-  "translation": "Let op! De deadline voor de volgende actie is verstreken: {{.action_title}}."
-},
-{
-  "id": "action_overdue_subject",
-  "translation": "Let op! Deadline van actie verstreken"
-},
-{
-  "id": "action_overdue_assignee",
-  "translation": "Let op! De deadline voor de volgende actie, toegewezen aan {{.assignee}}, is verstreken: {{.action_title}}. Klik <a href={{.destination_uri}}>hier</a> om deze actie te bekijken."
-},
-{
-  "id": "action_overdue_assignee_subject",
-  "translation": "Let op! Deadline van actie verstreken"
+  "id": "action_rejected_linktext",
+  "translation": "Bekijk actie"
 },
 {
   "id": "action_reassigned",
-  "translation": "{{.owner}} heeft de actie {{.action_title}} aan iemand anders toegewezen. Je bent niet langer verantwoordelijk voor deze actie."
+  "translation": "<strong>{{.owner}}</strong> heeft de actie <strong>{{.action_title}}</strong> aan iemand anders toegewezen. Je bent niet langer verantwoordelijk voor deze actie."
 },
 {
   "id": "action_reassigned_subject",
   "translation": "Actie opnieuw toegewezen"
 },
 {
-  "id": "new_permission",
-  "translation": "Je hebt een nieuwe permissie ontvangen. Je kunt nu {{.app_name}} als {{.role}} gebruiken. Klik <a href={{.destination_uri}}>hier</a> om naar {{.app_name}} te gaan."
-},
-{
-  "id": "reset_password",
-  "translation": "Je beheerder heeft je wachtwoord gereset. Klik <a href={{.destination_uri}}>hier</a> om een nieuw wachtwoord aan te maken."
-},
-{
-  "id": "import_success",
-  "translation": {
-    "one": "Import van {{.number}} gebruiker succesvol. Klik <a href={{.destination_uri}}>hier</a> om AdminChanger te openen en gebruikers te beheren.",
-    "other": "Import van {{.number}} gebruikers succesvol. Klik <a href={{.destination_uri}}>hier</a> om AdminChanger te openen en gebruikers te beheren."
-  }
-},
-{
   "id": "log_incoming",
-  "translation": "{{.observer}} heeft zojuist een observatie met prioriteit {{.severity}} gedaan. Klik <a href={{.destination_uri}}>hier</a> om deze observatie te bekijken."
+  "translation": "<strong>{{.observer}}</strong> heeft zojuist een observatie met prioriteit {{ .severity }} gedaan."
 },
 {
   "id": "log_incoming_subject",
   "translation": "Nieuwe observatie"
 },
 {
+  "id": "log_incoming_linktext",
+  "translation": "Bekijk observatie!"
+},
+{
   "id": "high_prio_log_incoming",
-  "translation": "Let op! {{.observer}} heeft zojuist een observatie met prioriteit {{.severity}} gedaan. Mogelijk is directe aandacht vereist. Klik <a href={{.destination_uri}}>hier</a> om deze observatie te bekijken."
+  "translation": "Let op! <strong>{{.observer}}</strong> heeft zojuist een observatie met prioriteit {{ .severity }} gedaan. Mogelijk is directe aandacht vereist."
 },
 {
   "id": "high_prio_log_incoming_subject",
   "translation": "Let op! Observatie met hoge prioriteit"
 },
 {
+  "id": "high_prio_log_incoming_linktext",
+  "translation": "Bekijk observatie!"
+},
+{
   "id": "inspection_log_incoming",
-  "translation": "{{.observer}} heeft zojuist een observatie met prioriteit {{.severity}} gedaan. Deze observatie is automatisch gegenereerd vanuit inspectie '{{ .template_name }} #{{ .inspection_number }}'. Klik <a href={{.destination_uri}}>hier</a> om deze observatie te bekijken."
+  "translation": "<strong>{{.observer}}</strong> heeft zojuist een observatie met prioriteit {{ .severity }} gedaan. Deze observatie is automatisch gegenereerd vanuit inspectie <strong>{{ .template_name }} #{{ .inspection_number }}</strong>."
 },
 {
   "id": "inspection_log_incoming_subject",
   "translation": "Nieuwe observatie gegenereerd vanuit een inspectie"
 },
 {
+  "id": "inspection_log_incoming_linktext",
+  "translation": "Bekijk observatie!"
+},
+{
   "id": "inspection_high_prio_log_incoming",
-  "translation": "Let op! {{.observer}} heeft zojuist een observatie met prioriteit {{.severity}} gedaan. Mogelijk is directe aandacht vereist. Deze observatie is automatisch gegenereerd vanuit inspectie '{{ .template_name }} #{{ .inspection_number }}'. Klik <a href={{.destination_uri}}>hier</a> om deze observatie te bekijken."
+  "translation": "Let op! <strong>{{.observer}}</strong> heeft zojuist een observatie met prioriteit {{ .severity }} gedaan. Mogelijk is directe aandacht vereist. Deze observatie is automatisch gegenereerd vanuit inspectie <strong>{{ .template_name }} #{{ .inspection_number }}</strong>."
 },
 {
   "id": "inspection_high_prio_log_incoming_subject",
   "translation": "Let op! Nieuwe observatie met hoge prioriteit gegenereerd vanuit een inspectie"
+},
+{
+  "id": "inspection_high_prio_log_incoming_linktext",
+  "translation": "Bekijk observatie!"
 },
 {
   "id": "publication_incoming_subject",
@@ -139,15 +124,19 @@
 },
 {
   "id": "incident_contribution",
-  "translation": "{{.contributor}} heeft bijgedragen aan jouw case file '{{.casefile_name}}'. Klik <a href={{.destination_uri}}>hier</a> om deze case file te bekijken."
+  "translation": "</strong>{{.contributor}}</strong> heeft bijgedragen aan jouw case file <strong>{{.casefile_name}}</strong>."
 },
 {
   "id": "incident_contribution_subject",
   "translation": "Bijdrage aan case file"
 },
 {
+  "id": "incident_contribution_linktext",
+  "translation": "Bekijk case file"
+},
+{
   "id": "user_contributed_to_incident",
-  "translation": "{{.user}} heeft bijgedragen aan jouw case file '{{.casefile_name}}'."
+  "translation": "<strong>{{.user}}</strong> heeft bijgedragen aan jouw case file <strong>{{.casefile_name}}</strong>."
 },
 {
   "id": "user_contributed_to_incident_subject",
@@ -155,23 +144,19 @@
 },
 {
   "id": "incident_assigned",
-  "translation": "De volgende case file is aan jou toegewezen door {{.assigner}}: {{.casefile_name}}. Klik <a href={{.destination_uri}}>hier</a> om deze case file te bekijken."
+  "translation": "De volgende case file is aan jou toegewezen door <strong>{{.assigner}}</strong>: <strong>{{.casefile_name}}</strong>."
 },
 {
   "id": "incident_assigned_subject",
   "translation": "Case file toegewezen"
 },
 {
-  "id": "incident_not_updated",
-  "translation": "De volgende case file is al twee weken niet bijgewerkt maar nog wel open: {{.casefile_name}}. Klik <a href={{.destination_uri}}>hier</a> om deze case file te bekijken."
-},
-{
-  "id": "incident_not_updated_subject",
-  "translation": "Case file niet bijgewerkt"
+  "id": "incident_assigned_linktext",
+  "translation": "Bekijk case file"
 },
 {
   "id":"log_archived",
-  "translation":"Bedankt voor je observatie! Je observatie {{.refnumber}} is gearchiveerd door {{.manager}}."
+  "translation":"Bedankt voor je observatie! Je observatie <strong>#{{.refnumber}}</strong> is gearchiveerd door <strong>{{.manager}}</strong>."
 },
 {
   "id":"log_archived_subject",
@@ -179,26 +164,15 @@
 },
 {
   "id":"log_used",
-  "translation":"Je observatie {{.refnumber}} wordt behandeld door {{.manager}}."
+  "translation":"Je observatie <strong>#{{.refnumber}}</strong> wordt behandeld door <strong>{{.manager}}</strong>."
 },
 {
   "id":"log_used_subject",
   "translation": "Observatie in behandeling"
 },
 {
-  "id":"no_log_reported",
-  "translation": "Hallo! Welkom bij ObservationChanger. Neem even tijd om een eerste observatie te maken!"
-},
-{
-  "id": "report_shared",
-  "translation": {
-    "one": "{{.sender}} heeft een rapport met je gedeeld, dat {{.X}} over {{.Y}} voor {{.number}} Locatie toont. Klik <a href={{.destination_uri}}>hier</a> om het rapport te bekijken in ReportChanger.",
-    "other": "{{.sender}} heeft een rapport met je gedeeld, dat {{.X}} over {{.Y}} voor {{.number}} Locaties toont. Klik <a href={{.destination_uri}}>hier</a> om het rapport te bekijken in ReportChanger."
-  }
-},
-{
   "id": "inspection_template_assigned",
-  "translation": "{{ .assigner }} heeft een nieuwe inspectie '{{ .template_name }}' aan je toegewezen."
+  "translation": "<strong>{{ .assigner }}</strong> heeft een nieuwe inspectie <strong>{{ .template_name }}</strong> aan je toegewezen."
 },
 {
   "id": "inspection_template_assigned_subject",
@@ -206,11 +180,15 @@
 },
 {
   "id": "inspection_completed",
-  "translation": "{{ .user }} heeft inspectie '{{ .template_name }}' voltooid. Klik <a href={{.destination_uri}}>hier</a> om deze inspectie te bekijken."
+  "translation": "<strong>{{ .user }}</strong> heeft inspectie <strong>{{ .template_name }}</strong> voltooid."
 },
 {
   "id": "inspection_completed_subject",
   "translation": "Inspectie voltooid"
+},
+{
+  "id": "inspection_completed_linktext",
+  "translation": "Bekijk inspectie"
 },
 {
   "id": "inspection_completed_report",
@@ -227,4 +205,40 @@
 {
   "id": "export",
   "translation":"<p>Hierbij het bestand met de data uit uw export.</p>"
+},
+{
+  "id": "password_new",
+  "translation":"<p>Gefeliciteerd, uw <span class=\"bluetext\">Safety Changer</span> account is aangemaakt!</p>{{ if .password }}<p> </p><p>Uw password voor <span class=\"bluetext\">Safety Changer</span> is: {{ .password }}</p>{{ end }}"
+},
+{
+  "id": "password_new_subject",
+  "translation": "Uw SafetyChanger account is aangemaakt!"
+},
+{
+  "id": "password_new_linktext",
+  "translation": "Log nu in!"
+},
+{
+  "id": "password_reset",
+  "translation":"<p>U ontvangt dit bericht omdat er een verzoek is gedaan om uw <span class=\"bluetext\">Safety Changer</span> wachtwoord te wijzigen.</p><p>Een beheerder heeft uw account aangemaakt dan wel gewijzgd, of u heeft zelf verzocht uw wachtwoord te wijzigen.</p><p>Als u uw wachtwoord niet wilt wijzigen, dan kunt u dit bericht negeren.</p>"
+},
+{
+  "id": "password_reset_subject",
+  "translation": "Wachtwoord SafetyChanger wijzigen"
+},
+{
+  "id": "password_reset_linktext",
+  "translation": "Wijzig uw wachtwoord"
+},
+{
+  "id": "clone_template",
+  "translation": "{{ if .failed }}Uw verzoek om een template aan te maken vanuit een gedeelde code is helaas mislukt. Misschien was de code verlopen of incorrect, zou u het opnieuw willen proberen?{{else}}Uw verzoek om een template aan te maken vanuit een gedeelde code is gelukt. Het is beschikbaar onder de naam <strong>{{ .template }}</strong>.{{end}}"
+},
+{
+  "id": "clone_template_subject",
+  "translation": "Kloon template status"
+},
+{
+  "id": "clone_template_linktext",
+  "translation": "Bekijk gekloonde template"
 }]

@@ -159,10 +159,6 @@
   "translation": "Observatie in behandeling"
 },
 {
-  "id":"no_log_reported",
-  "translation": "Hallo! Welkom bij ObservationChanger. Neem even tijd om een eerste melding te maken!"
-},
-{
   "id": "inspection_template_assigned",
   "translation": "{{ .assigner }} heeft een nieuwe inspectie '{{ .template_name }}' aan je toegewezen."
 },
