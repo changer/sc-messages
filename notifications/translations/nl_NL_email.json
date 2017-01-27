@@ -72,7 +72,7 @@
 },
 {
   "id": "log_incoming",
-  "translation": "<strong>{{.observer}}</strong> heeft zojuist een observatie met prioriteit {{ .severity }} gedaan."
+  "translation": "<strong>{{.observer}}</strong> heeft zojuist een observatie met prioriteit <strong>{{ .severity }}</strong> gedaan."
 },
 {
   "id": "log_incoming_subject",
@@ -84,7 +84,7 @@
 },
 {
   "id": "high_prio_log_incoming",
-  "translation": "Let op! <strong>{{.observer}}</strong> heeft zojuist een observatie met prioriteit {{ .severity }} gedaan. Mogelijk is directe aandacht vereist."
+  "translation": "Let op! <strong>{{.observer}}</strong> heeft zojuist een observatie met prioriteit <strong>{{ .severity }}</strong> gedaan. Mogelijk is directe aandacht vereist."
 },
 {
   "id": "high_prio_log_incoming_subject",
@@ -96,7 +96,7 @@
 },
 {
   "id": "inspection_log_incoming",
-  "translation": "<strong>{{.observer}}</strong> heeft zojuist een observatie met prioriteit {{ .severity }} gedaan. Deze observatie is automatisch gegenereerd vanuit inspectie <strong>{{ .template_name }} #{{ .inspection_number }}</strong>."
+  "translation": "<strong>{{.observer}}</strong> heeft zojuist een observatie met prioriteit <strong>{{ .severity }}</strong> gedaan. Deze observatie is automatisch gegenereerd vanuit inspectie <strong>{{ .template_name }} #{{ .inspection_number }}</strong>."
 },
 {
   "id": "inspection_log_incoming_subject",
@@ -108,7 +108,7 @@
 },
 {
   "id": "inspection_high_prio_log_incoming",
-  "translation": "Let op! <strong>{{.observer}}</strong> heeft zojuist een observatie met prioriteit {{ .severity }} gedaan. Mogelijk is directe aandacht vereist. Deze observatie is automatisch gegenereerd vanuit inspectie <strong>{{ .template_name }} #{{ .inspection_number }}</strong>."
+  "translation": "Let op! <strong>{{.observer}}</strong> heeft zojuist een observatie met prioriteit <strong>{{ .severity }}</strong> gedaan. Mogelijk is directe aandacht vereist. Deze observatie is automatisch gegenereerd vanuit inspectie <strong>{{ .template_name }} #{{ .inspection_number }}</strong>."
 },
 {
   "id": "inspection_high_prio_log_incoming_subject",
@@ -204,7 +204,7 @@
 },
 {
   "id": "export",
-  "translation":"<p>Hierbij het bestand met de data uit uw export.</p>"
+  "translation":"Hierbij het bestand met de data uit uw export."
 },
 {
   "id": "password_new",
@@ -212,7 +212,7 @@
 },
 {
   "id": "password_new_subject",
-  "translation": "Uw SafetyChanger account is aangemaakt!"
+  "translation": "Uw Safety Changer account is aangemaakt!"
 },
 {
   "id": "password_new_linktext",
@@ -224,7 +224,7 @@
 },
 {
   "id": "password_reset_subject",
-  "translation": "Wachtwoord SafetyChanger wijzigen"
+  "translation": "Wachtwoord Safety Changer wijzigen"
 },
 {
   "id": "password_reset_linktext",

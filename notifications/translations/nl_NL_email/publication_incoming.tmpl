@@ -9,7 +9,7 @@
   <tr><td class="caption" width="40%">Ref. nummer</td><td>{{ .ref_number }}</td></tr>
   <tr><td class="caption" width="40%">Observatiedatum</td><td>{{ .casefile_date }}</td></tr>
   <tr><td class="caption" width="40%">Locatie</td><td>{{ .casefile_location }}</td></tr>
-  <tr><td class="caption" width="40%">Severity</td><td class="severity {{ .casefile_severity }}">{{ .casefile_severity }}</td></tr>
+  <tr><td class="caption" width="40%">Severity</td><td class="severity {{ .casefile_severity-style }}">{{ .casefile_severity }}</td></tr>
 
   {{ range $key, $att := .attributes }}
     <tr><td class="caption" width="40%">{{ $att.Title }}</td><td class="textasis">{{ $att.Value }}</td></tr>
