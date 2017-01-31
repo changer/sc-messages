@@ -4,7 +4,7 @@
 },
 {
   "id": "incident_action_completed_subject",
-  "translation": "Actie voltooid"
+  "translation": "Actie '{{.action_title}}' voltooid"
 },
 {
   "id": "incident_action_completed_linktext",
@@ -16,7 +16,7 @@
 },
 {
   "id": "new_action_subject",
-  "translation": "Nieuw actieverzoek"
+  "translation": "Nieuw actieverzoek - {{.action_title}}"
 },
 {
   "id": "action_assigned",
@@ -24,7 +24,7 @@
 },
 {
   "id": "action_assigned_subject",
-  "translation": "Actie toegewezen"
+  "translation": "Actie '{{.action_title}}' toegewezen"
 },
 {
   "id": "action_completed",
@@ -32,7 +32,7 @@
 },
 {
   "id": "action_completed_subject",
-  "translation": "Actie voltooid"
+  "translation": "Actie '{{.action_title}}' voltooid"
 },
 {
   "id": "action_completed_linktext",
@@ -44,7 +44,7 @@
 },
 {
   "id": "action_accepted_subject",
-  "translation": "Actie geaccepteerd"
+  "translation": "Actie '{{.action_title}}' geaccepteerd"
 },
 {
   "id": "action_accepted_linktext",
@@ -56,7 +56,7 @@
 },
 {
   "id": "action_rejected_subject",
-  "translation": "Actie geweigerd"
+  "translation": "Actie '{{.action_title}}' geweigerd"
 },
 {
   "id": "action_rejected_linktext",
@@ -68,15 +68,15 @@
 },
 {
   "id": "action_reassigned_subject",
-  "translation": "Actie opnieuw toegewezen"
+  "translation": "Actie '{{.action_title}}' opnieuw toegewezen"
 },
 {
   "id": "log_incoming",
-  "translation": "<strong>{{.observer}}</strong> heeft zojuist een observatie met prioriteit <strong>{{ .severity }}</strong> gedaan."
+  "translation": "<strong>{{.observer}}</strong> heeft zojuist observatie <strong>#{{ .refnumber }}</strong> met prioriteit <strong>{{ .severity }}</strong> gedaan."
 },
 {
   "id": "log_incoming_subject",
-  "translation": "Nieuwe observatie"
+  "translation": "Nieuwe observatie #{{ .refnumber }}"
 },
 {
   "id": "log_incoming_linktext",
@@ -84,11 +84,11 @@
 },
 {
   "id": "high_prio_log_incoming",
-  "translation": "Let op! <strong>{{.observer}}</strong> heeft zojuist een observatie met prioriteit <strong>{{ .severity }}</strong> gedaan. Mogelijk is directe aandacht vereist."
+  "translation": "Let op! <strong>{{.observer}}</strong> heeft zojuist observatie <strong>#{{ .refnumber }}</strong> met prioriteit <strong>{{ .severity }}</strong> gedaan. Mogelijk is directe aandacht vereist."
 },
 {
   "id": "high_prio_log_incoming_subject",
-  "translation": "Let op! Observatie met hoge prioriteit"
+  "translation": "Let op! Observatie #{{ .refnumber }} met hoge prioriteit"
 },
 {
   "id": "high_prio_log_incoming_linktext",
@@ -96,11 +96,11 @@
 },
 {
   "id": "inspection_log_incoming",
-  "translation": "<strong>{{.observer}}</strong> heeft zojuist een observatie met prioriteit <strong>{{ .severity }}</strong> gedaan. Deze observatie is automatisch gegenereerd vanuit inspectie <strong>{{ .template_name }} #{{ .inspection_number }}</strong>."
+  "translation": "<strong>{{.observer}}</strong> heeft zojuist observatie <strong>#{{ .refnumber }}</strong> met prioriteit <strong>{{ .severity }}</strong> gedaan. Deze observatie is automatisch gegenereerd vanuit inspectie <strong>{{ .template_name }} #{{ .inspection_number }}</strong>."
 },
 {
   "id": "inspection_log_incoming_subject",
-  "translation": "Nieuwe observatie gegenereerd vanuit een inspectie"
+  "translation": "Nieuwe observatie #{{ .refnumber }} gegenereerd vanuit een inspectie"
 },
 {
   "id": "inspection_log_incoming_linktext",
@@ -108,11 +108,11 @@
 },
 {
   "id": "inspection_high_prio_log_incoming",
-  "translation": "Let op! <strong>{{.observer}}</strong> heeft zojuist een observatie met prioriteit <strong>{{ .severity }}</strong> gedaan. Mogelijk is directe aandacht vereist. Deze observatie is automatisch gegenereerd vanuit inspectie <strong>{{ .template_name }} #{{ .inspection_number }}</strong>."
+  "translation": "Let op! <strong>{{.observer}}</strong> heeft zojuist observatie <strong>#{{ .refnumber }}</strong> met prioriteit <strong>{{ .severity }}</strong> gedaan. Mogelijk is directe aandacht vereist. Deze observatie is automatisch gegenereerd vanuit inspectie <strong>{{ .template_name }} #{{ .inspection_number }}</strong>."
 },
 {
   "id": "inspection_high_prio_log_incoming_subject",
-  "translation": "Let op! Nieuwe observatie met hoge prioriteit gegenereerd vanuit een inspectie"
+  "translation": "Let op! Nieuwe observatie #{{ .refnumber }} met hoge prioriteit gegenereerd vanuit een inspectie"
 },
 {
   "id": "inspection_high_prio_log_incoming_linktext",
@@ -128,7 +128,7 @@
 },
 {
   "id": "incident_contribution_subject",
-  "translation": "Bijdrage aan case file"
+  "translation": "Bijdrage aan case file '{{.casefile_name}}'"
 },
 {
   "id": "incident_contribution_linktext",
@@ -140,7 +140,7 @@
 },
 {
   "id": "user_contributed_to_incident_subject",
-  "translation": "Bijdrage aan case file"
+  "translation": "Bijdrage aan case file '{{.casefile_name}}'"
 },
 {
   "id": "incident_assigned",
@@ -148,7 +148,7 @@
 },
 {
   "id": "incident_assigned_subject",
-  "translation": "Case file toegewezen"
+  "translation": "Case file '{{.casefile_name}}' toegewezen"
 },
 {
   "id": "incident_assigned_linktext",
@@ -160,7 +160,7 @@
 },
 {
   "id":"log_archived_subject",
-  "translation": "Observatie gearchiveerd"
+  "translation": "Observatie #{{ .refnumber }} gearchiveerd"
 },
 {
   "id":"log_used",
@@ -168,7 +168,7 @@
 },
 {
   "id":"log_used_subject",
-  "translation": "Observatie in behandeling"
+  "translation": "Observatie #{{ .refnumber }} in behandeling"
 },
 {
   "id": "inspection_template_assigned",
@@ -176,15 +176,15 @@
 },
 {
   "id": "inspection_template_assigned_subject",
-  "translation": "Nieuwe inspectie toegewezen"
+  "translation": "Nieuwe inspectie '{{ .template_name }}' toegewezen"
 },
 {
   "id": "inspection_completed",
-  "translation": "<strong>{{ .user }}</strong> heeft inspectie <strong>{{ .template_name }}</strong> voltooid."
+  "translation": "<strong>{{ .user }}</strong> heeft inspectie <strong>{{ .template_name }} #{{ .refnumber }}</strong> voltooid."
 },
 {
   "id": "inspection_completed_subject",
-  "translation": "Inspectie voltooid"
+  "translation": "Inspectie { .template_name }} #{{ .refnumber }} voltooid"
 },
 {
   "id": "inspection_completed_linktext",
@@ -192,7 +192,7 @@
 },
 {
   "id": "inspection_completed_report",
-  "translation": "<p>Bijgevoegd het rapport voor inspectie <strong>{{ .template }}</strong> <strong>#{{ .refnumber }}</strong>. Bijgevoegd ook alle foto's die als bewijs zijn opgevoerd.</p>"
+  "translation": "<p>Bijgevoegd het rapport voor inspectie <strong>{{ .template }} #{{ .refnumber }}</strong>. Bijgevoegd ook alle foto's die als bewijs zijn opgevoerd.</p>"
 },
 {
   "id": "inspection_completed_report_subject",
@@ -204,7 +204,11 @@
 },
 {
   "id": "export",
-  "translation":"Hierbij het bestand met de data uit uw export."
+  "translation":"Hierbij het bestand met de data uit de door u aangevraagde export."
+},
+{
+  "id": "export_subject",
+  "translation":"Data export."
 },
 {
   "id": "password_new",
@@ -236,7 +240,7 @@
 },
 {
   "id": "inspection_template_clone_subject",
-  "translation": "Kloon template status"
+  "translation": "Kloon template {{ if .failed }}is mislukt{{else}}is afgerond - '{{ .template }}'{{end}}"
 },
 {
   "id": "inspection_template_clone_linktext",
