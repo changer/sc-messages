@@ -235,14 +235,14 @@
   "translation": "Reset password!"
 },
 {
-  "id": "clone_template",
+  "id": "inspection_template_clone",
   "translation": "{{ if .failed }}Your request to create a template from a shared code has failed. You may have used a wrong or expired key, please try again.{{else}}Your request to create a template from a shared code has succeeded. It is now available under the name <strong>{{ .template }}</strong>.{{end}}"
 },
 {
-  "id": "clone_template_subject",
+  "id": "inspection_template_clone_subject",
   "translation": "Clone template status"
 },
 {
-  "id": "clone_template_linktext",
+  "id": "inspection_template_clone_linktext",
   "translation": "View cloned template"
 }]

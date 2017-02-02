@@ -231,14 +231,14 @@
   "translation": "Wijzig uw wachtwoord"
 },
 {
-  "id": "clone_template",
+  "id": "inspection_template_clone",
   "translation": "{{ if .failed }}Uw verzoek om een template aan te maken vanuit een gedeelde code is helaas mislukt. Misschien was de code verlopen of incorrect, zou u het opnieuw willen proberen?{{else}}Uw verzoek om een template aan te maken vanuit een gedeelde code is gelukt. Het is beschikbaar onder de naam <strong>{{ .template }}</strong>.{{end}}"
 },
 {
-  "id": "clone_template_subject",
+  "id": "inspection_template_clone_subject",
   "translation": "Kloon template status"
 },
 {
-  "id": "clone_template_linktext",
+  "id": "inspection_template_clone_linktext",
   "translation": "Bekijk gekloonde template"
 }]

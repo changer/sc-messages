@@ -15,7 +15,7 @@ Most topics will be sent by email, most will show up in the web as well, few wil
 * inspection_template_assigned
 * inspection_completed
 * inspection_completed_report
-* clone_template
+* inspection_template_clone
 
 ## Observationapp
 * log_used

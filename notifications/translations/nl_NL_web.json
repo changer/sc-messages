@@ -199,6 +199,6 @@
   "translation": "{{ .message }}"
 },
 {
-  "id": "clone_template",
+  "id": "inspection_template_clone",
   "translation": "{{ if .failed }}Uw verzoek om een template aan te maken vanuit een gedeelde code is helaas mislukt. Misschien was de code verlopen of incorrect, zou u het opnieuw willen proberen?{{else}}Uw verzoek om een template aan te maken vanuit een gedeelde code is gelukt. Het is beschikbaar onder de naam {{ .template }}.{{end}}"
 }]
