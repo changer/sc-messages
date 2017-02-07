@@ -192,11 +192,11 @@
 },
 {
   "id": "inspection_completed_report",
-  "translation": "<p>Bijgevoegd het inspectie rapport en het bewijs wat aan de inspectie toegevoegd is.</p>"
+  "translation": "<p>Bijgevoegd het rapport voor inspectie <strong>{{ .template }}</strong> <strong>#{{ .refnumber }}</strong>. Bijgevoegd ook alle foto's die als bewijs zijn opgevoerd.</p>"
 },
 {
   "id": "inspection_completed_report_subject",
-  "translation": "Inspectie rapport"
+  "translation": "Inspectie rapport {{ .template }} #{{ .refnumber }}"
 },
 {
   "id": "generic",

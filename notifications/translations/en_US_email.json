@@ -196,11 +196,11 @@
 },
 {
   "id": "inspection_completed_report",
-  "translation": "Please find attached the report and all evidence files for the completed inspection."
+  "translation": "Please find attached the report and all evidence files for the completed <strong>{{ .template }}</strong> inspection <strong>#{{ .refnumber }}</strong>."
 },
 {
   "id": "inspection_completed_report_subject",
-  "translation": "Inspection report"
+  "translation": "Inspection report {{ .template }} #{{ .refnumber }}"
 },
 {
   "id": "generic",
