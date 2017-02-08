@@ -212,7 +212,7 @@
 },
 {
   "id": "password_new",
-  "translation":"<p>Gefeliciteerd, uw <span class=\"bluetext\">Safety Changer</span> account is aangemaakt!</p>{{ if .password }}<p> </p><p>Uw password voor <span class=\"bluetext\">Safety Changer</span> is: {{ .password }}</p>{{ end }}"
+  "translation":"<p>Gefeliciteerd, u bent uitgenodigd door <strong>{{ .creator }}</strong> om deel te nemen in <span class=\"bluetext\">{{ .organization }}</span> op <span class=\"bluetext\">Safety Changer</span>!</p>{{ if .password }}<p> </p><p>Uw password voor <span class=\"bluetext\">Safety Changer</span> is: {{ .password }}</p>{{ end }}"
 },
 {
   "id": "password_new_subject",

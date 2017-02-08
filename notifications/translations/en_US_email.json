@@ -216,7 +216,7 @@
 },
 {
   "id": "password_new",
-  "translation":"<p>Congratulations, your <span class=\"bluetext\">Safety Changer</span> account has been created!</p>{{ if .password }}<p> </p><p>Your password to access <span class=\"bluetext\">Safety Changer</span> is: {{ .password }}</p>{{ end }}"
+  "translation":"<p>Congratulations, you have been invited by <strong>{{ .creator }}</strong> to join <span class=\"bluetext\">{{ .organization }}</span> on <span class=\"bluetext\">Safety Changer</span>!</p>{{ if .password }}<p> </p><p>Your password to access <span class=\"bluetext\">Safety Changer</span> is: {{ .password }}</p>{{ end }}"
 },
 {
   "id": "password_new_subject",
