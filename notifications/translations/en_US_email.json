@@ -188,7 +188,7 @@
 },
 {
   "id": "inspection_completed_subject",
-  "translation": "Inspection completed - {{ .template_name }} #{{ .refnumber }}"
+  "translation": "Inspection completed - '{{ .template_name }}' #{{ .refnumber }}"
 },
 {
   "id": "inspection_completed_linktext",
@@ -200,7 +200,7 @@
 },
 {
   "id": "inspection_completed_report_subject",
-  "translation": "Inspection report {{ .template }} #{{ .refnumber }}"
+  "translation": "Inspection report '{{ .template }}' #{{ .refnumber }}"
 },
 {
   "id": "generic",
