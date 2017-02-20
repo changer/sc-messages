@@ -196,11 +196,15 @@
 },
 {
   "id": "inspection_completed_report",
-  "translation": "Please find attached the report and all evidence files for the completed <strong>{{ .template }}</strong> inspection <strong>#{{ .refnumber }}</strong>."
+  "translation": "Your <strong>{{ .template }}</strong> inspection <strong>#{{ .refnumber }}</strong> download is ready.{{ if .khabar_attached }}<br>Evidence files are attached{{ end }}."
 },
 {
   "id": "inspection_completed_report_subject",
   "translation": "Inspection report '{{ .template }}' #{{ .refnumber }}"
+},
+{
+  "id": "inspection_completed_report_linktext",
+  "translation": "Download report"
 },
 {
   "id": "generic",

@@ -191,6 +191,10 @@
   "translation": "Inspectie voltooid"
 },
 {
+  "id": "inspection_completed_report",
+  "translation": "Uw {{ .template }} inspection #{{ .refnumber }} download staat klaar."
+},
+{
   "id": "generic",
   "translation": "{{ .message }}"
 },

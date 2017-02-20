@@ -206,6 +206,10 @@
   "translation": "Inspection completed"
 },
 {
+  "id": "inspection_completed_report",
+  "translation": "Your {{ .template }} inspection #{{ .refnumber }} download is ready."
+},
+{
   "id": "generic",
   "translation": "{{ .message }}"
 },
