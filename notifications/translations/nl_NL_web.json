@@ -192,7 +192,7 @@
 },
 {
   "id": "inspection_completed_report",
-  "translation": "Uw {{ .template }} inspection #{{ .refnumber }} download staat klaar."
+  "translation": "Uw {{ .template_name }} inspection #{{ .refnumber }} download staat klaar."
 },
 {
   "id": "generic",
@@ -204,5 +204,5 @@
 },
 {
   "id": "inspection_template_clone",
-  "translation": "{{ if .failed }}Uw verzoek om een template aan te maken vanuit een gedeelde code is helaas mislukt. Misschien was de code verlopen of incorrect, zou u het opnieuw willen proberen?{{else}}Uw verzoek om een template aan te maken vanuit een gedeelde code is gelukt. Het is beschikbaar onder de naam {{ .template }}.{{end}}"
+  "translation": "{{ if .failed }}Uw verzoek om een template aan te maken vanuit een gedeelde code is helaas mislukt. Misschien was de code verlopen of incorrect, zou u het opnieuw willen proberen?{{else}}Uw verzoek om een template aan te maken vanuit een gedeelde code is gelukt. Het is beschikbaar onder de naam {{ .template_name }}.{{end}}"
 }]

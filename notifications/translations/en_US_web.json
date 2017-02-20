@@ -207,7 +207,7 @@
 },
 {
   "id": "inspection_completed_report",
-  "translation": "Your {{ .template }} inspection #{{ .refnumber }} download is ready."
+  "translation": "Your {{ .template_name }} inspection #{{ .refnumber }} download is ready."
 },
 {
   "id": "generic",
@@ -219,5 +219,5 @@
 },
 {
   "id": "inspection_template_clone",
-  "translation": "{{ if .failed }}Your request to create a template from a shared code has failed. You may have used a wrong or expired key, please try again.{{else}}Your request to create a template from a shared code has succeeded. It is now available under the name {{ .template }}.{{end}}"
+  "translation": "{{ if .failed }}Your request to create a template from a shared code has failed. You may have used a wrong or expired key, please try again.{{else}}Your request to create a template from a shared code has succeeded. It is now available under the name {{ .template_name }}.{{end}}"
 }]

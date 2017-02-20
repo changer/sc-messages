@@ -192,15 +192,15 @@
 },
 {
   "id": "inspection_completed_report",
-  "translation": "Uw {{ .template }} inspection #{{ .refnumber }} download staat klaar."
+  "translation": "Uw {{ .template_name }} inspection #{{ .refnumber }} download staat klaar."
 },
 {
   "id": "inspection_completed_report",
-  "translation": "<p>Uw <strong>{{ .template }} #{{ .refnumber }}</strong> download staat klaar. {{ if .khabar_attached }}<br>Bijgevoegd ook alle foto's die als bewijs zijn opgevoerd.{{ end }}</p>"
+  "translation": "<p>Uw <strong>{{ .template_name }} #{{ .refnumber }}</strong> download staat klaar.{{ if .khabar_attached }}<br>Bijgevoegd ook alle foto's die als bewijs zijn opgevoerd.{{ end }}</p>"
 },
 {
   "id": "inspection_completed_report_subject",
-  "translation": "Inspectie rapport '{{ .template }}' #{{ .refnumber }}"
+  "translation": "Inspectie rapport '{{ .template_name }}' #{{ .refnumber }}"
 },
 {
   "id": "generic",
@@ -240,11 +240,11 @@
 },
 {
   "id": "inspection_template_clone",
-  "translation": "{{ if .failed }}Uw verzoek om een template aan te maken vanuit een gedeelde code is helaas mislukt. Misschien was de code verlopen of incorrect, zou u het opnieuw willen proberen?{{else}}Uw verzoek om een template aan te maken vanuit een gedeelde code is gelukt. Het is beschikbaar onder de naam <strong>{{ .template }}</strong>.{{end}}"
+  "translation": "{{ if .failed }}Uw verzoek om een template aan te maken vanuit een gedeelde code is helaas mislukt. Misschien was de code verlopen of incorrect, zou u het opnieuw willen proberen?{{else}}Uw verzoek om een template aan te maken vanuit een gedeelde code is gelukt. Het is beschikbaar onder de naam <strong>{{ .template_name }}</strong>.{{end}}"
 },
 {
   "id": "inspection_template_clone_subject",
-  "translation": "Kloon template {{ if .failed }}is mislukt{{else}}is afgerond - '{{ .template }}'{{end}}"
+  "translation": "Kloon template {{ if .failed }}is mislukt{{else}}is afgerond - '{{ .template_name }}'{{end}}"
 },
 {
   "id": "inspection_template_clone_linktext",
