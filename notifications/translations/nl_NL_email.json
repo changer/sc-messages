@@ -184,7 +184,7 @@
 },
 {
   "id": "inspection_completed_subject",
-  "translation": "Inspectie '{ .template_name }}' #{{ .refnumber }} voltooid"
+  "translation": "Inspectie '{{ .template_name }}' #{{ .refnumber }} voltooid"
 },
 {
   "id": "inspection_completed_linktext",
