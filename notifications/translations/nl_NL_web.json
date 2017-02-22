@@ -199,7 +199,7 @@
   "translation": "{{ .message }}"
 },
 {
-  "id": "import_users",
+  "id": "import",
   "translation": "{{ .message }}"
 },
 {

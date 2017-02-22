@@ -31,7 +31,7 @@ Most topics will be sent by email, most will show up in the web as well, few wil
 ## Shared
 * generic
 * export
-* import_users
+* import
 * password_new
 * password_reset
 

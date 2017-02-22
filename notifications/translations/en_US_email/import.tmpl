@@ -1,6 +1,7 @@
 <p>{{ .message }}</p>
 <p></p>
 
+{{ if .users }}
 {{ $length := len .users }} {{ if gt $length 0 }}
 <table width="600">
   <thead>
@@ -20,4 +21,5 @@
     {{ end }}
   </tbody>
 </table>
+{{ end }}
 {{ end }}
