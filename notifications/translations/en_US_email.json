@@ -220,7 +220,7 @@
 },
 {
   "id": "password_new",
-  "translation":"<p>Congratulations, you have been invited by <strong>{{ .creator }}</strong> to join <span class=\"bluetext\">{{ .organization }}</span> on <span class=\"bluetext\">Safety Changer</span>!</p>{{ if .password }}<p> </p><p>Your password to access <span class=\"bluetext\">Safety Changer</span> is: {{ .password }}</p>{{ end }}"
+  "translation":"<p>{{ if .trial }}Thank you for trying <span class=\"bluetext\">Safety Changer</span>, please activate your account by clicking the button below.{{ else }}Congratulations, you have been invited by <strong>{{ .creator }}</strong> to join <span class=\"bluetext\">{{ .organization }}</span> on <span class=\"bluetext\">Safety Changer</span>!{{ end }}</p>{{ if .password }}<p> </p><p>Your password to access <span class=\"bluetext\">Safety Changer</span> is: {{ .password }}</p>{{ end }}"
 },
 {
   "id": "password_new_subject",
@@ -228,7 +228,7 @@
 },
 {
   "id": "password_new_linktext",
-  "translation": "Login now!"
+  "translation": "{{ if .signup }}Activate{{ else }}Login{{end}}"
 },
 {
   "id": "password_reset",
