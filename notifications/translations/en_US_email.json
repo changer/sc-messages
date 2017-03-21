@@ -232,7 +232,7 @@
 },
 {
   "id": "password_reset",
-  "translation":"<p>You've received this mail because of a request to (re)set your <span class=\"bluetext\">Safety Changer</span> password.</p><p>{{ if .succeeded }}Either an administrator created or updated your account, or you have requested for a password reset.</p><p>If you do not want to change your password, please discard this e-mail.{{ else }}However, you cannot reset your password as your account is locked by an administrator. Please contact an administrator to unlock your account.{{ end }}</p>"
+  "translation":"<p>You've received this mail because of a request to (re)set your <span class=\"bluetext\">Safety Changer</span> password.</p><p>{{ if .succeeded }}Either an administrator created or updated your account, or you have requested for a password reset.</p><p>If you do not want to change your password, please discard this e-mail.{{ else }}{{.error}}, please contact <a class=\"bluetext\" href=\"mailto:{{.administrator.email}}?subject=Access to SafetyChanger\">{{.administrator.name}}</a> to assist you in getting access (again).{{ end }}</p>"
 },
 {
   "id": "password_reset_subject",
