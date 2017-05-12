@@ -192,15 +192,15 @@
 },
 {
   "id": "inspection_completed_report",
-  "translation": "Uw {{ .template_name }} inspection #{{ .refnumber }} download staat klaar."
-},
-{
-  "id": "inspection_completed_report",
   "translation": "<p>Uw <strong>{{ .template_name }} #{{ .refnumber }}</strong> download staat klaar.{{ if .khabar_attached }}<br>Bijgevoegd ook alle foto's die als bewijs zijn opgevoerd.{{ end }}</p>"
 },
 {
   "id": "inspection_completed_report_subject",
   "translation": "Inspectie rapport '{{ .template_name }}' #{{ .refnumber }}"
+},
+{
+  "id": "inspection_completed_report_linktext",
+  "translation": "Download report"
 },
 {
   "id": "generic",
