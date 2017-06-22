@@ -192,11 +192,11 @@
 },
 {
   "id": "inspection_completed_report",
-  "translation": "<p>Uw <strong>{{ .template_name }} #{{ .refnumber }}</strong> download staat klaar.{{ if .khabar_attached }}<br>Bijgevoegd ook alle foto's die als bewijs zijn opgevoerd.{{ end }}</p>"
+  "translation": "<p>Uw <strong>{{ .template_name }} #{{ .refnumber }}</strong> download staat klaar.{{ if .khabar_attached }}<br>Bijgevoegd ook alle foto's die als bewijs zijn opgevoerd.{{ end }}<br />Het rapport is 30 dagen beschikbaar.</p>"
 },
 {
   "id": "inspection_completed_report_subject",
-  "translation": "Inspectie rapport '{{ .template_name }}' #{{ .refnumber }}"
+  "translation": "Inspectie rapport '{{ .template_name }}' #{{ .refnumber }}."
 },
 {
   "id": "inspection_completed_report_linktext",
@@ -208,7 +208,7 @@
 },
 {
   "id": "export",
-  "translation":"Hierbij het bestand met de data uit de door u aangevraagde export."
+  "translation":"Hierbij het bestand met de data uit de door u aangevraagde export.<br />Dit bestand is 30 dagen beschikbaar."
 },
 {
   "id": "export_subject",

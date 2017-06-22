@@ -196,7 +196,7 @@
 },
 {
   "id": "inspection_completed_report",
-  "translation": "Your <strong>{{ .template_name }}</strong> inspection <strong>#{{ .refnumber }}</strong> download is ready.{{ if .khabar_attached }}<br>Evidence files are attached.{{ end }}"
+  "translation": "Your <strong>{{ .template_name }}</strong> inspection <strong>#{{ .refnumber }}</strong> download is ready.{{ if .khabar_attached }}<br>Evidence files are attached.{{ end }}<br />This report will be available for 30 days."
 },
 {
   "id": "inspection_completed_report_subject",
@@ -212,7 +212,7 @@
 },
 {
   "id": "export",
-  "translation":"Please find attached the file with the requested export data."
+  "translation":"Please find attached the file with the requested export data.<br />This file will be available for 30 days."
 },
 {
   "id": "export_subject",
