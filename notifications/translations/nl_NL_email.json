@@ -180,7 +180,7 @@
 },
 {
   "id": "inspection_completed",
-  "translation": "<strong>{{ .user }}</strong> heeft inspectie <strong>{{ .template_name }} #{{ .refnumber }}</strong> voltooid."
+  "translation": "<strong>{{ .user }}</strong> heeft inspectie <strong>{{ .template_name }} #{{ .refnumber }}</strong> voltooid.<br>Vergeet niet deze inspectie te controleren!"
 },
 {
   "id": "inspection_completed_subject",

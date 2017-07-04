@@ -184,7 +184,7 @@
 },
 {
   "id": "inspection_completed",
-  "translation": "<strong>{{ .user }}</strong> has completed inspection <strong>{{ .template_name }} #{{ .refnumber }}</strong>."
+  "translation": "<strong>{{ .user }}</strong> has completed inspection <strong>{{ .template_name }} #{{ .refnumber }}</strong>.<br>Don’t forget to check this inspection!"
 },
 {
   "id": "inspection_completed_subject",
