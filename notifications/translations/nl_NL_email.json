@@ -196,7 +196,7 @@
 },
 {
   "id": "inspection_completed_report_subject",
-  "translation": "Inspectie rapport '{{ .template_name }}' #{{ .refnumber }}."
+  "translation": "Inspectierapport '{{ .template_name }}' #{{ .refnumber }}."
 },
 {
   "id": "inspection_completed_report_linktext",
