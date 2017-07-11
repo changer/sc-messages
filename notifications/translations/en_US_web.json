@@ -175,7 +175,7 @@
 },
 {
   "id":"log_archived",
-  "translation":"Thank you for your observation! Your observation {{.refnumber}} has been archived by {{.manager}}."
+  "translation":"Thank you for your observation! Your observation {{.ref_number}} has been archived by {{.manager}}."
 },
 {
   "id":"log_archived_subject",
@@ -183,7 +183,7 @@
 },
 {
   "id":"log_used",
-  "translation":"Thank you for your observation! Your observation {{.refnumber}} is being processed by {{.manager}}."
+  "translation":"Thank you for your observation! Your observation {{.ref_number}} is being processed by {{.manager}}."
 },
 {
   "id":"log_used_subject",
@@ -207,7 +207,7 @@
 },
 {
   "id": "inspection_completed_report",
-  "translation": "Your {{ .template_name }} inspection #{{ .refnumber }} download is ready."
+  "translation": "Your {{ .template_name }} inspection #{{ .ref_number }} download is ready."
 },
 {
   "id": "generic",
@@ -219,7 +219,15 @@
 },
 {
   "id": "export",
-  "translation":"Your export download is ready."
+  "translation":"Your export is ready."
+},
+{
+  "id": "export_subject",
+  "translation": "Your export '{{ .name }}' is ready."
+},
+{
+  "id": "export",
+  "translation":"Your export '{{ .name }}' is ready."
 },
 {
   "id": "inspection_template_clone",

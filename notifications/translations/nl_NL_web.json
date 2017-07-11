@@ -88,7 +88,7 @@
 },
 {
   "id": "log_incoming",
-  "translation": "{{.observer}} heeft zojuist een observatie met prioriteit {{.severity}} gedaan."
+  "translation": "{{.observer}} heeft zojuist een observatie met {{.severity}} prioriteit gedaan."
 },
 {
   "id": "log_incoming_subject",
@@ -96,7 +96,7 @@
 },
 {
   "id": "high_prio_log_incoming",
-  "translation": "Let op! {{.observer}} heeft zojuist een observatie met prioriteit {{.severity}} gedaan. Mogelijk is directe aandacht vereist."
+  "translation": "Let op! {{.observer}} heeft zojuist een observatie met {{.severity}} prioriteit gedaan. Mogelijk is directe aandacht vereist."
 },
 {
   "id": "high_prio_log_incoming_subject",
@@ -104,7 +104,7 @@
 },
 {
   "id": "inspection_log_incoming",
-  "translation": "{{.observer}} heeft zojuist een observatie met prioriteit {{.severity}} gedaan. Deze observatie is automatisch gegenereerd vanuit inspectie '{{ .template_name }} #{{ .inspection_number }}'."
+  "translation": "{{.observer}} heeft zojuist een observatie met {{.severity}} prioriteit gedaan. Deze observatie is automatisch gegenereerd vanuit inspectie '{{ .template_name }} #{{ .inspection_number }}'."
 },
 {
   "id": "inspection_log_incoming_subject",
@@ -112,7 +112,7 @@
 },
 {
   "id": "inspection_high_prio_log_incoming",
-  "translation": "Let op! {{.observer}} heeft zojuist een observatie met prioriteit {{.severity}} gedaan. Mogelijk is directe aandacht vereist. Deze observatie is automatisch gegenereerd vanuit inspectie '{{ .template_name }} #{{ .inspection_number }}'."
+  "translation": "Let op! {{.observer}} heeft zojuist een observatie met {{.severity}} prioriteit gedaan. Mogelijk is directe aandacht vereist. Deze observatie is automatisch gegenereerd vanuit inspectie '{{ .template_name }} #{{ .inspection_number }}'."
 },
 {
   "id": "inspection_high_prio_log_incoming_subject",
@@ -160,7 +160,7 @@
 },
 {
   "id":"log_archived",
-  "translation":"Bedankt voor je observatie! Je observatie {{.refnumber}} is gearchiveerd door {{.manager}}."
+  "translation":"Bedankt voor je observatie! Je observatie {{.ref_number}} is gearchiveerd door {{.manager}}."
 },
 {
   "id":"log_archived_subject",
@@ -168,7 +168,7 @@
 },
 {
   "id":"log_used",
-  "translation":"Je observatie {{.refnumber}} wordt behandeld door {{.manager}}."
+  "translation":"Je observatie {{.ref_number}} wordt behandeld door {{.manager}}."
 },
 {
   "id":"log_used_subject",
@@ -192,7 +192,7 @@
 },
 {
   "id": "inspection_completed_report",
-  "translation": "Uw {{ .template_name }} inspection #{{ .refnumber }} download staat klaar."
+  "translation": "Uw {{ .template_name }} inspection #{{ .ref_number }} download staat klaar."
 },
 {
   "id": "generic",
@@ -203,8 +203,12 @@
   "translation": "{{ .message }}"
 },
 {
+  "id": "export_subject",
+  "translation": "Uw export '{{ .name }}' staat klaar."
+},
+{
   "id": "export",
-  "translation":"Uw export download staat klaar."
+  "translation":"Uw export '{{ .name }}' staat klaar."
 },
 {
   "id": "inspection_template_clone",

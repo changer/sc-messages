@@ -4,12 +4,12 @@
   {{ .publication_description }}
 </p>
 
-<table class="publication_incoming" width="100%">
+<table class="detail" width="100%">
   <tr><td class="caption" width="40%">Case file</td><td>{{ .casefile_name }}</td></tr>
-  <tr><td class="caption" width="40%">Ref. nummer</td><td>{{ .ref_number }}</td></tr>
+  <tr><td class="caption" width="40%">Ref. nummer</td><td>#{{ .ref_number }}</td></tr>
   <tr><td class="caption" width="40%">Observatiedatum</td><td>{{ .casefile_date }}</td></tr>
   <tr><td class="caption" width="40%">Locatie</td><td>{{ .casefile_location }}</td></tr>
-  <tr><td class="caption" width="40%">Severity</td><td class="severity {{ .casefile_severity-style }}">{{ .casefile_severity }}</td></tr>
+  <tr><td class="caption" width="40%">Prioriteit</td><td class="severity {{ .casefile_severity_style }}">{{ .casefile_severity }}</td></tr>
 
   {{ range $key, $att := .attributes }}
     <tr><td class="caption" width="40%">{{ $att.Title }}</td><td class="textasis">{{ $att.Value }}</td></tr>
@@ -21,7 +21,7 @@
       <td>
         <ul>
           {{ range $key, $value := .observations }}<li>{{ $value }}</li>{{ end }}
-          </ul>
+        </ul>
       </td>
   </tr>
   {{ end }}
@@ -32,7 +32,7 @@
       <td>
         <ul>
           {{ range $key, $value := .witnesses }}<li>{{ $value.Name }}</li>{{ end }}
-          </ul>
+        </ul>
       </td>
   </tr>
   {{ end }}
@@ -43,7 +43,7 @@
       <td>
         <ul>
           {{ range $key, $value := .actions }}<li>{{ $value }}</li>{{ end }}
-          </ul>
+        </ul>
       </td>
   </tr>
   {{ end }}

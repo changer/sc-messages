@@ -144,7 +144,7 @@
 },
 {
   "id":"log_archived",
-  "translation":"Your observation {{.refnumber}} has been archived by {{.manager}}."
+  "translation":"Your observation {{.ref_number}} has been archived by {{.manager}}."
 },
 {
   "id":"log_archived_subject",
@@ -152,7 +152,7 @@
 },
 {
   "id":"log_used",
-  "translation":"Your observation {{.refnumber}} is being processed by {{.manager}}."
+  "translation":"Your observation {{.ref_number}} is being processed by {{.manager}}."
 },
 {
   "id":"log_used_subject",

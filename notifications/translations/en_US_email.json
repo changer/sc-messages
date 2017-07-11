@@ -71,48 +71,32 @@
   "translation": "Action '{{.action_title}}' reassigned"
 },
 {
-  "id": "log_incoming",
-  "translation": "A new observation <strong>#{{ .refnumber }}</strong> with severity <strong>{{ .severity }}</strong> was just submitted by <strong>{{.observer}}</strong>."
-},
-{
   "id": "log_incoming_subject",
-  "translation": "New observation #{{ .refnumber }}"
+  "translation": "New observation #{{ .ref_number }}"
 },
 {
   "id": "log_incoming_linktext",
   "translation": "View new observation!"
 },
 {
-  "id": "high_prio_log_incoming",
-  "translation": "Warning! A new observation <strong>#{{ .refnumber }}</strong> with severity <strong>{{ .severity }}</strong> was just submitted by <strong>{{.observer}}</strong>. This might require your immediate attention."
-},
-{
   "id": "high_prio_log_incoming_subject",
-  "translation": "Warning! High priority observation #{{ .refnumber }}"
+  "translation": "Warning! High priority observation #{{ .ref_number }}"
 },
 {
   "id": "high_prio_log_incoming_linktext",
   "translation": "View new observation!"
 },
 {
-  "id": "inspection_log_incoming",
-  "translation": "A new observation <strong>#{{ .refnumber }}</strong> with severity <strong>{{ .severity }}</strong> was just submitted by <strong>{{.observer}}</strong>. This observation has been automatically generated from inspection <strong>{{ .template_name }} #{{ .inspection_number }}<strong>."
-},
-{
   "id": "inspection_log_incoming_subject",
-  "translation": "New observation #{{ .refnumber }} generated from inspection"
+  "translation": "New observation #{{ .ref_number }} generated from inspection"
 },
 {
   "id": "inspection_log_incoming_linktext",
   "translation": "View new observation!"
 },
 {
-  "id": "inspection_high_prio_log_incoming",
-  "translation": "Warning! A new observation <strong>#{{ .refnumber }}</strong> with severity <strong>{{ .severity }}</strong> was just submitted by <strong>{{.observer}}</strong>. This might require your immediate attention. This observation has been automatically generated from inspection <strong>{{ .template_name }} #{{ .inspection_number }}</strong>."
-},
-{
   "id": "inspection_high_prio_log_incoming_subject",
-  "translation": "Warning! High priority observation #{{ .refnumber }} generated from inspection"
+  "translation": "Warning! High priority observation #{{ .ref_number }}{{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} generated from inspection"
 },
 {
   "id": "inspection_high_prio_log_incoming_linktext",
@@ -160,19 +144,19 @@
 },
 {
   "id":"log_archived",
-  "translation":"Thank you for your observation! Your observation <strong>#{{.refnumber}}</strong> has been archived by <strong>{{.manager}}</strong>."
+  "translation":"Thank you for your observation! Your observation <strong>#{{.ref_number}}</strong> has been archived by <strong>{{.manager}}</strong>."
 },
 {
   "id":"log_archived_subject",
-  "translation": "Observation #{{ .refnumber }} archived"
+  "translation": "Observation #{{ .ref_number }} archived"
 },
 {
   "id":"log_used",
-  "translation":"Thank you for your observation! Your observation <strong>#{{.refnumber}}</strong> is being processed by <strong>{{.manager}}</strong>."
+  "translation":"Thank you for your observation! Your observation <strong>#{{.ref_number}}</strong> is being processed by <strong>{{.manager}}</strong>."
 },
 {
   "id":"log_used_subject",
-  "translation": "Observation #{{ .refnumber }} is being used"
+  "translation": "Observation #{{ .ref_number }} is being used"
 },
 {
   "id": "inspection_template_assigned",
@@ -184,11 +168,11 @@
 },
 {
   "id": "inspection_completed",
-  "translation": "<strong>{{ .user }}</strong> has completed inspection <strong>{{ .template_name }} #{{ .refnumber }}</strong>.<br>Don’t forget to check this inspection!"
+  "translation": "<strong>{{ .user }}</strong> has completed inspection <strong>{{ .template_name }} #{{ .ref_number }}{{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }}</strong>.<br>Don’t forget to check this inspection!"
 },
 {
   "id": "inspection_completed_subject",
-  "translation": "Inspection completed - '{{ .template_name }}' #{{ .refnumber }}"
+  "translation": "Inspection completed - '{{ .template_name }}' #{{ .ref_number }}{{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }}"
 },
 {
   "id": "inspection_completed_linktext",
@@ -196,11 +180,11 @@
 },
 {
   "id": "inspection_completed_report",
-  "translation": "Your <strong>{{ .template_name }}</strong> inspection <strong>#{{ .refnumber }}</strong> download is ready.{{ if .khabar_attached }}<br>Evidence files are attached.{{ end }}<br />This report will be available for 30 days."
+  "translation": "Your <strong>{{ .template_name }}</strong> inspection <strong>#{{ .ref_number }}{{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }}</strong> download is ready.{{ if .khabar_attached }}<br>Evidence files are attached.{{ end }}<br />This report will be available for 30 days."
 },
 {
   "id": "inspection_completed_report_subject",
-  "translation": "Inspection report '{{ .template_name }}' #{{ .refnumber }}"
+  "translation": "Inspection report '{{ .template_name }}' #{{ .ref_number }}{{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }}"
 },
 {
   "id": "inspection_completed_report_linktext",
@@ -212,11 +196,11 @@
 },
 {
   "id": "export",
-  "translation":"Please find attached the file with the requested export data.<br />This file will be available for 30 days."
+  "translation":"Please find attached the file with the requested '{{ .name }}' export data.<br />This file will be available for 30 days."
 },
 {
   "id": "export_subject",
-  "translation":"Export data."
+  "translation":"Your export '{{ .name }}' is ready."
 },
 {
   "id": "password_new",

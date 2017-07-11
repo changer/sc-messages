@@ -71,48 +71,32 @@
   "translation": "Actie '{{.action_title}}' opnieuw toegewezen"
 },
 {
-  "id": "log_incoming",
-  "translation": "<strong>{{.observer}}</strong> heeft zojuist observatie <strong>#{{ .refnumber }}</strong> met prioriteit <strong>{{ .severity }}</strong> gedaan."
-},
-{
   "id": "log_incoming_subject",
-  "translation": "Nieuwe observatie #{{ .refnumber }}"
+  "translation": "Nieuwe observatie #{{ .ref_number }}"
 },
 {
   "id": "log_incoming_linktext",
   "translation": "Bekijk observatie!"
 },
 {
-  "id": "high_prio_log_incoming",
-  "translation": "Let op! <strong>{{.observer}}</strong> heeft zojuist observatie <strong>#{{ .refnumber }}</strong> met prioriteit <strong>{{ .severity }}</strong> gedaan. Mogelijk is directe aandacht vereist."
-},
-{
   "id": "high_prio_log_incoming_subject",
-  "translation": "Let op! Observatie #{{ .refnumber }} met hoge prioriteit"
+  "translation": "Let op! Observatie #{{ .ref_number }} met hoge prioriteit"
 },
 {
   "id": "high_prio_log_incoming_linktext",
   "translation": "Bekijk observatie!"
 },
 {
-  "id": "inspection_log_incoming",
-  "translation": "<strong>{{.observer}}</strong> heeft zojuist observatie <strong>#{{ .refnumber }}</strong> met prioriteit <strong>{{ .severity }}</strong> gedaan. Deze observatie is automatisch gegenereerd vanuit inspectie <strong>{{ .template_name }} #{{ .inspection_number }}</strong>."
-},
-{
   "id": "inspection_log_incoming_subject",
-  "translation": "Nieuwe observatie #{{ .refnumber }} gegenereerd vanuit een inspectie"
+  "translation": "Nieuwe observatie #{{ .ref_number }}{{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} gegenereerd vanuit een inspectie"
 },
 {
   "id": "inspection_log_incoming_linktext",
   "translation": "Bekijk observatie!"
 },
 {
-  "id": "inspection_high_prio_log_incoming",
-  "translation": "Let op! <strong>{{.observer}}</strong> heeft zojuist observatie <strong>#{{ .refnumber }}</strong> met prioriteit <strong>{{ .severity }}</strong> gedaan. Mogelijk is directe aandacht vereist. Deze observatie is automatisch gegenereerd vanuit inspectie <strong>{{ .template_name }} #{{ .inspection_number }}</strong>."
-},
-{
   "id": "inspection_high_prio_log_incoming_subject",
-  "translation": "Let op! Nieuwe observatie #{{ .refnumber }} met hoge prioriteit gegenereerd vanuit een inspectie"
+  "translation": "Let op! Nieuwe observatie #{{ .ref_number }}{{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} met hoge prioriteit gegenereerd vanuit een inspectie"
 },
 {
   "id": "inspection_high_prio_log_incoming_linktext",
@@ -156,19 +140,19 @@
 },
 {
   "id":"log_archived",
-  "translation":"Bedankt voor je observatie! Je observatie <strong>#{{.refnumber}}</strong> is gearchiveerd door <strong>{{.manager}}</strong>."
+  "translation":"Bedankt voor je observatie! Je observatie <strong>#{{.ref_number}}</strong> is gearchiveerd door <strong>{{.manager}}</strong>."
 },
 {
   "id":"log_archived_subject",
-  "translation": "Observatie #{{ .refnumber }} gearchiveerd"
+  "translation": "Observatie #{{ .ref_number }} gearchiveerd"
 },
 {
   "id":"log_used",
-  "translation":"Je observatie <strong>#{{.refnumber}}</strong> wordt behandeld door <strong>{{.manager}}</strong>."
+  "translation":"Je observatie <strong>#{{.ref_number}}</strong> wordt behandeld door <strong>{{.manager}}</strong>."
 },
 {
   "id":"log_used_subject",
-  "translation": "Observatie #{{ .refnumber }} in behandeling"
+  "translation": "Observatie #{{ .ref_number }} in behandeling"
 },
 {
   "id": "inspection_template_assigned",
@@ -180,11 +164,11 @@
 },
 {
   "id": "inspection_completed",
-  "translation": "<strong>{{ .user }}</strong> heeft inspectie <strong>{{ .template_name }} #{{ .refnumber }}</strong> voltooid.<br>Vergeet niet deze inspectie te controleren!"
+  "translation": "<strong>{{ .user }}</strong> heeft inspectie <strong>{{ .template_name }} #{{ .ref_number }}{{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }}</strong> voltooid.<br>Vergeet niet deze inspectie te controleren!"
 },
 {
   "id": "inspection_completed_subject",
-  "translation": "Inspectie '{{ .template_name }}' #{{ .refnumber }} voltooid"
+  "translation": "Inspectie '{{ .template_name }}' #{{ .ref_number }}{{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} voltooid"
 },
 {
   "id": "inspection_completed_linktext",
@@ -192,11 +176,11 @@
 },
 {
   "id": "inspection_completed_report",
-  "translation": "<p>Uw <strong>{{ .template_name }} #{{ .refnumber }}</strong> download staat klaar.{{ if .khabar_attached }}<br>Bijgevoegd ook alle foto's die als bewijs zijn opgevoerd.{{ end }}<br />Het rapport is 30 dagen beschikbaar.</p>"
+  "translation": "<p>Uw <strong>{{ .template_name }} #{{ .ref_number }}{{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }}</strong> download staat klaar.{{ if .khabar_attached }}<br>Bijgevoegd ook alle foto's die als bewijs zijn opgevoerd.{{ end }}<br />Het rapport is 30 dagen beschikbaar.</p>"
 },
 {
   "id": "inspection_completed_report_subject",
-  "translation": "Inspectierapport '{{ .template_name }}' #{{ .refnumber }}."
+  "translation": "Inspectierapport '{{ .template_name }}' #{{ .ref_number }}{{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }}."
 },
 {
   "id": "inspection_completed_report_linktext",
@@ -208,11 +192,11 @@
 },
 {
   "id": "export",
-  "translation":"Hierbij het bestand met de data uit de door u aangevraagde export.<br />Dit bestand is 30 dagen beschikbaar."
+  "translation":"Hierbij het bestand met de door u aangevraagde '{{ .name }}' export.<br />Dit bestand is 30 dagen beschikbaar."
 },
 {
   "id": "export_subject",
-  "translation":"Data export."
+  "translation":"Uw export '{{ .name }}' staat klaar."
 },
 {
   "id": "password_new",
@@ -244,7 +228,7 @@
 },
 {
   "id": "inspection_template_clone_subject",
-  "translation": "Kloon template {{ if .failed }}is mislukt{{else}}is afgerond - '{{ .template_name }}'{{end}}"
+  "translation": "Het clonen van template {{ if .failed }}is mislukt{{else}}is afgerond - '{{ .template_name }}'{{end}}"
 },
 {
   "id": "inspection_template_clone_linktext",
