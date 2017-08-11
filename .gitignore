@@ -1,1 +1,3 @@
-.DS_Store
+package-lock.json
+notifications/translations/email/base.html
+node_modules

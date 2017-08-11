@@ -1,0 +1,75 @@
+<tr>
+  <td class="column-12 first last">Er is een nieuwe publicatie beschikbaar:</td>
+</tr>
+<tr>
+  <td class="column-12 first last h3" colspan="2">
+    <span class="h4 strong">&ldquo;</span>{{.title}}<span class="h4 strong">&rdquo;</span>
+  </td>
+</tr>
+<tr>
+  <td class="column-3 first h5 strong">Case file</td>
+  <td class="column-9 last">{{ .casefile_name }}</td>
+</tr>
+<tr>
+  <td class="column-3 first h5 strong">Ref. nummer</td>
+  <td class="column-9 last">#{{ .ref_number }}</td>
+</tr>
+<tr>
+  <td class="column-3 first h5 strong"><strong>Datum</strong></td>
+  <td class="column-9 last">{{ .casefile_date }}</td>
+</tr>
+<tr>
+  <td class="column-3 first h5 strong"><strong>Locatie</strong></td>
+  <td class="column-9 last">{{ .casefile_location }}</td>
+</tr>
+<tr>
+  <td class="column-3 first h5 strong"><strong>Prioriteit</strong></td>
+  <td class="column-9 last"><span class="severity {{ .casefile_severity_style }}">{{ .casefile_severity }}</span></td>
+</tr>
+
+{{ range $key, $att := .attributes }}
+<tr>
+  <td class="column-3 first h5 strong">{{ $att.Title }}</td>
+  <td class="column-9 pre">{{ $att.Value }}</td>
+</tr>
+{{ end }}
+
+{{ $length := len .observations }} {{ if gt $length 0 }}
+<tr>
+  <td class="column-3 first h5 strong">Observators</td>
+  <td class="column-9 have-list">
+    <ul>
+    {{ range $key, $value := .observations }}
+      <li>{{ $value }}</li>
+    {{ end }}
+    </ul>
+  </td>
+</tr>
+{{ end }}
+
+{{ $length := len .witnesses }} {{ if gt $length 0 }}
+<tr>
+  <td class="column-3 first h5 strong">Getuigen</td>
+  <td class="column-9 have-list">
+    <ul>
+    {{ range $key, $value := .witnesses }}
+      <li>{{ $value.Name }}</li>
+    {{ end }}
+    </ul>
+  </td>
+</tr>
+{{ end }}
+
+{{ $length := len .actions }} {{ if gt $length 0 }}
+<tr>
+  <td class="column-3 first h5 strong">Acties</td>
+  <td class="column-9 have-list">
+    <ul>
+    {{ range $key, $value := .actions }}
+      <li>{{ $value }}</li>
+    {{ end }}
+    </ul>
+  </td>
+</tr>
+{{ end }}
+

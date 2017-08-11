@@ -1,0 +1,29 @@
+<tr>
+  <td class="column-12 first last" colspan="2">
+    <strong>{{.observer}}</strong> just recorded an observation of <strong>{{ .severity }}</strong> severity.
+  </td>
+</tr>
+<tr>
+  <td class="column-3 first h5 strong">Ref. number</td>
+  <td class="column-9 last">#{{ .ref_number }}</td>
+</tr>
+<tr>
+  <td class="column-3 first h5 strong"><strong>Date</strong></td>
+  <td class="column-9 last">#{{ .date }}</td>
+</tr>
+<tr>
+  <td class="column-3 first h5 strong"><strong>Location</strong></td>
+  <td class="column-9 last">#{{ .location }}</td>
+</tr>
+<tr>
+  <td class="column-3 first h5 strong"><strong>Severity</strong></td>
+  <td class="column-9 last"><span class="severity {{ .severity_style }}">{{ .severity }}</span></td>
+</tr>
+<tr>
+  <td class="column-3 first h5 strong"><strong>Notes</strong></td>
+  <td class="column-9 last">
+    {{ range $key, $note := .notes }}
+      <p><span class="h4 strong">&ldquo;</span>{{ $note }}<span class="h4 strong">&rdquo;</span></p>
+    {{ end }}
+  </td>
+</tr>

@@ -1,0 +1,30 @@
+<tr>
+  <td class="column-12 first last" colspan="2">
+    <strong>{{.observer}}</strong> heeft zojuist een observatie met <strong>{{ .severity }}</strong> prioriteit gedaan.
+  </td>
+</tr>
+<tr>
+  <td class="column-3 first h5 strong">Ref. nummer</td>
+  <td class="column-9 last">#{{ .ref_number }}</td>
+</tr>
+<tr>
+  <td class="column-3 first h5 strong"><strong>Datum</strong></td>
+  <td class="column-9 last">#{{ .date }}</td>
+</tr>
+<tr>
+  <td class="column-3 first h5 strong"><strong>Locatie</strong></td>
+  <td class="column-9 last">#{{ .location }}</td>
+</tr>
+<tr>
+  <td class="column-3 first h5 strong"><strong>Prioriteit</strong></td>
+  <td class="column-9 last"><span class="severity {{ .severity_style }}">{{ .severity }}</span></td>
+</tr>
+<tr>
+  <td class="column-3 first h5 strong"><strong>Notities</strong></td>
+  <td class="column-9 last">
+    {{ range $key, $note := .notes }}
+      <p><span class="h4 strong">&ldquo;</span>{{ $note }}<span class="h4 strong">&rdquo;</span></p>
+    {{ end }}
+  </td>
+</tr>
+

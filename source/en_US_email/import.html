@@ -1,0 +1,23 @@
+<tr>
+  <td class="column-12 first last h3" colspan="2">
+    {{ .message }}
+  </td>
+</tr>
+
+{{ if .users }}
+{{ $length := len .users }} {{ if gt $length 0 }}
+<tr>
+  <td class="column-3 first h5 strong">Email</td>
+  <td class="column-3 first h5 strong">Password</td>
+  <td class="column-3 first h5 strong">Login</td>
+</tr>
+{{ range $key, $user := .users }}
+<tr>
+  <td class="column-9 last">{{ $user.email }}</td>
+  <td class="column-9 last">{{ $user.password }}</td>
+  <td class="column-9 last"><a href="{{ $user.login }}">Login</a></td>
+</tr>
+{{ end }}
+{{ end }}
+{{ end }}
+

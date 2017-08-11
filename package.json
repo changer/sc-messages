@@ -1,0 +1,24 @@
+{
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Slicejack/bojler"
+  },
+  "license": "MIT",
+  "scripts": {
+    "gulp": "node ./node_modules/gulp/bin/gulp.js"
+  },
+  "devDependencies": {
+    "@akzhan/gulp-juice": "^0.1.6",
+    "del": "^3.0.0",
+    "gulp": "git+https://git@github.com/gulpjs/gulp.git#4.0",
+    "gulp-connect": "^3.2.2",
+    "gulp-ext-replace": "^0.3.0",
+    "gulp-group-css-media-queries": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.2.0",
+    "gulp-strip-comments": "^2.4.5",
+    "gulp-util": "^3.0.8",
+    "through2": "^2.0.3",
+    "web-resource-inliner": "^4.1.0"
+  }
+}
