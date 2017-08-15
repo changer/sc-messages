@@ -14,16 +14,19 @@
 </tr>
 <tr>
   <td class="column-3 first h5 strong"><strong>Date</strong></td>
-  <td class="column-9 last">#{{ .date }}</td>
+  <td class="column-9 last">{{ .date }}</td>
 </tr>
+{{ $length := len .location }} {{ if gt $length 0 }}
 <tr>
   <td class="column-3 first h5 strong"><strong>Location</strong></td>
-  <td class="column-9 last">#{{ .location }}</td>
+  <td class="column-9 last">{{ .location }}</td>
 </tr>
+{{ end }}
 <tr>
   <td class="column-3 first h5 strong"><strong>Severity</strong></td>
   <td class="column-9 last"><span class="severity {{ .severity_style }}">{{ .severity }}</span></td>
 </tr>
+{{ $length := len .notes }} {{ if gt $length 0 }}
 <tr>
   <td class="column-3 first h5 strong"><strong>Notes</strong></td>
   <td class="column-9 last">
@@ -32,3 +35,4 @@
     {{ end }}
   </td>
 </tr>
+{{ end }}

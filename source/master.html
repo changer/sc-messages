@@ -35,7 +35,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><!-- 3 -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge" /><!-- 4 -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><!-- 5 -->
-    <title>Email title</title><!-- 6 -->
+    <title>{{.Subject}}</title><!-- 6 -->
 
     <!-- 7 -->
     <!--[if gte mso 15]>
@@ -79,7 +79,7 @@
   <body>
     <table id="preheader" width="0" border="0" cellpadding="0" cellspacing="0">
       <tr>
-        <td>.Subject</td>
+        <td>{{.Subject}}</td>
       </tr>
     </table>
     <table id="body-table" width="100%" border="0" cellpadding="0" cellspacing="0">
@@ -91,9 +91,10 @@
                 <img src="https://cdn.safetychanger.com/statics/img/email-hero.jpg" width="600" height="200" alt="Safety Changer" border="0" align="center" style="width: 100%; max-width: 600px; background: #000500; ">
               </td>
             </tr>
-
+            <tr>
+              <td class="column-12 first last" colspan="2">{{.salutation}}</td>
+            </tr>
 {{ block content }}
-
             {{ if and .destination_uri .linktext}}
             <tr>
               <td class="column-12 first last" colspan="2">

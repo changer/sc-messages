@@ -14,19 +14,21 @@
 </tr>
 <tr>
   <td class="column-3 first h5 strong"><strong>Date</strong></td>
-  <td class="column-9 last">#{{ .date }}</td>
+  <td class="column-9 last">{{ .date }}</td>
 </tr>
+{{ $length := len .location }} {{ if gt $length 0 }}
 <tr>
   <td class="column-3 first h5 strong"><strong>Location</strong></td>
-  <td class="column-9 last">#{{ .location }}</td>
+  <td class="column-9 last">{{ .location }}</td>
 </tr>
+{{ end }}
 <tr>
   <td class="column-3 first h5 strong"><strong>Severity</strong></td>
   <td class="column-9 last"><span class="severity {{ .severity_style }}">{{ .severity }}</span></td>
 </tr>
 <tr>
   <td class="column-3 first h5 strong"><strong>Template</strong></td>
-  <td class="column-9 last">#{{ .template_name }}</td>
+  <td class="column-9 last">{{ .template_name }}</td>
 </tr>
 <tr>
   <td class="column-3 first h5 strong"><strong>Inspection</strong></td>
@@ -42,9 +44,9 @@
 {{ range $key, $item := .items }}
 <tr>
   <td class="column-3 first h5 strong">{{ $item.Title }}</td>
-  <td class="pre">{{ .key_value }}</td></tr>
+  <td class="pre">{{ $item.Value }}</td></tr>
 {{ end }}
-
+{{ $length := len .notes }} {{ if gt $length 0 }}
 <tr>
   <td class="column-3 first h5 strong"><strong>Notes</strong></td>
   <td class="column-9 last">
@@ -53,3 +55,4 @@
     {{ end }}
   </td>
 </tr>
+{{ end }}

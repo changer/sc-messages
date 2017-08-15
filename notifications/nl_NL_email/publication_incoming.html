@@ -35,7 +35,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><!-- 3 -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/><!-- 4 -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/><!-- 5 -->
-    <title>Email title</title><!-- 6 -->
+    <title>{{.Subject}}</title><!-- 6 -->
 
     <!-- 7 -->
     <!--[if gte mso 15]>
@@ -177,7 +177,7 @@ a[x-apple-data-detectors] {
   <body style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; color: #555555; width: 100%; height: 100%; margin: 0; padding: 0; background: #f1f1f1; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
     <table id="preheader" width="0" border="0" cellpadding="0" cellspacing="0" style="color: #555555; border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
       <tr>
-        <td style="border-collapse: collapse; text-align: left; overflow: hidden; opacity: 0; visibility: hidden; mso-hide: all; font-size: 1px; line-height: 1px; max-height: 0px; max-width: 0px; color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; display: none;" align="left">.Subject</td>
+        <td style="border-collapse: collapse; text-align: left; overflow: hidden; opacity: 0; visibility: hidden; mso-hide: all; font-size: 1px; line-height: 1px; max-height: 0px; max-width: 0px; color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; display: none;" align="left">{{.Subject}}</td>
       </tr>
     </table>
     <table id="body-table" width="100%" border="0" cellpadding="0" cellspacing="0" style="color: #555555; margin: 0; padding: 0; background: #f1f1f1; border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; width: 100%; height: 100%; line-height: 100%;">
@@ -189,7 +189,9 @@ a[x-apple-data-detectors] {
                 <img src="https://cdn.safetychanger.com/statics/img/email-hero.jpg" width="600" height="200" alt="Safety Changer" border="0" align="center" style="vertical-align: top; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: 100%; max-width: 600px; background: #000500;">
               </img></td>
             </tr>
-
+            <tr>
+              <td class="column-12 first last" colspan="2" style="font-size: 16px; line-height: 23px; color: #555555; border-collapse: collapse; text-align: left; width: 600px; padding-bottom: 20px; padding-left: 20px; padding-right: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left">{{.salutation}}</td>
+            </tr>
 <tr>
   <td class="column-12 first last" style="font-size: 16px; line-height: 23px; color: #555555; border-collapse: collapse; text-align: left; width: 600px; padding-bottom: 20px; padding-left: 20px; padding-right: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left">Er is een nieuwe publicatie beschikbaar:</td>
 </tr>
@@ -264,7 +266,6 @@ a[x-apple-data-detectors] {
   </td>
 </tr>
 {{ end }}
-
 
 
             {{ if and .destination_uri .linktext}}

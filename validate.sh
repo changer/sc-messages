@@ -1,6 +1,6 @@
 #! /bin/bash
 
-FILES=notifications/translations/*.json
+FILES=notifications/*.json
 for f in $FILES
 do
   echo "Parsing ${f}"

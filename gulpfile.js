@@ -91,7 +91,7 @@ gulp.task( 'clean:css', function( done ) {
 gulp.task( 'clean:html', function( done ) {
 	'use strict';
 
-	const base = fs.readFileSync('source/base.html', 'utf8');
+	const base = fs.readFileSync('source/master.html', 'utf8');
 
 	return gulp.src( 'source/*/**/*.html' )
 		.pipe(
