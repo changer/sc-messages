@@ -87,17 +87,23 @@
         <td class="body-table-spacing" align="center" valign="top"><!-- 12 -->
           <table class="container" width="600" align="center" border="0" cellpadding="0" cellspacing="0">
             <tr>
-              <td class="hero" width="600" height="200" colspan="2">
+              <td class="hero" width="600" height="200">
                 <img src="https://cdn.safetychanger.com/statics/img/email-hero.jpg" width="600" height="200" alt="Safety Changer" border="0" align="center" style="width: 100%; max-width: 600px; background: #000500; ">
               </td>
             </tr>
             <tr>
-              <td class="column-12 first last" colspan="2">{{.salutation}}</td>
+              <td class="column-12 first last">{{.salutation}}</td>
             </tr>
-{{ block content }}
+            <tr>
+              <td class="column-12" style="padding-left: 0; padding-right: 0;">
+                <table class="container" width="600" align="center" border="0" cellpadding="0" cellspacing="0">
+                  {{ block content }}
+                </table>
+              </td>
+            </tr>
             {{ if and .destination_uri .linktext}}
             <tr>
-              <td class="column-12 first last" colspan="2">
+              <td class="column-12 first last">
                 <table class="align-center btn btn--blue btn--rounded" border="0" cellpadding="0" cellspacing="0">
                   <tr>
                     <td>
@@ -109,10 +115,10 @@
             </tr>
             {{ end }}
             <tr>
-              <td class="column-12 first last" colspan="2">{{.regards}}</td>
+              <td class="column-12 first last">{{.regards}}</td>
             </tr>
             <tr>
-              <td class="column-12 first last h6" colspan="2">{{.footer}}{{.changesettings}}{{.help}}</td>
+              <td class="column-12 first last h6">{{.footer}}{{.changesettings}}{{.help}}</td>
             </tr>
           </table>
         </td>

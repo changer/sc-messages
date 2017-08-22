@@ -7,15 +7,15 @@
 {{ if .users }}
 {{ $length := len .users }} {{ if gt $length 0 }}
 <tr>
-  <td class="column-3 first h5 strong">Email</td>
-  <td class="column-3 first h5 strong">Password</td>
-  <td class="column-3 first h5 strong">Login</td>
+  <td valign="top" class="column-6 first h5 strong">Email</td>
+  <td valign="top" class="column-4 h5 strong">Password</td>
+  <td valign="top" class="column-2 last h5 strong">Login</td>
 </tr>
 {{ range $key, $user := .users }}
 <tr>
-  <td class="column-9 last">{{ $user.email }}</td>
-  <td class="column-9 last">{{ $user.password }}</td>
-  <td class="column-9 last"><a href="{{ $user.login }}">Login</a></td>
+  <td valign="top" class="column-6 first">{{ $user.email }}</td>
+  <td valign="top" class="column-4">{{ $user.password }}</td>
+  <td valign="top" class="column-2 last"><a href="{{ $user.login }}">Login</a></td>
 </tr>
 {{ end }}
 {{ end }}

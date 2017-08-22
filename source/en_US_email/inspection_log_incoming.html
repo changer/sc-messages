@@ -4,50 +4,50 @@
   </td>
 </tr>
 <tr>
-  <td class="column-3 first h5 strong">Ref. number</td>
-  <td class="column-9 last">#{{ .ref_number }}</td>
+  <td valign="top" class="column-3 first h5 strong">Ref. number</td>
+  <td valign="top" class="column-9 last">#{{ .ref_number }}</td>
 </tr>
 <tr>
-  <td class="column-3 first h5 strong"><strong>Date</strong></td>
-  <td class="column-9 last">{{ .date }}</td>
+  <td valign="top" class="column-3 first h5 strong">Date</td>
+  <td valign="top" class="column-9 last">{{ .date }}</td>
 </tr>
 {{ $length := len .location }} {{ if gt $length 0 }}
 <tr>
-  <td class="column-3 first h5 strong"><strong>Location</strong></td>
-  <td class="column-9 last">{{ .location }}</td>
+  <td valign="top" class="column-3 first h5 strong">Location</td>
+  <td valign="top" class="column-9 last">{{ .location }}</td>
 </tr>
 {{ end }}
 <tr>
-  <td class="column-3 first h5 strong"><strong>Severity</strong></td>
-  <td class="column-9 last"><span class="severity {{ .severity_style }}">{{ .severity }}</span></td>
+  <td valign="top" class="column-3 first h5 strong">Severity</td>
+  <td valign="top" class="column-9 last"><span class="severity extreme {{ .severity_style }}">{{ .severity }}</span></td>
 </tr>
 <tr>
-  <td class="column-3 first h5 strong"><strong>Template</strong></td>
-  <td class="column-9 last">{{ .template_name }}</td>
+  <td valign="top" class="column-3 first h5 strong">Template</td>
+  <td valign="top" class="column-9 last">{{ .template_name }}</td>
 </tr>
 <tr>
-  <td class="column-3 first h5 strong"><strong>Inspection</strong></td>
-  <td class="column-9 last">#{{ .inspection_number }}</td>
+  <td valign="top" class="column-3 first h5 strong">Inspection</td>
+  <td valign="top" class="column-9 last">#{{ .inspection_number }}</td>
 </tr>
 {{ if .key_name }}
 <tr>
-  <td class="column-3 first h5 strong">{{ .key_name}}</td>
-  <td class="column-9 last">{{ .key_value }}</td>
+  <td valign="top" class="column-3 first h5 strong">{{ .key_name}}</td>
+  <td valign="top" class="column-9 last">{{ .key_value }}</td>
 </tr>
 {{ end }}
 
 {{ range $key, $item := .items }}
 <tr>
-  <td class="column-3 first h5 strong">{{ $item.Title }}</td>
-  <td class="pre">{{ $item.Value }}</td></tr>
+  <td valign="top" class="column-3 first h5 strong">{{ $item.Title }}</td>
+  <td valign="top" class="column-9 last pre">{{ $item.Value }}</td></tr>
 {{ end }}
-
 {{ $length := len .notes }} {{ if gt $length 0 }}
 <tr>
-  <td class="column-3 first h5 strong"><strong>Notes</strong></td>
-  <td class="column-9 last">
+  <td valign="top" class="column-3 first h5 strong">Notes</td>
+  <td valign="top" class="column-9 last">
     {{ range $key, $note := .notes }}
-      <p><span class="h4 strong">&ldquo;</span>{{ $note }}<span class="h4 strong">&rdquo;</span></p>
+      <span class="h4 strong">&ldquo;</span>{{ $note }}<span class="h4 strong">&rdquo;</span>
+      <br>
     {{ end }}
   </td>
 </tr>

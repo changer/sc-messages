@@ -103,6 +103,26 @@ a[x-apple-data-detectors] {
 .ExternalClass div {
   line-height: 100%;
 }
+
+.severity.extreme {
+  background-color: #e52a12;
+}
+
+.severity.very-high {
+  background-color: #f39000;
+}
+
+.severity.high {
+  background-color: #fcd400;
+}
+
+.severity.medium {
+  background-color: #c3d200;
+}
+
+.severity.low {
+  background-color: #009640;
+}
 </style><!-- 10 -->
     <style>
 @media (max-width: 600px) {
@@ -185,15 +205,18 @@ a[x-apple-data-detectors] {
         <td class="body-table-spacing" align="left" valign="top" style="font-size: 16px; line-height: 23px; color: #555555; border-collapse: collapse; text-align: left; padding-top: 20px; padding-bottom: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;"><!-- 12 -->
           <table class="container" width="600" align="center" border="0" cellpadding="0" cellspacing="0" style="color: #555555; width: 600px; margin: 0 auto 0 auto; background: #fff; border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
             <tr>
-              <td class="hero" width="600" height="200" colspan="2" style="font-size: 16px; line-height: 23px; color: #555555; border-collapse: collapse; text-align: left; width: 600px; height: 200px; background-size: cover; background-position: center; vertical-align: middle; padding-bottom: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left" valign="middle">
+              <td class="hero" width="600" height="200" style="font-size: 16px; line-height: 23px; color: #555555; border-collapse: collapse; text-align: left; width: 600px; height: 200px; background-size: cover; background-position: center; vertical-align: middle; padding-bottom: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left" valign="middle">
                 <img src="https://cdn.safetychanger.com/statics/img/email-hero.jpg" width="600" height="200" alt="Safety Changer" border="0" align="center" style="vertical-align: top; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: 100%; max-width: 600px; background: #000500;">
               </img></td>
             </tr>
             <tr>
-              <td class="column-12 first last" colspan="2" style="font-size: 16px; line-height: 23px; color: #555555; border-collapse: collapse; text-align: left; width: 600px; padding-bottom: 20px; padding-left: 20px; padding-right: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left">{{.salutation}}</td>
+              <td class="column-12 first last" style="font-size: 16px; line-height: 23px; color: #555555; border-collapse: collapse; text-align: left; width: 600px; padding-bottom: 20px; padding-left: 20px; padding-right: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left">{{.salutation}}</td>
             </tr>
-<tr>
-  <td class="column-12 first last" style="font-size: 16px; line-height: 23px; color: #555555; border-collapse: collapse; text-align: left; width: 600px; padding-bottom: 20px; padding-left: 20px; padding-right: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left">Er is een nieuwe publicatie beschikbaar:</td>
+            <tr>
+              <td class="column-12" style="font-size: 16px; line-height: 23px; color: #555555; border-collapse: collapse; text-align: left; width: 600px; padding-bottom: 20px; padding-left: 0; padding-right: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left">
+                <table class="container" width="600" align="center" border="0" cellpadding="0" cellspacing="0" style="color: #555555; width: 600px; margin: 0 auto 0 auto; background: #fff; border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+                  <tr>
+  <td class="column-12 first last" colspan="2" style="font-size: 16px; line-height: 23px; color: #555555; border-collapse: collapse; text-align: left; width: 600px; padding-bottom: 20px; padding-left: 20px; padding-right: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left">Er is een nieuwe publicatie beschikbaar:</td>
 </tr>
 <tr>
   <td class="column-12 first last h3" colspan="2" style="color: #555555; border-collapse: collapse; text-align: left; margin: 0; font-size: 28px; line-height: 36px; width: 600px; padding-bottom: 20px; padding-left: 20px; padding-right: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left">
@@ -201,37 +224,43 @@ a[x-apple-data-detectors] {
   </td>
 </tr>
 <tr>
-  <td class="column-3 first h5 strong" style="color: #555555; border-collapse: collapse; text-align: left; margin: 0; font-size: 16px; line-height: 23px; font-weight: bold; padding-right: 10px; width: 150px; padding-bottom: 20px; padding-left: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left">Case file</td>
-  <td class="column-9 last" style="font-size: 16px; line-height: 23px; color: #555555; border-collapse: collapse; text-align: left; padding-left: 10px; width: 450px; padding-bottom: 20px; padding-right: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left">{{ .casefile_name }}</td>
+  <td class="column-12" colspan="2" style="font-size: 16px; line-height: 23px; color: #555555; border-collapse: collapse; text-align: left; padding-left: 10px; padding-right: 10px; width: 600px; padding-bottom: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left"/>
 </tr>
 <tr>
-  <td class="column-3 first h5 strong" style="color: #555555; border-collapse: collapse; text-align: left; margin: 0; font-size: 16px; line-height: 23px; font-weight: bold; padding-right: 10px; width: 150px; padding-bottom: 20px; padding-left: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left">Ref. nummer</td>
-  <td class="column-9 last" style="font-size: 16px; line-height: 23px; color: #555555; border-collapse: collapse; text-align: left; padding-left: 10px; width: 450px; padding-bottom: 20px; padding-right: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left">#{{ .ref_number }}</td>
+  <td valign="top" class="column-3 first h5 strong" style="color: #555555; border-collapse: collapse; text-align: left; margin: 0; font-size: 16px; line-height: 23px; font-weight: bold; padding-right: 10px; width: 150px; padding-bottom: 20px; padding-left: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left">Case file</td>
+  <td valign="top" class="column-9 last" style="font-size: 16px; line-height: 23px; color: #555555; border-collapse: collapse; text-align: left; padding-left: 10px; width: 450px; padding-bottom: 20px; padding-right: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left">{{ .casefile_name }}</td>
 </tr>
 <tr>
-  <td class="column-3 first h5 strong" style="color: #555555; border-collapse: collapse; text-align: left; margin: 0; font-size: 16px; line-height: 23px; font-weight: bold; padding-right: 10px; width: 150px; padding-bottom: 20px; padding-left: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left"><strong>Datum</strong></td>
-  <td class="column-9 last" style="font-size: 16px; line-height: 23px; color: #555555; border-collapse: collapse; text-align: left; padding-left: 10px; width: 450px; padding-bottom: 20px; padding-right: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left">{{ .casefile_date }}</td>
+  <td valign="top" class="column-3 first h5 strong" style="color: #555555; border-collapse: collapse; text-align: left; margin: 0; font-size: 16px; line-height: 23px; font-weight: bold; padding-right: 10px; width: 150px; padding-bottom: 20px; padding-left: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left">Ref. nummer</td>
+  <td valign="top" class="column-9 last" style="font-size: 16px; line-height: 23px; color: #555555; border-collapse: collapse; text-align: left; padding-left: 10px; width: 450px; padding-bottom: 20px; padding-right: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left">#{{ .ref_number }}</td>
 </tr>
 <tr>
-  <td class="column-3 first h5 strong" style="color: #555555; border-collapse: collapse; text-align: left; margin: 0; font-size: 16px; line-height: 23px; font-weight: bold; padding-right: 10px; width: 150px; padding-bottom: 20px; padding-left: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left"><strong>Locatie</strong></td>
-  <td class="column-9 last" style="font-size: 16px; line-height: 23px; color: #555555; border-collapse: collapse; text-align: left; padding-left: 10px; width: 450px; padding-bottom: 20px; padding-right: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left">{{ .casefile_location }}</td>
+  <td valign="top" class="column-3 first h5 strong" style="color: #555555; border-collapse: collapse; text-align: left; margin: 0; font-size: 16px; line-height: 23px; font-weight: bold; padding-right: 10px; width: 150px; padding-bottom: 20px; padding-left: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left">Datum</td>
+  <td valign="top" class="column-9 last" style="font-size: 16px; line-height: 23px; color: #555555; border-collapse: collapse; text-align: left; padding-left: 10px; width: 450px; padding-bottom: 20px; padding-right: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left">{{ .casefile_date }}</td>
 </tr>
 <tr>
-  <td class="column-3 first h5 strong" style="color: #555555; border-collapse: collapse; text-align: left; margin: 0; font-size: 16px; line-height: 23px; font-weight: bold; padding-right: 10px; width: 150px; padding-bottom: 20px; padding-left: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left"><strong>Prioriteit</strong></td>
-  <td class="column-9 last" style="font-size: 16px; line-height: 23px; color: #555555; border-collapse: collapse; text-align: left; padding-left: 10px; width: 450px; padding-bottom: 20px; padding-right: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left"><span class="severity {{ .casefile_severity_style }}" style="border-radius: 3px; box-sizing: border-box; color: #fff; display: inline-block; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 12px; font-weight: bold; height: 20px; line-height: 14px; min-width: 10px; padding-bottom: 3px; padding-left: 7px; padding-right: 7px; padding-top: 3px; text-align: left; text-transform: uppercase; vertical-align: middle; white-space: nowrap; -webkit-font-smoothing: antialiased;">{{ .casefile_severity }}</span></td>
+  <td valign="top" class="column-3 first h5 strong" style="color: #555555; border-collapse: collapse; text-align: left; margin: 0; font-size: 16px; line-height: 23px; font-weight: bold; padding-right: 10px; width: 150px; padding-bottom: 20px; padding-left: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left">Locatie</td>
+  <td valign="top" class="column-9 last" style="font-size: 16px; line-height: 23px; color: #555555; border-collapse: collapse; text-align: left; padding-left: 10px; width: 450px; padding-bottom: 20px; padding-right: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left">{{ .casefile_location }}</td>
+</tr>
+<tr>
+  <td valign="top" class="column-3 first h5 strong" style="color: #555555; border-collapse: collapse; text-align: left; margin: 0; font-size: 16px; line-height: 23px; font-weight: bold; padding-right: 10px; width: 150px; padding-bottom: 20px; padding-left: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left">Prioriteit</td>
+  <td valign="top" class="column-9 last" style="font-size: 16px; line-height: 23px; color: #555555; border-collapse: collapse; text-align: left; padding-left: 10px; width: 450px; padding-bottom: 20px; padding-right: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left"><span class="severity extreme {{ .casefile_severity_style }}" style="border-radius: 3px; box-sizing: border-box; color: #fff; display: inline-block; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 12px; font-weight: bold; height: 20px; line-height: 14px; min-width: 10px; padding-bottom: 3px; padding-left: 7px; padding-right: 7px; padding-top: 3px; text-align: left; text-transform: uppercase; vertical-align: middle; white-space: nowrap; -webkit-font-smoothing: antialiased;">{{ .casefile_severity }}</span></td>
+</tr>
+<tr>
+  <td class="column-12" colspan="2" style="font-size: 16px; line-height: 23px; color: #555555; border-collapse: collapse; text-align: left; padding-left: 10px; padding-right: 10px; width: 600px; padding-bottom: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left"/>
 </tr>
 
 {{ range $key, $att := .attributes }}
 <tr>
-  <td class="column-3 first h5 strong" style="color: #555555; border-collapse: collapse; text-align: left; margin: 0; font-size: 16px; line-height: 23px; font-weight: bold; padding-right: 10px; width: 150px; padding-bottom: 20px; padding-left: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left">{{ $att.Title }}</td>
-  <td class="column-9 pre" style="font-size: 16px; line-height: 23px; color: #555555; border-collapse: collapse; text-align: left; white-space: pre; padding-left: 10px; padding-right: 10px; width: 450px; padding-bottom: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left">{{ $att.Value }}</td>
+  <td valign="top" class="column-3 first h5 strong" style="color: #555555; border-collapse: collapse; text-align: left; margin: 0; font-size: 16px; line-height: 23px; font-weight: bold; padding-right: 10px; width: 150px; padding-bottom: 20px; padding-left: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left">{{ $att.Title }}</td>
+  <td valign="top" class="column-9 last pre" style="font-size: 16px; line-height: 23px; color: #555555; border-collapse: collapse; text-align: left; white-space: pre; padding-left: 10px; width: 450px; padding-bottom: 20px; padding-right: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left">{{ $att.Value }}</td>
 </tr>
 {{ end }}
 
 {{ $length := len .observations }} {{ if gt $length 0 }}
 <tr>
-  <td class="column-3 first h5 strong" style="color: #555555; border-collapse: collapse; text-align: left; margin: 0; font-size: 16px; line-height: 23px; font-weight: bold; padding-right: 10px; width: 150px; padding-bottom: 20px; padding-left: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left">Observators</td>
-  <td class="column-9 have-list" style="font-size: 16px; line-height: 23px; color: #555555; border-collapse: collapse; text-align: left; padding-left: 10px; padding-right: 10px; width: 450px; padding-bottom: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left">
+  <td valign="top" class="column-3 first h5 strong" style="color: #555555; border-collapse: collapse; text-align: left; margin: 0; font-size: 16px; line-height: 23px; font-weight: bold; padding-right: 10px; width: 150px; padding-bottom: 20px; padding-left: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left">Observators</td>
+  <td valign="top" class="column-9 last have-list" style="font-size: 16px; line-height: 23px; color: #555555; border-collapse: collapse; text-align: left; padding-left: 10px; width: 450px; padding-bottom: 20px; padding-right: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left">
     <ul style="margin: 0; padding: 0;">
     {{ range $key, $value := .observations }}
       <li>{{ $value }}</li>
@@ -243,8 +272,8 @@ a[x-apple-data-detectors] {
 
 {{ $length := len .witnesses }} {{ if gt $length 0 }}
 <tr>
-  <td class="column-3 first h5 strong" style="color: #555555; border-collapse: collapse; text-align: left; margin: 0; font-size: 16px; line-height: 23px; font-weight: bold; padding-right: 10px; width: 150px; padding-bottom: 20px; padding-left: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left">Getuigen</td>
-  <td class="column-9 have-list" style="font-size: 16px; line-height: 23px; color: #555555; border-collapse: collapse; text-align: left; padding-left: 10px; padding-right: 10px; width: 450px; padding-bottom: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left">
+  <td valign="top" class="column-3 first h5 strong" style="color: #555555; border-collapse: collapse; text-align: left; margin: 0; font-size: 16px; line-height: 23px; font-weight: bold; padding-right: 10px; width: 150px; padding-bottom: 20px; padding-left: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left">Getuigen</td>
+  <td valign="top" class="column-9 last have-list" style="font-size: 16px; line-height: 23px; color: #555555; border-collapse: collapse; text-align: left; padding-left: 10px; width: 450px; padding-bottom: 20px; padding-right: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left">
     <ul style="margin: 0; padding: 0;">
     {{ range $key, $value := .witnesses }}
       <li>{{ $value.Name }}</li>
@@ -256,8 +285,8 @@ a[x-apple-data-detectors] {
 
 {{ $length := len .actions }} {{ if gt $length 0 }}
 <tr>
-  <td class="column-3 first h5 strong" style="color: #555555; border-collapse: collapse; text-align: left; margin: 0; font-size: 16px; line-height: 23px; font-weight: bold; padding-right: 10px; width: 150px; padding-bottom: 20px; padding-left: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left">Acties</td>
-  <td class="column-9 have-list" style="font-size: 16px; line-height: 23px; color: #555555; border-collapse: collapse; text-align: left; padding-left: 10px; padding-right: 10px; width: 450px; padding-bottom: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left">
+  <td valign="top" class="column-3 first h5 strong" style="color: #555555; border-collapse: collapse; text-align: left; margin: 0; font-size: 16px; line-height: 23px; font-weight: bold; padding-right: 10px; width: 150px; padding-bottom: 20px; padding-left: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left">Acties</td>
+  <td valign="top" class="column-9 last have-list" style="font-size: 16px; line-height: 23px; color: #555555; border-collapse: collapse; text-align: left; padding-left: 10px; width: 450px; padding-bottom: 20px; padding-right: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left">
     <ul style="margin: 0; padding: 0;">
     {{ range $key, $value := .actions }}
       <li>{{ $value }}</li>
@@ -268,9 +297,12 @@ a[x-apple-data-detectors] {
 {{ end }}
 
 
+                </table>
+              </td>
+            </tr>
             {{ if and .destination_uri .linktext}}
             <tr>
-              <td class="column-12 first last" colspan="2" style="font-size: 16px; line-height: 23px; color: #555555; border-collapse: collapse; text-align: left; width: 600px; padding-bottom: 20px; padding-left: 20px; padding-right: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left">
+              <td class="column-12 first last" style="font-size: 16px; line-height: 23px; color: #555555; border-collapse: collapse; text-align: left; width: 600px; padding-bottom: 20px; padding-left: 20px; padding-right: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left">
                 <table class="align-center btn btn--blue btn--rounded" border="0" cellpadding="0" cellspacing="0" style="color: #555555; text-align: center; border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="center">
                   <tr>
                     <td style="font-size: 16px; line-height: 23px; color: #555555; border-collapse: collapse; text-align: center; border-radius: 6px; background-color: #00aae5; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="center" bgcolor="#00aae5">
@@ -282,10 +314,10 @@ a[x-apple-data-detectors] {
             </tr>
             {{ end }}
             <tr>
-              <td class="column-12 first last" colspan="2" style="font-size: 16px; line-height: 23px; color: #555555; border-collapse: collapse; text-align: left; width: 600px; padding-bottom: 20px; padding-left: 20px; padding-right: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left">{{.regards}}</td>
+              <td class="column-12 first last" style="font-size: 16px; line-height: 23px; color: #555555; border-collapse: collapse; text-align: left; width: 600px; padding-bottom: 20px; padding-left: 20px; padding-right: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left">{{.regards}}</td>
             </tr>
             <tr>
-              <td class="column-12 first last h6" colspan="2" style="color: #555555; border-collapse: collapse; text-align: left; margin: 0; font-size: 12px; line-height: 20px; width: 600px; padding-bottom: 20px; padding-left: 20px; padding-right: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left">{{.footer}}{{.changesettings}}{{.help}}</td>
+              <td class="column-12 first last h6" style="color: #555555; border-collapse: collapse; text-align: left; margin: 0; font-size: 12px; line-height: 20px; width: 600px; padding-bottom: 20px; padding-left: 20px; padding-right: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left">{{.footer}}{{.changesettings}}{{.help}}</td>
             </tr>
           </table>
         </td>

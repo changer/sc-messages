@@ -45,3 +45,19 @@ a[x-apple-data-detectors] {
 		line-height: 100%; /* 5 */
 	}
 }
+
+.severity.extreme {
+  background-color: #e52a12;
+}
+.severity.very-high {
+  background-color: #f39000;
+}
+.severity.high {
+  background-color: #fcd400;
+}
+.severity.medium {
+  background-color: #c3d200;
+}
+.severity.low {
+  background-color: #009640;
+}
