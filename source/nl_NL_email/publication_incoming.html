@@ -65,17 +65,3 @@
   </td>
 </tr>
 {{ end }}
-
-{{ $length := len .actions }} {{ if gt $length 0 }}
-<tr>
-  <td valign="top" class="column-3 first h5 strong">Acties</td>
-  <td valign="top" class="column-9 last have-list">
-    <ul>
-    {{ range $key, $value := .actions }}
-      <li>{{ $value }}</li>
-    {{ end }}
-    </ul>
-  </td>
-</tr>
-{{ end }}
-

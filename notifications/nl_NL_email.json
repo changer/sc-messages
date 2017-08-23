@@ -192,7 +192,7 @@
 },
 {
   "id": "export",
-  "translation":"Hierbij het bestand met de door u aangevraagde '{{ .name }}' export.<br />Dit bestand is 30 dagen beschikbaar."
+  "translation":"Hierbij het bestand met de door u aangevraagde '{{ .name }}' export."
 },
 {
   "id": "export_subject",

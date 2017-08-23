@@ -196,7 +196,7 @@
 },
 {
   "id": "export",
-  "translation":"Please find attached the file with the requested '{{ .name }}' export data.<br />This file will be available for 30 days."
+  "translation":"Please find attached the file with the requested '{{ .name }}' export data."
 },
 {
   "id": "export_subject",
