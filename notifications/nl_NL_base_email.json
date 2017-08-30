@@ -1,6 +1,6 @@
 {
   "salutation": "Beste {{ .firstname }},",
-  "help": "Hulp nodig? Neem contact op met <a class=\"bluetext\" href=\"mailto:{{.administrator.email}}?subject={{.subject}}\">{{.administrator.name}}</a>.",
+  "help": "Hulp nodig? Neem contact op met <a class=\"bluetext\" href=\"mailto:{{.administrator.email}}?subject={{.subject}}\">{{.administrator.name}}</a>",
   "footer": "Beheer notificatie-instellingen in Safety Changer of de mobiele app",
   "copy_text": "Je kunt ook onderstaande link kopi&#235;ren en openen in je webbrowser:"
 }
