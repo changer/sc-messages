@@ -1,8 +1,6 @@
 {
-  "salutation": "<p class=\"bluetext big\">Dear {{ .firstname }},</p>",
-  "regards": "<p></p><p>Kind regards,<br />The <span class=\"bluetext\">Safety Changer</span> Team</p>",
-  "footer": "Sent from Safety Changer.",
-  "changesettings": "<br>You can manage preferences for receiving e-mail alerts either in your mobile app or inside the web application.",
-  "help": "<br>Have a question or need help? Please contact <a class=\"bluetext\" href=\"mailto:{{.administrator.email}}?subject={{.subject}}\">{{.administrator.name}}</a> and we’ll respond.",
-  "copy_text": "Alternatively, copy the following link and paste it into the address bar of your web browser:"
+  "salutation": "Dear {{ .firstname }},",
+  "help": "Help needed? Please contact <a class=\"bluetext\" href=\"mailto:{{.administrator.email}}?subject={{.subject}}\">{{.administrator.name}}</a>.",
+  "footer": "Manage (email) alert settings inside Safety Changer or the mobile app",
+  "copy_text": "Alternatively, copy the following link and open it in your web browser:"
 }
