@@ -7,61 +7,64 @@
   </td>
 </tr>
 <tr>
-  <td class="column-12" colspan="2"></td>
-</tr>
-<tr>
-  <td valign="top" class="column-3 first h5 strong">Case file</td>
-  <td valign="top" class="column-9 last">{{ .casefile_name }}</td>
-</tr>
-<tr>
-  <td valign="top" class="column-3 first h5 strong">Ref. nummer</td>
-  <td valign="top" class="column-9 last">#{{ .ref_number }}</td>
-</tr>
-<tr>
-  <td valign="top" class="column-3 first h5 strong">Datum</td>
-  <td valign="top" class="column-9 last">{{ .casefile_date }}</td>
-</tr>
-<tr>
-  <td valign="top" class="column-3 first h5 strong">Locatie</td>
-  <td valign="top" class="column-9 last">{{ .casefile_location }}</td>
-</tr>
-<tr>
-  <td valign="top" class="column-3 first h5 strong">Prioriteit</td>
-  <td valign="top" class="column-9 last"><span class="severity extreme {{ .casefile_severity_style }}">{{ .casefile_severity }}</span></td>
-</tr>
-<tr>
-  <td class="column-12" colspan="2"></td>
-</tr>
+  <td class="column-12" style="padding-left: 0; padding-right: 0;">
+    <table width="600" align="center" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td valign="top" class="column-3 first h5 strong">Case file</td>
+        <td valign="top" class="column-9 last">{{ .casefile_name }}</td>
+      </tr>
+      <tr>
+        <td valign="top" class="column-3 first h5 strong">Ref. nummer</td>
+        <td valign="top" class="column-9 last">#{{ .ref_number }}</td>
+      </tr>
+      <tr>
+        <td valign="top" class="column-3 first h5 strong">Datum</td>
+        <td valign="top" class="column-9 last">{{ .casefile_date }}</td>
+      </tr>
+      <tr>
+        <td valign="top" class="column-3 first h5 strong">Locatie</td>
+        <td valign="top" class="column-9 last">{{ .casefile_location }}</td>
+      </tr>
+      <tr>
+        <td valign="top" class="column-3 first h5 strong">Prioriteit</td>
+        <td valign="top" class="column-9 last"><span class="severity extreme {{ .casefile_severity_style }}">{{ .casefile_severity }}</span></td>
+      </tr>
+      <tr>
+        <td class="column-12" colspan="2"></td>
+      </tr>
 
-{{ range $key, $att := .attributes }}
-<tr>
-  <td valign="top" class="column-3 first h5 strong">{{ $att.Title }}</td>
-  <td valign="top" class="column-9 last pre">{{ $att.Value }}</td>
-</tr>
-{{ end }}
+      {{ range $key, $att := .attributes }}
+      <tr>
+        <td valign="top" class="column-3 first h5 strong">{{ $att.Title }}</td>
+        <td valign="top" class="column-9 last pre">{{ $att.Value }}</td>
+      </tr>
+      {{ end }}
 
-{{ $length := len .observations }} {{ if gt $length 0 }}
-<tr>
-  <td valign="top" class="column-3 first h5 strong">Observators</td>
-  <td valign="top" class="column-9 last have-list">
-    <ul>
-    {{ range $key, $value := .observations }}
-      <li>{{ $value }}</li>
-    {{ end }}
-    </ul>
+      {{ $length := len .observations }} {{ if gt $length 0 }}
+      <tr>
+        <td valign="top" class="column-3 first h5 strong">Observators</td>
+        <td valign="top" class="column-9 last have-list">
+          <ul>
+          {{ range $key, $value := .observations }}
+            <li>{{ $value }}</li>
+          {{ end }}
+          </ul>
+        </td>
+      </tr>
+      {{ end }}
+
+      {{ $length := len .witnesses }} {{ if gt $length 0 }}
+      <tr>
+        <td valign="top" class="column-3 first h5 strong">Getuigen</td>
+        <td valign="top" class="column-9 last have-list">
+          <ul>
+          {{ range $key, $value := .witnesses }}
+            <li>{{ $value.Name }}</li>
+          {{ end }}
+          </ul>
+        </td>
+      </tr>
+      {{ end }}
+    </table>
   </td>
 </tr>
-{{ end }}
-
-{{ $length := len .witnesses }} {{ if gt $length 0 }}
-<tr>
-  <td valign="top" class="column-3 first h5 strong">Getuigen</td>
-  <td valign="top" class="column-9 last have-list">
-    <ul>
-    {{ range $key, $value := .witnesses }}
-      <li>{{ $value.Name }}</li>
-    {{ end }}
-    </ul>
-  </td>
-</tr>
-{{ end }}
