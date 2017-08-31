@@ -168,11 +168,11 @@
 },
 {
   "id": "inspection_completed",
-  "translation": "<strong>{{ .user }}</strong> has completed inspection <strong>{{ .template_name }} #{{ .ref_number }}{{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }}</strong>.<br>Don’t forget to check this inspection!"
+  "translation": "<strong>{{ .user }}</strong> has completed inspection <strong>{{ .template_name }} #{{ .ref_number }}</strong>.{{ if .key_name }}<br><br>{{ .key_name}}: <strong>{{ .key_value }}</strong>{{ end }}<br><br>Don’t forget to check this inspection!"
 },
 {
   "id": "inspection_completed_subject",
-  "translation": "Inspection completed - '{{ .template_name }}' #{{ .ref_number }}{{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }}"
+  "translation": "Inspection completed - '{{ .template_name }}' #{{ .ref_number }}{{ if .key_name }} ({{ .key_name}}: {{ .key_value }}){{ end }}"
 },
 {
   "id": "inspection_completed_linktext",

@@ -164,11 +164,11 @@
 },
 {
   "id": "inspection_completed",
-  "translation": "<strong>{{ .user }}</strong> heeft inspectie <strong>{{ .template_name }} #{{ .ref_number }}{{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }}</strong> voltooid.<br>Vergeet niet deze inspectie te controleren!"
+  "translation": "<strong>{{ .user }}</strong> heeft inspectie <strong>{{ .template_name }} #{{ .ref_number }}</strong> voltooid.{{ if .key_name }}<br><br>{{ .key_name}}: <strong>{{ .key_value }}</strong>{{ end }}<br><br>Vergeet niet deze inspectie te controleren!"
 },
 {
   "id": "inspection_completed_subject",
-  "translation": "Inspectie '{{ .template_name }}' #{{ .ref_number }}{{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} voltooid"
+  "translation": "Inspectie voltooid - '{{ .template_name }}' #{{ .ref_number }}{{ if .key_name }} ({{ .key_name}}: {{ .key_value }}){{ end }}"
 },
 {
   "id": "inspection_completed_linktext",
