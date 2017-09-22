@@ -191,6 +191,30 @@
   "translation": "Download report"
 },
 {
+  "id": "inspection_report",
+  "translation": "Your <strong>{{ .template_name }}</strong> inspection <strong>#{{ .ref_number }}{{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }}</strong> download is ready.{{ if .khabar_attached }}<br>Evidence files are attached.{{ end }}<br />This report will be available for 30 days."
+},
+{
+  "id": "inspection_report_subject",
+  "translation": "Inspection report '{{ .template_name }}' #{{ .ref_number }}{{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }}"
+},
+{
+  "id": "inspection_report_linktext",
+  "translation": "Download report"
+},
+{
+  "id": "inspection_report_cc",
+  "translation": "<strong>{{ .inspector }}</strong> has sent you a report of an inspection (<strong>'{{ .template_name }}' #{{ .ref_number }}{{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }}</strong).{{ if .khabar_attached }}<br>Evidence files are attached.{{ end }}<br />This report will be available for 30 days."
+},
+{
+  "id": "inspection_report_cc_subject",
+  "translation": "Inspection report '{{ .template_name }}' #{{ .ref_number }}{{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }}"
+},
+{
+  "id": "inspection_report_cc_linktext",
+  "translation": "Download report"
+},
+{
   "id": "generic",
   "translation": "{{ .message }}"
 },

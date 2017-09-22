@@ -195,6 +195,14 @@
   "translation": "Uw {{ .template_name }} inspection #{{ .ref_number }} download staat klaar."
 },
 {
+  "id": "inspection_report",
+  "translation": "Uw {{ .template_name }} inspection #{{ .ref_number }} download staat klaar."
+},
+{
+  "id": "inspection_report_cc",
+  "translation": "Uw {{ .template_name }} inspection #{{ .ref_number }} download staat klaar."
+},
+{
   "id": "generic",
   "translation": "{{ .message }}"
 },

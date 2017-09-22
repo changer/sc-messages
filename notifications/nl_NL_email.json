@@ -176,7 +176,7 @@
 },
 {
   "id": "inspection_completed_report",
-  "translation": "<p>Uw <strong>{{ .template_name }} #{{ .ref_number }}{{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }}</strong> download staat klaar.{{ if .khabar_attached }}<br>Bijgevoegd ook alle foto's die als bewijs zijn opgevoerd.{{ end }}<br />Het rapport is 30 dagen beschikbaar.</p>"
+  "translation": "Uw <strong>{{ .template_name }} #{{ .ref_number }}{{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }}</strong> download staat klaar.{{ if .khabar_attached }}<br>Bijgevoegd ook alle foto's die als bewijs zijn opgevoerd.{{ end }}<br />Het rapport is 30 dagen beschikbaar."
 },
 {
   "id": "inspection_completed_report_subject",
@@ -184,6 +184,30 @@
 },
 {
   "id": "inspection_completed_report_linktext",
+  "translation": "Download report"
+},
+{
+  "id": "inspection_report",
+  "translation": "Uw <strong>{{ .template_name }} #{{ .ref_number }}{{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }}</strong> download staat klaar.{{ if .khabar_attached }}<br>Bijgevoegd ook alle foto's die als bewijs zijn opgevoerd.{{ end }}<br />Het rapport is 30 dagen beschikbaar."
+},
+{
+  "id": "inspection_report_subject",
+  "translation": "Inspectierapport '{{ .template_name }}' #{{ .ref_number }}{{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }}."
+},
+{
+  "id": "inspection_report_linktext",
+  "translation": "Download report"
+},
+{
+  "id": "inspection_report_cc",
+  "translation": "<strong>{{ .inspector }} heeft u een inspectierapport gestuurd (<strong>{{ .template_name }} #{{ .ref_number }}{{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }}</strong>).{{ if .khabar_attached }}<br>Bijgevoegd zijn ook de foto's van het bewijsmateriaal.{{ end }}<br />Het rapport is 30 dagen beschikbaar."
+},
+{
+  "id": "inspection_report_cc_subject",
+  "translation": "Inspectierapport '{{ .template_name }}' #{{ .ref_number }}{{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }}."
+},
+{
+  "id": "inspection_report_cc_linktext",
   "translation": "Download report"
 },
 {

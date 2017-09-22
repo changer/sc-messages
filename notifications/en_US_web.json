@@ -210,6 +210,14 @@
   "translation": "Your {{ .template_name }} inspection #{{ .ref_number }} download is ready."
 },
 {
+  "id": "inspection_report",
+  "translation": "Your {{ .template_name }} inspection #{{ .ref_number }} download is ready."
+},
+{
+  "id": "inspection_report_cc",
+  "translation": "Your {{ .template_name }} inspection #{{ .ref_number }} download is ready."
+},
+{
   "id": "generic",
   "translation": "{{ .message }}"
 },
