@@ -200,7 +200,7 @@
 },
 {
   "id": "inspection_report_cc",
-  "translation": "<strong>{{ .inspector }} heeft u een inspectierapport gestuurd (<strong>{{ .template_name }} #{{ .ref_number }}{{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }}</strong>).{{ if .khabar_attached }}<br>Bijgevoegd zijn ook de foto's van het bewijsmateriaal.{{ end }}<br />Het rapport is 30 dagen beschikbaar."
+  "translation": "<strong>{{ .inspector }}</strong> heeft u een inspectierapport gestuurd (<strong>{{ .template_name }} #{{ .ref_number }}{{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }}</strong>).{{ if .khabar_attached }}<br>Bijgevoegd zijn ook de foto's van het bewijsmateriaal.{{ end }}<br />Het rapport is 30 dagen beschikbaar."
 },
 {
   "id": "inspection_report_cc_subject",
