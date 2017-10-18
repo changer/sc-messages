@@ -204,7 +204,7 @@
 },
 {
   "id": "inspection_report_cc",
-  "translation": "<strong>{{ .inspector }}</strong> has sent you a report of an inspection (<strong>'{{ .template_name }}' #{{ .ref_number }}{{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }}</strong).{{ if .khabar_attached }}<br>Evidence files are attached.{{ end }}<br />This report will be available for 30 days."
+  "translation": "<strong>{{ .inspector }}</strong> has sent you a report of an inspection (<strong>'{{ .template_name }}' #{{ .ref_number }}{{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }}</strong>).{{ if .khabar_attached }}<br />Evidence files are attached.{{ end }}<br />This report will be available for 30 days."
 },
 {
   "id": "inspection_report_cc_subject",
