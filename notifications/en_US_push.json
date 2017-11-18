@@ -167,6 +167,14 @@
   "translation": "New inspection assigned"
 },
 {
+  "id": "inspection_assigned",
+  "translation": "Inspection '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} can be started."
+},
+{
+  "id": "inspection_assigned_subject",
+  "translation": "Inspection '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} can be started."
+},
+{
   "id": "inspection_completed",
   "translation": "{{ .user }} has completed inspection '{{ .template_name }}'"
 },
