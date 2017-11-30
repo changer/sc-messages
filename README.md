@@ -13,6 +13,7 @@ Most topics will be sent by email, most will show up in the web as well, few wil
 
 ## Inspectionapp
 * inspection_template_assigned
+* inspection_assigned
 * inspection_completed
 * inspection_completed_report
 * inspection_template_clone
@@ -22,6 +23,7 @@ Most topics will be sent by email, most will show up in the web as well, few wil
 * log_archived
 * incident_assigned
 * incident_contribution
+* casefile_closed
 * log_incoming
 * high_prio_log_incoming
 * publication_incoming

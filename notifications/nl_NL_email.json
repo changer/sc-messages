@@ -119,12 +119,16 @@
   "translation": "Bekijk case file"
 },
 {
-  "id": "user_contributed_to_incident",
-  "translation": "<strong>{{.user}}</strong> heeft bijgedragen aan jouw case file <strong>{{.casefile_name}}</strong>."
+  "id": "casefile_closed",
+  "translation": "</strong>{{.closer}}</strong> heeft jouw case file <strong>{{.casefile_name}}</strong> gesloten."
 },
 {
-  "id": "user_contributed_to_incident_subject",
-  "translation": "Bijdrage aan case file '{{.casefile_name}}'"
+  "id": "casefile_closed_subject",
+  "translation": "Case file '{{.casefile_name}}' gesloten door {{ .closer }}"
+},
+{
+  "id": "casefile_closed_linktext",
+  "translation": "Bekijk case file"
 },
 {
   "id": "incident_assigned",

@@ -150,12 +150,12 @@
   "translation": "New contribution"
 },
 {
-  "id": "user_contributed_to_incident",
-  "translation": "{{.user}} contributed to your case file {{.casefile_name}}."
+  "id": "casefile_closed",
+  "translation": "Case file '{{.casefile_name}}' was closed by {{.closer}}"
 },
 {
-  "id": "user_contributed_to_incident_subject",
-  "translation": "Case file contribution"
+  "id": "casefile_closed_subject",
+  "translation": "Casefile closed"
 },
 {
   "id": "incident_assigned",

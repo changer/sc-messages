@@ -119,6 +119,18 @@
   "translation": "View case file"
 },
 {
+  "id": "casefile_closed",
+  "translation": "<strong>{{.closer}}</strong> closed your case file <strong>{{.casefile_name}}</strong>."
+},
+{
+  "id": "casefile_closed_subject",
+  "translation": "Case file '{{.casefile_name}}' was closed by {{.closer}}"
+},
+{
+  "id": "casefile_closed_linktext",
+  "translation": "View case file"
+},
+{
   "id": "user_contributed_to_incident",
   "translation": "<strong>{{.user}}</strong> contributed to your case file <strong>{{.casefile_name}}</strong>."
 },
