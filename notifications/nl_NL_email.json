@@ -167,6 +167,10 @@
   "translation": "Nieuwe inspectie '{{ .template_name }}' toegewezen"
 },
 {
+  "id": "inspection_template_assigned_linktext",
+  "translation": "Bekijk de template"
+},
+{
   "id": "inspection_completed",
   "translation": "<strong>{{ .user }}</strong> heeft inspectie <strong>{{ .template_name }} #{{ .ref_number }}</strong> voltooid.{{ if .key_name }}<br><br>{{ .key_name}}: <strong>{{ .key_value }}</strong>{{ end }}<br><br>Vergeet niet deze inspectie te controleren!"
 },

@@ -175,6 +175,10 @@
   "translation": "<strong>{{ .assigner }}</strong> has assigned a new inspection <strong>{{ .template_name }}</strong> to you."
 },
 {
+  "id": "inspection_template_assigned_linktext",
+  "translation": "View template"
+},
+{
   "id": "inspection_template_assigned_subject",
   "translation": "New inspection '{{ .template_name }}' assigned"
 },
