@@ -136,7 +136,7 @@
 },
 {
   "id": "casefile_closed",
-  "translation": "</strong>{{.closer}}</strong> heeft jouw case file <strong>{{.casefile_name}}</strong> gesloten."
+  "translation": "{{.closer}} heeft de case file {{.casefile_name}} gesloten die door jou op {{ .date_created }} aangemaakt is."
 },
 {
   "id": "casefile_closed_subject",

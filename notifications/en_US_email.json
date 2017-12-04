@@ -120,7 +120,7 @@
 },
 {
   "id": "casefile_closed",
-  "translation": "<strong>{{.closer}}</strong> closed your case file <strong>{{.casefile_name}}</strong>."
+  "translation": "<strong>{{.closer}}</strong> closed case file <strong>{{.casefile_name}}</strong> you created on {{ .date_created }}."
 },
 {
   "id": "casefile_closed_subject",

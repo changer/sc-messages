@@ -151,7 +151,7 @@
 },
 {
   "id": "casefile_closed",
-  "translation": "Case file '{{.casefile_name}}' was closed by {{.closer}}"
+  "translation": "{{.closer}} closed case file {{.casefile_name}} you created on {{ .date_created }}."
 },
 {
   "id": "casefile_closed_subject",
