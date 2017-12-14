@@ -175,7 +175,7 @@
   "translation": "<strong>{{ .assigner }}</strong> has assigned a new inspection <strong>{{ .template_name }}</strong> to you."
 },
 {
-  "id": "inspection_template_assigned_linktext",
+  "id": "inspection_template_assigned_linktext___",
   "translation": "View template"
 },
 {

@@ -167,7 +167,7 @@
   "translation": "Nieuwe inspectie '{{ .template_name }}' toegewezen"
 },
 {
-  "id": "inspection_template_assigned_linktext",
+  "id": "inspection_template_assigned_linktext___",
   "translation": "Bekijk de template"
 },
 {
