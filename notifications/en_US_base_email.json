@@ -1,6 +1,6 @@
 {
   "salutation": "Dear {{ .firstname }},",
   "help": "Help needed? Please contact <a class=\"bluetext\" href=\"mailto:{{.administrator.email}}?subject={{.subject}}\">{{.administrator.name}}</a>",
-  "footer": "Manage (email) alert settings inside Safety Changer or the mobile app",
+  "footer": "Manage (email) alert settings inside {{ .brand_name }} or the mobile app",
   "copy_text": "Alternatively, copy the following link and open it in your web browser:"
 }

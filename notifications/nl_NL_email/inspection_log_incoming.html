@@ -209,9 +209,13 @@ a[x-apple-data-detectors] {
         <td class="body-table-spacing" align="left" valign="top" style="font-size: 16px; line-height: 23px; color: #555555; border-collapse: collapse; text-align: left; padding-top: 20px; padding-bottom: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;"><!-- 12 -->
           <table class="container" width="600" align="center" border="0" cellpadding="0" cellspacing="0" style="color: #555555; width: 600px; margin: 0 auto 0 auto; background: #fff; border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
             <tr>
+            {{ if .header }}
+              {{ .header }}
+            {{ else }}
               <td class="hero" width="600" height="200" style="font-size: 16px; line-height: 23px; color: #555555; border-collapse: collapse; text-align: left; width: 600px; height: 200px; background-size: cover; background-position: center; vertical-align: middle; padding-bottom: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left" valign="middle">
-                <img src="https://cdn.safetychanger.com/statics/img/email-hero.jpg" width="600" height="200" alt="Safety Changer" border="0" align="center" style="vertical-align: top; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: 100%; max-width: 600px; background: #000500;">
-              </img></td>
+                {{ if .logo }}<img src="{{ .logo }}" border="0" align="center" style="vertical-align: top; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: 100%; max-width: 600px;"/>{{ else }}<img src="https://cdn.safetychanger.com/statics/logos/safetychanger.com/logo.png" border="0" align="center" style="vertical-align: top; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: 100%; max-width: 600px;"/>{{ end }}
+              </td>
+            {{ end }}
             </tr>
             <tr>
               <td class="column-12 first last" style="font-size: 16px; line-height: 23px; color: #555555; border-collapse: collapse; text-align: left; width: 600px; padding-bottom: 20px; padding-left: 20px; padding-right: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left">
@@ -300,8 +304,8 @@ a[x-apple-data-detectors] {
             {{ end }}
             <tr>
               <td class="column-12 first last h6" style="color: #555555; border-collapse: collapse; text-align: left; margin: 0; font-size: 12px; line-height: 20px; width: 600px; padding-bottom: 20px; padding-left: 20px; padding-right: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left">
-                <strong>{{.help}}</strong>
-                <br>{{.footer}}
+                {{ if .help }}<strong>{{ .help }}</strong><br>{{ end }}
+                {{ if .footer }}{{ .footer }}{{ end }}
               </br></td>
             </tr>
           </table>

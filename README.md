@@ -17,6 +17,8 @@ Most topics will be sent by email, most will show up in the web as well, few wil
 * inspection_completed
 * inspection_completed_report
 * inspection_template_clone
+* inspection_report
+* inspection_report_cc
 
 ## Observationapp
 * log_used
@@ -41,6 +43,8 @@ Most topics will be sent by email, most will show up in the web as well, few wil
 `email/base.tmpl` contains structure and styling.
 Each email needs apart from the topic translation, an entry for the `subject` and one for `linktext`.
 When both `linktext` and `destination_uri` (from context) are provided, a link button is shown.
+Master.html supports a 'header' to be set - the default header supports a `logo` (with a default as well.
+The email footer supports a `footer` text as well as a `help` text. If none provided - nothing will be shown.
 ```json
 {
   "id": "action_completed",

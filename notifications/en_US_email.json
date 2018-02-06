@@ -244,11 +244,11 @@
 },
 {
   "id": "password_new",
-  "translation":"<p>{{ if .trial }}Thank you for trying <span class=\"bluetext\">Safety Changer</span>, please activate your account by clicking the button below.{{ else }}Congratulations, you have been invited by <strong>{{ .creator }}</strong> to join <span class=\"bluetext\">{{ .organization }}</span> on <span class=\"bluetext\">Safety Changer</span>!{{ end }}</p>{{ if .password }}<p> </p><p>Your password to access <span class=\"bluetext\">Safety Changer</span> is: {{ .password }}</p>{{ end }}"
+  "translation":"<p>{{ if .trial }}Thank you for trying <span class=\"bluetext\">{{ .brand_name }}</span>, please activate your account by clicking the button below.{{ else }}Congratulations, you have been invited by <strong>{{ .creator }}</strong> to join <span class=\"bluetext\">{{ .organization }}</span> on <span class=\"bluetext\">{{ .brand_name }}</span>!{{ end }}</p>{{ if .password }}<p> </p><p>Your password to access <span class=\"bluetext\">{{ .brand_name }}</span> is: {{ .password }}</p>{{ end }}"
 },
 {
   "id": "password_new_subject",
-  "translation": "Your Safety Changer account has been created!"
+  "translation": "Your {{ .brand_name }} account has been created!"
 },
 {
   "id": "password_new_linktext",
@@ -256,11 +256,11 @@
 },
 {
   "id": "password_reset",
-  "translation":"<p>You've received this mail because of a request to (re)set your <span class=\"bluetext\">Safety Changer</span> password.</p><p>{{ if .succeeded }}Either an administrator created or updated your account, or you have requested for a password reset.</p><p>If you do not want to change your password, please discard this e-mail.{{ else }}{{.error}}, please contact <a class=\"bluetext\" href=\"mailto:{{.administrator.email}}?subject=Access to SafetyChanger\">{{.administrator.name}}</a> to assist you in getting access (again).{{ end }}</p>"
+  "translation":"<p>You've received this mail because of a request to (re)set your <span class=\"bluetext\">{{ .brand_name }}</span> password.</p><p>{{ if .succeeded }}Either an administrator created or updated your account, or you have requested for a password reset.</p><p>If you do not want to change your password, please discard this e-mail.{{ else }}{{.error}}, please contact <a class=\"bluetext\" href=\"mailto:{{.administrator.email}}?subject=Access to SafetyChanger\">{{.administrator.name}}</a> to assist you in getting access (again).{{ end }}</p>"
 },
 {
   "id": "password_reset_subject",
-  "translation": "Reset Safety Changer password"
+  "translation": "Reset {{ .brand_name }} password"
 },
 {
   "id": "password_reset_linktext",
