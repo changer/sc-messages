@@ -40,6 +40,7 @@
       </tr>
       {{ end }}
 
+      {{ if .observations }}
       {{ $length := len .observations }} {{ if gt $length 0 }}
       <tr>
         <td valign="top" class="column-3 first h5 strong">Observators</td>
@@ -52,7 +53,9 @@
         </td>
       </tr>
       {{ end }}
+      {{ end }}
 
+      {{ if .witnesses }}
       {{ $length := len .witnesses }} {{ if gt $length 0 }}
       <tr>
         <td valign="top" class="column-3 first h5 strong">Getuigen</td>
@@ -64,6 +67,7 @@
           </ul>
         </td>
       </tr>
+      {{ end }}
       {{ end }}
     </table>
   </td>

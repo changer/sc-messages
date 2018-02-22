@@ -268,6 +268,7 @@ a[x-apple-data-detectors] {
       </tr>
       {{ end }}
 
+      {{ if .observations }}
       {{ $length := len .observations }} {{ if gt $length 0 }}
       <tr>
         <td valign="top" class="column-3 first h5 strong" style="color: #555555; border-collapse: collapse; text-align: left; margin: 0; font-size: 16px; line-height: 23px; font-weight: bold; padding-right: 10px; width: 150px; padding-left: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left">Observators</td>
@@ -280,7 +281,9 @@ a[x-apple-data-detectors] {
         </td>
       </tr>
       {{ end }}
+      {{ end }}
 
+      {{ if .witnesses }}
       {{ $length := len .witnesses }} {{ if gt $length 0 }}
       <tr>
         <td valign="top" class="column-3 first h5 strong" style="color: #555555; border-collapse: collapse; text-align: left; margin: 0; font-size: 16px; line-height: 23px; font-weight: bold; padding-right: 10px; width: 150px; padding-left: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left">Getuigen</td>
@@ -292,6 +295,7 @@ a[x-apple-data-detectors] {
           </ul>
         </td>
       </tr>
+      {{ end }}
       {{ end }}
     </table>
   </td>
