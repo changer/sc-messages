@@ -1,4 +1,8 @@
 [{
+  "id": "ABOMA_ORGANIZATION_54e753224475a30300d210ba",
+  "translation": "These are ABOMA specific texts"
+},
+{
   "id": "incident_action_completed",
   "translation": "De actie <strong>{{.action_title}}</strong>, behorende bij de case file <strong>{{.casefile_name}}</strong> is zojuist voltooid door <strong>{{.assignee}}</strong>."
 },
@@ -188,7 +192,7 @@
 },
 {
   "id": "inspection_completed_report_subject",
-  "translation": "Inspectierapport '{{ .template_name }}' #{{ .ref_number }}{{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }}."
+  "translation": "Rapportage '{{ .template_name }}' #{{ .ref_number }}{{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }}."
 },
 {
   "id": "inspection_completed_report_linktext",
@@ -200,7 +204,7 @@
 },
 {
   "id": "inspection_report_subject",
-  "translation": "Inspectierapport '{{ .template_name }}' #{{ .ref_number }}{{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }}."
+  "translation": "Rapportage '{{ .template_name }}' #{{ .ref_number }}{{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }}."
 },
 {
   "id": "inspection_report_linktext",
@@ -212,7 +216,7 @@
 },
 {
   "id": "inspection_report_cc_subject",
-  "translation": "Inspectierapport '{{ .template_name }}' #{{ .ref_number }}{{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }}."
+  "translation": "Rapportage '{{ .template_name }}' #{{ .ref_number }}{{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }}."
 },
 {
   "id": "inspection_report_cc_linktext",
