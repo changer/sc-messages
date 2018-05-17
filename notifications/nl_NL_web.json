@@ -184,11 +184,11 @@
 },
 {
   "id": "inspection_assigned",
-  "translation": "Inspection '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} kan worden gestart."
+  "translation": "Inspectie '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} kan worden gestart. {{ if .date_due }} Deze dient voor {{ .date_due }} afgerond te worden.{{ end }}"
 },
 {
   "id": "inspection_assigned_subject",
-  "translation": "Inspection '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} kan worden gestart."
+  "translation": "Inspectie '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} kan worden gestart."
 },
 {
   "id": "inspection_completed",

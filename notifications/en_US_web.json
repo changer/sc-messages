@@ -199,7 +199,7 @@
 },
 {
   "id": "inspection_assigned",
-  "translation": "Inspection '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} can be started."
+  "translation": "Inspection '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} can be started.{{ if .date_due }} It needs to be completed before {{ .date_due }}.{{ end }}"
 },
 {
   "id": "inspection_assigned_subject",

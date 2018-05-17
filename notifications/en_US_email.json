@@ -183,6 +183,14 @@
   "translation": "New inspection '{{ .template_name }}' assigned"
 },
 {
+  "id": "inspection_assigned",
+  "translation": "Inspection '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} can be started.{{ if .date_due }} It needs to be completed before {{ .date_due }}.{{ end }} Happy Inspecting!"
+},
+{
+  "id": "inspection_assigned_subject",
+  "translation": "Inspection '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} can be started."
+},
+{
   "id": "inspection_completed",
   "translation": "<strong>{{ .user }}</strong> has completed inspection <strong>{{ .template_name }} #{{ .ref_number }}</strong>.{{ if .key_name }}<br><br>{{ .key_name}}: <strong>{{ .key_value }}</strong>{{ end }}<br><br>Don’t forget to check this inspection!"
 },
