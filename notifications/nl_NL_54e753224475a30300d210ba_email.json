@@ -256,7 +256,7 @@
 },
 {
   "id": "password_reset",
-  "translation":"<p>U ontvangt dit bericht omdat er een verzoek is gedaan om uw <span class=\"bluetext\">{{ .brand_name }}</span> wachtwoord te wijzigen.</p><p>{{ if .succeeded }}Een beheerder heeft uw account aangemaakt dan wel gewijzgd, of u heeft zelf verzocht uw wachtwoord te wijzigen.</p><p>Als u uw wachtwoord niet wilt wijzigen, dan kunt u dit bericht negeren.{{else}}{{.error}}, neemt u alstublieft contact op met <a class=\"bluetext\" href=\"mailto:{{.administrator.email}}?subject=Toegang tot SafetyChanger\">{{.administrator.name}}</a> om (weer) toegang te krijgen.{{ end }}</p>"
+  "translation":"<p>U ontvangt dit bericht omdat er een verzoek is gedaan om uw <span class=\"bluetext\">{{ .brand_name }}</span> wachtwoord te wijzigen.</p><p>{{ if .succeeded }}Een beheerder heeft uw account aangemaakt dan wel gewijzgd, of u heeft zelf verzocht uw wachtwoord te wijzigen.</p><p>Als u uw wachtwoord niet wilt wijzigen, dan kunt u dit bericht negeren.{{else}}{{.error}}, neemt u alstublieft contact op met <a class=\"bluetext\" href=\"mailto:{{.administrator.email}}?subject=Toegang tot Capptions\">{{.administrator.name}}</a> om (weer) toegang te krijgen.{{ end }}</p>"
 },
 {
   "id": "password_reset_subject",
