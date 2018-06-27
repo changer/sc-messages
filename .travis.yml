@@ -1,30 +1,20 @@
-language: python
-python:
-  - "2.7"
-
-env:
-  global:
-    - ARTIFACTS_TARGET_PATHS="$TRAVIS_BRANCH/$TRAVIS_JOB_NUMBER:$TRAVIS_BRANCH/latest"
-    - ARTIFACTS_WORKING_DIR: /tmp
-    - ARTIFACTS_PERMISSIONS=public-read
-    - ARTIFACTS_CACHE_CONTROL='public, max-age=315360000'
-    - ARTIFACTS_LOG_FORMAT=multiline
-    - ARTIFACTS_DEBUG=1
-
-before_install:
-  - bash validate.sh
-
-before_script:
-  - curl -sL https://raw.githubusercontent.com/travis-ci/artifacts/master/install | bash
+services:
+  - docker
 
 script:
-  - tar -cvjf /tmp/messages.tar.bz2 -C notifications/ .
+  - make docker
+  - docker-compose up -d
 
-after_success:
-  - artifacts upload /tmp/messages.tar.bz2
+deploy:
+  - provider: script
+    script: make docker_upload
+    on:
+      all_branches: true
+      condition: $TRAVIS_BRANCH =~ ^develop|master$
 
 notifications:
   email:
     - ops@safetychanger.com
 
   slack: safetychanger:iBdUKrm6abL7BQNtoIpihFA3
+

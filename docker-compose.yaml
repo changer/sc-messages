@@ -1,0 +1,11 @@
+version: '3.1'
+
+services:
+  messages:
+    build: .
+    image: capptions/messages
+    restart: always
+    command: /app/server
+    ports:
+      - 8911:8911
+
