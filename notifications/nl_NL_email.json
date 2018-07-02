@@ -20,7 +20,7 @@
 },
 {
   "id": "action_assigned",
-  "translation": "De volgende actie is aan jou toegewezen: <strong>{{.action_title}}</strong>. Accepteer en voltooi de actie in de app 'ActionChanger' op je mobiele toestel"
+  "translation": "De volgende actie is aan jou toegewezen: <strong>{{.action_title}}</strong>. Accepteer en voltooi de actie in de 'Capptions' app."
 },
 {
   "id": "action_assigned_subject",
