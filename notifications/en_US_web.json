@@ -158,6 +158,10 @@
   "translation": "Casefile closed"
 },
 {
+  "id": "casefile_report",
+  "translation": "Your casefile report #{{ .ref_number }} : {{ .template_name }} download is ready."
+},
+{
   "id": "incident_assigned",
   "translation": "The following case file was assigned to you by {{.assigner}}: {{.casefile_name}}."
 },

@@ -143,6 +143,10 @@
   "translation": "Case file gesloten"
 },
 {
+  "id": "casefile_report",
+  "translation": "Uw casefile rapport #{{ .ref_number }} : {{ .template_name }} staat klaar."
+},
+{
   "id": "incident_assigned",
   "translation": "De volgende case file is aan jou toegewezen door {{.assigner}}: {{.casefile_name}}."
 },

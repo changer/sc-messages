@@ -131,6 +131,18 @@
   "translation": "Bekijk case file"
 },
 {
+  "id": "casefile_report",
+  "translation": "Het casefile rapport <strong>#{{ .ref_number }} : {{ .template_name }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }}</strong> staat klaar.<br />Het rapport is 30 dagen beschikbaar."
+},
+{
+  "id": "casefile_report_subject",
+  "translation": "Casefile rapport #{{ .ref_number }} : {{ .template_name }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }}."
+},
+{
+  "id": "casefile_report_linktext",
+  "translation": "Download report"
+},
+{
   "id": "incident_assigned",
   "translation": "De volgende case file is aan jou toegewezen door <strong>{{.assigner}}</strong>: <strong>{{.casefile_name}}</strong>."
 },

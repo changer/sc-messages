@@ -131,6 +131,18 @@
   "translation": "View case file"
 },
 {
+  "id": "casefile_report",
+  "translation": "Your casefile report <strong>#{{ .ref_number }}</strong> : <strong>{{ .template_name }}</strong><strong>#{{ .ref_number }}{{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }}</strong> download is ready.<br />This report will be available for 30 days."
+},
+{
+  "id": "casefile_report_subject",
+  "translation": "Casefile report #{{ .ref_number }} : {{ .template_name }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }}"
+},
+{
+  "id": "casefile_report_linktext",
+  "translation": "Download report"
+},
+{
   "id": "user_contributed_to_incident",
   "translation": "<strong>{{.user}}</strong> contributed to your case file <strong>{{.casefile_name}}</strong>."
 },
