@@ -93,7 +93,7 @@ gulp.task( 'clean:html', function( done ) {
 
 	const base = fs.readFileSync('source/master.html', 'utf8');
 
-	return gulp.src( 'source/*/**/*.html' )
+  return gulp.src( 'source/*/**/*.html' )
 		.pipe(
 			stripComments( {
 				safe: true,

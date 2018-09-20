@@ -1,4 +1,4 @@
-FROM capptions/khabar:master-latest
+FROM capptions/khabar:develop-latest
 
 RUN apk update && apk add ca-certificates && apk --no-cache add openssl
 

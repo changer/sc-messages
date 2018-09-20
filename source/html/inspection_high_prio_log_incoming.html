@@ -1,57 +1,62 @@
+<tr style="display:none"><td colspan="2"></td><tr>
+{{ if .severity_high }}
 <tr>
   <td class="column-12 first last strong alert" colspan="2">
-    Attention!
+    {{ .text_attention }}
   </td>
 </tr>
+{{ end }}
 <tr>
   <td class="column-12 first last" colspan="2">
-    <strong>{{ .template_name }} #{{ .inspection_number }}</strong> just generated an observation of <strong>{{ .severity }}</strong> severity.
+    <strong>{{ $length := len .template_name }} {{ if gt $length 0 }}{{ .template_name }} #{{ .inspection_number }}</strong> {{ .text_just_recorded_observation }} {{ else }}{{.observer}}</strong> {{ .text_just_recorded_observation }}{{ end }}
   </td>
 </tr>
 <tr>
   <td class="column-12" style="padding-left: 0; padding-right: 0; padding-bottom: 0;">
     <table width="600" align="center" border="0" cellpadding="0" cellspacing="0">
       <tr>
-        <td valign="top" class="column-3 first h5 strong">Ref. number</td>
+        <td valign="top" class="column-3 first h5 strong">{{ .text_ref_number }}</td>
         <td valign="top" class="column-9 last">#{{ .ref_number }}</td>
       </tr>
       <tr>
-        <td valign="top" class="column-3 first h5 strong">Date</td>
+        <td valign="top" class="column-3 first h5 strong">{{ .text_date }}</td>
         <td valign="top" class="column-9 last">{{ .date }}</td>
       </tr>
       {{ $length := len .location }} {{ if gt $length 0 }}
       <tr>
-        <td valign="top" class="column-3 first h5 strong">Location</td>
+        <td valign="top" class="column-3 first h5 strong">{{ .text_location }}</td>
         <td valign="top" class="column-9 last">{{ .location }}</td>
       </tr>
       {{ end }}
       <tr>
-        <td valign="top" class="column-3 first h5 strong">Severity</td>
-        <td valign="top" class="column-9 last"><span class="severity extreme {{ .severity_style }}">{{ .severity }}</span></td>
+        <td valign="top" class="column-3 first h5 strong">{{ .text_severity }}</td>
+        <td valign="top" class="column-9 last"><span class="severity extreme {{ .severity_style }}">{{ .severity_text }}</span></td>
       </tr>
+      {{ $length := len .template_name }} {{ if gt $length 0 }}
       <tr>
-        <td valign="top" class="column-3 first h5 strong">Template</td>
+        <td valign="top" class="column-3 first h5 strong">{{ .text_template }}</td>
         <td valign="top" class="column-9 last">{{ .template_name }}</td>
       </tr>
       <tr>
-        <td valign="top" class="column-3 first h5 strong">Inspection</td>
+        <td valign="top" class="column-3 first h5 strong">{{ .text_inspection }}</td>
         <td valign="top" class="column-9 last">#{{ .inspection_number }}</td>
       </tr>
       {{ if .key_name }}
       <tr>
-        <td valign="top" class="column-3 first h5 strong">{{ .key_name}}</td>
+        <td valign="top" class="column-3 first h5 strong">{{ .key_name }}</td>
         <td valign="top" class="column-9 last">{{ .key_value }}</td>
       </tr>
       {{ end }}
-
       {{ range $key, $item := .items }}
       <tr>
         <td valign="top" class="column-3 first h5 strong">{{ $item.Title }}</td>
         <td valign="top" class="column-9 last pre">{{ $item.Value }}</td></tr>
       {{ end }}
+      {{ end }}
+
       {{ $length := len .notes }} {{ if gt $length 0 }}
       <tr>
-        <td valign="top" class="column-3 first h5 strong">Notes</td>
+        <td valign="top" class="column-3 first h5 strong">{{ .text_notes }}</td>
         <td valign="top" class="column-9 last">
           {{ range $key, $note := .notes }}
             <span class="h4 strong">&ldquo;</span>{{ $note }}<span class="h4 strong">&rdquo;</span>
@@ -60,6 +65,16 @@
         </td>
       </tr>
       {{ end }}
+      {{ if .download_uri }}
+      <tr>
+        <td valign="top" class="column-3 first">
+        <td class="column-9">
+          <br><br>
+          <a href="{{.download_uri}}" target="_blank">Download report</a>
+        </td>
+      </tr>
+      {{ end }}
     </table>
   </td>
 </tr>
+

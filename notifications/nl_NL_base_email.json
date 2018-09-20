@@ -2,5 +2,22 @@
   "salutation": "Beste {{ .firstname }},",
   "help": "Hulp nodig? Neem contact op met <a class=\"bluetext\" href=\"mailto:{{.administrator.email}}?subject={{.subject}}\">{{.administrator.name}}</a>",
   "footer": "Beheer notificatie-instellingen in {{ .brand_name }} of de mobiele app",
-  "copy_text": "Je kunt ook onderstaande link kopi&#235;ren en openen in je webbrowser:"
+  "text_email": "Email",
+  "text_password": "Wachtwoord",
+  "text_login_url": "Login",
+  "text_attention": "Attention!",
+  "text_just_recorded_observation": "deed zojuist een observatie met <strong>{{ .severity_text }}</strong> prioriteit",
+  "text_just_generated_observation": "genereeerde zojuist een observatie met <strong>{{ .severity_text }}</strong> prioriteit",
+  "text_severity": "Prioriteit",
+  "text_ref_number": "Ref. nummer",
+  "text_date": "Datum",
+  "text_location": "Locatie",
+  "text_inspection": "Inspectie",
+  "text_template": "Template",
+  "text_notes": "Notities",
+  "text_new_publication": "Er is een nieuwe publicatie beschikbaar:",
+  "text_casefile": "Case file",
+  "text_observers": "Observators",
+  "text_witnesses": "Getuigen"
 }
+

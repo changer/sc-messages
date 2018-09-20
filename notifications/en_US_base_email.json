@@ -2,5 +2,21 @@
   "salutation": "Dear {{ .firstname }},",
   "help": "Help needed? Please contact <a class=\"bluetext\" href=\"mailto:{{.administrator.email}}?subject={{.subject}}\">{{.administrator.name}}</a>",
   "footer": "Manage (email) alert settings inside {{ .brand_name }} or the mobile app",
-  "copy_text": "Alternatively, copy the following link and open it in your web browser:"
+  "text_email": "Email",
+  "text_password": "Password",
+  "text_login_url": "Login",
+  "text_attention": "Attention!",
+  "text_just_recorded_observation": "just recorded an observation of <strong>{{ .severity_text }}</strong> severity",
+  "text_just_generated_observation": "just generated an observation of <strong>{{ .severity_text }}</strong> severity",
+  "text_severity": "Severity",
+  "text_ref_number": "Ref. number",
+  "text_date": "Date",
+  "text_location": "Location",
+  "text_inspection": "Inspection",
+  "text_template": "Template",
+  "text_notes": "Notes",
+  "text_new_publication": "New publication available:",
+  "text_casefile": "Case file",
+  "text_observers": "Observers",
+  "text_witnesses": "Witnesses"
 }
