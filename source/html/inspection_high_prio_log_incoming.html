@@ -8,7 +8,7 @@
 {{ end }}
 <tr>
   <td class="column-12 first last" colspan="2">
-    <strong>{{ $length := len .template_name }} {{ if gt $length 0 }}{{ .template_name }} #{{ .inspection_number }}</strong> {{ .text_just_recorded_observation }} {{ else }}{{.observer}}</strong> {{ .text_just_recorded_observation }}{{ end }}
+    <strong>{{ $length := len .template_name }} {{ if gt $length 0 }}{{ .template_name }} #{{ .inspection_number }}</strong> {{ .text_just_generated_observation }} {{ else }}{{.observer}}</strong> {{ .text_just_recorded_observation }}{{ end }}
   </td>
 </tr>
 <tr>
@@ -70,7 +70,7 @@
         <td valign="top" class="column-3 first">
         <td class="column-9">
           <br><br>
-          <a href="{{.download_uri}}" target="_blank">Download report</a>
+          <a class="bluetext" href="{{.download_uri}}" target="_blank">{{ .text_download_report }}</a>
         </td>
       </tr>
       {{ end }}

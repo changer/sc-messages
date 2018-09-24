@@ -236,7 +236,7 @@ a[x-apple-data-detectors] {
 {{ end }}
 <tr>
   <td class="column-12 first last" colspan="2" style="font-size: 16px; line-height: 23px; color: #555555; border-collapse: collapse; text-align: left; width: 600px; padding-left: 20px; padding-right: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left">
-    <strong>{{ $length := len .template_name }} {{ if gt $length 0 }}{{ .template_name }} #{{ .inspection_number }}</strong> {{ .text_just_recorded_observation }} {{ else }}{{.observer}} {{ .text_just_recorded_observation }}{{ end }}
+    <strong>{{ $length := len .template_name }} {{ if gt $length 0 }}{{ .template_name }} #{{ .inspection_number }}</strong> {{ .text_just_generated_observation }} {{ else }}{{.observer}} {{ .text_just_recorded_observation }}{{ end }}
   </td>
 </tr>
 <tr>
@@ -298,7 +298,7 @@ a[x-apple-data-detectors] {
         <td valign="top" class="column-3 first" style="font-size: 16px; line-height: 23px; color: #555555; border-collapse: collapse; text-align: left; padding-right: 10px; width: 150px; padding-left: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left">
         <td class="column-9" style="font-size: 16px; line-height: 23px; color: #555555; border-collapse: collapse; text-align: left; padding-left: 10px; padding-right: 10px; width: 450px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" align="left">
           <br><br>
-          <a href="{{.download_uri}}" target="_blank">Download report</a>
+          <a class="bluetext" href="{{.download_uri}}" target="_blank" style="color: #00aae5;">{{ .text_download_report }}</a>
         </br></br></td>
       </td></tr>
       {{ end }}

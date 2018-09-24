@@ -5,6 +5,7 @@
   "text_email": "Email",
   "text_password": "Wachtwoord",
   "text_login_url": "Login",
+  "text_download_report": "Download rapport",
   "text_attention": "Attention!",
   "text_just_recorded_observation": "deed zojuist een observatie met <strong>{{ .severity_text }}</strong> prioriteit",
   "text_just_generated_observation": "genereeerde zojuist een observatie met <strong>{{ .severity_text }}</strong> prioriteit",

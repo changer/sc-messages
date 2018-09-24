@@ -5,6 +5,7 @@
   "text_email": "Email",
   "text_password": "Password",
   "text_login_url": "Login",
+  "text_download_report": "Download report",
   "text_attention": "Attention!",
   "text_just_recorded_observation": "just recorded an observation of <strong>{{ .severity_text }}</strong> severity",
   "text_just_generated_observation": "just generated an observation of <strong>{{ .severity_text }}</strong> severity",
