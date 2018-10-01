@@ -88,7 +88,7 @@
 },
 {
   "id": "log_incoming",
-  "translation": "A new observation with severity {{.severity}} was just submitted by {{.observer}}."
+  "translation": "A new observation with severity {{.severity_text}} was just submitted by {{.observer}}."
 },
 {
   "id": "log_incoming_subject",
@@ -96,7 +96,7 @@
 },
 {
   "id": "high_prio_log_incoming",
-  "translation": "Warning! A new observation with severity {{.severity}} was just submitted by {{.observer}}. This might require your immediate attention."
+  "translation": "Warning! A new observation with severity {{.severity_text}} was just submitted by {{.observer}}. This might require your immediate attention."
 },
 {
   "id": "high_prio_log_incoming_subject",

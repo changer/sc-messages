@@ -88,7 +88,7 @@
 },
 {
   "id": "log_incoming",
-  "translation": "{{.observer}} heeft zojuist een observatie met {{.severity}} prioriteit gedaan."
+  "translation": "{{.observer}} heeft zojuist een observatie met {{.severity_text}} prioriteit gedaan."
 },
 {
   "id": "log_incoming_subject",
@@ -96,7 +96,7 @@
 },
 {
   "id": "high_prio_log_incoming",
-  "translation": "Let op! {{.observer}} heeft zojuist een observatie met {{.severity}} prioriteit gedaan. Mogelijk is directe aandacht vereist."
+  "translation": "Let op! {{.observer}} heeft zojuist een observatie met {{.severity_text}} prioriteit gedaan. Mogelijk is directe aandacht vereist."
 },
 {
   "id": "high_prio_log_incoming_subject",

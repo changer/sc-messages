@@ -8,7 +8,7 @@
 {{ end }}
 <tr>
   <td class="column-12 first last" colspan="2">
-    <strong>{{ $length := len .template_name }} {{ if gt $length 0 }}{{ .template_name }} #{{ .inspection_number }}</strong> {{ .text_just_generated_observation }} {{ else }}{{.observer}}</strong> {{ .text_just_recorded_observation }}{{ end }}
+    <strong>{{ if .template_name }}{{ .template_name }} #{{ .inspection_number }}</strong> {{ .text_just_generated_observation }} {{ else }}{{.observer}}</strong> {{ .text_just_recorded_observation }}{{ end }}
   </td>
 </tr>
 <tr>
@@ -32,7 +32,7 @@
         <td valign="top" class="column-3 first h5 strong">{{ .text_severity }}</td>
         <td valign="top" class="column-9 last"><span class="severity extreme {{ .severity_style }}">{{ .severity_text }}</span></td>
       </tr>
-      {{ $length := len .template_name }} {{ if gt $length 0 }}
+      {{ if .template_name }}
       <tr>
         <td valign="top" class="column-3 first h5 strong">{{ .text_template }}</td>
         <td valign="top" class="column-9 last">{{ .template_name }}</td>

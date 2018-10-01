@@ -88,7 +88,7 @@
 },
 {
   "id": "log_incoming",
-  "translation": "{{.observer}} heeft zojuist een observatie met {{.severity}} prioriteit gedaan."
+  "translation": "{{.observer}} heeft zojuist een observatie met {{.severity_text}} prioriteit gedaan."
 },
 {
   "id": "log_incoming_subject",
@@ -96,7 +96,7 @@
 },
 {
   "id": "high_prio_log_incoming",
-  "translation": "Let op! {{.observer}} heeft zojuist een observatie met {{.severity}} prioriteit gedaan. Mogelijk is directe aandacht vereist."
+  "translation": "Let op! {{.observer}} heeft zojuist een observatie met {{.severity_text}} prioriteit gedaan. Mogelijk is directe aandacht vereist."
 },
 {
   "id": "high_prio_log_incoming_subject",
@@ -104,7 +104,7 @@
 },
 {
   "id": "inspection_log_incoming",
-  "translation": "{{.observer}} heeft zojuist een observatie met {{.severity}} prioriteit gedaan. Deze observatie is automatisch gegenereerd vanuit inspectie '{{ .template_name }} #{{ .inspection_number }}'."
+  "translation": "{{.observer}} heeft zojuist een observatie met {{.severity_text}} prioriteit gedaan. Deze observatie is automatisch gegenereerd vanuit inspectie '{{ .template_name }} #{{ .inspection_number }}'."
 },
 {
   "id": "inspection_log_incoming_subject",
@@ -112,7 +112,7 @@
 },
 {
   "id": "inspection_high_prio_log_incoming",
-  "translation": "Let op! {{.observer}} heeft zojuist een observatie met {{.severity}} prioriteit gedaan. Mogelijk is directe aandacht vereist. Deze observatie is automatisch gegenereerd vanuit inspectie '{{ .template_name }} #{{ .inspection_number }}'."
+  "translation": "Let op! {{.observer}} heeft zojuist een observatie met {{.severity_text}} prioriteit gedaan. Mogelijk is directe aandacht vereist. Deze observatie is automatisch gegenereerd vanuit inspectie '{{ .template_name }} #{{ .inspection_number }}'."
 },
 {
   "id": "inspection_high_prio_log_incoming_subject",
