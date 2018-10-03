@@ -3,15 +3,15 @@
   "translation": "These are ABOMA specific texts"
 },
 {
-  "id": "incident_action_completed",
+  "id": "casefile_action_completed",
   "translation": "De actie <strong>{{.action_title}}</strong>, behorende bij de case file <strong>{{.casefile_name}}</strong> is zojuist voltooid door <strong>{{.assignee}}</strong>."
 },
 {
-  "id": "incident_action_completed_subject",
+  "id": "casefile_action_completed_subject",
   "translation": "Actie '{{.action_title}}' voltooid"
 },
 {
-  "id": "incident_action_completed_linktext",
+  "id": "casefile_action_completed_linktext",
   "translation": "Bekijk actie"
 },
 {
@@ -75,35 +75,35 @@
   "translation": "Actie '{{.action_title}}' opnieuw toegewezen"
 },
 {
-  "id": "log_incoming_subject",
+  "id": "observation_incoming_subject",
   "translation": "Nieuwe observatie #{{ .ref_number }}"
 },
 {
-  "id": "log_incoming_linktext",
+  "id": "observation_incoming_linktext",
   "translation": "Bekijk observatie!"
 },
 {
-  "id": "high_prio_log_incoming_subject",
+  "id": "high_prio_observation_incoming_subject",
   "translation": "Let op! Observatie #{{ .ref_number }} met hoge prioriteit"
 },
 {
-  "id": "high_prio_log_incoming_linktext",
+  "id": "high_prio_observation_incoming_linktext",
   "translation": "Bekijk observatie!"
 },
 {
-  "id": "inspection_log_incoming_subject",
+  "id": "inspection_observation_incoming_subject",
   "translation": "Nieuwe observatie #{{ .ref_number }}{{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} gegenereerd vanuit een inspectie"
 },
 {
-  "id": "inspection_log_incoming_linktext",
+  "id": "inspection_observation_incoming_linktext",
   "translation": "Bekijk observatie!"
 },
 {
-  "id": "inspection_high_prio_log_incoming_subject",
+  "id": "inspection_high_prio_observation_incoming_subject",
   "translation": "Let op! Nieuwe observatie #{{ .ref_number }}{{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} met hoge prioriteit gegenereerd vanuit een inspectie"
 },
 {
-  "id": "inspection_high_prio_log_incoming_linktext",
+  "id": "inspection_high_prio_observation_incoming_linktext",
   "translation": "Bekijk observatie!"
 },
 {
@@ -111,15 +111,15 @@
   "translation": "Nieuwe publicatie"
 },
 {
-  "id": "incident_contribution",
+  "id": "casefile_contribution",
   "translation": "</strong>{{.contributor}}</strong> heeft bijgedragen aan jouw case file <strong>{{.casefile_name}}</strong>."
 },
 {
-  "id": "incident_contribution_subject",
+  "id": "casefile_contribution_subject",
   "translation": "Bijdrage aan case file '{{.casefile_name}}'"
 },
 {
-  "id": "incident_contribution_linktext",
+  "id": "casefile_contribution_linktext",
   "translation": "Bekijk case file"
 },
 {
@@ -135,31 +135,31 @@
   "translation": "Bekijk case file"
 },
 {
-  "id": "incident_assigned",
+  "id": "casefile_assigned",
   "translation": "De volgende case file is aan jou toegewezen door <strong>{{.assigner}}</strong>: <strong>{{.casefile_name}}</strong>."
 },
 {
-  "id": "incident_assigned_subject",
+  "id": "casefile_assigned_subject",
   "translation": "Case file '{{.casefile_name}}' toegewezen"
 },
 {
-  "id": "incident_assigned_linktext",
+  "id": "casefile_assigned_linktext",
   "translation": "Bekijk case file"
 },
 {
-  "id":"log_archived",
+  "id":"observation_archived",
   "translation":"Bedankt voor je observatie! Je observatie <strong>#{{.ref_number}}</strong> is gearchiveerd door <strong>{{.manager}}</strong>."
 },
 {
-  "id":"log_archived_subject",
+  "id":"observation_archived_subject",
   "translation": "Observatie #{{ .ref_number }} gearchiveerd"
 },
 {
-  "id":"log_used",
+  "id":"observation_used",
   "translation":"Je observatie <strong>#{{.ref_number}}</strong> wordt behandeld door <strong>{{.manager}}</strong>."
 },
 {
-  "id":"log_used_subject",
+  "id":"observation_used_subject",
   "translation": "Observatie #{{ .ref_number }} in behandeling"
 },
 {

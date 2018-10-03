@@ -7,7 +7,7 @@ Most topics will be sent by email, most will show up in the web as well, few wil
 ## Actionapp
 * action_assigned
 * action_completed
-* incident_action_completed
+* casefile_action_completed
 * action_accepted
 * action_rejected
 
@@ -21,16 +21,16 @@ Most topics will be sent by email, most will show up in the web as well, few wil
 * inspection_report_cc
 
 ## Observationapp
-* log_used
-* log_archived
-* incident_assigned
-* incident_contribution
+* observation_used
+* observation_archived
+* casefile_assigned
+* casefile_contribution
 * casefile_closed
-* log_incoming
-* high_prio_log_incoming
+* observation_incoming
+* high_prio_observation_incoming
 * publication_incoming
-* inspection_log_incoming
-* inspection_high_prio_log_incoming
+* inspection_observation_incoming
+* inspection_high_prio_observation_incoming
 
 ## Shared
 * generic

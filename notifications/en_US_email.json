@@ -1,13 +1,13 @@
 [{
-  "id": "incident_action_completed",
+  "id": "casefile_action_completed",
   "translation": "The action <strong>{{.action_title}}</strong>, regarding case file <strong>{{.casefile_name}}</strong> was just completed by <strong>{{.assignee}}</strong>."
 },
 {
-  "id": "incident_action_completed_subject",
+  "id": "casefile_action_completed_subject",
   "translation": "Action '{{.action_title}}' completed"
 },
 {
-  "id": "incident_action_completed_linktext",
+  "id": "casefile_action_completed_linktext",
   "translation": "View completed action"
 },
 {
@@ -71,35 +71,35 @@
   "translation": "Action '{{.action_title}}' reassigned"
 },
 {
-  "id": "log_incoming_subject",
+  "id": "observation_incoming_subject",
   "translation": "New observation #{{ .ref_number }}"
 },
 {
-  "id": "log_incoming_linktext",
+  "id": "observation_incoming_linktext",
   "translation": "View new observation!"
 },
 {
-  "id": "high_prio_log_incoming_subject",
+  "id": "high_prio_observation_incoming_subject",
   "translation": "Warning! High priority observation #{{ .ref_number }}"
 },
 {
-  "id": "high_prio_log_incoming_linktext",
+  "id": "high_prio_observation_incoming_linktext",
   "translation": "View new observation!"
 },
 {
-  "id": "inspection_log_incoming_subject",
+  "id": "inspection_observation_incoming_subject",
   "translation": "New observation #{{ .ref_number }} generated from inspection"
 },
 {
-  "id": "inspection_log_incoming_linktext",
+  "id": "inspection_observation_incoming_linktext",
   "translation": "View new observation!"
 },
 {
-  "id": "inspection_high_prio_log_incoming_subject",
+  "id": "inspection_high_prio_observation_incoming_subject",
   "translation": "Warning! High priority observation #{{ .ref_number }}{{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} generated from inspection"
 },
 {
-  "id": "inspection_high_prio_log_incoming_linktext",
+  "id": "inspection_high_prio_observation_incoming_linktext",
   "translation": "View new observation!"
 },
 {
@@ -107,15 +107,15 @@
   "translation": "New publication available!"
 },
 {
-  "id": "incident_contribution",
+  "id": "casefile_contribution",
   "translation": "<strong>{{.contributor}}</strong> contributed to your case file <strong>{{.casefile_name}}</strong>."
 },
 {
-  "id": "incident_contribution_subject",
+  "id": "casefile_contribution_subject",
   "translation": "New contribution to case file '{{.casefile_name}}'"
 },
 {
-  "id": "incident_contribution_linktext",
+  "id": "casefile_contribution_linktext",
   "translation": "View case file"
 },
 {
@@ -143,43 +143,43 @@
   "translation": "Download report"
 },
 {
-  "id": "user_contributed_to_incident",
+  "id": "user_contributed_to_casefile",
   "translation": "<strong>{{.user}}</strong> contributed to your case file <strong>{{.casefile_name}}</strong>."
 },
 {
-  "id": "user_contributed_to_incident_subject",
+  "id": "user_contributed_to_casefile_subject",
   "translation": "Case file contribution"
 },
 {
-  "id": "user_contributed_to_incident_linktext",
+  "id": "user_contributed_to_casefile_linktext",
   "translation": "View case file"
 },
 {
-  "id": "incident_assigned",
+  "id": "casefile_assigned",
   "translation": "The following case file was assigned to you by <strong>{{.assigner}}</strong>: <strong>{{.casefile_name}}</strong>."
 },
 {
-  "id": "incident_assigned_subject",
+  "id": "casefile_assigned_subject",
   "translation": "Case file '{{.casefile_name}}' assigned"
 },
 {
-  "id": "incident_assigned_linktext",
+  "id": "casefile_assigned_linktext",
   "translation": "View case file"
 },
 {
-  "id":"log_archived",
+  "id":"observation_archived",
   "translation":"Thank you for your observation! Your observation <strong>#{{.ref_number}}</strong> has been archived by <strong>{{.manager}}</strong>."
 },
 {
-  "id":"log_archived_subject",
+  "id":"observation_archived_subject",
   "translation": "Observation #{{ .ref_number }} archived"
 },
 {
-  "id":"log_used",
+  "id":"observation_used",
   "translation":"Thank you for your observation! Your observation <strong>#{{.ref_number}}</strong> is being processed by <strong>{{.manager}}</strong>."
 },
 {
-  "id":"log_used_subject",
+  "id":"observation_used_subject",
   "translation": "Observation #{{ .ref_number }} is being used"
 },
 {

@@ -1,9 +1,9 @@
 [{
-  "id": "incident_action_completed",
+  "id": "casefile_action_completed",
   "translation": "The action {{.action_title}}, regarding case file {{.casefile_name}} was just completed by {{.assignee}}."
 },
 {
-  "id": "incident_action_completed_subject",
+  "id": "casefile_action_completed_subject",
   "translation": "Action completed"
 },
 {
@@ -102,35 +102,35 @@
   }
 },
 {
-  "id": "log_incoming",
+  "id": "observation_incoming",
   "translation": "A new observation with severity {{.severity_text}} was just submitted by {{.observer}}."
 },
 {
-  "id": "log_incoming_subject",
+  "id": "observation_incoming_subject",
   "translation": "New observation"
 },
 {
-  "id": "high_prio_log_incoming",
+  "id": "high_prio_observation_incoming",
   "translation": "Warning! A new observation with severity {{.severity_text}} was just submitted by {{.observer}}. This might require your immediate attention."
 },
 {
-  "id": "high_prio_log_incoming_subject",
+  "id": "high_prio_observation_incoming_subject",
   "translation": "Warning! High priority observation"
 },
 {
-  "id": "inspection_log_incoming",
+  "id": "inspection_observation_incoming",
   "translation": "A new observation with severity {{.severity_text}} was just submitted by {{.observer}}. This observation has been automatically generated from inspection '{{ .template_name }} #{{ .inspection_number }}'."
 },
 {
-  "id": "inspection_log_incoming_subject",
+  "id": "inspection_observation_incoming_subject",
   "translation": "New observation generated from inspection"
 },
 {
-  "id": "inspection_high_prio_log_incoming",
+  "id": "inspection_high_prio_observation_incoming",
   "translation": "Warning! A new observation with severity {{.severity_text}} was just submitted by {{.observer}}. This might require your immediate attention. This observation has been automatically generated from inspection '{{ .template_name }} #{{ .inspection_number }}'."
 },
 {
-  "id": "inspection_high_prio_log_incoming_subject",
+  "id": "inspection_high_prio_observation_incoming_subject",
   "translation": "Warning! High priority observation generated from inspection"
 },
 {
@@ -142,11 +142,11 @@
   "translation": "New publication available!"
 },
 {
-  "id": "incident_contribution",
+  "id": "casefile_contribution",
   "translation": "{{.contributor}} contributed to your case file: {{.casefile_name}}."
 },
 {
-  "id": "incident_contribution_subject",
+  "id": "casefile_contribution_subject",
   "translation": "New contribution"
 },
 {
@@ -162,35 +162,35 @@
   "translation": "Your casefile report #{{ .ref_number }} : {{ .template_name }} download is ready."
 },
 {
-  "id": "incident_assigned",
+  "id": "casefile_assigned",
   "translation": "The following case file was assigned to you by {{.assigner}}: {{.casefile_name}}."
 },
 {
-  "id": "incident_assigned_subject",
+  "id": "casefile_assigned_subject",
   "translation": "Case file assigned"
 },
 {
-  "id": "incident_not_updated",
+  "id": "casefile_not_updated",
   "translation": "The following case file has not been updated for two weeks and is still open: {{.casefile_name}}."
 },
 {
-  "id": "incident_not_updated_subject",
+  "id": "casefile_not_updated_subject",
   "translation": "Case file pending"
 },
 {
-  "id":"log_archived",
+  "id":"observation_archived",
   "translation":"Thank you for your observation! Your observation {{.ref_number}} has been archived by {{.manager}}."
 },
 {
-  "id":"log_archived_subject",
+  "id":"observation_archived_subject",
   "translation": "Observation archived"
 },
 {
-  "id":"log_used",
+  "id":"observation_used",
   "translation":"Thank you for your observation! Your observation {{.ref_number}} is being processed by {{.manager}}."
 },
 {
-  "id":"log_used_subject",
+  "id":"observation_used_subject",
   "translation": "Observation is being used"
 },
 {
