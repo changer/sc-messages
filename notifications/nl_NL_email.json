@@ -155,19 +155,19 @@
   "translation": "Bekijk case file"
 },
 {
-  "id":"observation_archived",
-  "translation":"Bedankt voor je observatie! Je observatie <strong>#{{.ref_number}}</strong> is gearchiveerd door <strong>{{.manager}}</strong>."
+  "id": "observation_archived",
+  "translation": "Bedankt voor je observatie! Je observatie <strong>#{{.ref_number}}</strong> is gearchiveerd door <strong>{{.manager}}</strong>."
 },
 {
-  "id":"observation_archived_subject",
+  "id": "observation_archived_subject",
   "translation": "Observatie #{{ .ref_number }} gearchiveerd"
 },
 {
-  "id":"observation_used",
-  "translation":"Je observatie <strong>#{{.ref_number}}</strong> wordt behandeld door <strong>{{.manager}}</strong>."
+  "id": "observation_used",
+  "translation": "Je observatie <strong>#{{.ref_number}}</strong> wordt behandeld door <strong>{{.manager}}</strong>."
 },
 {
-  "id":"observation_used_subject",
+  "id": "observation_used_subject",
   "translation": "Observatie #{{ .ref_number }} in behandeling"
 },
 {
@@ -175,12 +175,12 @@
   "translation": "<strong>{{ .assigner }}</strong> heeft een nieuwe inspectie <strong>{{ .template_name }}</strong> aan je toegewezen."
 },
 {
-  "id": "inspection_template_assigned_subject",
-  "translation": "Nieuwe inspectie '{{ .template_name }}' toegewezen"
-},
-{
   "id": "inspection_template_assigned_linktext___",
   "translation": "Bekijk de template"
+},
+{
+  "id": "inspection_template_assigned_subject",
+  "translation": "Nieuwe inspectie '{{ .template_name }}' toegewezen"
 },
 {
   "id": "inspection_assigned",
@@ -244,15 +244,15 @@
 },
 {
   "id": "export",
-  "translation":"Hierbij het bestand met de door u aangevraagde '{{ .name }}' export."
+  "translation": "Hierbij het bestand met de door u aangevraagde '{{ .name }}' export."
 },
 {
   "id": "export_subject",
-  "translation":"Uw export '{{ .name }}' staat klaar."
+  "translation": "Uw export '{{ .name }}' staat klaar."
 },
 {
   "id": "password_new",
-  "translation":"<p>{{ if .trial }}Dank voor het proberen van <span class=\"bluetext\">{{ .brand_name }}</span>, activeer uw account door op onderstaande knop te klikken.{{else}}Gefeliciteerd, u bent uitgenodigd door <strong>{{ .creator }}</strong> om deel te nemen in <span class=\"bluetext\">{{ .organization }}</span> op <span class=\"bluetext\">{{ .brand_name }}</span>!{{end}}</p>{{ if .password }}<p> </p><p>Uw password voor <span class=\"bluetext\">{{ .brand_name }}</span> is: {{ .password }}</p>{{ end }}"
+  "translation": "<p>{{ if .trial }}Dank voor het proberen van <span class=\"bluetext\">{{ .brand_name }}</span>, activeer uw account door op onderstaande knop te klikken.{{else}}Gefeliciteerd, u bent uitgenodigd door <strong>{{ .creator }}</strong> om deel te nemen in <span class=\"bluetext\">{{ .organization }}</span> op <span class=\"bluetext\">{{ .brand_name }}</span>!{{end}}</p>{{ if .password }}<p> </p><p>Uw password voor <span class=\"bluetext\">{{ .brand_name }}</span> is: {{ .password }}</p>{{ end }}"
 },
 {
   "id": "password_new_subject",
@@ -264,7 +264,7 @@
 },
 {
   "id": "password_reset",
-  "translation":"<p>U ontvangt dit bericht omdat er een verzoek is gedaan om uw <span class=\"bluetext\">{{ .brand_name }}</span> wachtwoord te wijzigen.</p><p>{{ if .succeeded }}Een beheerder heeft uw account aangemaakt dan wel gewijzgd, of u heeft zelf verzocht uw wachtwoord te wijzigen.</p><p>Als u uw wachtwoord niet wilt wijzigen, dan kunt u dit bericht negeren.{{else}}{{.error}}, neemt u alstublieft contact op met <a class=\"bluetext\" href=\"mailto:{{.administrator.email}}?subject=Toegang tot Capptions\">{{.administrator.name}}</a> om (weer) toegang te krijgen.{{ end }}</p>"
+  "translation": "<p>U ontvangt dit bericht omdat er een verzoek is gedaan om uw <span class=\"bluetext\">{{ .brand_name }}</span> wachtwoord te wijzigen.</p><p>{{ if .succeeded }}Een beheerder heeft uw account aangemaakt dan wel gewijzgd, of u heeft zelf verzocht uw wachtwoord te wijzigen.</p><p>Als u uw wachtwoord niet wilt wijzigen, dan kunt u dit bericht negeren.{{else}}{{.error}}, neemt u alstublieft contact op met <a class=\"bluetext\" href=\"mailto:{{.administrator.email}}?subject=Toegang tot Capptions\">{{.administrator.name}}</a> om (weer) toegang te krijgen.{{ end }}</p>"
 },
 {
   "id": "password_reset_subject",

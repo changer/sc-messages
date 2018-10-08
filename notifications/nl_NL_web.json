@@ -163,19 +163,19 @@
   "translation": "Case file niet bijgewerkt"
 },
 {
-  "id":"observation_archived",
-  "translation":"Bedankt voor je observatie! Je observatie {{.ref_number}} is gearchiveerd door {{.manager}}."
+  "id": "observation_archived",
+  "translation": "Bedankt voor je observatie! Je observatie {{.ref_number}} is gearchiveerd door {{.manager}}."
 },
 {
-  "id":"observation_archived_subject",
+  "id": "observation_archived_subject",
   "translation": "Observatie gearchiveerd"
 },
 {
-  "id":"observation_used",
-  "translation":"Je observatie {{.ref_number}} wordt behandeld door {{.manager}}."
+  "id": "observation_used",
+  "translation": "Je observatie {{.ref_number}} wordt behandeld door {{.manager}}."
 },
 {
-  "id":"observation_used_subject",
+  "id": "observation_used_subject",
   "translation": "Observatie in behandeling"
 },
 {
@@ -223,12 +223,12 @@
   "translation": "{{ .message }}"
 },
 {
-  "id": "export_subject",
+  "id": "export",
   "translation": "Uw export '{{ .name }}' staat klaar."
 },
 {
-  "id": "export",
-  "translation":"Uw export '{{ .name }}' staat klaar."
+  "id": "export_subject",
+  "translation": "Uw export '{{ .name }}' staat klaar."
 },
 {
   "id": "inspection_template_clone",

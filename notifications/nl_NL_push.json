@@ -143,19 +143,19 @@
   "translation": "Case file niet bijgewerkt"
 },
 {
-  "id":"observation_archived",
-  "translation":"Je observatie {{.ref_number}} is gearchiveerd door {{.manager}}."
+  "id": "observation_archived",
+  "translation": "Je observatie {{.ref_number}} is gearchiveerd door {{.manager}}."
 },
 {
-  "id":"observation_archived_subject",
+  "id": "observation_archived_subject",
   "translation": "Observatie gearchiveerd"
 },
 {
-  "id":"observation_used",
-  "translation":"Je observatie {{.ref_number}} wordt behandeld door {{.manager}}."
+  "id": "observation_used",
+  "translation": "Je observatie {{.ref_number}} wordt behandeld door {{.manager}}."
 },
 {
-  "id":"observation_used_subject",
+  "id": "observation_used_subject",
   "translation": "Observatie in behandeling"
 },
 {

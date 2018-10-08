@@ -143,19 +143,19 @@
   "translation": "Case file pending"
 },
 {
-  "id":"observation_archived",
-  "translation":"Your observation {{.ref_number}} has been archived by {{.manager}}."
+  "id": "observation_archived",
+  "translation": "Your observation {{.ref_number}} has been archived by {{.manager}}."
 },
 {
-  "id":"observation_archived_subject",
+  "id": "observation_archived_subject",
   "translation": "Observation archived"
 },
 {
-  "id":"observation_used",
-  "translation":"Your observation {{.ref_number}} is being processed by {{.manager}}."
+  "id": "observation_used",
+  "translation": "Your observation {{.ref_number}} is being processed by {{.manager}}."
 },
 {
-  "id":"observation_used_subject",
+  "id": "observation_used_subject",
   "translation": "Observation is being used"
 },
 {
