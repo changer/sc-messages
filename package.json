@@ -19,6 +19,7 @@
     "gulp-strip-comments": "^2.4.5",
     "gulp-util": "^3.0.8",
     "through2": "^2.0.3",
-    "web-resource-inliner": "^4.1.0"
+    "web-resource-inliner": "^4.1.0",
+    "google-spreadsheet-to-json": "latest"
   }
 }

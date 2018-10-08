@@ -97,8 +97,8 @@
 {
   "id": "import_success",
   "translation": {
-    "one": "Successfully imported {{.number}} user. Click here to open AdminChanger and manage users.",
-    "other": "Successfully imported {{.number}} users. Click here to open AdminChanger and manage users."
+    "other": "Successfully imported {{.number}} users. Click here to open AdminChanger and manage users.",
+    "one": "Successfully imported {{.number}} user. Click here to open AdminChanger and manage users."
   }
 },
 {
@@ -178,19 +178,19 @@
   "translation": "Case file pending"
 },
 {
-  "id":"observation_archived",
-  "translation":"Thank you for your observation! Your observation {{.ref_number}} has been archived by {{.manager}}."
+  "id": "observation_archived",
+  "translation": "Thank you for your observation! Your observation {{.ref_number}} has been archived by {{.manager}}."
 },
 {
-  "id":"observation_archived_subject",
+  "id": "observation_archived_subject",
   "translation": "Observation archived"
 },
 {
-  "id":"observation_used",
-  "translation":"Thank you for your observation! Your observation {{.ref_number}} is being processed by {{.manager}}."
+  "id": "observation_used",
+  "translation": "Thank you for your observation! Your observation {{.ref_number}} is being processed by {{.manager}}."
 },
 {
-  "id":"observation_used_subject",
+  "id": "observation_used_subject",
   "translation": "Observation is being used"
 },
 {
@@ -239,15 +239,11 @@
 },
 {
   "id": "export",
-  "translation":"Your export is ready."
+  "translation": "Your export '{{ .name }}' is ready."
 },
 {
   "id": "export_subject",
   "translation": "Your export '{{ .name }}' is ready."
-},
-{
-  "id": "export",
-  "translation":"Your export '{{ .name }}' is ready."
 },
 {
   "id": "inspection_template_clone",
