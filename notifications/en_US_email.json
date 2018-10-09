@@ -1,30 +1,18 @@
 [{
-  "id": "casefile_action_completed",
-  "translation": "The action <strong>{{.action_title}}</strong>, regarding case file <strong>{{.casefile_name}}</strong> was just completed by <strong>{{.assignee}}</strong>."
-},
-{
-  "id": "casefile_action_completed_subject",
-  "translation": "Action '{{.action_title}}' completed"
-},
-{
-  "id": "casefile_action_completed_linktext",
-  "translation": "View completed action"
-},
-{
-  "id": "new_action",
-  "translation": "New action request! <strong>{{.action_title}}</strong>."
-},
-{
-  "id": "new_action_subject",
-  "translation": "New action request: {{.action_title}}"
-},
-{
   "id": "action_assigned",
   "translation": "The following action was assigned to you: <strong>{{.action_title}}</strong>. Accept and complete this action in the 'Capptions' app."
 },
 {
   "id": "action_assigned_subject",
   "translation": "Action '{{.action_title}}' has been assigned to you"
+},
+{
+  "id": "action_assigned_observation",
+  "translation": "Based on your observation <strong>#{{.observation_ref_number}}</strong> an action is assigned by <strong>{{.assigner}}</strong>"
+},
+{
+  "id": "action_assigned_observation_subject",
+  "translation": "Action created for observation #{{.observation_ref_number}}"
 },
 {
   "id": "action_completed",
@@ -37,6 +25,26 @@
 {
   "id": "action_completed_linktext",
   "translation": "View completed action"
+},
+{
+  "id": "action_completed_casefile",
+  "translation": "The action <strong>{{.action_title}}</strong>, regarding case file <strong>{{.casefile_name}}</strong> was just completed by <strong>{{.assignee}}</strong>."
+},
+{
+  "id": "action_completed_casefile_subject",
+  "translation": "Action '{{.action_title}}' completed"
+},
+{
+  "id": "action_completed_casefile_linktext",
+  "translation": "View completed action"
+},
+{
+  "id": "action_completed_observation",
+  "translation": "The action based on your observation <strong>#{{.observation_ref_number}}</strong> was just completed."
+},
+{
+  "id": "action_completed_observation_subject",
+  "translation": "Action based on your observation #{{.observation_ref_number}} was just completed."
 },
 {
   "id": "action_accepted",
@@ -131,12 +139,28 @@
   "translation": "View case file"
 },
 {
+  "id": "casefile_closed_observation",
+  "translation": "The case file containing your observation <strong>#{{.observation_ref_number}}</strong> was closed by {{.closer}}"
+},
+{
+  "id": "casefile_closed_observation_subject",
+  "translation": "Case file of observation #{{.observation_ref_number}} was closed by {{.closer}}"
+},
+{
+  "id": "casefile_closed_action",
+  "translation": "The case file containing your action <strong>#{{ .action_ref_number }}</strong> was closed by {{.closer}}"
+},
+{
+  "id": "casefile_closed_action_subject",
+  "translation": "Case file of action {{ .template_name }} #{{ .action_ref_number }} was closed by {{.closer}}"
+},
+{
   "id": "casefile_report",
-  "translation": "Your casefile report <strong>#{{ .ref_number }}</strong> : <strong>{{ .template_name }}</strong><strong>#{{ .ref_number }}{{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }}</strong> download is ready.<br />This report will be available for 30 days."
+  "translation": "Your case file report <strong>#{{ .ref_number }}</strong> : <strong>{{ .template_name }}</strong><strong>#{{ .ref_number }}{{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }}</strong> download is ready.<br />This report will be available for 30 days."
 },
 {
   "id": "casefile_report_subject",
-  "translation": "Casefile report #{{ .ref_number }} : {{ .template_name }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }}"
+  "translation": "Case file report #{{ .ref_number }} : {{ .template_name }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }}"
 },
 {
   "id": "casefile_report_linktext",

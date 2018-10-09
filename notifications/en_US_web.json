@@ -1,20 +1,4 @@
 [{
-  "id": "casefile_action_completed",
-  "translation": "The action {{.action_title}}, regarding case file {{.casefile_name}} was just completed by {{.assignee}}."
-},
-{
-  "id": "casefile_action_completed_subject",
-  "translation": "Action completed"
-},
-{
-  "id": "new_action",
-  "translation": "New action request! {{.action_title}}."
-},
-{
-  "id": "new_action_subject",
-  "translation": "New action request"
-},
-{
   "id": "action_assigned",
   "translation": "The following action was assigned to you: {{.action_title}}."
 },
@@ -23,12 +7,36 @@
   "translation": "An action has been assigned to you"
 },
 {
+  "id": "action_assigned_observation",
+  "translation": "Based on your observation #{{.observation_ref_number}} an action is assigned by {{.assigner}}"
+},
+{
+  "id": "action_assigned_observation_subject",
+  "translation": "Action created for observation"
+},
+{
   "id": "action_completed",
   "translation": "The action {{.action_title}} was just completed by {{.assignee}}."
 },
 {
   "id": "action_completed_subject",
   "translation": "Action completed"
+},
+{
+  "id": "action_completed_casefile",
+  "translation": "The action {{.action_title}}, regarding case file {{.casefile_name}} was just completed by {{.assignee}}."
+},
+{
+  "id": "action_completed_subject_casefile",
+  "translation": "Action completed"
+},
+{
+  "id": "action_completed_observation",
+  "translation": "The action based on your observation #{{.observation_ref_number}} was just completed."
+},
+{
+  "id": "action_completed_observation_subject",
+  "translation": "Action for observation completed."
 },
 {
   "id": "action_accepted",
@@ -156,6 +164,22 @@
 {
   "id": "casefile_closed_subject",
   "translation": "Casefile closed"
+},
+{
+  "id": "casefile_closed_observation",
+  "translation": "The case file containing your observation #{{.observation_ref_number}} was closed by {{.closer}}"
+},
+{
+  "id": "casefile_closed_observation_subject",
+  "translation": "Case file of was closed"
+},
+{
+  "id": "casefile_closed_action",
+  "translation": "The case file containing your action #{{ .action_ref_number }} was closed by {{.closer}}"
+},
+{
+  "id": "casefile_closed_action_subject",
+  "translation": "Case file of action was closed"
 },
 {
   "id": "casefile_report",

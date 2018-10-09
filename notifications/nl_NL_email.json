@@ -1,30 +1,18 @@
 [{
-  "id": "casefile_action_completed",
-  "translation": "De actie <strong>{{.action_title}}</strong>, behorende bij de case file <strong>{{.casefile_name}}</strong> is zojuist voltooid door <strong>{{.assignee}}</strong>."
-},
-{
-  "id": "casefile_action_completed_subject",
-  "translation": "Actie '{{.action_title}}' voltooid"
-},
-{
-  "id": "casefile_action_completed_linktext",
-  "translation": "Bekijk actie"
-},
-{
-  "id": "new_action",
-  "translation": "Nieuw actieverzoek! <strong>{{.action_title}}</strong>."
-},
-{
-  "id": "new_action_subject",
-  "translation": "Nieuw actieverzoek - {{.action_title}}"
-},
-{
   "id": "action_assigned",
   "translation": "De volgende actie is aan jou toegewezen: <strong>{{.action_title}}</strong>. Accepteer en voltooi de actie in de 'Capptions' app."
 },
 {
   "id": "action_assigned_subject",
   "translation": "Actie '{{.action_title}}' toegewezen"
+},
+{
+  "id": "action_assigned_observation",
+  "translation": "Based on your observation <strong>#{{.observation_ref_number}}</strong> an action is assigned by <strong>{{.assigner}}</strong>"
+},
+{
+  "id": "action_assigned_observation_subject",
+  "translation": "Action created for observation #{{.observation_ref_number}}"
 },
 {
   "id": "action_completed",
@@ -37,6 +25,26 @@
 {
   "id": "action_completed_linktext",
   "translation": "Bekijk actie"
+},
+{
+  "id": "action_completed_casefile",
+  "translation": "De actie <strong>{{.action_title}}</strong>, behorende bij de case file <strong>{{.casefile_name}}</strong> is zojuist voltooid door <strong>{{.assignee}}</strong>."
+},
+{
+  "id": "action_completed_casefile_subject",
+  "translation": "Actie '{{.action_title}}' voltooid"
+},
+{
+  "id": "action_completed_casefile_linktext",
+  "translation": "Bekijk actie"
+},
+{
+  "id": "action_completed_observation",
+  "translation": "The action based on your observation <strong>#{{.observation_ref_number}}</strong> was just completed."
+},
+{
+  "id": "action_completed_observation_subject",
+  "translation": "Action based on your observation #{{.observation_ref_number}} was just completed."
 },
 {
   "id": "action_accepted",
