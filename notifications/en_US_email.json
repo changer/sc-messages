@@ -71,14 +71,6 @@
   "translation": "View action"
 },
 {
-  "id": "action_reassigned",
-  "translation": "<strong>{{.owner}}</strong> has reassigned the action <strong>{{.action_title}}</strong> to someone else. You are no longer responsible."
-},
-{
-  "id": "action_reassigned_subject",
-  "translation": "Action '{{.action_title}}' reassigned"
-},
-{
   "id": "observation_incoming_subject",
   "translation": "New observation #{{ .ref_number }}"
 },
@@ -87,27 +79,27 @@
   "translation": "View new observation!"
 },
 {
-  "id": "high_prio_observation_incoming_subject",
+  "id": "observation_incoming_high_prio_subject",
   "translation": "Warning! High priority observation #{{ .ref_number }}"
 },
 {
-  "id": "high_prio_observation_incoming_linktext",
+  "id": "observation_incoming_high_prio_linktext",
   "translation": "View new observation!"
 },
 {
-  "id": "inspection_observation_incoming_subject",
+  "id": "observation_incoming_inspection_subject",
   "translation": "New observation #{{ .ref_number }} generated from inspection"
 },
 {
-  "id": "inspection_observation_incoming_linktext",
+  "id": "observation_incoming_inspection_linktext",
   "translation": "View new observation!"
 },
 {
-  "id": "inspection_high_prio_observation_incoming_subject",
+  "id": "observation_incoming_high_prio_inspection_subject",
   "translation": "Warning! High priority observation #{{ .ref_number }}{{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} generated from inspection"
 },
 {
-  "id": "inspection_high_prio_observation_incoming_linktext",
+  "id": "observation_incoming_high_prio_inspection_linktext",
   "translation": "View new observation!"
 },
 {
@@ -165,18 +157,6 @@
 {
   "id": "casefile_report_linktext",
   "translation": "Download report"
-},
-{
-  "id": "user_contributed_to_casefile",
-  "translation": "<strong>{{.user}}</strong> contributed to your case file <strong>{{.casefile_name}}</strong>."
-},
-{
-  "id": "user_contributed_to_casefile_subject",
-  "translation": "Case file contribution"
-},
-{
-  "id": "user_contributed_to_casefile_linktext",
-  "translation": "View case file"
 },
 {
   "id": "casefile_assigned",

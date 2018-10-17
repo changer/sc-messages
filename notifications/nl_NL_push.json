@@ -1,18 +1,10 @@
 [{
-  "id": "casefile_action_completed",
+  "id": "action_completed_casefile",
   "translation": "De actie {{.action_title}}, behorende bij de case file {{.casefile_name}} is zojuist voltooid door {{.assignee}}."
 },
 {
-  "id": "casefile_action_completed_subject",
+  "id": "action_completed_casefile_subject",
   "translation": "Actie voltooid"
-},
-{
-  "id": "new_action",
-  "translation": "Nieuw actieverzoek! {{.action_title}}."
-},
-{
-  "id": "new_action_subject",
-  "translation": "Nieuw actieverzoek"
 },
 {
   "id": "action_assigned",
@@ -95,11 +87,11 @@
   "translation": "Nieuwe observatie"
 },
 {
-  "id": "high_prio_observation_incoming",
+  "id": "observation_incoming_high_prio",
   "translation": "Let op! {{.observer}} heeft zojuist een observatie met {{.severity_text}} prioriteit gedaan. Mogelijk is directe aandacht vereist."
 },
 {
-  "id": "high_prio_observation_incoming_subject",
+  "id": "observation_incoming_high_prio_subject",
   "translation": "Let op! Observatie met hoge prioriteit"
 },
 {
@@ -119,28 +111,12 @@
   "translation": "Bijdrage aan case file"
 },
 {
-  "id": "user_contributed_to_casefile",
-  "translation": "{{.user}} heeft bijgedragen aan jouw case file {{.casefile_name}}."
-},
-{
-  "id": "user_contributed_to_casefile_subject",
-  "translation": "Bijdrage aan case file"
-},
-{
   "id": "casefile_assigned",
   "translation": "De volgende case file is aan jou toegewezen door {{.assigner}}: {{.casefile_name}}."
 },
 {
   "id": "casefile_assigned_subject",
   "translation": "Case file toegewezen"
-},
-{
-  "id": "casefile_not_updated",
-  "translation": "De volgende case file is al twee weken niet bijgewerkt maar staat nog wel open: {{.casefile_name}}."
-},
-{
-  "id": "casefile_not_updated_subject",
-  "translation": "Case file niet bijgewerkt"
 },
 {
   "id": "observation_archived",
@@ -160,25 +136,25 @@
 },
 {
   "id": "inspection_template_assigned",
-  "translation": "{{ .assigner }} heeft een nieuwe inspectie '{{ .template_name }}' aan je toegewezen."
+  "translation": "{{ .assigner }} heeft een nieuwe Capption '{{ .template_name }}' aan je toegewezen."
 },
 {
   "id": "inspection_template_assigned_subject",
-  "translation": "Nieuwe inspectie toegewezen"
+  "translation": "Nieuwe Capption toegewezen"
 },
 {
   "id": "inspection_assigned",
-  "translation": "Inspection '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} kan worden gestart."
+  "translation": "Capption '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} kan worden gestart."
 },
 {
   "id": "inspection_assigned_subject",
-  "translation": "Inspection '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} kan worden gestart."
+  "translation": "Capption '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} kan worden gestart."
 },
 {
   "id": "inspection_completed",
-  "translation": "{{ .user }} heeft inspectie '{{ .template_name }}' voltooid"
+  "translation": "{{ .user }} heeft Capption '{{ .template_name }}' voltooid"
 },
 {
   "id": "inspection_completed_subject",
-  "translation": "Inspectie voltooid"
+  "translation": "Capption voltooid"
 }]

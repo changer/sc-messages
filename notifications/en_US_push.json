@@ -1,18 +1,10 @@
 [{
-  "id": "casefile_action_completed",
+  "id": "action_completed_casefile",
   "translation": "The action {{.action_title}}, regarding case file {{.casefile_name}} was just completed by {{.assignee}}."
 },
 {
-  "id": "casefile_action_completed_subject",
+  "id": "action_completed_casefile_subject",
   "translation": "Action completed"
-},
-{
-  "id": "new_action",
-  "translation": "New action request! {{.action_title}}."
-},
-{
-  "id": "new_action_subject",
-  "translation": "New action request"
 },
 {
   "id": "action_assigned",
@@ -95,11 +87,11 @@
   "translation": "New observation"
 },
 {
-  "id": "high_prio_observation_incoming",
+  "id": "observation_incoming_high_prio",
   "translation": "Warning! A new observation with severity {{.severity_text}} was just submitted by {{.observer}}. This might require your immediate attention."
 },
 {
-  "id": "high_prio_observation_incoming_subject",
+  "id": "observation_incoming_high_prio_subject",
   "translation": "Warning! High priority observation"
 },
 {
@@ -119,28 +111,12 @@
   "translation": "New contribution"
 },
 {
-  "id": "user_contributed_to_casefile",
-  "translation": "{{.user}} contributed to your case file {{.casefile_name}}."
-},
-{
-  "id": "user_contributed_to_casefile_subject",
-  "translation": "Case file contribution"
-},
-{
   "id": "casefile_assigned",
   "translation": "The following case file was assigned to you by {{.assigner}}: {{.casefile_name}}."
 },
 {
   "id": "casefile_assigned_subject",
   "translation": "Case file assigned"
-},
-{
-  "id": "casefile_not_updated",
-  "translation": "The following case file has not been updated for two weeks and is still open: {{.casefile_name}}."
-},
-{
-  "id": "casefile_not_updated_subject",
-  "translation": "Case file pending"
 },
 {
   "id": "observation_archived",

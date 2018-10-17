@@ -118,27 +118,27 @@
   "translation": "New observation"
 },
 {
-  "id": "high_prio_observation_incoming",
+  "id": "observation_incoming_high_prio",
   "translation": "Warning! A new observation with severity {{.severity_text}} was just submitted by {{.observer}}. This might require your immediate attention."
 },
 {
-  "id": "high_prio_observation_incoming_subject",
+  "id": "observation_incoming_high_prio_subject",
   "translation": "Warning! High priority observation"
 },
 {
-  "id": "inspection_observation_incoming",
+  "id": "observation_incoming_inspection",
   "translation": "A new observation with severity {{.severity_text}} was just submitted by {{.observer}}. This observation has been automatically generated from inspection '{{ .template_name }} #{{ .inspection_number }}'."
 },
 {
-  "id": "inspection_observation_incoming_subject",
+  "id": "observation_incoming_inspection_subject",
   "translation": "New observation generated from inspection"
 },
 {
-  "id": "inspection_high_prio_observation_incoming",
+  "id": "observation_incoming_high_prio_inspection",
   "translation": "Warning! A new observation with severity {{.severity_text}} was just submitted by {{.observer}}. This might require your immediate attention. This observation has been automatically generated from inspection '{{ .template_name }} #{{ .inspection_number }}'."
 },
 {
-  "id": "inspection_high_prio_observation_incoming_subject",
+  "id": "observation_incoming_high_prio_inspection_subject",
   "translation": "Warning! High priority observation generated from inspection"
 },
 {
@@ -171,7 +171,7 @@
 },
 {
   "id": "casefile_closed_observation_subject",
-  "translation": "Case file of was closed"
+  "translation": "Case file was closed"
 },
 {
   "id": "casefile_closed_action",
@@ -272,4 +272,8 @@
 {
   "id": "inspection_template_clone",
   "translation": "{{ if .failed }}Your request to create a template from a shared code has failed. You may have used a wrong or expired key, please try again.{{else}}Your request to create a template from a shared code has succeeded. It is now available under the name {{ .template_name }}.{{end}}"
+},
+{
+  "id": "inspection_template_clone_subject",
+  "translation": "Template clone has {{ if .failed }}failed{{else}}succeeded{{end}}"
 }]

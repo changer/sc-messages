@@ -1,20 +1,4 @@
 [{
-  "id": "casefile_action_completed",
-  "translation": "De actie {{.action_title}}, behorende bij de case file {{.casefile_name}} is zojuist voltooid door {{.assignee}}."
-},
-{
-  "id": "casefile_action_completed_subject",
-  "translation": "Actie voltooid"
-},
-{
-  "id": "new_action",
-  "translation": "Nieuw actieverzoek! {{.action_title}}."
-},
-{
-  "id": "new_action_subject",
-  "translation": "Nieuw actieverzoek"
-},
-{
   "id": "action_assigned",
   "translation": "De volgende actie is aan jou toegewezen: {{.action_title}}."
 },
@@ -23,12 +7,36 @@
   "translation": "Actie toegewezen"
 },
 {
+  "id": "action_assigned_observation",
+  "translation": "Op basis van je observaite #{{.observation_ref_number}} is er een actie uitgezet door {{.assigner}}"
+},
+{
+  "id": "action_assigned_observation_subject",
+  "translation": "Actie uitgezet op basis van observatie"
+},
+{
   "id": "action_completed",
   "translation": "De actie {{.action_title}} is zojuist voltooid door {{.assignee}}."
 },
 {
   "id": "action_completed_subject",
   "translation": "Actie voltooid"
+},
+{
+  "id": "action_completed_casefile",
+  "translation": "De actie {{.action_title}}, uit casefile {{.casefile_name}} is voltooid door {{.assignee}}."
+},
+{
+  "id": "action_completed_subject_casefile",
+  "translation": "Actie voltooid"
+},
+{
+  "id": "action_completed_observation",
+  "translation": "De actie op basis van jouw observatie #{{.observation_ref_number}} was just completed."
+},
+{
+  "id": "action_completed_observation_subject",
+  "translation": "Actie op basis van observatie voltooid"
 },
 {
   "id": "action_accepted",
@@ -87,6 +95,21 @@
   "translation": "Actie opnieuw toegewezen"
 },
 {
+  "id": "new_permission",
+  "translation": "Je hebt een nieuwe permissie Je kunt nu {{.app_name}} gebruiken asl {{.role}}. Klik hier om te beginnen {{.app_name}}."
+},
+{
+  "id": "reset_password",
+  "translation": "Je admin heeft je wachtwoord gereset. Click hier om een nieuwe aan te maken"
+},
+{
+  "id": "import_success",
+  "translation": {
+    "other": "Het importeren van {{.number}} gebruikers is gelukt! Click hier om de gebruikers te beheren",
+    "one": "Het importeren van {{.number}} gebruiker is gelukt! Click hier om gebruikers te beheren"
+  }
+},
+{
   "id": "observation_incoming",
   "translation": "{{.observer}} heeft zojuist een observatie met {{.severity_text}} prioriteit gedaan."
 },
@@ -95,28 +118,28 @@
   "translation": "Nieuwe observatie"
 },
 {
-  "id": "high_prio_observation_incoming",
+  "id": "observation_incoming_high_prio",
   "translation": "Let op! {{.observer}} heeft zojuist een observatie met {{.severity_text}} prioriteit gedaan. Mogelijk is directe aandacht vereist."
 },
 {
-  "id": "high_prio_observation_incoming_subject",
+  "id": "observation_incoming_high_prio_subject",
   "translation": "Let op! Observatie met hoge prioriteit"
 },
 {
-  "id": "inspection_observation_incoming",
-  "translation": "{{.observer}} heeft zojuist een observatie met {{.severity_text}} prioriteit gedaan. Deze observatie is automatisch gegenereerd vanuit inspectie '{{ .template_name }} #{{ .inspection_number }}'."
+  "id": "observation_incoming_inspection",
+  "translation": "{{.observer}} heeft zojuist een observatie met {{.severity_text}} prioriteit gedaan. Deze observatie is automatisch gegenereerd vanuit Capption '{{ .template_name }} #{{ .inspection_number }}'."
 },
 {
-  "id": "inspection_observation_incoming_subject",
-  "translation": "Nieuwe observatie gegenereerd vanuit een inspectie"
+  "id": "observation_incoming_inspection_subject",
+  "translation": "Nieuwe observatie gegenereerd vanuit een Capption"
 },
 {
-  "id": "inspection_high_prio_observation_incoming",
-  "translation": "Let op! {{.observer}} heeft zojuist een observatie met {{.severity_text}} prioriteit gedaan. Mogelijk is directe aandacht vereist. Deze observatie is automatisch gegenereerd vanuit inspectie '{{ .template_name }} #{{ .inspection_number }}'."
+  "id": "observation_incoming_high_prio_inspection",
+  "translation": "Let op! {{.observer}} heeft zojuist een observatie met {{.severity_text}} prioriteit gedaan. Mogelijk is directe aandacht vereist. Deze observatie is automatisch gegenereerd vanuit Capption '{{ .template_name }} #{{ .inspection_number }}'."
 },
 {
-  "id": "inspection_high_prio_observation_incoming_subject",
-  "translation": "Let op! Nieuwe observatie met hoge prioriteit gegenereerd vanuit een inspectie"
+  "id": "observation_incoming_high_prio_inspection_subject",
+  "translation": "Let op! Nieuwe observatie met hoge prioriteit gegenereerd vanuit een Capption"
 },
 {
   "id": "publication_incoming",
@@ -128,19 +151,35 @@
 },
 {
   "id": "casefile_contribution",
-  "translation": "{{.contributor}} heeft bijgedragen aan jouw case file {{.casefile_name}}."
+  "translation": "{{.contributor}} heeft bijgedragen aan jouw casefile {{.casefile_name}}."
 },
 {
   "id": "casefile_contribution_subject",
-  "translation": "Bijdrage aan case file"
+  "translation": "Bijdrage aan casefile"
 },
 {
   "id": "casefile_closed",
-  "translation": "{{.closer}} heeft de case file {{.casefile_name}} gesloten die door jou op {{ .date_created }} aangemaakt is."
+  "translation": "{{.closer}} heeft de casefile {{.casefile_name}} gesloten die door jou op {{ .date_created }} aangemaakt is."
 },
 {
   "id": "casefile_closed_subject",
-  "translation": "Case file gesloten"
+  "translation": "Casefile gesloten"
+},
+{
+  "id": "casefile_closed_observation",
+  "translation": "De casefile met je observatie #{{.observation_ref_number}} is gesloten door {{.closer}}"
+},
+{
+  "id": "casefile_closed_observation_subject",
+  "translation": "Casefile gesloten"
+},
+{
+  "id": "casefile_closed_action",
+  "translation": "De casefile met je actie #{{.action_ref_number}} is gesloten door {{.closer}}"
+},
+{
+  "id": "casefile_closed_action_subject",
+  "translation": "Casefile met actie gesloten"
 },
 {
   "id": "casefile_report",
@@ -148,19 +187,19 @@
 },
 {
   "id": "casefile_assigned",
-  "translation": "De volgende case file is aan jou toegewezen door {{.assigner}}: {{.casefile_name}}."
+  "translation": "De volgende casefile is aan jou toegewezen door {{.assigner}}: {{.casefile_name}}."
 },
 {
   "id": "casefile_assigned_subject",
-  "translation": "Case file toegewezen"
+  "translation": "Casefile toegewezen"
 },
 {
   "id": "casefile_not_updated",
-  "translation": "De volgende case file is al twee weken niet bijgewerkt maar nog wel open: {{.casefile_name}}."
+  "translation": "De volgende casefile is al twee weken niet bijgewerkt maar nog wel open: {{.casefile_name}}."
 },
 {
   "id": "casefile_not_updated_subject",
-  "translation": "Case file niet bijgewerkt"
+  "translation": "Casefile niet bijgewerkt"
 },
 {
   "id": "observation_archived",
@@ -180,39 +219,39 @@
 },
 {
   "id": "inspection_template_assigned",
-  "translation": "{{ .assigner }} heeft een nieuwe inspectie '{{ .template_name }}' aan je toegewezen."
+  "translation": "{{ .assigner }} heeft een nieuwe Capption '{{ .template_name }}' aan je toegewezen."
 },
 {
   "id": "inspection_template_assigned_subject",
-  "translation": "Nieuwe inspectie toegewezen"
+  "translation": "Nieuwe Capption toegewezen"
 },
 {
   "id": "inspection_assigned",
-  "translation": "Inspectie '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} kan worden gestart. {{ if .date_due }} Deze dient voor {{ .date_due }} afgerond te worden.{{ end }}"
+  "translation": "Capption '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} kan worden gestart. {{ if .date_due }} Deze dient voor {{ .date_due }} afgerond te worden.{{ end }}"
 },
 {
   "id": "inspection_assigned_subject",
-  "translation": "Inspectie '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} kan worden gestart."
+  "translation": "Capption '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} kan worden gestart."
 },
 {
   "id": "inspection_completed",
-  "translation": "{{ .user }} heeft inspectie '{{ .template_name }}' voltooid"
+  "translation": "{{ .user }} heeft Capption '{{ .template_name }}' voltooid"
 },
 {
   "id": "inspection_completed_subject",
-  "translation": "Inspectie voltooid"
+  "translation": "Capption voltooid"
 },
 {
   "id": "inspection_completed_report",
-  "translation": "Uw {{ .template_name }} inspection #{{ .ref_number }} download staat klaar."
+  "translation": "Uw {{ .template_name }} #{{ .ref_number }} download staat klaar."
 },
 {
   "id": "inspection_report",
-  "translation": "Uw {{ .template_name }} inspection #{{ .ref_number }} download staat klaar."
+  "translation": "Uw {{ .template_name }} #{{ .ref_number }} download staat klaar."
 },
 {
   "id": "inspection_report_cc",
-  "translation": "Uw {{ .template_name }} inspection #{{ .ref_number }} download staat klaar."
+  "translation": "Uw {{ .template_name }} #{{ .ref_number }} download staat klaar."
 },
 {
   "id": "generic",
@@ -233,4 +272,8 @@
 {
   "id": "inspection_template_clone",
   "translation": "{{ if .failed }}Uw verzoek om een template aan te maken vanuit een gedeelde code is helaas mislukt. Misschien was de code verlopen of incorrect, zou u het opnieuw willen proberen?{{else}}Uw verzoek om een template aan te maken vanuit een gedeelde code is gelukt. Het is beschikbaar onder de naam {{ .template_name }}.{{end}}"
+},
+{
+  "id": "inspection_template_clone_subject",
+  "translation": "Template clone is {{ if .failed }}mislukt{{else}}gelukt{{end}}"
 }]
