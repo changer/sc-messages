@@ -127,19 +127,19 @@
 },
 {
   "id": "observation_incoming_inspection",
-  "translation": "{{.observer}} heeft zojuist een observatie met {{.severity_text}} prioriteit gedaan. Deze observatie is automatisch gegenereerd vanuit inspectie '{{ .template_name }} #{{ .inspection_number }}'."
+  "translation": "{{.observer}} heeft zojuist een observatie met {{.severity_text}} prioriteit gedaan. Deze observatie is automatisch gegenereerd vanuit Capption '{{ .template_name }} #{{ .inspection_number }}'."
 },
 {
   "id": "observation_incoming_inspection_subject",
-  "translation": "Nieuwe observatie gegenereerd vanuit een inspectie"
+  "translation": "Nieuwe observatie gegenereerd vanuit een Capption"
 },
 {
   "id": "observation_incoming_high_prio_inspection",
-  "translation": "Let op! {{.observer}} heeft zojuist een observatie met {{.severity_text}} prioriteit gedaan. Mogelijk is directe aandacht vereist. Deze observatie is automatisch gegenereerd vanuit inspectie '{{ .template_name }} #{{ .inspection_number }}'."
+  "translation": "Let op! {{.observer}} heeft zojuist een observatie met {{.severity_text}} prioriteit gedaan. Mogelijk is directe aandacht vereist. Deze observatie is automatisch gegenereerd vanuit Capption '{{ .template_name }} #{{ .inspection_number }}'."
 },
 {
   "id": "observation_incoming_high_prio_inspection_subject",
-  "translation": "Let op! Nieuwe observatie met hoge prioriteit gegenereerd vanuit een inspectie"
+  "translation": "Let op! Nieuwe observatie met hoge prioriteit gegenereerd vanuit een Capption"
 },
 {
   "id": "publication_incoming",
@@ -219,27 +219,27 @@
 },
 {
   "id": "inspection_template_assigned",
-  "translation": "{{ .assigner }} heeft een nieuwe inspectie '{{ .template_name }}' aan je toegewezen."
+  "translation": "{{ .assigner }} heeft een nieuwe Capption '{{ .template_name }}' aan je toegewezen."
 },
 {
   "id": "inspection_template_assigned_subject",
-  "translation": "Nieuwe inspectie toegewezen"
+  "translation": "Nieuwe Capption toegewezen"
 },
 {
   "id": "inspection_assigned",
-  "translation": "Inspectie '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} kan worden gestart. {{ if .date_due }} Deze dient voor {{ .date_due }} afgerond te worden.{{ end }}"
+  "translation": "Capption '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} kan worden gestart. {{ if .date_due }} Deze dient voor {{ .date_due }} afgerond te worden.{{ end }}"
 },
 {
   "id": "inspection_assigned_subject",
-  "translation": "Inspectie '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} kan worden gestart."
+  "translation": "Capption '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} kan worden gestart."
 },
 {
   "id": "inspection_completed",
-  "translation": "{{ .user }} heeft inspectie '{{ .template_name }}' voltooid"
+  "translation": "{{ .user }} heeft Capption '{{ .template_name }}' voltooid"
 },
 {
   "id": "inspection_completed_subject",
-  "translation": "Inspectie voltooid"
+  "translation": "Capption voltooid"
 },
 {
   "id": "inspection_completed_report",

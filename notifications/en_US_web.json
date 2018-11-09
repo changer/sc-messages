@@ -127,19 +127,19 @@
 },
 {
   "id": "observation_incoming_inspection",
-  "translation": "A new observation with severity {{.severity_text}} was just submitted by {{.observer}}. This observation has been automatically generated from inspection '{{ .template_name }} #{{ .inspection_number }}'."
+  "translation": "A new observation with severity {{.severity_text}} was just submitted by {{.observer}}. This observation has been automatically generated from Capption '{{ .template_name }} #{{ .Capption_number }}'."
 },
 {
   "id": "observation_incoming_inspection_subject",
-  "translation": "New observation generated from inspection"
+  "translation": "New observation generated from Capption"
 },
 {
   "id": "observation_incoming_high_prio_inspection",
-  "translation": "Warning! A new observation with severity {{.severity_text}} was just submitted by {{.observer}}. This might require your immediate attention. This observation has been automatically generated from inspection '{{ .template_name }} #{{ .inspection_number }}'."
+  "translation": "Warning! A new observation with severity {{.severity_text}} was just submitted by {{.observer}}. This might require your immediate attention. This observation has been automatically generated from Capption '{{ .template_name }} #{{ .Capption_number }}'."
 },
 {
   "id": "observation_incoming_high_prio_inspection_subject",
-  "translation": "Warning! High priority observation generated from inspection"
+  "translation": "Warning! High priority observation generated from Capption"
 },
 {
   "id": "publication_incoming",
@@ -219,39 +219,39 @@
 },
 {
   "id": "inspection_template_assigned",
-  "translation": "{{ .assigner }} has assigned a new inspection '{{ .template_name }}' to you."
+  "translation": "{{ .assigner }} has assigned a new Capption '{{ .template_name }}' to you."
 },
 {
   "id": "inspection_template_assigned_subject",
-  "translation": "New inspection assigned"
+  "translation": "New Capption assigned"
 },
 {
   "id": "inspection_assigned",
-  "translation": "Inspection '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} can be started.{{ if .date_due }} It needs to be completed before {{ .date_due }}.{{ end }}"
+  "translation": "Capption '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} can be started.{{ if .date_due }} It needs to be completed before {{ .date_due }}.{{ end }}"
 },
 {
   "id": "inspection_assigned_subject",
-  "translation": "Inspection '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} can be started."
+  "translation": "Capption '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} can be started."
 },
 {
   "id": "inspection_completed",
-  "translation": "{{ .user }} has completed inspection '{{ .template_name }}'"
+  "translation": "{{ .user }} has completed Capption '{{ .template_name }}'"
 },
 {
   "id": "inspection_completed_subject",
-  "translation": "Inspection completed"
+  "translation": "Capption completed"
 },
 {
   "id": "inspection_completed_report",
-  "translation": "Your {{ .template_name }} inspection #{{ .ref_number }} download is ready."
+  "translation": "Your {{ .template_name }} Capption #{{ .ref_number }} download is ready."
 },
 {
   "id": "inspection_report",
-  "translation": "Your {{ .template_name }} inspection #{{ .ref_number }} download is ready."
+  "translation": "Your {{ .template_name }} Capption #{{ .ref_number }} download is ready."
 },
 {
   "id": "inspection_report_cc",
-  "translation": "Your {{ .template_name }} inspection #{{ .ref_number }} download is ready."
+  "translation": "Your {{ .template_name }} Capption #{{ .ref_number }} download is ready."
 },
 {
   "id": "generic",

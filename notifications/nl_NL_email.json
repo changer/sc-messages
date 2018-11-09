@@ -88,7 +88,7 @@
 },
 {
   "id": "observation_incoming_inspection_subject",
-  "translation": "Nieuwe observatie #{{ .ref_number }}{{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} gegenereerd vanuit een inspectie"
+  "translation": "Nieuwe observatie #{{ .ref_number }}{{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} gegenereerd vanuit een Capption"
 },
 {
   "id": "observation_incoming_inspection_linktext",
@@ -96,7 +96,7 @@
 },
 {
   "id": "observation_incoming_high_prio_inspection_subject",
-  "translation": "Let op! Nieuwe observatie #{{ .ref_number }}{{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} met hoge prioriteit gegenereerd vanuit een inspectie"
+  "translation": "Let op! Nieuwe observatie #{{ .ref_number }}{{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} met hoge prioriteit gegenereerd vanuit een Capption"
 },
 {
   "id": "observation_incoming_high_prio_inspection_linktext",
@@ -188,7 +188,7 @@
 },
 {
   "id": "inspection_template_assigned",
-  "translation": "<strong>{{ .assigner }}</strong> heeft een nieuwe inspectie <strong>{{ .template_name }}</strong> aan je toegewezen."
+  "translation": "<strong>{{ .assigner }}</strong> heeft een nieuwe Capption <strong>{{ .template_name }}</strong> aan je toegewezen."
 },
 {
   "id": "inspection_template_assigned_linktext___",
@@ -196,27 +196,27 @@
 },
 {
   "id": "inspection_template_assigned_subject",
-  "translation": "Nieuwe inspectie '{{ .template_name }}' toegewezen"
+  "translation": "Nieuwe Capption '{{ .template_name }}' toegewezen"
 },
 {
   "id": "inspection_assigned",
-  "translation": "Inspectie '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} kan worden gestart.{{ if .date_due }} Deze dient voor {{ .date_due }} afgerond te worden.{{ end }}"
+  "translation": "Capption '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} kan worden gestart.{{ if .date_due }} Deze dient voor {{ .date_due }} afgerond te worden.{{ end }}"
 },
 {
   "id": "inspection_assigned_subject",
-  "translation": "Inspectie '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} kan worden gestart."
+  "translation": "Capption '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} kan worden gestart."
 },
 {
   "id": "inspection_completed",
-  "translation": "<strong>{{ .user }}</strong> heeft inspectie <strong>{{ .template_name }} #{{ .ref_number }}</strong> voltooid.{{ if .key_name }}<br><br>{{ .key_name}}: <strong>{{ .key_value }}</strong>{{ end }}<br><br>Vergeet niet deze inspectie te controleren!"
+  "translation": "<strong>{{ .user }}</strong> heeft Capption <strong>{{ .template_name }} #{{ .ref_number }}</strong> voltooid.{{ if .key_name }}<br><br>{{ .key_name}}: <strong>{{ .key_value }}</strong>{{ end }}<br><br>Vergeet niet deze Capption te controleren!"
 },
 {
   "id": "inspection_completed_subject",
-  "translation": "Inspectie voltooid - '{{ .template_name }}' #{{ .ref_number }}{{ if .key_name }} ({{ .key_name}}: {{ .key_value }}){{ end }}"
+  "translation": "Capption voltooid - '{{ .template_name }}' #{{ .ref_number }}{{ if .key_name }} ({{ .key_name}}: {{ .key_value }}){{ end }}"
 },
 {
   "id": "inspection_completed_linktext",
-  "translation": "Bekijk inspectie"
+  "translation": "Bekijk Capption"
 },
 {
   "id": "inspection_completed_report",

@@ -136,25 +136,25 @@
 },
 {
   "id": "inspection_template_assigned",
-  "translation": "{{ .assigner }} has assigned a new inspection '{{ .template_name }}' to you."
+  "translation": "{{ .assigner }} has assigned a new Capption '{{ .template_name }}' to you."
 },
 {
   "id": "inspection_template_assigned_subject",
-  "translation": "New inspection assigned"
+  "translation": "New Capption assigned"
 },
 {
   "id": "inspection_assigned",
-  "translation": "Inspection '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} can be started."
+  "translation": "Capption '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} can be started."
 },
 {
   "id": "inspection_assigned_subject",
-  "translation": "Inspection '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} can be started."
+  "translation": "Capption '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} can be started."
 },
 {
   "id": "inspection_completed",
-  "translation": "{{ .user }} has completed inspection '{{ .template_name }}'"
+  "translation": "{{ .user }} has completed Capption '{{ .template_name }}'"
 },
 {
   "id": "inspection_completed_subject",
-  "translation": "Inspection completed"
+  "translation": "Capption completed"
 }]

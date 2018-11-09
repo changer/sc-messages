@@ -136,25 +136,25 @@
 },
 {
   "id": "inspection_template_assigned",
-  "translation": "{{ .assigner }} heeft een nieuwe inspectie '{{ .template_name }}' aan je toegewezen."
+  "translation": "{{ .assigner }} heeft een nieuwe Capption '{{ .template_name }}' aan je toegewezen."
 },
 {
   "id": "inspection_template_assigned_subject",
-  "translation": "Nieuwe inspectie toegewezen"
+  "translation": "Nieuwe Capption toegewezen"
 },
 {
   "id": "inspection_assigned",
-  "translation": "Inspectie '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} kan worden gestart."
+  "translation": "Capption '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} kan worden gestart."
 },
 {
   "id": "inspection_assigned_subject",
-  "translation": "Inspectie '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} kan worden gestart."
+  "translation": "Capption '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} kan worden gestart."
 },
 {
   "id": "inspection_completed",
-  "translation": "{{ .user }} heeft inspectie '{{ .template_name }}' voltooid"
+  "translation": "{{ .user }} heeft Capption '{{ .template_name }}' voltooid"
 },
 {
   "id": "inspection_completed_subject",
-  "translation": "Inspectie voltooid"
+  "translation": "Capption voltooid"
 }]
