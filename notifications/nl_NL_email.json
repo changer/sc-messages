@@ -267,6 +267,10 @@
   "translation": "Uw export '{{ .name }}' staat klaar."
 },
 {
+  "id": "export_linktext",
+  "translation": "Download export"
+},
+{
   "id": "password_new",
   "translation": "<p>{{ if .trial }}Dank voor het proberen van <span class=\"bluetext\">{{ .brand_name }}</span>, activeer uw account door op onderstaande knop te klikken.{{else}}Gefeliciteerd, u bent uitgenodigd door <strong>{{ .creator }}</strong> om deel te nemen in <span class=\"bluetext\">{{ .organization }}</span> op <span class=\"bluetext\">{{ .brand_name }}</span>!{{end}}</p>{{ if .password }}<p> </p><p>Uw password voor <span class=\"bluetext\">{{ .brand_name }}</span> is: {{ .password }}</p>{{ end }}"
 },
