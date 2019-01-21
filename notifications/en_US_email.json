@@ -200,7 +200,7 @@
 },
 {
   "id": "inspection_assigned",
-  "translation": "Capption '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} can be started.{{ if .date_due }} It needs to be completed before {{ .date_due }}.{{ end }} Happy Inspecting!"
+  "translation": "Capption '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} can be started.{{ if .date_due }} It needs to be completed before {{ .date_due }}.{{ end }} Happy Capptioning!"
 },
 {
   "id": "inspection_assigned_subject",
