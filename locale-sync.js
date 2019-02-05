@@ -5,8 +5,14 @@ const ARGS = process.argv.slice(2);
 
 const CMD = ARGS[0];
 const KEY = '1qqmMpLa7H1Tqsm2I_bpbKx8Su7NVX00cZztG1WkhSYs';
-const LANGUAGES = ['en', 'nl'];//, 'de', 'it'];
-const PREFIXES = { en: 'en_US', nl: 'nl_NL' };//, de: 'de_DE', it: 'it-IT' };
+
+const LOCALES = 'en_US nl_NL es_ES'.split(' ');
+const LANGUAGES = LOCALES.map(e => e.split('_')[0]);//, 'de', 'it'];
+const PREFIXES = LOCALES.reduce((prefixes, locale) => {
+  prefixes[locale.split('_')[0]] = locale;
+  return prefixes;
+}, {});
+
 const FILES = ['base_email', 'email', 'push', 'web'];
 
 const info = msg => console.info('\x1b[32m%s\x1b[0m', msg);

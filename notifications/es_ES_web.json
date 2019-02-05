@@ -1,0 +1,279 @@
+[{
+  "id": "action_assigned",
+  "translation": "La siguiente acción fue asignado a usted: {{.action_title}}."
+},
+{
+  "id": "action_assigned_subject",
+  "translation": "Una acción ha sido asignado a usted"
+},
+{
+  "id": "action_assigned_observation",
+  "translation": "En base a su observación #{{ .observation_ref_number}} una acción es asignado por {{ .assigner }}"
+},
+{
+  "id": "action_assigned_observation_subject",
+  "translation": "Acción creada para observación"
+},
+{
+  "id": "action_completed",
+  "translation": "La acción {{ .action_title }} se acaba de completar por {{ .assignee }}."
+},
+{
+  "id": "action_completed_subject",
+  "translation": "Acción completado"
+},
+{
+  "id": "action_completed_casefile",
+  "translation": "La acción {{ .action_title }}, en relación con expediente {{ .casefile_name }}  se acaba de completar por {{ .assignee }}."
+},
+{
+  "id": "action_completed_subject_casefile",
+  "translation": "Acción completada"
+},
+{
+  "id": "action_completed_observation",
+  "translation": "La acción basada en su observación # {{ .observation_ref_number }} se acaba de completar."
+},
+{
+  "id": "action_completed_observation_subject",
+  "translation": "Acción para la observación completado."
+},
+{
+  "id": "action_accepted",
+  "translation": "{{ .assignee }} aceptó una acción que usted asignado ({{ .action_title }})."
+},
+{
+  "id": "action_accepted_subject",
+  "translation": "Acción aceptada"
+},
+{
+  "id": "action_rejected",
+  "translation": "{{ .assignee }} rechazo y reasignado esta acción a usted ({{ .action_title }} )."
+},
+{
+  "id": "action_rejected_subject",
+  "translation": "Acción rechazada"
+},
+{
+  "id": "action_almost_overdue",
+  "translation": "La siguiente acción es casi vencido: {{ .action_title }}"
+},
+{
+  "id": "action_almost_overdue_subject",
+  "translation": "Acción casi vencido"
+},
+{
+  "id": "action_almost_overdue_assignee",
+  "translation": "La siguiente acción es casi vencido: {{  .action_title }}, asignado a {{ .assignee }}."
+},
+{
+  "id": "action_almost_overdue_assignee_subject",
+  "translation": "Acción casi vencido"
+},
+{
+  "id": "action_overdue",
+  "translation": "¡Advertencia! La siguiente acción esta vencido: {{ .action_title }}."
+},
+{
+  "id": "action_overdue_subject",
+  "translation": "Acción vencido"
+},
+{
+  "id": "action_overdue_assignee",
+  "translation": "¡Advertencia! La siguiente acción esta vencido: {{ .action_title }}, asignado a {{ .assignee }}."
+},
+{
+  "id": "action_overdue_assignee_subject",
+  "translation": "Acción vencido"
+},
+{
+  "id": "action_reassigned",
+  "translation": "{{ .owner  }} ha reasignado la acción {{ .action_title  }} a otra persona. Usted ya no es responsable."
+},
+{
+  "id": "action_reassigned_subject",
+  "translation": "Acción reasignado"
+},
+{
+  "id": "new_permission",
+  "translation": "Un nuevo permiso fue dado a usted. Ahora lo puede utilizar {{ .app_name }} como un / una {{ .role }}. Haga clic aquí para ir a {{ .app_name }}."
+},
+{
+  "id": "reset_password",
+  "translation": "Su administrador ha restablecido su contraseña. Haga clic aquí para crear una nueva contraseña."
+},
+{
+  "id": "import_success",
+  "translation": {
+    "other": "Se ha importado exitosamente {{ .number }} usuarios. Haga clic aquí para abrir AdminChanger y gestionar usuarios ",
+    "one": ". Importado exitosamente {{ .number }}  usuario. Haga clic aquí para abrir AdminChanger y gestionar usuarios."
+  }
+},
+{
+  "id": "observation_incoming",
+  "translation": "Una nueva observación con severidad {{ .severity_text }} se acaba de presentar por {{ .observer }}"
+},
+{
+  "id": "observation_incoming_subject",
+  "translation": "Observación nueva"
+},
+{
+  "id": "observation_incoming_high_prio",
+  "translation": "¡Advertencia! Una nueva observación con severidad {{ .severity_text }}  se acaba de presentar por {{ .observer }}. Esto podría requerir su atención inmediata."
+},
+{
+  "id": "observation_incoming_high_prio_subject",
+  "translation": "¡Advertencia! observación de alta priorida"
+},
+{
+  "id": "observation_incoming_inspection",
+  "translation": "Una nueva observación con severidad {{ .severity_text }} se acaba de presentar por {{ .observer }}. Esta observación ha sido generada automáticamente a partir de Capption '{{  .template_name }} #{{ .Capption_number }}'."
+},
+{
+  "id": "observation_incoming_inspection_subject",
+  "translation": "Observación nueva generada a partir de Capption"
+},
+{
+  "id": "observation_incoming_high_prio_inspection",
+  "translation": "¡Advertencia! Una nueva observación con severidad {{ .severity_text  }} se acaba de presentar por {{ .observer }}. Esto podría requerir su atención inmediata. Esta observación ha sido generada automáticamente a partir de Capption '{{ .template_name }} #{{ .Capption_number }}'."
+},
+{
+  "id": "observation_incoming_high_prio_inspection_subject",
+  "translation": "¡Advertencia! Observación de alta prioridad generada a partir de Capption"
+},
+{
+  "id": "publication_incoming",
+  "translation": "Nueva publicación disponible! '{{.title}}'."
+},
+{
+  "id": "publication_incoming_subject",
+  "translation": "Nueva publicación disponible!"
+},
+{
+  "id": "casefile_contribution",
+  "translation": "{{.Contributor}} contribuyó a su expediente del caso: {{ .casefile_name }}."
+},
+{
+  "id": "casefile_contribution_subject",
+  "translation": "Nueva aportación"
+},
+{
+  "id": "casefile_closed",
+  "translation": "{{ .closer }} expediente cerrado {{ .casefile_name }} se creó en {{ .date_created }}."
+},
+{
+  "id": "casefile_closed_subject",
+  "translation": "Casefile cerrado"
+},
+{
+  "id": "casefile_closed_observation",
+  "translation": "El expediente que contiene su observación #{{ .observation_ref_number }} una cerrada por {{ .closer }}"
+},
+{
+  "id": "casefile_closed_observation_subject",
+  "translation": "Expediente se cerró"
+},
+{
+  "id": "casefile_closed_action",
+  "translation": "El expediente que contiene su acción #{{ .action_ref_number }} fue cerrada por {{.closer}}"
+},
+{
+  "id": "casefile_closed_action_subject",
+  "translation": "Expediente de la acción se cerró"
+},
+{
+  "id": "casefile_report",
+  "translation": "Su informe del expediente #{{  .ref_number }}: {{ .template_name }} descarga está lista."
+},
+{
+  "id": "casefile_assigned",
+  "translation": "El siguiente expediente fue asignado a usted por {{ .assigner }} : {{ .casefile_name }}."
+},
+{
+  "id": "casefile_assigned_subject",
+  "translation": "Expediente asignado"
+},
+{
+  "id": "casefile_not_updated",
+  "translation": "El siguiento expediente  no ha sido actualizado por dos semanas y todavía está abierto: {{ .casefile_name }} ."
+},
+{
+  "id": "casefile_not_updated_subject",
+  "translation": "Expediente en trámite"
+},
+{
+  "id": "observation_archived",
+  "translation": "Gracias por su observación! Su observación {{ .ref_number  }} ha sido archivada por {{ .manager }}."
+},
+{
+  "id": "observation_archived_subject",
+  "translation": "observación archivado"
+},
+{
+  "id": "observation_used",
+  "translation": "Gracias por su observación! Su observación {{ .ref_number  }} está siendo procesada por {{ .manager }}."
+},
+{
+  "id": "observation_used_subject",
+  "translation": "Se utiliza la observación"
+},
+{
+  "id": "inspection_template_assigned",
+  "translation": "{{ .assigner }} ha asignado un nuevo Capption '{{ .template_name }}'  a usted."
+},
+{
+  "id": "inspection_template_assigned_subject",
+  "translation": "Nuevo Capption asignado"
+},
+{
+  "id": "inspection_assigned",
+  "translation": "Capption '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} se puede iniciar {{if .date_due }} Tiene que ser completado antes de {{ .date_due }}.{{ end }}"
+},
+{
+  "id": "inspection_assigned_subject",
+  "translation": "Capption '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} se puede iniciar."
+},
+{
+  "id": "inspection_completed",
+  "translation": "{{ .user }}  ha completado Capption '{{  .template_name }}'"
+},
+{
+  "id": "inspection_completed_subject",
+  "translation": "Capption completado"
+},
+{
+  "id": "inspection_completed_report",
+  "translation": "Tu {{ .template_name }} #{{ .ref_number }} descarga Capption # está listo."
+},
+{
+  "id": "inspection_report",
+  "translation": "Tu {{ .template_name }} descarga de #{{ .ref_number  }} Capption # está listo."
+},
+{
+  "id": "inspection_report_cc",
+  "translation": "Tu {{ .template_name }} descarga de #{{ .ref_number  }} Capption # está listo."
+},
+{
+  "id": "generic",
+  "translation": "{{ .message }}"
+},
+{
+  "id": "import",
+  "translation": "{{ .message }}"
+},
+{
+  "id": "export",
+  "translation": "Su exportación '{{ .name }}' está listo."
+},
+{
+  "id": "export_subject",
+  "translation": "Su exportación '{{ .name }}' está listo."
+},
+{
+  "id": "inspection_template_clone",
+  "translation": "{{ if .failed }}Su solicitud de crear una plantilla a partir de un código compartido ha fallado. Puede que haya utilizado una clave equivocada o caducado, por favor intente de nuevo. {{ else }}Su solicitud de crear una plantilla a partir de un código compartido ha tenido éxito. Ahora está disponible bajo el nombre {{ .template_name }}.{{ end }}"
+},
+{
+  "id": "inspection_template_clone_subject",
+  "translation": "El clon de la plantilla ha {{ if .failed }} fallado {{else}} sido exitoso {{end}}"
+}]

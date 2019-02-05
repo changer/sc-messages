@@ -1,0 +1,23 @@
+{
+  "salutation": "Estimado {{ .firstname }},",
+  "help": "Necesitas ayuda? Por favor Comuníquese con <a class=\"bluetext\" href=\"mailto:{{.administrator.email}}?subject={{.subject}}\">{{.administrator.name}}</a>",
+  "footer": "Administrar (correo electrónico) ajustes de alerta dentro {{ .brand_name}} o la aplicacion movil.",
+  "text_email": "correo electrónico",
+  "text_password": "Contraseña",
+  "text_login_url": "Iniciar sesión",
+  "text_download_report": "Descargar informe de",
+  "text_attention": "Atención!",
+  "text_just_recorded_observation": "acaba de grabar una observación de <strong>{{ .severity_text}}<strong> gravedad",
+  "text_just_generated_observation": "acaba de generar una observación de <strong>{{ .severity_text}}<strong> gravedad",
+  "text_severity": "De gravedad",
+  "text_ref_number": "Numero de referencia.",
+  "text_date": "Fecha",
+  "text_location": "Lugar",
+  "text_inspection": "Capption",
+  "text_template": "Plantilla",
+  "text_notes": "Notas",
+  "text_new_publication": "Nueva publicación disponible:",
+  "text_casefile": "Expediente",
+  "text_observers": "Observadores",
+  "text_witnesses": "Testigos"
+}

@@ -1,0 +1,308 @@
+[{
+  "id": "action_assigned",
+  "translation": "La siguiente acción fue asignada a usted: <strong>{{ .action_title}}</ strong>. Aceptar y completar esta acción en la aplicación 'Capptions'."
+},
+{
+  "id": "action_assigned_subject",
+  "translation": "Acción '{{  .action_title }}' se ha asignado a usted"
+},
+{
+  "id": "action_assigned_observation",
+  "translation": "En base a su observación <strong> #{{ .observation_ref_number}}</ strong> la operación es asignado por <strong>{{ .assigner }}</ strong>"
+},
+{
+  "id": "action_assigned_observation_subject",
+  "translation": "Acción creada para la observación #{{ .observation_ref_number }}"
+},
+{
+  "id": "action_completed",
+  "translation": "La acción <strong>{{ .action_title}}</ strong> se acaba de completar por <strong>{{ .assignee }}</ strong>."
+},
+{
+  "id": "action_completed_subject",
+  "translation": "Acción '{{ .action_title }}' completado"
+},
+{
+  "id": "action_completed_linktext",
+  "translation": "Ver acción completada"
+},
+{
+  "id": "action_completed_casefile",
+  "translation": "La acción <strong>{{ .action_title }}</ strong>, en relación con expediente <strong>{{ .casefile_name }}</ strong> se acaba de completar por <strong>{{.assignee}}</strong>."
+},
+{
+  "id": "action_completed_casefile_subject",
+  "translation": "Acción '{{  .action_title }}' completado"
+},
+{
+  "id": "action_completed_casefile_linktext",
+  "translation": "Ver acción completada"
+},
+{
+  "id": "action_completed_observation",
+  "translation": "La acción basada en su observación <strong>#{{.observation_ref_number }}</ strong> se acaba de completar."
+},
+{
+  "id": "action_completed_observation_subject",
+  "translation": "La acción basada en su observación #{{ .observation_ref_number }} se acabo de completar"
+},
+{
+  "id": "action_accepted",
+  "translation": "<strong>{{.assignee}}</strong> Acepto una accion que usted asigno <strong>{{.action_title}}</strong>."
+},
+{
+  "id": "action_accepted_subject",
+  "translation": "Acción '{{ .action_title }}' aceptada"
+},
+{
+  "id": "action_accepted_linktext",
+  "translation": "Ver la acción"
+},
+{
+  "id": "action_rejected",
+  "translation": "<strong>{{.assignee}}</strong> rechazo y re-asigno esta accion a usted <strong>{{.action_title}}</strong>."
+},
+{
+  "id": "action_rejected_subject",
+  "translation": "Acción '{{ .action_title }} ' rechazó"
+},
+{
+  "id": "action_rejected_linktext",
+  "translation": "Ver la acción"
+},
+{
+  "id": "observation_incoming_subject",
+  "translation": "Observación nueva #{{ .ref_number }}"
+},
+{
+  "id": "observation_incoming_linktext",
+  "translation": "Ver nueva observación!"
+},
+{
+  "id": "observation_incoming_high_prio_subject",
+  "translation": "¡Advertencia! Observación de alta prioridad #{{ .ref_number }}"
+},
+{
+  "id": "observation_incoming_high_prio_linktext",
+  "translation": "Ver nueva observación!"
+},
+{
+  "id": "observation_incoming_inspection_subject",
+  "translation": "Observación nueva #{{ .ref_number }} generada a partir de Capption"
+},
+{
+  "id": "observation_incoming_inspection_linktext",
+  "translation": "Ver nueva observación!"
+},
+{
+  "id": "observation_incoming_high_prio_inspection_subject",
+  "translation": "¡Advertencia! Observación de alta prioridad #{{.ref_number}} {{if .key_name}} {{ .key_name }} : {{.key_value}} {{end}} generada a partir de Capption"
+},
+{
+  "id": "observation_incoming_high_prio_inspection_linktext",
+  "translation": "Ver nueva observación!"
+},
+{
+  "id": "publication_incoming_subject",
+  "translation": "Nueva publicación disponible!"
+},
+{
+  "id": "casefile_contribution",
+  "translation": "<strong>{{.contributor}}</strong> contribuyo a su expediente<strong>{{.casefile_name}}</strong>."
+},
+{
+  "id": "casefile_contribution_subject",
+  "translation": "Nueva aportación al expediente del caso '{{ .casefile_name }}'"
+},
+{
+  "id": "casefile_contribution_linktext",
+  "translation": "Ver expediente"
+},
+{
+  "id": "casefile_closed",
+  "translation": "<strong>{{.closer}}</strong> closed case file <strong>{{.casefile_name}}</strong> que usted creo en {{ .date_created }}."
+},
+{
+  "id": "casefile_closed_subject",
+  "translation": "expediente '{{ .casefile_name }}' fue cerrada por {{ .closer }}"
+},
+{
+  "id": "casefile_closed_linktext",
+  "translation": "Ver expediente"
+},
+{
+  "id": "casefile_closed_observation",
+  "translation": "El expediente que contiene su observación <strong>#{{ .observation_ref_number}}</ strong> fue cerrada por {{ .closer}}"
+},
+{
+  "id": "casefile_closed_observation_subject",
+  "translation": "El expediente que contiene su observación #{{ .observation_ref_number}} fue cerrada por {{ .closer}}"
+},
+{
+  "id": "casefile_closed_action",
+  "translation": "El expediente que contiene su acción <strong>#{{.action_ref_number}}</strong> fue cerrada por {{  .closer }}"
+},
+{
+  "id": "casefile_closed_action_subject",
+  "translation": "Expediente de la acción {{.template_name}} #{{  .action_ref_number }} fue cerrada por {{ .closer}}"
+},
+{
+  "id": "casefile_report",
+  "translation": "Su informe de expediente <strong>#{{.ref_number}}</ strong> <strong>{{.template_name}}</ strong> <strong>`#{{.ref_number}} {{if .key_name }} {.key_name}}: {{.key_value}} {{end}}</ strong> descarga está lista <br /> Este informe estará disponible durante 30 días."
+},
+{
+  "id": "casefile_report_subject",
+  "translation": "Caso informe de archivo #{{ .ref_number }} : {{.template_name}} {{if .key_name}} {{ .key_name }} : {{.key_value}} {{end}}"
+},
+{
+  "id": "casefile_report_linktext",
+  "translation": "Descargar informe"
+},
+{
+  "id": "casefile_assigned",
+  "translation": "El expediente del caso siguiente fue asignado a usted por  <strong>{{.assigner}}</strong>: <strong>{{.casefile_name}}</strong>."
+},
+{
+  "id": "casefile_assigned_subject",
+  "translation": "expediente '{{ .casefile_name }}' asignado"
+},
+{
+  "id": "casefile_assigned_linktext",
+  "translation": "Ver expediente"
+},
+{
+  "id": "observation_archived",
+  "translation": "Gracias por su observación! Su observación <strong>#{{.ref_number}}</strong> ha sido archivada por <strong>{{.manager}}</strong>."
+},
+{
+  "id": "observation_archived_subject",
+  "translation": "Observación #{{  .ref_number }} archivado"
+},
+{
+  "id": "observation_used",
+  "translation": "Gracias por su observación! Su observación <strong>#{{.ref_number}}</strong> esta siendo procesada por <strong>{{.manager}}</strong>."
+},
+{
+  "id": "observation_used_subject",
+  "translation": "Observación #{{  .ref_number }} está siendo utilizado"
+},
+{
+  "id": "inspection_template_assigned",
+  "translation": "<strong>{{.assigner}}</ strong> ha asignado un nuevo Capption <strong>{{.template_name}}</ strong> para usted."
+},
+{
+  "id": "inspection_template_assigned_linktext___",
+  "translation": "Ver plantilla"
+},
+{
+  "id": "inspection_template_assigned_subject",
+  "translation": "Nueva Capption '{{ .template_name }}' asignado"
+},
+{
+  "id": "inspection_assigned",
+  "translation": "Capption '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} se puede iniciar.{{ if .date_due }}tiene que ser completado antes de  {{ .date_due }}.{{ end }} Feliz Inspeccion!"
+},
+{
+  "id": "inspection_assigned_subject",
+  "translation": "Capption '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} se puede iniciar."
+},
+{
+  "id": "inspection_completed",
+  "translation": "<strong>{{.user}}</ strong> ha completado Capption <strong>{{ .template_name }} #{{ .ref_number }}</strong>.{{ if .key_name }}<br><br>{{ .key_name}}: <strong>{{ .key_value }}</strong>{{ end }}<br><br> no se olvide de comprobar esta Capption!"
+},
+{
+  "id": "inspection_completed_subject",
+  "translation": "Capption completado - '{{ .template_name}}' #{{.ref_number}} {{if .key_name}} ({{  .key_name}}: {{  .key_value }}) {{end}}"
+},
+{
+  "id": "inspection_completed_linktext",
+  "translation": "Ver Capption"
+},
+{
+  "id": "inspection_completed_report",
+  "translation": "Su <strong>{{ .template_name }}</strong> Capption <strong>#{{ .ref_number }}{{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }}</strong> descarga está lista. {{ if .khabar_attached }}<br> archivos de evidencia {{ end }}<br /> Este informe estará disponible durante 30 días."
+},
+{
+  "id": "inspection_completed_report_subject",
+  "translation": "Informe Capption '{{ .template_name }}' #{{ .ref_number }}{{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }}"
+},
+{
+  "id": "inspection_completed_report_linktext",
+  "translation": "Descargar informe"
+},
+{
+  "id": "inspection_report",
+  "translation": "Su <strong>{{ .template_name }}</strong> Capption <strong>#{{ .ref_number }}{{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }}</strong> descarga está lista. {{ if .khabar_attached }}<br> archivos de evidencia <br> se adjuntan. {{ end }}<br /> Este informe estará disponible durante 30 días."
+},
+{
+  "id": "inspection_report_subject",
+  "translation": "Informe Capption '{{ .template_name }}' #{{ .ref_number }}{{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }}"
+},
+{
+  "id": "inspection_report_linktext",
+  "translation": "Descargar informe"
+},
+{
+  "id": "inspection_report_cc",
+  "translation": "<Strong> {{.inspector}} </ strong> te ha enviado un informe de un Capption (<strong>'{{ .template_name }}' #{{ .ref_number }}{{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }}</strong>).{{ if .khabar_attached }}<br /> archivos de evidencia se adjuntan {{end}} <br /> Este informe será disponible por 30 días."
+},
+{
+  "id": "inspection_report_cc_subject",
+  "translation": "Informe Capption '{{ .template_name }}' #{{ .ref_number }}{{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }}"
+},
+{
+  "id": "inspection_report_cc_linktext",
+  "translation": "Descargar informe"
+},
+{
+  "id": "generic",
+  "translation": "{{ .message }}"
+},
+{
+  "id": "export",
+  "translation": "Se adjunta el archivo con lo solicitado '{{ .name }}'  datos exportados."
+},
+{
+  "id": "export_subject",
+  "translation": "Su exportación '{{ .name }}' está listo."
+},
+{
+  "id": "export_linktext",
+  "translation": "Descargar exportación"
+},
+{
+  "id": "password_new",
+  "translation": "<p>{{ if .trial }}Gracias por probar <span class=\"bluetext\">{{ .brand_name }}</span>, activa su cuenta haciendo clic en el botón de abajo.{{else}}Felicitaciones, usted ha sido invitado por <strong>{{.creator}}</ strong> para unirse a <span class=\"bluetext\">{{ .organization }}</span> en <span class =”bluetext”>{{.brand_name}}</ span>{{end}}</ p> {{ if .password }}<p> </p><p>Su contraseña para acceder a <span class=\"bluetext\">{{ .brand_name }}</span> en: {{ .password }}</p>{{ end }}"
+},
+{
+  "id": "password_new_subject",
+  "translation": "Tu {{ .brand_name }} cuenta ha sido creada!"
+},
+{
+  "id": "password_new_linktext",
+  "translation": "{{ if .signup }}Activar{{else}}Iniciar sesión{{end}}"
+},
+{
+  "id": "password_reset",
+  "translation": "<p>Ha recibido este correo debido a una solicitud para (re) establecer sus <span class=\"bluetext\">{{ .brand_name }}</span> contraseña.</p><p>{{ if .succeeded }}Ya sea un administrador crea o actualiza su cuenta, o si se ha solicitado para un restablecimiento de contraseña.</ p><p>Si no desea cambiar su contraseña, por favor desechar este correo electrónico.{{ else }}{{.error}}, por favor, póngase en contacto con <a class=\"bluetext\" href=\"mailto:{{.administrator.email}}?subject=Access to Capptions\">{{.administrator.name}}</a> le ayudará a conseguir el acceso (again).{{ end }}</p>"
+},
+{
+  "id": "password_reset_subject",
+  "translation": "Restablecer {{ .brand_name }} contraseña"
+},
+{
+  "id": "password_reset_linktext",
+  "translation": "Restablecer la contraseña"
+},
+{
+  "id": "inspection_template_clone",
+  "translation": "{{ if .failed }}Si su solicitud de crear una plantilla a partir de un código compartido ha fallado. Puede que haya utilizado una clave equivocada o caducada, por favor intente de nuevo.{{else}}Su solicitud de crear una plantilla a partir de un código compartido ha tenido éxito. Ahora está disponible bajo el nombre <strong>{{ .template_name }}</strong>.{{end}}"
+},
+{
+  "id": "inspection_template_clone_subject",
+  "translation": "Clon plantilla {{ if .failed }} no {{else}} tuvo éxito - '{{ .template_name }}'{{end}}"
+},
+{
+  "id": "inspection_template_clone_linktext",
+  "translation": "Ver plantilla clonada"
+}]
