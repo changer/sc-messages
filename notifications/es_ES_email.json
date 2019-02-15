@@ -7,6 +7,10 @@
   "translation": "Acción '{{  .action_title }}' se ha asignado a usted"
 },
 {
+  "id": "action_assigned_linktext",
+  "translation": "Ver acción"
+},
+{
   "id": "action_assigned_observation",
   "translation": "En base a su observación <strong> #{{ .observation_ref_number}}</ strong> la operación es asignado por <strong>{{ .assigner }}</ strong>"
 },
@@ -191,8 +195,8 @@
   "translation": "<strong>{{.assigner}}</ strong> ha asignado un nuevo Capption <strong>{{.template_name}}</ strong> para usted."
 },
 {
-  "id": "inspection_template_assigned_linktext___",
-  "translation": "Ver plantilla"
+  "id": "inspection_template_assigned_linktext",
+  "translation": "Ver Capption"
 },
 {
   "id": "inspection_template_assigned_subject",
@@ -205,6 +209,10 @@
 {
   "id": "inspection_assigned_subject",
   "translation": "Capption '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} se puede iniciar."
+},
+{
+  "id": "inspection_assigned_linktext",
+  "translation": "Ver Capption"
 },
 {
   "id": "inspection_completed",

@@ -7,6 +7,10 @@
   "translation": "Actie '{{.action_title}}' toegewezen"
 },
 {
+  "id": "action_assigned_linktext",
+  "translation": "Bekijk actie"
+},
+{
   "id": "action_assigned_observation",
   "translation": "Op basis van je observatie <strong>#{{.observation_ref_number}}</strong> is er een actie toegewezen door <strong>{{.assigner}}</strong>"
 },
@@ -191,8 +195,8 @@
   "translation": "<strong>{{ .assigner }}</strong> heeft een nieuwe Capption <strong>{{ .template_name }}</strong> aan je toegewezen."
 },
 {
-  "id": "inspection_template_assigned_linktext___",
-  "translation": "Bekijk de template"
+  "id": "inspection_template_assigned_linktext",
+  "translation": "Bekijk Capption"
 },
 {
   "id": "inspection_template_assigned_subject",
@@ -205,6 +209,10 @@
 {
   "id": "inspection_assigned_subject",
   "translation": "Capption '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} kan worden gestart."
+},
+{
+  "id": "inspection_assigned_linktext",
+  "translation": "Bekijk Capption"
 },
 {
   "id": "inspection_completed",

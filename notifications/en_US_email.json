@@ -7,6 +7,10 @@
   "translation": "Action '{{.action_title}}' has been assigned to you"
 },
 {
+  "id": "action_assigned_linktext",
+  "translation": "View action"
+},
+{
   "id": "action_assigned_observation",
   "translation": "Based on your observation <strong>#{{.observation_ref_number}}</strong> an action is assigned by <strong>{{.assigner}}</strong>"
 },
@@ -191,8 +195,8 @@
   "translation": "<strong>{{ .assigner }}</strong> has assigned a new Capption <strong>{{ .template_name }}</strong> to you."
 },
 {
-  "id": "inspection_template_assigned_linktext___",
-  "translation": "View template"
+  "id": "inspection_template_assigned_linktext",
+  "translation": "View Capption"
 },
 {
   "id": "inspection_template_assigned_subject",
@@ -205,6 +209,10 @@
 {
   "id": "inspection_assigned_subject",
   "translation": "Capption '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} can be started."
+},
+{
+  "id": "inspection_assigned_linktext",
+  "translation": "View Capption"
 },
 {
   "id": "inspection_completed",
