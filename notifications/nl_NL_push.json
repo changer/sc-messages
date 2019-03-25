@@ -157,4 +157,12 @@
 {
   "id": "inspection_completed_subject",
   "translation": "Capption voltooid"
+},
+{
+  "id": "inspection_remind_todo",
+  "translation": "Een vriendelijke herinnering dat Capption '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} bijna afgerond dient te zijn.{{ if .date_due }} Deze dient voor {{ .date_due }} afgerond te worden.{{ end }}"
+},
+{
+  "id": "inspection_remind_todo_subject",
+  "translation": "Capption moet bijna afgerond zijn"
 }]

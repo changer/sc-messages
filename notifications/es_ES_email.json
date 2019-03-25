@@ -215,6 +215,18 @@
   "translation": "Ver Capption"
 },
 {
+  "id": "inspection_remind_todo",
+  "translation": "Un gentil recordatoria que el Capption '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} es esperado pronto. Tiene que estar terminado antes de {{ .date_due }}. Felices Capptioning!"
+},
+{
+  "id": "inspection_remind_todo_subject",
+  "translation": "Capption '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} es esperado pronto."
+},
+{
+  "id": "inspection_remind_todo_linktext",
+  "translation": "Ver Capption"
+},
+{
   "id": "inspection_completed",
   "translation": "<strong>{{.user}}</ strong> ha completado Capption <strong>{{ .template_name }} #{{ .ref_number }}</strong>.{{ if .key_name }}<br><br>{{ .key_name}}: <strong>{{ .key_value }}</strong>{{ end }}<br><br> no se olvide de comprobar esta Capption!"
 },

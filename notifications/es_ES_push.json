@@ -157,4 +157,12 @@
 {
   "id": "inspection_completed_subject",
   "translation": "Capption completado"
+},
+{
+  "id": "inspection_remind_todo",
+  "translation": "Un gentil recordatoria que el Capption '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} es esperado pronto. Tiene que estar terminado antes de {{ .date_due }}. Felices Capptioning!"
+},
+{
+  "id": "inspection_remind_todo_subject",
+  "translation": "Capption es esperado pronto."
 }]

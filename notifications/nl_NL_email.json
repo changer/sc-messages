@@ -215,6 +215,18 @@
   "translation": "Bekijk Capption"
 },
 {
+  "id": "inspection_remind_todo",
+  "translation": "Een vriendelijke herinnering dat Capption '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} bijna afgerond dient te zijn.{{ if .date_due }} Deze dient voor {{ .date_due }} afgerond te worden.{{ end }}"
+},
+{
+  "id": "inspection_remind_todo_subject",
+  "translation": "Capption '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} moet bijna afgerond zijn"
+},
+{
+  "id": "inspection_remind_todo_linktext",
+  "translation": "Bekijk Capption"
+},
+{
   "id": "inspection_completed",
   "translation": "<strong>{{ .user }}</strong> heeft Capption <strong>{{ .template_name }} #{{ .ref_number }}</strong> voltooid.{{ if .key_name }}<br><br>{{ .key_name}}: <strong>{{ .key_value }}</strong>{{ end }}<br><br>Vergeet niet deze Capption te controleren!"
 },

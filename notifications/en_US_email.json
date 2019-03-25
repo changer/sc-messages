@@ -215,6 +215,18 @@
   "translation": "View Capption"
 },
 {
+  "id": "inspection_remind_todo",
+  "translation": "Gentle reminder that Capption '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} is almost due.{{ if .date_due }} It needs to be completed before {{ .date_due }}.{{ end }} Happy Capptioning!"
+},
+{
+  "id": "inspection_remind_todo_subject",
+  "translation": "Capption '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} is almost due"
+},
+{
+  "id": "inspection_remind_todo_linktext",
+  "translation": "View Capption"
+},
+{
   "id": "inspection_completed",
   "translation": "<strong>{{ .user }}</strong> has completed Capption <strong>{{ .template_name }} #{{ .ref_number }}</strong>.{{ if .key_name }}<br><br>{{ .key_name}}: <strong>{{ .key_value }}</strong>{{ end }}<br><br>Don’t forget to check this Capption!"
 },
