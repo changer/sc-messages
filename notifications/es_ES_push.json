@@ -160,7 +160,7 @@
 },
 {
   "id": "inspection_remind_todo",
-  "translation": "Un gentil recordatoria que el Capption '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} es esperado pronto. Tiene que estar terminado antes de {{ .date_due }}. Felices Capptioning!"
+  "translation": "Aquí hay un recordatorio para el '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }}. La fecha de vencimiento es {{ .date_due }}."
 },
 {
   "id": "inspection_remind_todo_subject",

@@ -160,7 +160,7 @@
 },
 {
   "id": "inspection_remind_todo",
-  "translation": "Gentle reminder that Capption '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} is almost due.{{ if .date_due }} It needs to be completed before {{ .date_due }}.{{ end }} Happy Capptioning!"
+  "translation": "Here is a reminder for '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }}. The deadline is {{ .date_due }}."
 },
 {
   "id": "inspection_remind_todo_subject",

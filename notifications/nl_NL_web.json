@@ -235,7 +235,7 @@
 },
 {
   "id": "inspection_remind_todo",
-  "translation": "Een vriendelijke herinnering dat Capption '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} bijna afgerond dient te zijn.{{ if .date_due }} Deze dient voor {{ .date_due }} afgerond te worden.{{ end }}"
+  "translation": "Dit is een herinnering aan '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }}. De deadline is op {{ .date_due }}."
 },
 {
   "id": "inspection_remind_todo_subject",
