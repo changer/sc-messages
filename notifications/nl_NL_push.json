@@ -164,5 +164,5 @@
 },
 {
   "id": "inspection_remind_todo_subject",
-  "translation": "Capption moet bijna afgerond zijn"
+  "translation": "Herinnering aan #{{ .ref_number }}"
 }]

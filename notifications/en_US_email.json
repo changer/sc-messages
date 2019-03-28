@@ -220,7 +220,7 @@
 },
 {
   "id": "inspection_remind_todo_subject",
-  "translation": "Capption '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} is almost due"
+  "translation": "Here is a reminder for '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }}"
 },
 {
   "id": "inspection_remind_todo_linktext",

@@ -164,5 +164,5 @@
 },
 {
   "id": "inspection_remind_todo_subject",
-  "translation": "Capption is almost due"
+  "translation": "Reminder for Capption #{{ .ref_number }}"
 }]

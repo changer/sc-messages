@@ -239,7 +239,7 @@
 },
 {
   "id": "inspection_remind_todo_subject",
-  "translation": "Capption '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }} moet bijna afgerond zijn"
+  "translation": "Dit is een herinnering aan '{{ .template_name }}' #{{ .ref_number }} {{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }}"
 },
 {
   "id": "inspection_completed",
