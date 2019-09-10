@@ -1,6 +1,6 @@
 [{
   "id": "action_assigned",
-  "translation": "La siguiente acción fue asignada a usted: <strong>{{ .action_title}}</ strong>. Aceptar y completar esta acción en la aplicación 'Capptions'."
+  "translation": "La siguiente acción fue asignada a usted: <strong>{{ .action_title}}</strong>. Aceptar y completar esta acción en la aplicación 'Capptions'."
 },
 {
   "id": "action_assigned_subject",
@@ -12,7 +12,7 @@
 },
 {
   "id": "action_assigned_observation",
-  "translation": "En base a su observación <strong> #{{ .observation_ref_number}}</ strong> la operación es asignado por <strong>{{ .assigner }}</ strong>"
+  "translation": "En base a su observación <strong> #{{ .observation_ref_number}}</strong> la operación es asignado por <strong>{{ .assigner }}</strong>"
 },
 {
   "id": "action_assigned_observation_subject",
@@ -20,7 +20,7 @@
 },
 {
   "id": "action_completed",
-  "translation": "La acción <strong>{{ .action_title}}</ strong> se acaba de completar por <strong>{{ .assignee }}</ strong>."
+  "translation": "La acción <strong>{{ .action_title}}</strong> se acaba de completar por <strong>{{ .assignee }}</strong>."
 },
 {
   "id": "action_completed_subject",
@@ -32,7 +32,7 @@
 },
 {
   "id": "action_completed_casefile",
-  "translation": "La acción <strong>{{ .action_title }}</ strong>, en relación con expediente <strong>{{ .casefile_name }}</ strong> se acaba de completar por <strong>{{.assignee}}</strong>."
+  "translation": "La acción <strong>{{ .action_title }}</strong>, en relación con expediente <strong>{{ .casefile_name }}</strong> se acaba de completar por <strong>{{.assignee}}</strong>."
 },
 {
   "id": "action_completed_casefile_subject",
@@ -44,7 +44,7 @@
 },
 {
   "id": "action_completed_observation",
-  "translation": "La acción basada en su observación <strong>#{{.observation_ref_number }}</ strong> se acaba de completar."
+  "translation": "La acción basada en su observación <strong>#{{.observation_ref_number }}</strong> se acaba de completar."
 },
 {
   "id": "action_completed_observation_subject",
@@ -136,7 +136,7 @@
 },
 {
   "id": "casefile_closed_observation",
-  "translation": "El expediente que contiene su observación <strong>#{{ .observation_ref_number}}</ strong> fue cerrada por {{ .closer}}"
+  "translation": "El expediente que contiene su observación <strong>#{{ .observation_ref_number}}</strong> fue cerrada por {{ .closer}}"
 },
 {
   "id": "casefile_closed_observation_subject",
@@ -152,7 +152,7 @@
 },
 {
   "id": "casefile_report",
-  "translation": "Su informe de expediente <strong>#{{.ref_number}}</ strong> <strong>{{.template_name}}</ strong> <strong>`#{{.ref_number}} {{if .key_name }} {.key_name}}: {{.key_value}} {{end}}</ strong> descarga está lista <br /> Este informe estará disponible durante 30 días."
+  "translation": "Su informe de expediente <strong>#{{.ref_number}}</strong> <strong>{{.template_name}}</strong> <strong>`#{{.ref_number}} {{if .key_name }} {.key_name}}: {{.key_value}} {{end}}</strong> descarga está lista <br /> Este informe estará disponible durante 30 días."
 },
 {
   "id": "casefile_report_subject",
@@ -192,7 +192,7 @@
 },
 {
   "id": "inspection_template_assigned",
-  "translation": "<strong>{{.assigner}}</ strong> ha asignado un nuevo Capption <strong>{{.template_name}}</ strong> para usted."
+  "translation": "<strong>{{.assigner}}</strong> ha asignado un nuevo Capption <strong>{{.template_name}}</strong> para usted."
 },
 {
   "id": "inspection_template_assigned_linktext",
@@ -228,7 +228,7 @@
 },
 {
   "id": "inspection_completed",
-  "translation": "<strong>{{.user}}</ strong> ha completado Capption <strong>{{ .template_name }} #{{ .ref_number }}</strong>.{{ if .key_name }}<br><br>{{ .key_name}}: <strong>{{ .key_value }}</strong>{{ end }}<br><br> no se olvide de comprobar esta Capption!"
+  "translation": "<strong>{{.user}}</strong> ha completado Capption <strong>{{ .template_name }} #{{ .ref_number }}</strong>.{{ if .key_name }}<br><br>{{ .key_name}}: <strong>{{ .key_value }}</strong>{{ end }}<br><br> no se olvide de comprobar esta Capption!"
 },
 {
   "id": "inspection_completed_subject",
@@ -264,7 +264,7 @@
 },
 {
   "id": "inspection_report_cc",
-  "translation": "<Strong> {{.inspector}} </ strong> te ha enviado un informe de un Capption (<strong>'{{ .template_name }}' #{{ .ref_number }}{{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }}</strong>).{{ if .khabar_attached }}<br /> archivos de evidencia se adjuntan {{end}} <br /> Este informe será disponible por 30 días."
+  "translation": "<Strong> {{.inspector}} </strong> te ha enviado un informe de un Capption (<strong>'{{ .template_name }}' #{{ .ref_number }}{{ if .key_name }} {{ .key_name}}:{{ .key_value }}{{ end }}</strong>).{{ if .khabar_attached }}<br /> archivos de evidencia se adjuntan {{end}} <br /> Este informe será disponible por 30 días."
 },
 {
   "id": "inspection_report_cc_subject",
@@ -292,7 +292,7 @@
 },
 {
   "id": "password_new",
-  "translation": "<p>{{ if .trial }}Gracias por probar <span class=\"bluetext\">{{ .brand_name }}</span>, activa su cuenta haciendo clic en el botón de abajo.{{else}}Felicitaciones, usted ha sido invitado por <strong>{{.creator}}</ strong> para unirse a <span class=\"bluetext\">{{ .organization }}</span> en <span class =”bluetext”>{{.brand_name}}</ span>{{end}}</ p> {{ if .password }}<p> </p><p>Su contraseña para acceder a <span class=\"bluetext\">{{ .brand_name }}</span> en: {{ .password }}</p>{{ end }}"
+  "translation": "<p>{{ if .trial }}Gracias por probar <span class=\"bluetext\">{{ .brand_name }}</span>, activa su cuenta haciendo clic en el botón de abajo.{{else}}Felicitaciones, usted ha sido invitado por <strong>{{.creator}}</strong> para unirse a <span class=\"bluetext\">{{ .organization }}</span> en <span class =”bluetext”>{{.brand_name}}</span>{{end}}</p> {{ if .password }}<p> </p><p>Su contraseña para acceder a <span class=\"bluetext\">{{ .brand_name }}</span> en: {{ .password }}</p>{{ end }}"
 },
 {
   "id": "password_new_subject",
@@ -304,7 +304,7 @@
 },
 {
   "id": "password_reset",
-  "translation": "<p>Ha recibido este correo debido a una solicitud para (re) establecer sus <span class=\"bluetext\">{{ .brand_name }}</span> contraseña.</p><p>{{ if .succeeded }}Ya sea un administrador crea o actualiza su cuenta, o si se ha solicitado para un restablecimiento de contraseña.</ p><p>Si no desea cambiar su contraseña, por favor desechar este correo electrónico.{{ else }}{{.error}}, por favor, póngase en contacto con <a class=\"bluetext\" href=\"mailto:{{.administrator.email}}?subject=Access to Capptions\">{{.administrator.name}}</a> le ayudará a conseguir el acceso (again).{{ end }}</p>"
+  "translation": "<p>Ha recibido este correo debido a una solicitud para (re) establecer sus <span class=\"bluetext\">{{ .brand_name }}</span> contraseña.</p><p>{{ if .succeeded }}Ya sea un administrador crea o actualiza su cuenta, o si se ha solicitado para un restablecimiento de contraseña.</p><p>Si no desea cambiar su contraseña, por favor desechar este correo electrónico.{{ else }}{{.error}}, por favor, póngase en contacto con <a class=\"bluetext\" href=\"mailto:{{.administrator.email}}?subject=Access to Capptions\">{{.administrator.name}}</a> le ayudará a conseguir el acceso (again).{{ end }}</p>"
 },
 {
   "id": "password_reset_subject",
