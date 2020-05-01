@@ -127,7 +127,7 @@
 },
 {
   "id": "observation_incoming_inspection",
-  "translation": "Una nueva observación con severidad {{ .severity_text }} se acaba de presentar por {{ .observer }}. Esta observación ha sido generada automáticamente a partir de Capption '{{  .template_name }} #{{ .Capption_number }}'."
+  "translation": "Una nueva observación con severidad {{ .severity_text }} se acaba de presentar por {{ .observer }}. Esta observación ha sido generada automáticamente a partir de Capption '{{  .template_name }} #{{ .inspection_number }}'."
 },
 {
   "id": "observation_incoming_inspection_subject",
@@ -135,7 +135,7 @@
 },
 {
   "id": "observation_incoming_high_prio_inspection",
-  "translation": "¡Advertencia! Una nueva observación con severidad {{ .severity_text  }} se acaba de presentar por {{ .observer }}. Esto podría requerir su atención inmediata. Esta observación ha sido generada automáticamente a partir de Capption '{{ .template_name }} #{{ .Capption_number }}'."
+  "translation": "¡Advertencia! Una nueva observación con severidad {{ .severity_text  }} se acaba de presentar por {{ .observer }}. Esto podría requerir su atención inmediata. Esta observación ha sido generada automáticamente a partir de Capption '{{ .template_name }} #{{ .inspection_number }}'."
 },
 {
   "id": "observation_incoming_high_prio_inspection_subject",
