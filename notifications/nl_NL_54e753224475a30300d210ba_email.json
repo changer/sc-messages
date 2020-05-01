@@ -112,7 +112,7 @@
 },
 {
   "id": "casefile_contribution",
-  "translation": "</strong>{{.contributor}}</strong> heeft bijgedragen aan jouw case file <strong>{{.casefile_name}}</strong>."
+  "translation": "<strong>{{.contributor}}</strong> heeft bijgedragen aan jouw case file <strong>{{.casefile_name}}</strong>."
 },
 {
   "id": "casefile_contribution_subject",
