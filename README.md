@@ -1,6 +1,6 @@
 # sc-messages
-Notification messages which will be used by [Khabar](https://github.com/bulletind/khabar).
-Settings can be managed by [Khabar-Admin](https://github.com/bulletind/khabar-admin).
+Notification messages which will be used by [Khabar](https://github.com/capptions/khabar).
+Settings can be managed by [Khabar-Admin](https://github.com/capptions/khabar-admin).
 
 Most topics will be sent by email, most will show up in the web as well, few will also have a push message.
 
