@@ -105,8 +105,8 @@
 {
   "id": "import_success",
   "translation": {
-    "other": "Se ha importado exitosamente {{ .number }} usuarios. Haga clic aquí para abrir AdminChanger y gestionar usuarios ",
-    "one": ". Importado exitosamente {{ .number }}  usuario. Haga clic aquí para abrir AdminChanger y gestionar usuarios."
+    "other": "Se ha importado exitosamente {{ .number }} usuarios. Haga clic aquí para gestionar usuarios ",
+    "one": ". Importado exitosamente {{ .number }}  usuario. Haga clic aquí para gestionar usuarios."
   }
 },
 {
